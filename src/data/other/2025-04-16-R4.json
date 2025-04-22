@@ -1,0 +1,96 @@
+{
+    "Race Date": "2025-04-16",
+    "Race Number": 4,
+    "Horses": [
+        {
+            "Horse Number": "1",
+            "Horse Name": "撼天鐵翼",
+            "Weight": "135",
+            "Trainer": "韋達",
+            "Jockey": "布文",
+            "Post": "2",
+            "First Win Index": "4.4",
+            "Race Day Win Index": "3.6"
+        },
+        {
+            "Horse Number": "2",
+            "Horse Name": "友愛心得",
+            "Weight": "127",
+            "Trainer": "大衛希斯",
+            "Jockey": "班德禮",
+            "Post": "5",
+            "First Win Index": "8.6",
+            "Race Day Win Index": "7.8"
+        },
+        {
+            "Horse Number": "3",
+            "Horse Name": "嘉應獎昇",
+            "Weight": "125",
+            "Trainer": "賀賢",
+            "Jockey": "潘明輝",
+            "Post": "3",
+            "First Win Index": "13.8",
+            "Race Day Win Index": "19.4"
+        },
+        {
+            "Horse Number": "4",
+            "Horse Name": "電源之駒",
+            "Weight": "123",
+            "Trainer": "廖康銘",
+            "Jockey": "巴度",
+            "Post": "4",
+            "First Win Index": "3.5",
+            "Race Day Win Index": "3.5"
+        },
+        {
+            "Horse Number": "5",
+            "Horse Name": "勇威神駒",
+            "Weight": "121",
+            "Trainer": "沈集成",
+            "Jockey": "潘頓",
+            "Post": "1",
+            "First Win Index": "10.3",
+            "Race Day Win Index": "14.4"
+        },
+        {
+            "Horse Number": "6",
+            "Horse Name": "奇異歡星",
+            "Weight": "120",
+            "Trainer": "游達榮",
+            "Jockey": "田泰安",
+            "Post": "8",
+            "First Win Index": "6.4",
+            "Race Day Win Index": "9.9"
+        },
+        {
+            "Horse Number": "7",
+            "Horse Name": "日馳千里",
+            "Weight": "119",
+            "Trainer": "姚本輝",
+            "Jockey": "艾兆禮",
+            "Post": "9",
+            "First Win Index": "31.8",
+            "Race Day Win Index": "16.9"
+        },
+        {
+            "Horse Number": "8",
+            "Horse Name": "瑰麗人生",
+            "Weight": "117",
+            "Trainer": "呂健威",
+            "Jockey": "希威森",
+            "Post": "6",
+            "First Win Index": "74.2",
+            "Race Day Win Index": "99"
+        },
+        {
+            "Horse Number": "9",
+            "Horse Name": "領航財子",
+            "Weight": "117",
+            "Trainer": "黎昭昇",
+            "Jockey": "蔡明紹",
+            "Post": "7",
+            "First Win Index": "99",
+            "Race Day Win Index": "49.5"
+        }
+    ]
+}

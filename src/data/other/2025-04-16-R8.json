@@ -1,0 +1,126 @@
+{
+    "Race Date": "2025-04-16",
+    "Race Number": 8,
+    "Horses": [
+        {
+            "Horse Number": "1",
+            "Horse Name": "超霸勝",
+            "Weight": "135",
+            "Trainer": "韋達",
+            "Jockey": "布文",
+            "Post": "12",
+            "First Win Index": "6.7",
+            "Race Day Win Index": "10.3"
+        },
+        {
+            "Horse Number": "2",
+            "Horse Name": "多利神駒",
+            "Weight": "134",
+            "Trainer": "蘇偉賢",
+            "Jockey": "班德禮",
+            "Post": "2",
+            "First Win Index": "8.3",
+            "Race Day Win Index": "5.4"
+        },
+        {
+            "Horse Number": "3",
+            "Horse Name": "快搏",
+            "Weight": "133",
+            "Trainer": "賀賢",
+            "Jockey": "潘頓",
+            "Post": "11",
+            "First Win Index": "6.3",
+            "Race Day Win Index": "8.4"
+        },
+        {
+            "Horse Number": "4",
+            "Horse Name": "好精神",
+            "Weight": "130",
+            "Trainer": "葉楚航",
+            "Jockey": "艾兆禮",
+            "Post": "6",
+            "First Win Index": "5.7",
+            "Race Day Win Index": "7.1"
+        },
+        {
+            "Horse Number": "5",
+            "Horse Name": "幸運星球",
+            "Weight": "130",
+            "Trainer": "巫偉傑",
+            "Jockey": "蔡明紹",
+            "Post": "8",
+            "First Win Index": "3.9",
+            "Race Day Win Index": "3.8"
+        },
+        {
+            "Horse Number": "6",
+            "Horse Name": "有鴻利",
+            "Weight": "129",
+            "Trainer": "姚本輝",
+            "Jockey": "周俊樂",
+            "Post": "7",
+            "First Win Index": "99",
+            "Race Day Win Index": "24.8"
+        },
+        {
+            "Horse Number": "7",
+            "Horse Name": "蓮冠皇",
+            "Weight": "128",
+            "Trainer": "廖康銘",
+            "Jockey": "希威森",
+            "Post": "5",
+            "First Win Index": "74.2",
+            "Race Day Win Index": "99"
+        },
+        {
+            "Horse Number": "8",
+            "Horse Name": "首駿",
+            "Weight": "128",
+            "Trainer": "游達榮",
+            "Jockey": "田泰安",
+            "Post": "9",
+            "First Win Index": "99",
+            "Race Day Win Index": "99"
+        },
+        {
+            "Horse Number": "9",
+            "Horse Name": "電子宇宙",
+            "Weight": "122",
+            "Trainer": "方嘉柏",
+            "Jockey": "黃智弘",
+            "Post": "4",
+            "First Win Index": "23.4",
+            "Race Day Win Index": "15.1"
+        },
+        {
+            "Horse Number": "10",
+            "Horse Name": "魅力心",
+            "Weight": "121",
+            "Trainer": "蔡約翰",
+            "Jockey": "賀銘年",
+            "Post": "1",
+            "First Win Index": "99",
+            "Race Day Win Index": "99"
+        },
+        {
+            "Horse Number": "11",
+            "Horse Name": "美神來",
+            "Weight": "120",
+            "Trainer": "羅富全",
+            "Jockey": "潘明輝",
+            "Post": "3",
+            "First Win Index": "99",
+            "Race Day Win Index": "79.2"
+        },
+        {
+            "Horse Number": "12",
+            "Horse Name": "環球英雄",
+            "Weight": "119",
+            "Trainer": "大衛希斯",
+            "Jockey": "巴度",
+            "Post": "10",
+            "First Win Index": "12.0",
+            "Race Day Win Index": "15.1"
+        }
+    ]
+}

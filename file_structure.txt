@@ -1,0 +1,74 @@
+.
+|-- README.md
+|-- folder_structure.txt
+|-- package-lock.json
+|-- package.json
+[public]
+    ├── android-chrome-192x192.png
+    ├── android-chrome-512x512.png
+    ├── apple-touch-icon.png
+    ├── favicon-16x16.png
+    ├── favicon-32x32.png
+    ├── favicon.ico
+    ├── index.html
+    ├── logo192.png
+    ├── logo512.png
+    ├── manifest.json
+    ├── robots.txt
+    └── site.webmanifest
+README.md
+[src]
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── [components]
+        ├── analysisEngine.jsx
+        ├── [AnomalyDetection]
+        ├── findingsDisplay.jsx
+        ├── footer.jsx
+        ├── layout.jsx
+        ├── [OddsComparison]
+        ├── oddsTable.jsx
+        ├── quinellaMatrix.jsx
+        ├── quinellaPlaceMatrix.jsx
+        ├── raceSelector.jsx
+        └── [Visualization]
+    ├── [data]
+        ├── 2025-04-13-R1-odds_2025-04-13_07-58-21.json
+        ├── 2025-04-13-R1-odds_2025-04-13_10-35-48.json
+        ├── 2025-04-13-R10-odds_2025-04-13_07-58-53.json
+        ├── 2025-04-13-R10-odds_2025-04-13_10-36-21.json
+        ├── 2025-04-13-R11-odds_2025-04-13_07-58-56.json
+        ├── 2025-04-13-R11-odds_2025-04-13_10-36-25.json
+        ├── 2025-04-13-R2-odds_2025-04-13_07-58-24.json
+        ├── 2025-04-13-R2-odds_2025-04-13_10-35-52.json
+        ├── 2025-04-13-R3-odds_2025-04-13_07-58-28.json
+        ├── 2025-04-13-R3-odds_2025-04-13_10-35-56.json
+        └── [other]
+            ├── 2025-04-13-R1.json
+            ├── 2025-04-13-R10.json
+            ├── 2025-04-13-R11.json
+            ├── 2025-04-13-R2.json
+            ├── 2025-04-13-R3.json
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
+    ├── [pages]
+        ├── homePage.jsx
+        └── raceAnalysis.jsx
+    ├── reportWebVitals.js
+    ├── setupTests.js
+    ├── [styles]
+        └── main.css
+    └── [utils]
+        ├── alertSystem.js
+        ├── coreAnalysis.js
+        ├── dataLoader.jsx
+        ├── favorites.js
+        ├── oddsAnalysis.js
+        ├── types.js
+        ├── validationHelpers.js
+        ├── winInsiderAnalysis.js
+        ├── winPlaceAnalysis.js
+        ├── winPQAnalysis.js
+        └── winQuinellaAnalysis.js

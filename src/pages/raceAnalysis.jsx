@@ -1,0 +1,201 @@
+// src/pages/raceAnalysis.jsx
+import '../styles/main.css';
+import React, { useState } from 'react';
+import { loadRaceData } from '../utils/dataLoader';
+import { analyzeRace } from '../utils/oddsAnalysis';
+import FindingsDisplay from '../components/findingsDisplay';
+import RaceSelector from '../components/raceSelector';
+import QuinellaMatrix from '../components/quinellaMatrix';
+import { getHighlights, resetHighlights } from '../utils/alertSystem';
+import QuinellaPlaceMatrix from '../components/quinellaPlaceMatrix';
+import { 
+  Tabs, 
+  Tab, 
+  Box, 
+  Paper,
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+  Typography
+} from '@mui/material';
+
+const RaceAnalysis = () => {
+  const [findings, setFindings] = useState([]);
+  const [raceData, setRaceData] = useState(null);
+  const [tabValue, setTabValue] = useState(0);
+  const [highlights, setHighlights] = useState({
+    win: [],
+    place: [],
+    quinella: [],
+    placeQuinella: []
+  });
+
+  const handleAnalyze = async ({ date, raceNumber, timestamp }) => {
+    try {
+      resetHighlights();
+      const data = await loadRaceData(date, raceNumber, timestamp);
+      setRaceData(data);
+      setFindings(analyzeRace(data));
+      setHighlights(getHighlights());
+      setTabValue(0);
+    } catch (error) {
+      setFindings([{
+        priority: 0,
+        horseNumber: 'ALL',
+        action: 'Alert',
+        message: `Analysis failed: ${error instanceof Error ? error.message : String(error)}`,
+        winScore: 0,
+        placeScore: 0
+      }]);
+    }
+  };
+
+  const HorseInfoTab = () => (
+    <Box sx={{ mt: 3 }}>
+      <Typography variant="h5" gutterBottom>Horse Information</Typography>
+      {raceData?.horseInfo ? (
+        <TableContainer component={Paper}>
+          <Table size="small">
+            <TableHead>
+              <TableRow sx={{ 
+                backgroundColor: '#2c3e50',
+                '& th': { color: 'white', fontWeight: 'bold' }
+              }}>
+                <TableCell>No.</TableCell>
+                <TableCell>Name</TableCell>
+                <TableCell>Weight</TableCell>
+                <TableCell>Trainer</TableCell>
+                <TableCell>Jockey</TableCell>
+                <TableCell>Post</TableCell>
+                <TableCell>First Win Index</TableCell>
+                <TableCell>Race Day Win Index</TableCell>
+                <TableCell align="right">Win</TableCell>
+                <TableCell align="right">Place</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {raceData.horseInfo.Horses.map((horse) => (
+                <TableRow key={horse["Horse Number"]}>
+                  <TableCell>{horse["Horse Number"]}</TableCell>
+                  <TableCell>{horse["Horse Name"]}</TableCell>
+                  <TableCell>{horse.Weight}</TableCell>
+                  <TableCell>{horse.Trainer}</TableCell>
+                  <TableCell>{horse.Jockey}</TableCell>
+                  <TableCell>{horse.Post}</TableCell>
+                  <TableCell>{horse["First Win Index"]}</TableCell>
+                  <TableCell>{horse["Race Day Win Index"]}</TableCell>
+                  <TableCell 
+                    align="right"
+                    className={highlights.win.includes(horse["Horse Number"]) ? 'highlight-win' : ''}
+                  >
+                    {horse.Win}
+                  </TableCell>
+                  <TableCell 
+                    align="right"
+                    className={highlights.place.includes(horse["Horse Number"]) ? 'highlight-place' : ''}
+                  >
+                    {horse.Place}
+                  </TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
+      ) : (
+        <Typography variant="body1" color="text.secondary">
+          No horse information available for this race
+        </Typography>
+      )}
+    </Box>
+  );
+
+  const MatricesTab = () => (
+    <Box sx={{ mt: 3 }}>
+      {raceData?.quinella_odds?.length > 0 && (
+        <Box sx={{ mb: 4 }}>
+          <QuinellaMatrix 
+            quinellaOdds={raceData.quinella_odds} 
+            horseCount={raceData.odds?.length || 0} 
+            highlights={highlights.quinella}
+          />
+        </Box>
+      )}
+      {raceData?.quinella_place_odds?.length > 0 && (
+        <Box>
+          <QuinellaPlaceMatrix 
+            quinellaPlaceOdds={raceData.quinella_place_odds} 
+            horseCount={raceData.odds?.length || 0} 
+            highlights={highlights.placeQuinella}
+          />
+        </Box>
+      )}
+    </Box>
+  );
+
+  const FindingsTab = () => (
+    <Box sx={{ mt: 3 }}>
+      <FindingsDisplay findings={findings} />
+    </Box>
+  );
+
+  const HorseDetailsTab = () => (
+    <Box sx={{ mt: 3 }}>
+      <Typography variant="h5" gutterBottom>Horse Details</Typography>
+      <TableContainer component={Paper}>
+        <Table size="small">
+          <TableHead>
+            <TableRow>
+              <TableCell>Horse</TableCell>
+              <TableCell align="right">Win Odds</TableCell>
+              <TableCell align="right">Place Odds</TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {raceData?.odds?.map((horse) => (
+              <TableRow key={horse.horseNumber}>
+                <TableCell>{horse.horseNumber}. {horse.horseName}</TableCell>
+                <TableCell 
+                  align="right"
+                  className={highlights.win.includes(horse.horseNumber) ? 'highlight-win' : ''}
+                >
+                  {horse.win}
+                </TableCell>
+                <TableCell 
+                  align="right"
+                  className={highlights.place.includes(horse.horseNumber) ? 'highlight-place' : ''}
+                >
+                  {horse.place}
+                </TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </TableContainer>
+    </Box>
+  );
+
+  return (
+    <div className="race-analysis-container">
+      <RaceSelector onAnalyze={handleAnalyze} />
+      <Box sx={{ width: '100%', mt: 3 }}>
+        <Tabs value={tabValue} onChange={(e, newValue) => setTabValue(newValue)} centered>
+          <Tab label="Horse Info" />
+          <Tab label="Q & PQ Odds" />
+          <Tab label="Findings" />
+          <Tab label="Not Used" />
+        </Tabs>
+      </Box>
+      <Box sx={{ p: 2 }}>
+        {tabValue === 0 && <HorseInfoTab />}
+        {tabValue === 1 && <MatricesTab />}
+        {tabValue === 2 && <FindingsTab />}
+        {tabValue === 3 && <HorseDetailsTab />}
+      </Box>
+    </div>
+  );
+};
+
+export default RaceAnalysis;

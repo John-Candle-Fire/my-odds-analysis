@@ -1,0 +1,146 @@
+{
+    "Race Date": "2025-04-20",
+    "Race Number": 5,
+    "Horses": [
+        {
+            "Horse Number": "1",
+            "Horse Name": "超加加",
+            "Weight": "135",
+            "Trainer": "姚本輝",
+            "Jockey": "潘頓",
+            "Post": "10",
+            "First Win Index": "2.6",
+            "Race Day Win Index": "2.7"
+        },
+        {
+            "Horse Number": "2",
+            "Horse Name": "天時明駒",
+            "Weight": "130",
+            "Trainer": "大衛希斯",
+            "Jockey": "霍宏聲",
+            "Post": "6",
+            "First Win Index": "9.8",
+            "Race Day Win Index": "12.2"
+        },
+        {
+            "Horse Number": "3",
+            "Horse Name": "川河型駒",
+            "Weight": "128",
+            "Trainer": "游達榮",
+            "Jockey": "艾兆禮",
+            "Post": "12",
+            "First Win Index": "3.9",
+            "Race Day Win Index": "5.5"
+        },
+        {
+            "Horse Number": "4",
+            "Horse Name": "年年友福",
+            "Weight": "126",
+            "Trainer": "鄭俊偉",
+            "Jockey": "湯普新",
+            "Post": "4",
+            "First Win Index": "57.1",
+            "Race Day Win Index": "15.2"
+        },
+        {
+            "Horse Number": "5",
+            "Horse Name": "星火燎原",
+            "Weight": "125",
+            "Trainer": "徐雨石",
+            "Jockey": "田泰安",
+            "Post": "13",
+            "First Win Index": "28.5",
+            "Race Day Win Index": "44.0"
+        },
+        {
+            "Horse Number": "6",
+            "Horse Name": "開心三多",
+            "Weight": "122",
+            "Trainer": "告東尼",
+            "Jockey": "梁家俊",
+            "Post": "14",
+            "First Win Index": "44.5",
+            "Race Day Win Index": "44.8"
+        },
+        {
+            "Horse Number": "7",
+            "Horse Name": "冠寶駒",
+            "Weight": "122",
+            "Trainer": "大衛希斯",
+            "Jockey": "黃寶妮",
+            "Post": "3",
+            "First Win Index": "99",
+            "Race Day Win Index": "79.2"
+        },
+        {
+            "Horse Number": "8",
+            "Horse Name": "時間寶",
+            "Weight": "122",
+            "Trainer": "葉楚航",
+            "Jockey": "班德禮",
+            "Post": "1",
+            "First Win Index": "7.1",
+            "Race Day Win Index": "6.6"
+        },
+        {
+            "Horse Number": "9",
+            "Horse Name": "爆熱",
+            "Weight": "122",
+            "Trainer": "伍鵬志",
+            "Jockey": "巴度",
+            "Post": "11",
+            "First Win Index": "99",
+            "Race Day Win Index": "23.3"
+        },
+        {
+            "Horse Number": "10",
+            "Horse Name": "歡喜福星",
+            "Weight": "121",
+            "Trainer": "方嘉柏",
+            "Jockey": "黃智弘",
+            "Post": "8",
+            "First Win Index": "99",
+            "Race Day Win Index": "99"
+        },
+        {
+            "Horse Number": "11",
+            "Horse Name": "閃耀威龍",
+            "Weight": "121",
+            "Trainer": "文家良",
+            "Jockey": "潘明輝",
+            "Post": "7",
+            "First Win Index": "99",
+            "Race Day Win Index": "99"
+        },
+        {
+            "Horse Number": "12",
+            "Horse Name": "幻影旋風",
+            "Weight": "120",
+            "Trainer": "容天鵬",
+            "Jockey": "鍾易禮",
+            "Post": "5",
+            "First Win Index": "24.7",
+            "Race Day Win Index": "39.9"
+        },
+        {
+            "Horse Number": "13",
+            "Horse Name": "幸運震撼",
+            "Weight": "119",
+            "Trainer": "羅富全",
+            "Jockey": "蔡明紹",
+            "Post": "9",
+            "First Win Index": "99",
+            "Race Day Win Index": "56.6"
+        },
+        {
+            "Horse Number": "14",
+            "Horse Name": "競駿天下",
+            "Weight": "119",
+            "Trainer": "大衛希斯",
+            "Jockey": "楊明綸",
+            "Post": "2",
+            "First Win Index": "99",
+            "Race Day Win Index": "99"
+        }
+    ]
+}
