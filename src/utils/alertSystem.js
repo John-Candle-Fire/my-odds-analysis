@@ -1,18 +1,23 @@
 // src/utils/alertSystem.js
 // v1.0.1 add addAlert updateAlert getAlerts clearAlerts 
-// v1.0.2 add deduplicateAlerts 
-// Internal storage (renamed from messages for clarity)
-let alerts = []; 
+// v1.0.2 add deduplicateAlerts
+// v2.0.0 - Unified Alert System with Legacy Support
+
+// Internal storage
+let alerts = [];
 
 // Highlight storage
 const highlightStore = {
   win: new Set(),
   place: new Set(),
-  quinella: new Set(),    // Stores '1-2' strings
+  quinella: new Set(),
   placeQuinella: new Set()
 };
 
-// Reset all highlights
+// ===================
+// Core Functions
+// ===================
+
 export const resetHighlights = () => {
   highlightStore.win.clear();
   highlightStore.place.clear();
@@ -20,7 +25,6 @@ export const resetHighlights = () => {
   highlightStore.placeQuinella.clear();
 };
 
-// Get current highlights
 export const getHighlights = () => ({
   win: Array.from(highlightStore.win),
   place: Array.from(highlightStore.place),
@@ -28,12 +32,10 @@ export const getHighlights = () => ({
   placeQuinella: Array.from(highlightStore.placeQuinella)
 });
 
-/**
- * Validates horse numbers (1-14 or X-Y combos)
- * @param {string} num 
- * @param {boolean} [isCombo=false]
- * @returns {boolean}
- */
+// ===================
+// Alert Creation
+// ===================
+
 const isValidHorseNumber = (num, isCombo = false) => {
   if (isCombo) {
     const parts = num.split('-');
@@ -49,65 +51,82 @@ const isValidHorseNumber = (num, isCombo = false) => {
 };
 
 /**
- * Creates a validated alert message
- * @param {number} [priority=100] - Integer >= 0
- * @param {string} horseNumber - Stringified 1-14 or "X-Y" combo
- * @param {'Info'|'Alert'|'Win'|'Place'|'Q'|'PQ'} action
- * @param {string} message
- * @param {number} [winScore=0]
- * @param {number} [placeScore=0]
+ * Creates an alert (modern or legacy format)
+ * @param {number} priority 
+ * @param {string} horseNumber 
+ * @param {'Display'|'Highlight'|'Analyze'|LegacyActionType} purposeOrAction 
+ * @param {string} [message] 
+ * @param {number} [winScore=0] 
+ * @param {number} [placeScore=0] 
+ * @param {'Win'|'Place'|'Q'|'PQ'|'Generic'} [target='Generic']
+ * @param {Partial<AlertMetrics>} [metrics={}]
  * @returns {AlertMessage}
- * @throws {Error} On invalid input
  */
 export const createAlert = (
   priority = 100,
   horseNumber,
-  action,
-  message,
+  purposeOrAction,
+  message = '',
   winScore = 0,
-  placeScore = 0
+  placeScore = 0,
+  target = 'Generic',
+  metrics = {}
 ) => {
   // Validation
   if (!Number.isInteger(priority)) {
     throw new Error(`Priority must be integer, got ${priority}`);
   }
-  
-  if (!['Info','Alert','Win','Place','Q','PQ'].includes(action)) {
-    throw new Error(`Invalid action: ${action}`);
+
+  // Convert legacy format
+  let purpose, resolvedTarget;
+  const legacyActions = ['Win','Place','Q','PQ'];
+  if (legacyActions.includes(purposeOrAction)) {
+    purpose = 'Highlight';
+    resolvedTarget = purposeOrAction;
+  } else if (purposeOrAction === 'Info') {
+    purpose = 'Analyze';
+    resolvedTarget = target;
+  } else if (purposeOrAction === 'Alert') {
+    purpose = 'Display';
+    resolvedTarget = 'Generic';
+  } else {
+    purpose = purposeOrAction; // Modern format
+    resolvedTarget = target;
   }
 
-  const isCombo = ['Q','PQ'].includes(action);
+  // Horse number validation
+  const isCombo = ['Q','PQ'].includes(resolvedTarget);
   if (!isValidHorseNumber(horseNumber, isCombo)) {
-    throw new Error(`Invalid horseNumber: ${horseNumber} for action ${action}`);
+    throw new Error(`Invalid horseNumber: ${horseNumber} for target ${resolvedTarget}`);
   }
+
+  // Merge metrics
+  const resolvedMetrics = {
+    winScore: Number(winScore),
+    placeScore: Number(placeScore),
+    ...metrics
+  };
 
   return {
     priority: Math.max(0, priority),
     horseNumber,
-    action,
+    purpose,
+    target: resolvedTarget,
     message: String(message),
-    winScore: Number(winScore),
-    placeScore: Number(placeScore)
+    metrics: resolvedMetrics
   };
 };
 
-/**
- * Adds alert to storage with optional auto-sorting
- * @param {AlertMessage} alert 
- * @param {boolean} [autoSort=false] - Whether to sort immediately
- */
+// ===================
+// Alert Management
+// ===================
+
 export const addAlert = (alert, autoSort = false) => {
   if (!isAlert(alert)) throw new Error('Invalid alert object');
   alerts.push(alert);
   if (autoSort) alerts.sort((a, b) => b.priority - a.priority);
 };
 
-/**
- * Updates specific alert fields by index
- * @param {number} index - Alert position in array
- * @param {Partial<AlertMessage>} updates - Fields to update
- * @returns {boolean} True if successful
- */
 export const updateAlert = (index, updates) => {
   if (index < 0 || index >= alerts.length) return false;
   
@@ -118,53 +137,44 @@ export const updateAlert = (index, updates) => {
   return true;
 };
 
-/**
- * Gets alerts with sorting control
- * @param {boolean} [sorted=true] - Whether to return sorted results
- * @returns {AlertMessage[]}
- */
 export const getAlerts = (sorted = true) => {
   return sorted ? [...alerts].sort((a, b) => b.priority - a.priority) : [...alerts];
 };
 
-/**
- * Clears all alerts
- */
 export const clearAlerts = () => {
   alerts = [];
 };
 
-/**
- * Removes duplicate alerts (all fields must match)
- * @param {AlertMessage[]} alerts 
- * @returns {AlertMessage[]} Deduplicated array
- */
-export function deduplicateAlerts(alerts) {
+export const deduplicateAlerts = (alerts) => {
   return alerts.filter((alert, index, self) =>
     index === self.findIndex(a => 
       a.priority === alert.priority &&
       a.horseNumber === alert.horseNumber &&
-      a.action === alert.action &&
+      a.purpose === alert.purpose &&
+      a.target === alert.target &&
       a.message === alert.message &&
-      a.winScore === alert.winScore &&
-      a.placeScore === alert.placeScore
+      JSON.stringify(a.metrics) === JSON.stringify(alert.metrics)
     )
   );
-}
+};
 
-/**
- * Type guard for AlertMessage
- * @param {any} obj
- * @returns {obj is AlertMessage}
- */
+// ===================
+// Utilities
+// ===================
+
 export const isAlert = (obj) => {
-  return obj && 
-         typeof obj.priority === 'number' &&
-         typeof obj.horseNumber === 'string' &&
-         ['Info','Alert','Win','Place','Q','PQ'].includes(obj.action) &&
-         typeof obj.message === 'string' &&
-         typeof obj.winScore === 'number' &&
-         typeof obj.placeScore === 'number';
+  const isNewFormat = obj && 
+    typeof obj.priority === 'number' &&
+    typeof obj.horseNumber === 'string' &&
+    ['Display','Highlight','Analyze'].includes(obj.purpose) &&
+    typeof obj.metrics === 'object';
+
+  const isLegacyFormat = obj && 
+    typeof obj.priority === 'number' &&
+    typeof obj.horseNumber === 'string' &&
+    ['Info','Alert','Win','Place','Q','PQ'].includes(obj.action);
+
+  return isNewFormat || isLegacyFormat;
 };
 
 /**
@@ -172,40 +182,55 @@ export const isAlert = (obj) => {
  * @param {AlertMessage} alert
  */
 export const handleAlertAction = (alert) => {
-  switch(alert.action) {
-    case 'Win':
-      highlightStore.win.add(alert.horseNumber);
-      break;
-    case 'Place':
-      highlightStore.place.add(alert.horseNumber);
-      break;
-    case 'Q':
-      highlightStore.quinella.add(alert.horseNumber);
-      break;
-    case 'PQ':
-      highlightStore.placeQuinella.add(alert.horseNumber);
-      break;
-    default:
-      break;
+  const target = alert.action || alert.target;
+  
+  // Map action/target to correct store keys
+  const storeMap = {
+    'Q': 'quinella',
+    'PQ': 'placeQuinella',
+    'Win': 'win',
+    'Place': 'place'
+  };
+  
+  const storeKey = storeMap[target];
+  
+  if (storeKey && highlightStore[storeKey]) {
+    highlightStore[storeKey].add(alert.horseNumber);
+    console.log(`Stored ${target} highlight:`, alert.horseNumber); // Debug
   }
 };
 
-// New utility functions
-/**
- * Finds alert index by horse number
- * @param {string} horseNumber 
- * @returns {number} -1 if not found
- */
 export const findAlertIndex = (horseNumber) => {
   return alerts.findIndex(a => a.horseNumber === horseNumber);
 };
 
-/**
- * Bulk add alerts with optional sorting
- * @param {AlertMessage[]} alertList 
- * @param {boolean} [autoSort=false]
- */
 export const addAlerts = (alertList, autoSort = false) => {
   alertList.forEach(alert => addAlert(alert, false));
   if (autoSort) alerts.sort((a, b) => b.priority - a.priority);
+};
+
+// ===================
+// Legacy Support
+// ===================
+
+/**
+ * Legacy createAlert (compatibility wrapper)
+ * @deprecated Use new createAlert format
+ */
+export const createLegacyAlert = (
+  priority,
+  horseNumber,
+  action,
+  message,
+  winScore = 0,
+  placeScore = 0
+) => {
+  return createAlert(
+    priority,
+    horseNumber,
+    action,
+    message,
+    winScore,
+    placeScore
+  );
 };

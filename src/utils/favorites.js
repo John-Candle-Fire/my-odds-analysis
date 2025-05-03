@@ -66,7 +66,7 @@ export const findPlaceFavorite = (odds, horseInfo) => {
 
     alerts.push(
       createAlert(50, horse.horseNumber, 'Place', ' ', 0, 100),
-      createAlert(140, horse.horseNumber, 'Info', 
+      createAlert(150, horse.horseNumber, 'Info', 
         `Place Favourite is ${horse.horseNumber} ${horseName} ${horse.place}`, 
         0, 0
       )
@@ -100,7 +100,7 @@ export const findQuinellaFavorite = (quinellaOdds) => {
   favorites.forEach(combo => {
     const comboId = `${combo.horse_number_1}-${combo.horse_number_2}`;
     alerts.push(
-      createAlert(50, comboId, 'Q', ' ', 0, 0),
+      createAlert(150, comboId, 'Q', `Favourite Q is ${comboId} with odds ${combo.odds}`, 0, 0),
       createAlert(20, combo.horse_number_1, 'Info', 'favourite Q leg', 30, 30),
       createAlert(20, combo.horse_number_2, 'Info', 'favourite Q leg', 30, 30)
     );
@@ -134,7 +134,7 @@ export const findPQFavorite = (quinellaPlaceOdds) => {
   favorites.forEach(combo => {
     const comboId = `${combo.horse_number_1}-${combo.horse_number_2}`;
     alerts.push(
-      createAlert(50, comboId, 'PQ', ' ', 0, 0),
+      createAlert(150, comboId, 'PQ', `Favourite PQ is ${comboId} with odds ${combo.odds}`, 0, 0),
       createAlert(20, combo.horse_number_1, 'Info', 'favourite PQ leg', 10, 30),
       createAlert(20, combo.horse_number_2, 'Info', 'favourite PQ leg', 10, 30)
     );

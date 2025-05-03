@@ -36,7 +36,7 @@ const QuinellaMatrix = ({ quinellaOdds, horseCount = 14, highlights = [] }) => {
 
       // Debug logging for found pairs
       if (pair) {
-        console.log(`[Debug] Found pair ${j+1}-${i+1}:`, {
+        console.log(`[Debug] Q Found pair ${j+1}-${i+1}:`, {
           odds: pair.odds,
           horse1: pair.horse_number_1, 
           horse2: pair.horse_number_2
@@ -71,7 +71,7 @@ const QuinellaMatrix = ({ quinellaOdds, horseCount = 14, highlights = [] }) => {
                 const comboKey = `${j+1}-${i+1}`; // Column-first format
                 const isHighlighted = normalizedHighlights.includes(comboKey);
                 
-                console.log(`Checking highlight for cell ${i+1}-${j+1} as key: ${comboKey}`, {
+                console.log(`Checking Q highlight for cell ${i+1}-${j+1} as key: ${comboKey}`, {
                   isHighlighted,
                   normalizedHighlights
                 });

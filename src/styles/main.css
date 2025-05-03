@@ -366,3 +366,29 @@ padding-bottom: 60px; /* Footer height + spacing */
   background-color: #ffdddd !important;
   border: 2px solid #ff0000 !important;
 }
+
+.download-controls {
+  background: #f5f5f5;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.download-btn {
+  padding: 6px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.download-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+#priorityThreshold {
+  padding: 4px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}

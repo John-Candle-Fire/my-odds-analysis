@@ -32,6 +32,7 @@ const RaceAnalysis = () => {
     quinella: [],
     placeQuinella: []
   });
+  const [priorityThreshold, setPriorityThreshold] = useState(300);
 
   const handleAnalyze = async ({ date, raceNumber, timestamp }) => {
     try {
@@ -53,6 +54,33 @@ const RaceAnalysis = () => {
     }
   };
 
+  const handleDownloadResults = () => {
+    if (!raceData || !findings.length) return;
+
+    const analysisResult = {
+      metadata: {
+        date: raceData.raceInfo.date,
+        raceNumber: raceData.raceInfo.raceNumber,
+        analyzedAt: new Date().toISOString(),
+        priorityThreshold
+      },
+      findings: findings.filter(f => f.priority >= priorityThreshold),
+      horseInfo: raceData.horseInfo
+    };
+
+    const blob = new Blob([JSON.stringify(analysisResult, null, 2)], {
+      type: 'application/json'
+    });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `analysis-p${priorityThreshold}-${raceData.raceInfo.date}-R${raceData.raceInfo.raceNumber}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(() => URL.revokeObjectURL(url), 100);
+  };
+
   const HorseInfoTab = () => (
     <Box sx={{ mt: 3 }}>
       <Typography variant="h5" gutterBottom>Horse Information</Typography>
@@ -64,14 +92,14 @@ const RaceAnalysis = () => {
                 backgroundColor: '#2c3e50',
                 '& th': { color: 'white', fontWeight: 'bold' }
               }}>
-                <TableCell>No.</TableCell>
-                <TableCell>Name</TableCell>
-                <TableCell>Weight</TableCell>
-                <TableCell>Trainer</TableCell>
-                <TableCell>Jockey</TableCell>
-                <TableCell>Post</TableCell>
-                <TableCell>First Win Index</TableCell>
-                <TableCell>Race Day Win Index</TableCell>
+                <TableCell>馬號</TableCell>
+                <TableCell>馬名</TableCell>
+                <TableCell>負磅</TableCell>
+                <TableCell>練馬師</TableCell>
+                <TableCell>騎師</TableCell>
+                <TableCell>檔位</TableCell>
+                <TableCell>初步貼士指數</TableCell>
+                <TableCell>賽日貼士指數</TableCell>
                 <TableCell align="right">Win</TableCell>
                 <TableCell align="right">Place</TableCell>
               </TableRow>
@@ -180,6 +208,31 @@ const RaceAnalysis = () => {
   return (
     <div className="race-analysis-container">
       <RaceSelector onAnalyze={handleAnalyze} />
+      
+      {/* Download Controls */}
+      <div className="download-controls" style={{ margin: '10px 0', display: 'flex', alignItems: 'center' }}>
+        <div style={{ marginRight: '10px' }}>
+          <label htmlFor="priorityThreshold">Minimum Priority: </label>
+          <input
+            id="priorityThreshold"
+            type="number"
+            min="0"
+            max="1000"
+            value={priorityThreshold}
+            onChange={(e) => setPriorityThreshold(Number(e.target.value))}
+            style={{ width: '60px' }}
+          />
+        </div>
+        <button
+          type="button"
+          onClick={handleDownloadResults}
+          disabled={!raceData || findings.every(f => f.priority < priorityThreshold)}
+          className="download-btn"
+        >
+          Download Filtered Results
+        </button>
+      </div>
+
       <Box sx={{ width: '100%', mt: 3 }}>
         <Tabs value={tabValue} onChange={(e, newValue) => setTabValue(newValue)} centered>
           <Tab label="Horse Info" />

@@ -13,6 +13,8 @@ import { analyzeWinPlace } from './winPlaceAnalysis';
 import { analyzeWinRaceDayIndex } from './winInsiderAnalysis';
 import { analyzeWinQuinella } from './winQuinellaAnalysis';
 import { analyzeWinPlaceQuinella } from './winPQAnalysis';
+import { analyzeWinWin } from './winWinAnalysis';
+
 
 /**
  * Debug helper to log alerts state
@@ -79,6 +81,10 @@ export function analyzeRace(data) {
   }
 
   debugAlerts('After Q & PQ Favorites');
+
+  // 3. Run Win-Win analysis
+  analyzeWinWin(data);
+  debugAlerts('After Win-Win Analysis');
 
   // 3. Process each analysis group
   DEFAULT_GROUPS.forEach(group => {

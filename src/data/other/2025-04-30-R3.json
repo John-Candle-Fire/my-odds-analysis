@@ -1,0 +1,110 @@
+{
+  "Race Date": "2025-04-30",
+  "Race Number": 3,
+  "Horses": [
+    {
+      "horseID": "HK_2021_G265",
+      "Horse Number": "1",
+      "Horse Name": "小霸王",
+      "Weight": "134",
+      "Trainer": "告東尼",
+      "Jockey": "蔡明紹",
+      "Post": "4",
+      "First Win Index": "31.2",
+      "Race Day Win Index": "13.4",
+      "lastWin": "69",
+      "lastPosition": "08"
+    },
+    {
+      "horseID": "HK_2023_J066",
+      "Horse Number": "2",
+      "Horse Name": "晨曦儷人",
+      "Weight": "128",
+      "Trainer": "伍鵬志",
+      "Jockey": "潘頓",
+      "Post": "6",
+      "First Win Index": "3.6",
+      "Race Day Win Index": "3.7",
+      "lastWin": "3",
+      "lastPosition": "02"
+    },
+    {
+      "horseID": "HK_2022_H241",
+      "Horse Number": "3",
+      "Horse Name": "紅逸舍",
+      "Weight": "126",
+      "Trainer": "韋達",
+      "Jockey": "布文",
+      "Post": "7",
+      "First Win Index": "7.4",
+      "Race Day Win Index": "8.8",
+      "lastWin": "4",
+      "lastPosition": "01"
+    },
+    {
+      "horseID": "HK_2021_G268",
+      "Horse Number": "4",
+      "Horse Name": "勇敢巨星",
+      "Weight": "124",
+      "Trainer": "呂健威",
+      "Jockey": "賀銘年",
+      "Post": "2",
+      "First Win Index": "99",
+      "Race Day Win Index": "99",
+      "lastWin": "105",
+      "lastPosition": "07"
+    },
+    {
+      "horseID": "HK_2021_G455",
+      "Horse Number": "5",
+      "Horse Name": "傑出漢子",
+      "Weight": "124",
+      "Trainer": "呂健威",
+      "Jockey": "希威森",
+      "Post": "8",
+      "First Win Index": "72.9",
+      "Race Day Win Index": "53.8",
+      "lastWin": "6.3",
+      "lastPosition": "01"
+    },
+    {
+      "horseID": "HK_2020_E392",
+      "Horse Number": "6",
+      "Horse Name": "狀元及第",
+      "Weight": "122",
+      "Trainer": "告東尼",
+      "Jockey": "班德禮",
+      "Post": "3",
+      "First Win Index": "11.0",
+      "Race Day Win Index": "18.5",
+      "lastWin": "61",
+      "lastPosition": "03"
+    },
+    {
+      "horseID": "HK_2022_H311",
+      "Horse Number": "7",
+      "Horse Name": "輝煌精英",
+      "Weight": "121",
+      "Trainer": "丁冠豪",
+      "Jockey": "梁家俊",
+      "Post": "5",
+      "First Win Index": "15.1",
+      "Race Day Win Index": "8.0",
+      "lastWin": "2.3",
+      "lastPosition": "04"
+    },
+    {
+      "horseID": "HK_2024_K227",
+      "Horse Number": "8",
+      "Horse Name": "顏色之皇",
+      "Weight": "120",
+      "Trainer": "游達榮",
+      "Jockey": "艾兆禮",
+      "Post": "1",
+      "First Win Index": "2.6",
+      "Race Day Win Index": "2.9",
+      "lastWin": "3",
+      "lastPosition": "01"
+    }
+  ]
+}
