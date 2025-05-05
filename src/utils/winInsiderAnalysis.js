@@ -1,5 +1,5 @@
 // src/utils/winInsiderAnalysis.js
-import { createAlert, addAlert } from './alertSystem';
+import { createAlert, addAlert } from './alertSystem.js';
 
 /**
  * Determines if two odds values fall within the same boundary range
@@ -31,8 +31,8 @@ const isSameRange = (odds1, odds2) => {
 
 /**
  * Analyzes win odds against Race Day Win Index to detect insider patterns
- * @param {Array<Object>} groupHorses - Horses in current analysis group (RaceHorse type)
- * @param {Array<Object>} allHorses - All race horses with details (HorseDetail type)
+ * @param {Array<import('./types.js').RaceHorse>} groupHorses - Horses in current analysis group
+ * @param {Array<import('./types.js').HorseDetail>} allHorses - All race horses with details
  */
 export const analyzeWinRaceDayIndex = (groupHorses, allHorses) => {
   for (const horse of groupHorses) {
@@ -46,6 +46,8 @@ export const analyzeWinRaceDayIndex = (groupHorses, allHorses) => {
     const lastWin = horseDetail['lastWin'] || 0;
     const lastPosition = horseDetail['lastPosition'] || 0;
     const horseName = horseDetail['Horse Name'] || 'Unknown';
+    const isUnexpected = winOdds <= 15 && winIndex >= 40;
+    const isNewHorse = lastWin === 0;
 
     // Only proceed if current odds are lower than expected index
     if (winOdds < winIndex) {
@@ -58,27 +60,36 @@ export const analyzeWinRaceDayIndex = (groupHorses, allHorses) => {
 
       const baseMessage = `${horse.horseNumber} ${horseName}: Current odds ${winOdds} vs expected ${winIndex} (${formattedPct}). Last race: ${lastWin} odds, finished ${lastPosition}`;
 
+      // Handle unexpected case first
+      if (isUnexpected) {
+        addAlert(createAlert(160, horse.horseNumber, 'Info', 
+          `賠率異常熱 - ${baseMessage}`, 50, 60));
+        continue;
+      }
+
+      // Then handle other cases
       if (winOdds <= 25) {
-        if (winOdds <= lastWin) {
+        if (isNewHorse) {
+          addAlert(createAlert(160, horse.horseNumber, 'Info', 
+            `初出馬 - ${baseMessage}`, 15, 25));
+        } else if (winOdds <= lastWin) {
           if (lastGoodResult) {
             addAlert(createAlert(160, horse.horseNumber, 'Info', 
-              `賽績 - ${baseMessage}`, 20, 40));
+              `賽績支持 - ${baseMessage}`, 20, 40));
           } else {
             addAlert(createAlert(160, horse.horseNumber, 'Info', 
-              `比上次熱 - ${baseMessage}`, 15, 30));
+              `上次跑第${lastPosition} 賠率比上次熱 - ${baseMessage}`, 15, 30));
           }
+        } else if (sameWinRange) {
+          addAlert(createAlert(160, horse.horseNumber, 'Info', 
+            `上次跑第${lastPosition} 賠率上次相若 - ${baseMessage}`, 10, 20));
         } else {
-          if (sameWinRange) {
-            addAlert(createAlert(160, horse.horseNumber, 'Info', 
-              `上賽相若 - ${baseMessage}`, 10, 20));
-          } else {
-            addAlert(createAlert(160, horse.horseNumber, 'Info', 
-              `比上次冷 - ${baseMessage}`, 5, 15));
-          }
+          addAlert(createAlert(160, horse.horseNumber, 'Info', 
+            `賠率比上次冷 - ${baseMessage}`, 5, 15));
         }
       } else {
         addAlert(createAlert(160, horse.horseNumber, 'Info', 
-          `冷馬 - ${baseMessage}`, -10, 0));
+          `獨贏冇飛但比預期好 - ${baseMessage}`, -10, 0));
       }
     } else if (winOdds < 99) {
       const baseMessage = `${horse.horseNumber} ${horseName}: Current odds ${winOdds} (not better than expected ${winIndex})`;
