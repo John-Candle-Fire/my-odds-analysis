@@ -1,0 +1,114 @@
+{
+    "odds": [
+        {
+            "horse_number": "1",
+            "win": "7.2",
+            "place": "2.3"
+        },
+        {
+            "horse_number": "2",
+            "win": "20",
+            "place": "6.9"
+        },
+        {
+            "horse_number": "3",
+            "win": "9.4",
+            "place": "3.4"
+        },
+        {
+            "horse_number": "4",
+            "win": "1.8",
+            "place": "1.4"
+        },
+        {
+            "horse_number": "5",
+            "win": "6.1",
+            "place": "2.7"
+        },
+        {
+            "horse_number": "6",
+            "win": "4.7",
+            "place": "2.1"
+        }
+    ],
+    "quinella_odds": [
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "2",
+            "quinella_odds": "30"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "3",
+            "quinella_odds": "24"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "4",
+            "quinella_odds": "5.3"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "5",
+            "quinella_odds": "13"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "6",
+            "quinella_odds": "12"
+        },
+        {
+            "horse_number_1": "2",
+            "horse_number_2": "3",
+            "quinella_odds": "41"
+        },
+        {
+            "horse_number_1": "2",
+            "horse_number_2": "4",
+            "quinella_odds": "32"
+        },
+        {
+            "horse_number_1": "2",
+            "horse_number_2": "5",
+            "quinella_odds": "63"
+        },
+        {
+            "horse_number_1": "2",
+            "horse_number_2": "6",
+            "quinella_odds": "41"
+        },
+        {
+            "horse_number_1": "3",
+            "horse_number_2": "4",
+            "quinella_odds": "9.4"
+        },
+        {
+            "horse_number_1": "3",
+            "horse_number_2": "5",
+            "quinella_odds": "26"
+        },
+        {
+            "horse_number_1": "3",
+            "horse_number_2": "6",
+            "quinella_odds": "19"
+        },
+        {
+            "horse_number_1": "4",
+            "horse_number_2": "5",
+            "quinella_odds": "5.0"
+        },
+        {
+            "horse_number_1": "4",
+            "horse_number_2": "6",
+            "quinella_odds": "4.2"
+        },
+        {
+            "horse_number_1": "5",
+            "horse_number_2": "6",
+            "quinella_odds": "13"
+        }
+    ],
+    "quinella_place_odds": [],
+    "url": "https://bet.hkjc.com/ch/racing/wpq/2025-05-04/ST/8",
+    "timestamp": "2025-05-04 19:42:49"
+}

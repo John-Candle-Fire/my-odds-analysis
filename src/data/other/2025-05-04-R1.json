@@ -1,0 +1,110 @@
+{
+  "Race Date": "2025-05-04",
+  "Race Number": 1,
+  "Horses": [
+    {
+      "horseID": "HK_2024_K291",
+      "Horse Number": "1",
+      "Horse Name": "渾身解數",
+      "Weight": "128",
+      "Trainer": "黎昭昇",
+      "Jockey": "潘頓",
+      "Post": "6",
+      "First Win Index": "2.6",
+      "Race Day Win Index": "2.9",
+      "lastWin": "1.2",
+      "lastPosition": "01"
+    },
+    {
+      "horseID": "HK_2024_K359",
+      "Horse Number": "2",
+      "Horse Name": "解碼",
+      "Weight": "126",
+      "Trainer": "蔡約翰",
+      "Jockey": "艾道拿",
+      "Post": "7",
+      "First Win Index": "38.8",
+      "Race Day Win Index": "96.6",
+      "lastWin": "0",
+      "lastPosition": "0"
+    },
+    {
+      "horseID": "HK_2024_K165",
+      "Horse Number": "3",
+      "Horse Name": "馬達",
+      "Weight": "126",
+      "Trainer": "巫偉傑",
+      "Jockey": "梁家俊",
+      "Post": "2",
+      "First Win Index": "99",
+      "Race Day Win Index": "99",
+      "lastWin": "29",
+      "lastPosition": "06"
+    },
+    {
+      "horseID": "HK_2024_K377",
+      "Horse Number": "4",
+      "Horse Name": "不勞而獲",
+      "Weight": "126",
+      "Trainer": "葉楚航",
+      "Jockey": "周俊樂",
+      "Post": "1",
+      "First Win Index": "2.6",
+      "Race Day Win Index": "2.7",
+      "lastWin": "8.8",
+      "lastPosition": "02"
+    },
+    {
+      "horseID": "HK_2024_K259",
+      "Horse Number": "5",
+      "Horse Name": "神燦金剛",
+      "Weight": "126",
+      "Trainer": "葉楚航",
+      "Jockey": "潘明輝",
+      "Post": "8",
+      "First Win Index": "64.7",
+      "Race Day Win Index": "20.3",
+      "lastWin": "35",
+      "lastPosition": "05"
+    },
+    {
+      "horseID": "HK_2024_K326",
+      "Horse Number": "6",
+      "Horse Name": "快活精神",
+      "Weight": "121",
+      "Trainer": "鄭俊偉",
+      "Jockey": "田泰安",
+      "Post": "4",
+      "First Win Index": "7.6",
+      "Race Day Win Index": "7.7",
+      "lastWin": "9.2",
+      "lastPosition": "03"
+    },
+    {
+      "horseID": "HK_2024_K406",
+      "Horse Number": "8",
+      "Horse Name": "知道穩勝",
+      "Weight": "121",
+      "Trainer": "沈集成",
+      "Jockey": "班德禮",
+      "Post": "5",
+      "First Win Index": "20.4",
+      "Race Day Win Index": "11.9",
+      "lastWin": "0",
+      "lastPosition": "0"
+    },
+    {
+      "horseID": "HK_2024_K337",
+      "Horse Number": "9",
+      "Horse Name": "美周郎",
+      "Weight": "121",
+      "Trainer": "容天鵬",
+      "Jockey": "賀銘年",
+      "Post": "3",
+      "First Win Index": "99",
+      "Race Day Win Index": "74.3",
+      "lastWin": "0",
+      "lastPosition": "0"
+    }
+  ]
+}
