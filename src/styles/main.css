@@ -392,3 +392,44 @@ padding-bottom: 60px; /* Footer height + spacing */
   border: 1px solid #ddd;
   border-radius: 3px;
 }
+
+/* ===== AUTHENTICATION ADDITIONS (APPEND ONLY) ===== */
+/* Navbar Login/Logout Links */
+.nav-button {
+  background: none;
+  border: none;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.nav-button:hover {
+  color: var(--secondary);
+}
+
+.login-link {
+  margin-left: 20px;
+}
+
+/* Mobile Menu Auth Links */
+@media (max-width: 768px) {
+  .nav-links.active .nav-button,
+  .nav-links.active .login-link {
+    margin-left: 0;
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+}
+
+/* User Status Banner (for raceAnalysis.jsx) */
+.user-status-banner {
+  background-color: #f0f0f0;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  text-align: right;
+  font-size: 0.9em;
+}

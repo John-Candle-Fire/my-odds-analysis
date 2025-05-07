@@ -1,6 +1,7 @@
 // src/pages/raceAnalysis.jsx
 import '../styles/main.css';
 import React, { useState } from 'react';
+import { useAuth } from '../auth/AuthContext';
 import { loadRaceData } from '../utils/dataLoader';
 import { analyzeRace } from '../utils/oddsAnalysis';
 import FindingsDisplay from '../components/findingsDisplay';
@@ -23,6 +24,7 @@ import {
 } from '@mui/material';
 
 const RaceAnalysis = () => {
+  const { user } = useAuth();
   const [findings, setFindings] = useState([]);
   const [raceData, setRaceData] = useState(null);
   const [tabValue, setTabValue] = useState(0);
@@ -207,6 +209,19 @@ const RaceAnalysis = () => {
 
   return (
     <div className="race-analysis-container">
+      {user && (
+        <div style={{
+          backgroundColor: '#f0f0f0',
+          padding: '8px',
+          marginBottom: '15px',
+          borderRadius: '4px',
+          textAlign: 'right',
+          fontSize: '0.9em'
+        }}>
+          Logged in as: <strong>{user.username}</strong> ({user.role})
+        </div>
+      )}
+      
       <RaceSelector onAnalyze={handleAnalyze} />
       
       {/* Download Controls */}

@@ -39,7 +39,12 @@ const RaceSelector = ({ onAnalyze }) => {
         return parts[3]; // Returns "R1", "R2", etc.
       });
     
-    setAvailableRaceNumbers([...new Set(raceNumbers)].sort());
+    setAvailableRaceNumbers([...new Set(raceNumbers)].sort((a, b) => {
+        const numA = parseInt(a.substring(1)); // Extract number after "R"
+        const numB = parseInt(b.substring(1));
+        return numA - numB; // Numeric comparison
+      }));
+      
     setRaceNumber('');
     setTimestamp('');
   }, [date]);
