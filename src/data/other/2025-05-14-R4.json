@@ -1,0 +1,97 @@
+{
+  "Race Date": "2025-05-14",
+  "Race Number": 4,
+  "Horses": [
+    {
+      "horseID": "HK_2022_H215",
+      "Horse Number": "1",
+      "Horse Name": "喜蓮勇感",
+      "Weight": "135",
+      "Trainer": "沈集成",
+      "Jockey": "班德禮",
+      "Post": "5",
+      "First Win Index": "3.6",
+      "Race Day Win Index": "4.4",
+      "lastWin": "29",
+      "lastPosition": "05"
+    },
+    {
+      "horseID": "HK_2020_E249",
+      "Horse Number": "2",
+      "Horse Name": "觔斗雲",
+      "Weight": "135",
+      "Trainer": "姚本輝",
+      "Jockey": "艾兆禮",
+      "Post": "4",
+      "First Win Index": "20.6",
+      "Race Day Win Index": "24.3",
+      "lastWin": "100",
+      "lastPosition": "11"
+    },
+    {
+      "horseID": "HK_2019_D482",
+      "Horse Number": "3",
+      "Horse Name": "電訊巴打",
+      "Weight": "125",
+      "Trainer": "徐雨石",
+      "Jockey": "鍾易禮",
+      "Post": "6",
+      "First Win Index": "14.9",
+      "Race Day Win Index": "12.2",
+      "lastWin": "57",
+      "lastPosition": "01"
+    },
+    {
+      "horseID": "HK_2022_H418",
+      "Horse Number": "4",
+      "Horse Name": "加州動員",
+      "Weight": "122",
+      "Trainer": "告東尼",
+      "Jockey": "巴度",
+      "Post": "2",
+      "First Win Index": "3.6",
+      "Race Day Win Index": "3.2",
+      "lastWin": "6.2",
+      "lastPosition": "01"
+    },
+    {
+      "horseID": "HK_2023_J127",
+      "Horse Number": "5",
+      "Horse Name": "太陽勇士",
+      "Weight": "122",
+      "Trainer": "大衛希斯",
+      "Jockey": "潘頓",
+      "Post": "7",
+      "First Win Index": "3.1",
+      "Race Day Win Index": "3.3",
+      "lastWin": "18",
+      "lastPosition": "03"
+    },
+    {
+      "horseID": "HK_2020_E306",
+      "Horse Number": "6",
+      "Horse Name": "常拼常勇",
+      "Weight": "120",
+      "Trainer": "姚本輝",
+      "Jockey": "周俊樂",
+      "Post": "3",
+      "First Win Index": "99",
+      "Race Day Win Index": "79.2",
+      "lastWin": "67",
+      "lastPosition": "09"
+    },
+    {
+      "horseID": "HK_2021_G115",
+      "Horse Number": "7",
+      "Horse Name": "木火兄弟",
+      "Weight": "115",
+      "Trainer": "鄭俊偉",
+      "Jockey": "楊明綸",
+      "Post": "1",
+      "First Win Index": "74.2",
+      "Race Day Win Index": "38.4",
+      "lastWin": "22",
+      "lastPosition": "05"
+    }
+  ]
+}

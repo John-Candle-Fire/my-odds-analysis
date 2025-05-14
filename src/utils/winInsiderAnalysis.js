@@ -78,11 +78,11 @@ export const analyzeWinRaceDayIndex = (groupHorses, allHorses) => {
               `賽績支持 - ${baseMessage}`, 20, 40));
           } else {
             addAlert(createAlert(160, horse.horseNumber, 'Info', 
-              `上次跑第${lastPosition} 賠率比上次熱 - ${baseMessage}`, 15, 30));
+              `賠率比上次熱 - 上次跑第${lastPosition} - ${baseMessage}`, 15, 30));
           }
         } else if (sameWinRange) {
           addAlert(createAlert(160, horse.horseNumber, 'Info', 
-            `上次跑第${lastPosition} 賠率上次相若 - ${baseMessage}`, 10, 20));
+            `賠率上次相若 - 上次跑第${lastPosition}  - ${baseMessage}`, 10, 20));
         } else {
           addAlert(createAlert(160, horse.horseNumber, 'Info', 
             `賠率比上次冷 - ${baseMessage}`, 5, 15));

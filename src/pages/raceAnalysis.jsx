@@ -76,7 +76,7 @@ const RaceAnalysis = () => {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `analysis-p${priorityThreshold}-${raceData.raceInfo.date}-R${raceData.raceInfo.raceNumber}.json`;
+    a.download = `analysis-p${priorityThreshold}-${raceData.raceInfo.date}-${raceData.raceInfo.raceNumber}.json`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);

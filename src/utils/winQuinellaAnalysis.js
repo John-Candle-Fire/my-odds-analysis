@@ -83,7 +83,7 @@ const analyzeExpectedQuinellaOdds = (raceData) => {
         140,
         horseNumber,
         'Analyze',
-        `${partners.size} 瓣 Q 拖 ${partnersList} 有飛`,
+        `Q - ${partners.size} 瓣 Q 拖 ${partnersList} 有飛`,
         5,
         5,
         'Generic'

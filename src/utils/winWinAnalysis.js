@@ -123,7 +123,7 @@ export const analyzeWinWin = (raceData, groups = DEFAULT_GROUPS) => {
                 160,
                 horse.horseNumber,
                 'Analyze',
-                `${horse.horseNumber} ${horseDetail['Horse Name']} 初出馬熱門，做腳`,
+                `初出熱門馬 - ${horse.horseNumber} ${horseDetail['Horse Name']} ，做腳`,
                 priority + 10,  // Slightly higher than normal
                 subPriority + 10
             ));
@@ -150,7 +150,7 @@ export const analyzeWinWin = (raceData, groups = DEFAULT_GROUPS) => {
                     160,
                     horse.horseNumber,
                     'Analyze',
-                    `${horse.horseNumber} ${horseDetail['Horse Name']} 異常落飛，可以做胆`,
+                    `異常落飛，可以做胆 - ${horse.horseNumber} ${horseDetail['Horse Name']} `,
                     60,
                     70
                 ));
@@ -159,7 +159,7 @@ export const analyzeWinWin = (raceData, groups = DEFAULT_GROUPS) => {
                     160,
                     horse.horseNumber,
                     'Analyze',
-                    `${horse.horseNumber} ${horseDetail['Horse Name']} 可以做胆`,
+                    `可以做胆 - ${horse.horseNumber} ${horseDetail['Horse Name']} `,
                     40,
                     50
                 ));
@@ -168,7 +168,7 @@ export const analyzeWinWin = (raceData, groups = DEFAULT_GROUPS) => {
                     160,
                     horse.horseNumber,
                     'Analyze',
-                    `${horse.horseNumber} ${horseDetail['Horse Name']} 不可以做胆`,
+                    `不可以做胆 - ${horse.horseNumber} ${horseDetail['Horse Name']} `,
                     -10,
                     -5
                 ));
@@ -179,7 +179,7 @@ export const analyzeWinWin = (raceData, groups = DEFAULT_GROUPS) => {
                     160,
                     horse.horseNumber,
                     'Warning',
-                    `${horse.horseNumber} ${horseDetail['Horse Name']} 異常落飛，優先考慮`,
+                    `異常落飛，優先考慮 - ${horse.horseNumber} ${horseDetail['Horse Name']} `,
                     50,
                     60
                 ));
@@ -188,7 +188,7 @@ export const analyzeWinWin = (raceData, groups = DEFAULT_GROUPS) => {
                     160,
                     horse.horseNumber,
                     'Analyze',
-                    `${horse.horseNumber} ${horseDetail['Horse Name']} 有對手，做腳`,
+                    `有對手，做腳 - ${horse.horseNumber} ${horseDetail['Horse Name']} `,
                     30,
                     40
                 ));
@@ -197,7 +197,7 @@ export const analyzeWinWin = (raceData, groups = DEFAULT_GROUPS) => {
                     160,
                     horse.horseNumber,
                     'Analyze',
-                    `${horse.horseNumber} ${horseDetail['Horse Name']} 缺乏信心`,
+                    `缺乏信心 - ${horse.horseNumber} ${horseDetail['Horse Name']} `,
                     -20,
                     -10
                 ));
