@@ -24,3 +24,17 @@ export const getHorsesInGroup = (horses, group) => {
           category: group.category
       }));
 };
+
+/**
+ * Determines the category based on win odds
+ * @param {number} winOdds - The win odds of the horse
+ * @returns {string} - The category string
+ * returns first grroup that matches the odds since the groups overlapped
+ */
+export function getCategoryFromWinOdds(winOdds) {
+  const group = DEFAULT_GROUPS.find(group => 
+    winOdds > group.range[0] && 
+    (group.range[1] === Infinity || winOdds <= group.range[1])
+  );
+  return group ? group.category : 'Unknown';
+}

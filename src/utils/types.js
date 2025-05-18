@@ -131,6 +131,64 @@
  */
 
 // ===================
+// Preprocessing Structures - for analysis
+// This will be used in the analysis so that 'common' information can be accessed across all modules
+// ===================
+/**
+ * @typedef {Object} PreprocessedHorse
+ * @property {string} horseNumber - Unique identifier for the horse
+ * @property {string} horseName - Name of the horse
+ * @property {string} trainer - Trainer's name
+ * @property {string} jockey - Jockey's name
+ * @property {string} weight - Horse's weight
+ * @property {number} firstDayIndex - First Day Win Index
+ * @property {number} raceDayIndex - Race Day Win Index
+ * @property {number} lastWin - Last win odds
+ * @property {number} lastPosition - Last race's position 
+ * @property {number} win - Win odds
+ * @property {number} place - Place odds
+ * @property {number} expectedP - Expected place odds (from linear regression)
+ * @property {string} category - Group category (e.g., "Favourites")
+ * @property {boolean} isNewHorse - True if no previous races
+ * @property {boolean} isBeatIndex - True if win < raceDayIndex
+ * @property {boolean} lastGoodResult - True if last position was 1st–4th
+ * @property {boolean} sameWinRange - True if win odds in same range as last win
+ * @property {boolean} isWinFavorite - True if this is the win favorite
+ * @property {boolean} isPlaceFavorite - True if this is the place favorite
+ * @property {boolean} isQFavourite - True if the horse is part of the quinella favorite pair
+ * @property {boolean} isPQFavourite - True if the horse is part of the place quinella favorite pair
+ */
+
+/**
+ * @typedef {Object} PreprocessedQuinellaPair
+ * @property {string} horse_number_1 - First horse in the pair
+ * @property {string} horse_number_2 - Second horse in the pair
+ * @property {number} actualOdds - Actual quinella odds
+ * @property {number} expectedOdds - Expected odds from linear regression
+ * @property {number} residual - Difference between expected and actual odds
+ */
+
+/**
+ * @typedef {Object} PreprocessedPlaceQPair
+ * @property {string} horse_number_1 - First horse in the pair
+ * @property {string} horse_number_2 - Second horse in the pair
+ * @property {number} actualOdds - Actual quinella odds
+ * @property {number} expectedOdds - Expected odds from linear regression
+ * @property {number} residual - Difference between expected and actual odds
+ */
+
+/**
+ * @typedef {Object} PreprocessedRaceData
+ * @property {PreprocessedHorse[]} horses - Array of preprocessed horse data
+ * @property {PreprocessedQuinellaPair[]} quinellaPairs - Array of quinella pairs with odds analysis
+ * @property {PreprocessedPlaceQPair[]} placeQPairs - Array of place quinella pairs with odds analysis
+ * @property {string} winFavourite - Horse number of the win favorite
+ * @property {string} placeFavourite - Horse number of the place favorite
+ * @property {string[]} qFavouritePair - Horse numbers of the quinella favorite pair
+ * @property {string[]} pqFavouritePair - Horse numbers of the place quinella favorite pair
+ */
+
+// ===================
 // Legacy Support
 // ===================
 

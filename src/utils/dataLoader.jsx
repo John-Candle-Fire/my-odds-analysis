@@ -33,8 +33,10 @@ export const loadRaceData = async (date, raceNumber, timestamp) => {
 
     // 3. Try to load horse info or create default structure
     let horseInfo;
+    const horseInfoPath = buildHorseInfoPath(date, raceNumber);
     try {
-      const horseInfoPath = buildHorseInfoPath(date, raceNumber);
+      // const horseInfoPath = buildHorseInfoPath(date, raceNumber);
+      console.log(`File path: ${horseInfoPath}`);
       const loadedInfo = (await import(`../data/other/${horseInfoPath}`)).default;
       
       // Merge with odds data and handle new fields
@@ -55,6 +57,9 @@ export const loadRaceData = async (date, raceNumber, timestamp) => {
       };
     } catch (error) {
       console.log('No horse info found, creating default structure');
+      console.log(`File path: ${horseInfoPath}`);
+      console.error('Error details:', error);
+    
       
       // Create default structure using odds data
       horseInfo = {

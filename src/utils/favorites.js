@@ -1,4 +1,5 @@
 // src/utils/favorites.js
+// There are two sets: find<pool>Favourite for alerts and find<pool>FavouriteX for horse numbers/ combinations 
 //!TYPES IMPORTS!
 /// <reference path="./types.js" />
 
@@ -146,4 +147,76 @@ export const findPQFavorite = (quinellaPlaceOdds) => {
   }
 
   return alerts;
+};
+
+/**
+ * Finds the horse(s) with the lowest non-zero win odds
+ * @param {Array<RaceHorse>} odds 
+ * @returns {string[]} - Array of horse numbers with the lowest win odds
+ */
+export const findWinFavoriteX = (odds) => {
+  if (!odds?.length) return [];
+
+  // Filter out horses with 0 odds (withdrawn)
+  const validOdds = odds.filter(horse => horse.win > 0);
+  if (!validOdds.length) return [];
+
+  const minWinOdds = Math.min(...validOdds.map(horse => horse.win));
+  const favorites = validOdds.filter(horse => horse.win === minWinOdds).map(horse => horse.horseNumber);
+  
+  return favorites;
+};
+
+/**
+ * Finds the horse(s) with the lowest non-zero place odds
+ * @param {Array<RaceHorse>} odds
+ * @returns {string[]} - Array of horse numbers with the lowest place odds
+ */
+export const findPlaceFavoriteX = (odds) => {
+  if (!odds?.length) return [];
+
+  // Filter out horses with 0 odds (withdrawn)
+  const validOdds = odds.filter(horse => horse.place > 0);
+  if (!validOdds.length) return [];
+
+  const minPlaceOdds = Math.min(...validOdds.map(horse => horse.place));
+  const favorites = validOdds.filter(horse => horse.place === minPlaceOdds).map(horse => horse.horseNumber);
+  
+  return favorites;
+};
+
+/**
+ * Finds the quinella combination(s) with the lowest non-zero odds
+ * @param {Array<QuinellaPair>} quinellaOdds
+ * @returns {Array<string[]>} - Array of pairs [horse_number_1, horse_number_2] with the lowest odds
+ */
+export const findQuinellaFavoriteX = (quinellaOdds) => {
+  if (!quinellaOdds?.length) return [];
+
+  // Filter out combinations with 0 odds (withdrawn horses)
+  const validOdds = quinellaOdds.filter(q => q.odds > 0);
+  if (!validOdds.length) return [];
+
+  const minOdds = Math.min(...validOdds.map(q => q.odds));
+  const favorites = validOdds.filter(q => q.odds === minOdds).map(q => [q.horse_number_1, q.horse_number_2]);
+  
+  return favorites;
+};
+
+/**
+ * Finds the place quinella combination(s) with the lowest non-zero odds
+ * @param {Array<QuinellaPair>} quinellaPlaceOdds 
+ * @returns {Array<string[]>} - Array of pairs [horse_number_1, horse_number_2] with the lowest odds
+ */
+export const findPQFavoriteX = (quinellaPlaceOdds) => {
+  if (!quinellaPlaceOdds?.length) return [];
+
+  // Filter out combinations with 0 odds (withdrawn horses)
+  const validOdds = quinellaPlaceOdds.filter(q => q.odds > 0);
+  if (!validOdds.length) return [];
+
+  const minOdds = Math.min(...validOdds.map(q => q.odds));
+  const favorites = validOdds.filter(q => q.odds === minOdds).map(q => [q.horse_number_1, q.horse_number_2]);
+  
+  return favorites;
 };

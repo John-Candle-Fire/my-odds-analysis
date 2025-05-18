@@ -14,40 +14,33 @@ import { analyzeContenders } from './contenderAnalysis';
 
 /**
  * Analyzes comprehensive win-win factors for horses
- * @param {RaceData} raceData 
- * @param {GroupDefinition[]} [groups=DEFAULT_GROUPS] 
+ * @param {PreprocessedRaceData} preprocessedData 
  */
-export const analyzeWinWin = (raceData, groups = DEFAULT_GROUPS) => {
-    if (!raceData?.odds?.length) return;
-
-    // Get favourite group (Group 1: 1 < win <=5)
-    const favouriteGroup = groups.find(g => g.category === "Favourites");
+export const analyzeWinWinX = (preprocessedData) => {
+    const favouriteGroup = DEFAULT_GROUPS.find(g => g.category === "Favourites");
     if (!favouriteGroup) return;
 
-    const horsesInFavGroup = getHorsesInGroup(raceData.odds, favouriteGroup);
-    const allHorses = raceData.horseInfo?.Horses || [];
+    const horsesInFavGroup = preprocessedData.horses.filter(horse => horse.category === "Favourites");
 
-    // Variables to track favorite status for contender analysis
     let isOnlyFavourite = horsesInFavGroup.length === 1;
-    let favouriteHorseNumbers = [];
-    let anyBeatIndex = false;
+    let multiFavourite = false;
+    if (!isOnlyFavourite) {
+        const beatIndexCount = horsesInFavGroup.filter(horse => horse.isBeatIndex).length;
+        if (beatIndexCount > 1) {
+            multiFavourite = true;
+        }
+    }
+    let favouriteHorseNumbers = horsesInFavGroup.map(h => h.horseNumber);
+    let anyBeatIndex = horsesInFavGroup.some(h => h.isBeatIndex);
     let newHorseAlertAdded = false;
 
     // First pass: Analyze individual favorite horses
     horsesInFavGroup.forEach(horse => {
-        const horseDetail = allHorses.find(h => h['Horse Number'] === horse.horseNumber);
-        if (!horseDetail) return;
-
-        // Extract key metrics
-        const isNewHorse = (horseDetail.lastWin || 0) === 0;
-        const isBeatIndex = horse.win < (horseDetail['Race Day Win Index'] || Infinity);
-        const isMoreConfidence = horse.win < (horseDetail.lastWin || Infinity);
-        const isGoodResult = isMoreConfidence && [2,3,4].includes(horseDetail.lastPosition || 0);
-        const isUnexpected = horse.win <= 15 && (horseDetail['Race Day Win Index'] || 0) >= 40;
-
-        // Track favorite horse details
-        favouriteHorseNumbers.push(horse.horseNumber);
-        if (isBeatIndex) anyBeatIndex = true;
+        const isNewHorse = horse.isNewHorse;
+        const isBeatIndex = horse.isBeatIndex;
+        const isMoreConfidence = horse.win <= horse.lastWin;
+        const isGoodResult = isMoreConfidence && [2, 3, 4].includes(horse.lastPosition);
+        const isUnexpected = horse.win <= 15 && horse.raceDayIndex >= 40;
 
         // Create individual metric alerts
         createWinWinAlert(horse.horseNumber, 'isOnlyFavourite', isOnlyFavourite);
@@ -58,29 +51,30 @@ export const analyzeWinWin = (raceData, groups = DEFAULT_GROUPS) => {
         createWinWinAlert(horse.horseNumber, 'isNewHorse', isNewHorse);
 
         // Quinella analysis
-        const quinellaLegs = Array.from(
-            new Set(
-                raceData.quinella_odds?.flatMap(q => [q.horse_number_1, q.horse_number_2]) || []
-            )
-        ).filter(leg => !horsesInFavGroup.some(h => h.horseNumber === leg));
-  
-        const comparisonGroup = horsesInFavGroup.length > 1 
-            ? horsesInFavGroup 
-            : [...horsesInFavGroup, ...getSecondLowestWinHorse(raceData.odds)];
-  
+        const allQuinellaHorses = new Set(
+            preprocessedData.quinellaPairs.flatMap(pair => [pair.horse_number_1, pair.horse_number_2])
+        );
+        const quinellaLegs = Array.from(allQuinellaHorses).filter(
+            leg => !horsesInFavGroup.some(h => h.horseNumber === leg)
+        );
+
+        const comparisonGroup = horsesInFavGroup.length > 1
+            ? horsesInFavGroup
+            : [...horsesInFavGroup, ...getSecondLowestWinHorse(preprocessedData.horses)];
+
         const qBanker = checkQuinellaBanker(
             comparisonGroup,
             quinellaLegs,
-            raceData.quinella_odds
+            preprocessedData.quinellaPairs
         );
-  
+
         const isQBanker = qBanker === horse.horseNumber;
         createWinWinAlert(horse.horseNumber, 'isQBanker', isQBanker);
 
-        // Create comprehensive message with priority based on conditions
+        // Comprehensive alert
         const messageParts = [
-            `Horse ${horse.horseNumber} ${horseDetail['Horse Name']}`,
-            `Group: ${favouriteGroup.category}`,
+            `Horse ${horse.horseNumber} ${horse.horseName}`,
+            `Group: Favourites`,
             `OnlyFavourite: ${isOnlyFavourite}`,
             `BeatIndex: ${isBeatIndex}`,
             `MoreConfidence: ${isMoreConfidence}`,
@@ -90,20 +84,8 @@ export const analyzeWinWin = (raceData, groups = DEFAULT_GROUPS) => {
             `QBanker: ${isQBanker}`
         ];
 
-        let priority, subPriority;
-        if (isUnexpected) {
-            priority = 50;
-            subPriority = 60;
-        } else if (isOnlyFavourite && isBeatIndex) {
-            priority = 40;
-            subPriority = 50;
-        } else if (isQBanker) {
-            priority = 30;
-            subPriority = 40;
-        } else {
-            priority = 20;
-            subPriority = 30;
-        }
+        let priority = isUnexpected ? 50 : (isOnlyFavourite && isBeatIndex) ? 40 : isQBanker ? 30 : 20;
+        let subPriority = isUnexpected ? 60 : (isOnlyFavourite && isBeatIndex) ? 50 : isQBanker ? 40 : 30;
 
         addAlert(createAlert(
             20,
@@ -115,100 +97,136 @@ export const analyzeWinWin = (raceData, groups = DEFAULT_GROUPS) => {
             'Generic'
         ));
 
-        // Special handling for new horses that meet conditions
-        if (isNewHorse && ((isOnlyFavourite && (isUnexpected || isBeatIndex)) || 
-                          (!isOnlyFavourite && isUnexpected))) {
+        if (isNewHorse && ((isOnlyFavourite && (isUnexpected || isBeatIndex)) || (!isOnlyFavourite && isUnexpected))) {
             newHorseAlertAdded = true;
             addAlert(createAlert(
                 160,
                 horse.horseNumber,
                 'Analyze',
-                `初出熱門馬 - ${horse.horseNumber} ${horseDetail['Horse Name']} ，做腳`,
-                priority + 10,  // Slightly higher than normal
+                `初出熱門馬 - ${horse.horseNumber} ${horse.horseName} ，做腳`,
+                priority + 10,
                 subPriority + 10
             ));
         }
     });
 
-    // Second pass: Create banker recommendations with enhanced logic
+    // Second pass: Banker recommendations
     horsesInFavGroup.forEach(horse => {
-        const horseDetail = allHorses.find(h => h['Horse Number'] === horse.horseNumber);
-        if (!horseDetail) return;
+        const isNewHorse = horse.isNewHorse;
+        const isBeatIndex = horse.isBeatIndex;
+        const isUnexpected = horse.win <= 15 && horse.raceDayIndex >= 40;
 
-        const isNewHorse = (horseDetail.lastWin || 0) === 0;
-        const isBeatIndex = horse.win < (horseDetail['Race Day Win Index'] || Infinity);
-        const isUnexpected = horse.win <= 15 && (horseDetail['Race Day Win Index'] || 0) >= 40;
-
-        // Skip special new horse message if already added in first pass
-        if (isNewHorse && newHorseAlertAdded) {
-            return;
-        }
+        if (isNewHorse && newHorseAlertAdded) return;
 
         if (isOnlyFavourite) {
             if (isUnexpected) {
-                addAlert(createAlert(
-                    160,
-                    horse.horseNumber,
-                    'Analyze',
-                    `異常落飛，可以做胆 - ${horse.horseNumber} ${horseDetail['Horse Name']} `,
-                    60,
-                    70
-                ));
+                if (horse.place <= horse.expectedP) {
+                    addAlert(createAlert(
+                        160,
+                        horse.horseNumber,
+                        'Analyze',
+                        `異常落飛，可以做胆 - ${horse.horseNumber} ${horse.horseName} (Place: ${horse.place} <= Expected: ${horse.expectedP})`,
+                        60,
+                        70
+                    ));
+                } else {
+                    addAlert(createAlert(
+                        160,
+                        horse.horseNumber,
+                        'Analyze',
+                        `異常落飛，可以做胆 - ${horse.horseNumber} ${horse.horseName} (Place: ${horse.place} > Expected: ${horse.expectedP})`,
+                        60,
+                        70
+                    ));
+                }
             } else if (isBeatIndex) {
                 addAlert(createAlert(
-                    160,
+                    170,
                     horse.horseNumber,
                     'Analyze',
-                    `可以做胆 - ${horse.horseNumber} ${horseDetail['Horse Name']} `,
+                    `可以做胆 - ${horse.horseNumber} ${horse.horseName} 唯一 5 倍下的有飛馬`,
                     40,
                     50
                 ));
             } else {
                 addAlert(createAlert(
-                    160,
+                    165,
                     horse.horseNumber,
                     'Analyze',
-                    `不可以做胆 - ${horse.horseNumber} ${horseDetail['Horse Name']} `,
+                    `熱門腳 - ${horse.horseNumber} ${horse.horseName}  唯一 5 倍下的馬`,
                     -10,
                     -5
                 ));
             }
         } else {
             if (isUnexpected) {
-                addAlert(createAlert(
-                    160,
-                    horse.horseNumber,
-                    'Warning',
-                    `異常落飛，優先考慮 - ${horse.horseNumber} ${horseDetail['Horse Name']} `,
-                    50,
-                    60
-                ));
+                if (horse.place <= horse.expectedP) {
+                    addAlert(createAlert(
+                        160,
+                        horse.horseNumber,
+                        'Warning',
+                        `異常落飛，優先考慮 - ${horse.horseNumber} ${horse.horseName} (Place: ${horse.place} <= Expected: ${horse.expectedP})`,
+                        50,
+                        60
+                    ));
+                } else {
+                    addAlert(createAlert(
+                        160,
+                        horse.horseNumber,
+                        'Warning',
+                        `異常落飛，優先考慮 - ${horse.horseNumber} ${horse.horseName} (Place: ${horse.place} > Expected: ${horse.expectedP})`,
+                        50,
+                        60
+                    ));
+                }
             } else if (isBeatIndex) {
-                addAlert(createAlert(
-                    160,
-                    horse.horseNumber,
-                    'Analyze',
-                    `有對手，做腳 - ${horse.horseNumber} ${horseDetail['Horse Name']} `,
-                    30,
-                    40
-                ));
+                if (multiFavourite) {
+                    addAlert(createAlert(
+                        160,
+                        horse.horseNumber,
+                        'Analyze',
+                        `有對手，做腳 - ${horse.horseNumber} ${horse.horseName}`,
+                        30,
+                        40
+                    ));
+                } else {
+                    addAlert(createAlert(
+                        165,
+                        horse.horseNumber,
+                        'Analyze',
+                        `雖有對手，仍然可做胆 - ${horse.horseNumber} ${horse.horseName}`,
+                        30,
+                        40
+                    ));
+                }
             } else {
-                addAlert(createAlert(
-                    160,
-                    horse.horseNumber,
-                    'Analyze',
-                    `缺乏信心 - ${horse.horseNumber} ${horseDetail['Horse Name']} `,
-                    -20,
-                    -10
-                ));
+                if (horse.win > 0 && horse.raceDayIndex > 0 && Math.log(horse.win) - Math.log(horse.raceDayIndex) <= 0.3) {
+                    addAlert(createAlert(
+                        165,
+                        horse.horseNumber,
+                        'Analyze',
+                        `可接受 - ${horse.horseNumber} ${horse.horseName} 約一半機會三甲`,
+                        -20,
+                        -10
+                    ));
+                } else {
+                    addAlert(createAlert(
+                        160,
+                        horse.horseNumber,
+                        'Analyze',
+                        `缺乏信心 - ${horse.horseNumber} ${horse.horseName} 可放棄`,
+                        -20,
+                        -10
+                    ));
+                }
             }
         }
     });
 
-    // Run Contenders analysis after processing favorites and banker recommendations
-    if (raceData.odds.length > 1) {
+    // Contender analysis (using original raceData for now)
+    if (preprocessedData.horses.length > 1) {
         const contenderAlerts = analyzeContenders(
-            raceData,
+            preprocessedData,
             isOnlyFavourite,
             anyBeatIndex,
             isOnlyFavourite ? favouriteHorseNumbers[0] : null

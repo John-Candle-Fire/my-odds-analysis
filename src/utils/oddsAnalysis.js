@@ -13,7 +13,9 @@ import { analyzeWinPlace } from './winPlaceAnalysis';
 import { analyzeWinRaceDayIndex } from './winInsiderAnalysis';
 import { analyzeWinQuinella } from './winQuinellaAnalysis';
 import { analyzeWinPlaceQuinella } from './winPQAnalysis';
-import { analyzeWinWin } from './winWinAnalysis';
+import { analyzeWinWinX, analyzeWinWin } from './winWinAnalysis';
+import { preprocessRaceData } from './dataPreprocessor';
+
 
 
 /**
@@ -58,7 +60,17 @@ export function analyzeRace(data) {
   }
   console.log('[3] Valid data with', data.odds.length, 'horses');
 
-  // 2. Run favorite analyses
+
+  // 1.5 Preprocess data
+  const preprocessedData = preprocessRaceData(data);
+  console.log('[3] Preprocessed data:', {
+    horses: preprocessedData.horses.length,
+    quinellaPairs: preprocessedData.quinellaPairs.length
+    
+  });   
+
+
+  // 2 Run favorite analyses
   const winFavorites = findWinFavorite(data.odds, data.horseInfo);
   console.log('[4] Win favorites found:', winFavorites.length);
   addAlerts(winFavorites);
@@ -83,12 +95,12 @@ export function analyzeRace(data) {
   debugAlerts('After Q & PQ Favorites');
 
   // 3. Run Win-Win analysis
-  analyzeWinWin(data);
+  analyzeWinWinX(preprocessedData);
   debugAlerts('After Win-Win Analysis');
 
   // 3. Process each analysis group
   DEFAULT_GROUPS.forEach(group => {
-    const groupHorses = getHorsesInGroup(data.odds, group);
+    const groupHorses = preprocessedData.horses.filter(horse => horse.category === group.category);
     console.log(`[8] Group ${group.name} has`, groupHorses.length, 'horses');
 
     if (groupHorses.length === 0) {
@@ -100,19 +112,19 @@ export function analyzeRace(data) {
     console.log('[10] Win-Place analysis completed for group', group.name);
     debugAlerts('After Win Place in Group');
 
-    if (data.horseInfo) {
-      analyzeWinRaceDayIndex(groupHorses, data.horseInfo.Horses);
+    if (groupHorses.length > 0) {
+      analyzeWinRaceDayIndex(groupHorses);
       console.log('[11] Win-RaceDay analysis completed for group', group.name);
     }
 
-    if (data.quinella_odds) {
-      analyzeWinQuinella(data, groupHorses);
+    if (preprocessedData.quinellaPairs.length > 0) {
+      analyzeWinQuinella(preprocessedData, groupHorses);
       console.log('[12] Win-Quinella analysis completed for group', group.name);
     }
     debugAlerts('After Win-Quinella in Group');
     
-    if (data.quinella_place_odds) {
-      analyzeWinPlaceQuinella(data, groupHorses);
+    if (preprocessedData.placeQPairs.length > 0) {
+      analyzeWinPlaceQuinella(preprocessedData, groupHorses);
       console.log('[13] Win-PQ analysis completed for group', group.name);
     }
     debugAlerts('After PQ in Group');
