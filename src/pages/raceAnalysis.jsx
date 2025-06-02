@@ -1,4 +1,5 @@
 // src/pages/raceAnalysis.jsx
+// version 1.01 add pace map tab
 import '../styles/main.css';
 import React, { useState } from 'react';
 import { useAuth } from '../auth/AuthContext';
@@ -9,6 +10,7 @@ import RaceSelector from '../components/raceSelector';
 import QuinellaMatrix from '../components/quinellaMatrix';
 import { getHighlights, resetHighlights } from '../utils/alertSystem';
 import QuinellaPlaceMatrix from '../components/quinellaPlaceMatrix';
+import PaceMap from '../components/paceMap';
 import { 
   Tabs, 
   Tab, 
@@ -171,6 +173,24 @@ const RaceAnalysis = () => {
     </Box>
   );
 
+  const PaceMapTab = ({ paceData, raceData, highlights }) => (
+    <Box sx={{ mt: 3 }}>
+      <Typography variant="h5" gutterBottom>Pace Map</Typography>
+      {/* Metadata Section */}
+      <Box sx={{ mb: 2 }}>
+        <Typography>
+          <strong> {paceData.pace}</strong>{'    ('}
+          <strong>{paceData.course}</strong>{' '}
+          <strong> {paceData.class}</strong>{' '}
+          <strong> {paceData.track}</strong>{' '}
+          <strong> {paceData.distance}M</strong>{') '}
+        </Typography>
+      </Box>
+      {/* Pace Map Component */}
+      <PaceMap paceData={paceData} raceData={raceData} highlights={highlights} />
+    </Box>
+  );
+
   const HorseDetailsTab = () => (
     <Box sx={{ mt: 3 }}>
       <Typography variant="h5" gutterBottom>Horse Details</Typography>
@@ -206,6 +226,18 @@ const RaceAnalysis = () => {
       </TableContainer>
     </Box>
   );
+
+  const tabComponents = [
+    <HorseInfoTab key="horse-info" />,
+    <MatricesTab key="matrices" />,
+    <FindingsTab key="findings" />,
+    raceData?.paceData && <PaceMapTab 
+      key="pace-map" 
+      paceData={raceData.paceData}
+      raceData={raceData}
+      highlights={highlights} />,
+    <HorseDetailsTab key="horse-details" />
+  ].filter(Boolean);
 
   return (
     <div className="race-analysis-container">
@@ -248,19 +280,18 @@ const RaceAnalysis = () => {
         </button>
       </div>
 
+      
       <Box sx={{ width: '100%', mt: 3 }}>
         <Tabs value={tabValue} onChange={(e, newValue) => setTabValue(newValue)} centered>
           <Tab label="Horse Info" />
           <Tab label="Q & PQ Odds" />
           <Tab label="Findings" />
+          {raceData?.paceData && <Tab label="Pace Map" />}
           <Tab label="Not Used" />
         </Tabs>
       </Box>
       <Box sx={{ p: 2 }}>
-        {tabValue === 0 && <HorseInfoTab />}
-        {tabValue === 1 && <MatricesTab />}
-        {tabValue === 2 && <FindingsTab />}
-        {tabValue === 3 && <HorseDetailsTab />}
+        {tabComponents[tabValue]}
       </Box>
     </div>
   );

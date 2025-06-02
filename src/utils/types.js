@@ -196,6 +196,37 @@
  * @typedef {'Info'|'Alert'|'Win'|'Place'|'Q'|'PQ'} LegacyActionType
  * @deprecated Use AlertPurpose + AlertTarget instead
  */
+// ===================
+// Pace Data Structures
+// ===================
 
+/**
+ * @typedef {Object} PaceHorsePosition
+ * @property {string} horse_number - Stringified horse number
+ * @property {number} lead_position - X-coordinate (row) in the pace map
+ * @property {number} wide_position - Y-coordinate (column) in the pace map
+ */
+
+/**
+ * @typedef {Object} PaceData
+ * @property {string} course - Racecourse name (e.g., "沙田")
+ * @property {string} date - Race date in YYYY-MM-DD
+ * @property {number} race_number - Race number
+ * @property {string} class - Race class (e.g., "第五班")
+ * @property {string} track - Track type (e.g., "草地")
+ * @property {number} distance - Race distance in meters (e.g., 1400)
+ * @property {string} pace - Pace description (e.g., "中等偏慢")
+ * @property {PaceHorsePosition[]} positions - Array of horse positions
+ */
+
+/**
+ * @typedef {Object} RaceData
+ * @property {RaceHorse[]} odds
+ * @property {QuinellaPair[]} quinella_odds
+ * @property {QuinellaPair[]} quinella_place_odds
+ * @property {HorseInfo} horseInfo
+ * @property {RaceInfo} raceInfo
+ * @property {PaceData | null} paceData - Pace map data if available
+ */
 // Export for TypeScript
 export {};

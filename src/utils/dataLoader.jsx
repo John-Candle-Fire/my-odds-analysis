@@ -1,6 +1,7 @@
 // src/utils/dataLoader.js
 // v1.0.5 - Added numeric conversion for all odds and index fields
 // v1.0.6 - Added lastWin, lastPosition fields and horseID support
+// v1.0.7 - Added pace data loading
 
 const buildFilePath = (date, raceNumber, timestamp) => {
   return `${date}-${raceNumber}-odds_${timestamp}.json`;
@@ -8,6 +9,10 @@ const buildFilePath = (date, raceNumber, timestamp) => {
 
 const buildHorseInfoPath = (date, raceNumber) => {
   return `${date}-${raceNumber}.json`;
+};
+
+const buildPaceFilePath = (date, raceNumber) => {
+  return `${date}-${raceNumber}-xy.json`;
 };
 
 const toFixedNumber = (value, decimals = 1) => {
@@ -35,7 +40,6 @@ export const loadRaceData = async (date, raceNumber, timestamp) => {
     let horseInfo;
     const horseInfoPath = buildHorseInfoPath(date, raceNumber);
     try {
-      // const horseInfoPath = buildHorseInfoPath(date, raceNumber);
       console.log(`File path: ${horseInfoPath}`);
       const loadedInfo = (await import(`../data/other/${horseInfoPath}`)).default;
       
@@ -45,7 +49,7 @@ export const loadRaceData = async (date, raceNumber, timestamp) => {
         "Race Number": String(raceNumber),
         "Horses": loadedInfo.Horses.map(horse => ({
           ...horse,
-          "horseID": String(horse["horseID"] || ""), // New field
+          "horseID": String(horse["horseID"] || ""),
           "Horse Number": String(horse["Horse Number"]),
           "Win": toFixedNumber(oddsLookup[String(horse["Horse Number"])]?.win || 0),
           "Place": toFixedNumber(oddsLookup[String(horse["Horse Number"])]?.place || 0),
@@ -60,13 +64,12 @@ export const loadRaceData = async (date, raceNumber, timestamp) => {
       console.log(`File path: ${horseInfoPath}`);
       console.error('Error details:', error);
     
-      
       // Create default structure using odds data
       horseInfo = {
         "Race Date": date,
         "Race Number": String(raceNumber),
         "Horses": oddsData.map(horse => ({
-          "horseID": "", // Default empty string
+          "horseID": "",
           "Horse Number": String(horse.horse_number),
           "Horse Name": " ",
           "Weight": " ",
@@ -83,7 +86,30 @@ export const loadRaceData = async (date, raceNumber, timestamp) => {
       };
     }
 
-    // 4. Return standardized structure
+    // 4. Load pace data if available
+    let paceData = null;
+    try {
+      const paceFileName = buildPaceFilePath(date, raceNumber);
+      const paceModule = await import(`../data/pace/${paceFileName}`);
+      paceData = {
+        course: paceModule.default.course,
+        date: paceModule.default.date,
+        race_number: paceModule.default.race_number,
+        class: paceModule.default.class,
+        track: paceModule.default.track,
+        distance: paceModule.default.distance,
+        pace: paceModule.default.pace,
+        positions: paceModule.default.Array.map(item => ({
+          horse_number: String(item.horse_number),
+          lead_position: Number(item.lead_position),
+          wide_position: Number(item.wide_position)
+        }))
+      };
+    } catch (error) {
+      console.log(`No pace data found for ${date} race ${raceNumber}: ${error.message}`);
+    }
+
+    // 5. Return standardized structure
     return {
       odds: oddsData.map(horse => ({
         horseNumber: String(horse.horse_number),
@@ -106,7 +132,8 @@ export const loadRaceData = async (date, raceNumber, timestamp) => {
         raceNumber: String(raceNumber),
         timestamp,
         url: data.default.url 
-      }
+      },
+      paceData
     };
 
   } catch (error) {
