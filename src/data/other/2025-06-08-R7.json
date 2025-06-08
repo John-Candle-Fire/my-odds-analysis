@@ -1,0 +1,110 @@
+{
+  "Race Date": "2025-06-08",
+  "Race Number": 7,
+  "Horses": [
+    {
+      "horseID": "HK_2019_D435",
+      "Horse Number": "1",
+      "Horse Name": "健康愉快",
+      "Weight": "135",
+      "Trainer": "羅富全",
+      "Jockey": "霍宏聲",
+      "Post": "8",
+      "First Win Index": "22.3",
+      "Race Day Win Index": "51.5",
+      "lastWin": "29",
+      "lastPosition": "05"
+    },
+    {
+      "horseID": "HK_2023_J195",
+      "Horse Number": "2",
+      "Horse Name": "競駿輝煌",
+      "Weight": "134",
+      "Trainer": "蔡約翰",
+      "Jockey": "艾道拿",
+      "Post": "4",
+      "First Win Index": "6.0",
+      "Race Day Win Index": "8.9",
+      "lastWin": "10",
+      "lastPosition": "03"
+    },
+    {
+      "horseID": "HK_2022_H117",
+      "Horse Number": "3",
+      "Horse Name": "飛鷹翱翔",
+      "Weight": "130",
+      "Trainer": "伍鵬志",
+      "Jockey": "黃寶妮",
+      "Post": "5",
+      "First Win Index": "10.1",
+      "Race Day Win Index": "9.4",
+      "lastWin": "7.7",
+      "lastPosition": "09"
+    },
+    {
+      "horseID": "HK_2024_K168",
+      "Horse Number": "4",
+      "Horse Name": "笑傲江湖",
+      "Weight": "130",
+      "Trainer": "呂健威",
+      "Jockey": "奧爾民",
+      "Post": "6",
+      "First Win Index": "8.3",
+      "Race Day Win Index": "10.3",
+      "lastWin": "5.9",
+      "lastPosition": "07"
+    },
+    {
+      "horseID": "HK_2022_H175",
+      "Horse Number": "5",
+      "Horse Name": "潮州精神",
+      "Weight": "125",
+      "Trainer": "文家良",
+      "Jockey": "梁家俊",
+      "Post": "3",
+      "First Win Index": "12.0",
+      "Race Day Win Index": "8.9",
+      "lastWin": "15",
+      "lastPosition": "04"
+    },
+    {
+      "horseID": "HK_2021_G365",
+      "Horse Number": "6",
+      "Horse Name": "舞林密碼",
+      "Weight": "121",
+      "Trainer": "方嘉柏",
+      "Jockey": "黃智弘",
+      "Post": "2",
+      "First Win Index": "7.9",
+      "Race Day Win Index": "6.0",
+      "lastWin": "6.8",
+      "lastPosition": "02"
+    },
+    {
+      "horseID": "HK_2024_K130",
+      "Horse Number": "7",
+      "Horse Name": "光年魅力",
+      "Weight": "121",
+      "Trainer": "游達榮",
+      "Jockey": "潘頓",
+      "Post": "7",
+      "First Win Index": "2.8",
+      "Race Day Win Index": "2.9",
+      "lastWin": "1.5",
+      "lastPosition": "01"
+    },
+    {
+      "horseID": "HK_2024_K082",
+      "Horse Number": "8",
+      "Horse Name": "米奇",
+      "Weight": "119",
+      "Trainer": "蔡約翰",
+      "Jockey": "艾兆禮",
+      "Post": "1",
+      "First Win Index": "99",
+      "Race Day Win Index": "26.4",
+      "lastWin": "7.1",
+      "lastPosition": "04"
+    }
+  ]
+}
