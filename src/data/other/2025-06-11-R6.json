@@ -1,0 +1,123 @@
+{
+  "Race Date": "2025-06-11",
+  "Race Number": 6,
+  "Horses": [
+    {
+      "horseID": "HK_2022_H215",
+      "Horse Number": "1",
+      "Horse Name": "喜蓮勇感",
+      "Weight": "135",
+      "Trainer": "沈集成",
+      "Jockey": "黃智弘",
+      "Post": "8",
+      "First Win Index": "99",
+      "Race Day Win Index": "23.3",
+      "lastWin": "18",
+      "lastPosition": "09"
+    },
+    {
+      "horseID": "HK_2023_J026",
+      "Horse Number": "2",
+      "Horse Name": "遨遊武士",
+      "Weight": "130",
+      "Trainer": "羅富全",
+      "Jockey": "梁家俊",
+      "Post": "7",
+      "First Win Index": "8.6",
+      "Race Day Win Index": "17.3",
+      "lastWin": "12",
+      "lastPosition": "10"
+    },
+    {
+      "horseID": "HK_2019_D482",
+      "Horse Number": "3",
+      "Horse Name": "電訊巴打",
+      "Weight": "129",
+      "Trainer": "徐雨石",
+      "Jockey": "奧爾民",
+      "Post": "5",
+      "First Win Index": "99",
+      "Race Day Win Index": "99",
+      "lastWin": "30",
+      "lastPosition": "03"
+    },
+    {
+      "horseID": "HK_2023_J517",
+      "Horse Number": "4",
+      "Horse Name": "康樂高球",
+      "Weight": "127",
+      "Trainer": "蘇偉賢",
+      "Jockey": "班德禮",
+      "Post": "4",
+      "First Win Index": "2.8",
+      "Race Day Win Index": "3.0",
+      "lastWin": "2.3",
+      "lastPosition": "01"
+    },
+    {
+      "horseID": "HK_2023_J127",
+      "Horse Number": "5",
+      "Horse Name": "太陽勇士",
+      "Weight": "127",
+      "Trainer": "大衛希斯",
+      "Jockey": "潘頓",
+      "Post": "1",
+      "First Win Index": "4.0",
+      "Race Day Win Index": "4.3",
+      "lastWin": "7.3",
+      "lastPosition": "02"
+    },
+    {
+      "horseID": "HK_2020_E306",
+      "Horse Number": "6",
+      "Horse Name": "常拼常勇",
+      "Weight": "124",
+      "Trainer": "姚本輝",
+      "Jockey": "周俊樂",
+      "Post": "9",
+      "First Win Index": "99",
+      "Race Day Win Index": "36.0",
+      "lastWin": "16",
+      "lastPosition": "03"
+    },
+    {
+      "horseID": "HK_2020_E379",
+      "Horse Number": "7",
+      "Horse Name": "中華盛景",
+      "Weight": "124",
+      "Trainer": "告東尼",
+      "Jockey": "巴度",
+      "Post": "2",
+      "First Win Index": "99",
+      "Race Day Win Index": "99",
+      "lastWin": "27",
+      "lastPosition": "06"
+    },
+    {
+      "horseID": "HK_2023_J263",
+      "Horse Number": "8",
+      "Horse Name": "遙遙領先",
+      "Weight": "123",
+      "Trainer": "呂健威",
+      "Jockey": "艾兆禮",
+      "Post": "3",
+      "First Win Index": "5.9",
+      "Race Day Win Index": "5.1",
+      "lastWin": "5.1",
+      "lastPosition": "03"
+    },
+    {
+      "horseID": "HK_2023_J276",
+      "Horse Number": "9",
+      "Horse Name": "納百川",
+      "Weight": "118",
+      "Trainer": "巫偉傑",
+      "Jockey": "鍾易禮",
+      "Post": "6",
+      "First Win Index": "9.3",
+      "Race Day Win Index": "8.9",
+      "lastWin": "6.3",
+      "lastPosition": "01"
+    }
+  ]
+}
