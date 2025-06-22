@@ -1,0 +1,123 @@
+{
+  "Race Date": "2025-06-22",
+  "Race Number": 6,
+  "Horses": [
+    {
+      "horseID": "HK_2022_H008",
+      "Horse Number": "1",
+      "Horse Name": "永遠美麗",
+      "Weight": "132",
+      "Trainer": "蔡約翰",
+      "Jockey": "潘頓",
+      "Post": "4",
+      "First Win Index": "5.7",
+      "Race Day Win Index": "4.8",
+      "lastWin": "18",
+      "lastPosition": "03"
+    },
+    {
+      "horseID": "HK_2021_G404",
+      "Horse Number": "2",
+      "Horse Name": "維港智能",
+      "Weight": "132",
+      "Trainer": "游達榮",
+      "Jockey": "梁家俊",
+      "Post": "3",
+      "First Win Index": "99",
+      "Race Day Win Index": "79.2",
+      "lastWin": "10",
+      "lastPosition": "06"
+    },
+    {
+      "horseID": "HK_2022_H301",
+      "Horse Number": "3",
+      "Horse Name": "賢者無敵",
+      "Weight": "129",
+      "Trainer": "賀賢",
+      "Jockey": "布文",
+      "Post": "9",
+      "First Win Index": "6.6",
+      "Race Day Win Index": "11.0",
+      "lastWin": "20",
+      "lastPosition": "02"
+    },
+    {
+      "horseID": "HK_2021_G446",
+      "Horse Number": "4",
+      "Horse Name": "越駿歡欣",
+      "Weight": "128",
+      "Trainer": "羅富全",
+      "Jockey": "巴度",
+      "Post": "1",
+      "First Win Index": "44.5",
+      "Race Day Win Index": "18.1",
+      "lastWin": "14",
+      "lastPosition": "05"
+    },
+    {
+      "horseID": "HK_2022_H485",
+      "Horse Number": "5",
+      "Horse Name": "手機錶霸",
+      "Weight": "128",
+      "Trainer": "呂健威",
+      "Jockey": "艾兆禮",
+      "Post": "2",
+      "First Win Index": "4.0",
+      "Race Day Win Index": "4.1",
+      "lastWin": "3.7",
+      "lastPosition": "03"
+    },
+    {
+      "horseID": "HK_2023_J277",
+      "Horse Number": "6",
+      "Horse Name": "包裝天將",
+      "Weight": "126",
+      "Trainer": "呂健威",
+      "Jockey": "潘明輝",
+      "Post": "7",
+      "First Win Index": "3.6",
+      "Race Day Win Index": "3.6",
+      "lastWin": "1.5",
+      "lastPosition": "01"
+    },
+    {
+      "horseID": "HK_2022_H408",
+      "Horse Number": "7",
+      "Horse Name": "合夥奔馳",
+      "Weight": "122",
+      "Trainer": "呂健威",
+      "Jockey": "董明朗",
+      "Post": "5",
+      "First Win Index": "99",
+      "Race Day Win Index": "99",
+      "lastWin": "48",
+      "lastPosition": "05"
+    },
+    {
+      "horseID": "HK_2022_H338",
+      "Horse Number": "8",
+      "Horse Name": "綠族無限",
+      "Weight": "122",
+      "Trainer": "伍鵬志",
+      "Jockey": "田泰安",
+      "Post": "6",
+      "First Win Index": "74.2",
+      "Race Day Win Index": "74.6",
+      "lastWin": "15",
+      "lastPosition": "09"
+    },
+    {
+      "horseID": "HK_2022_H164",
+      "Horse Number": "9",
+      "Horse Name": "神虎龍駒",
+      "Weight": "120",
+      "Trainer": "伍鵬志",
+      "Jockey": "班德禮",
+      "Post": "8",
+      "First Win Index": "9.5",
+      "Race Day Win Index": "10.2",
+      "lastWin": "29",
+      "lastPosition": "10"
+    }
+  ]
+}

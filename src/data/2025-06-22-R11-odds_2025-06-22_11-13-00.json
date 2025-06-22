@@ -1,0 +1,990 @@
+{
+    "odds": [
+        {
+            "horse_number": "1",
+            "win": "66",
+            "place": "13"
+        },
+        {
+            "horse_number": "2",
+            "win": "8.4",
+            "place": "2.5"
+        },
+        {
+            "horse_number": "3",
+            "win": "46",
+            "place": "10"
+        },
+        {
+            "horse_number": "4",
+            "win": "23",
+            "place": "4.6"
+        },
+        {
+            "horse_number": "5",
+            "win": "29",
+            "place": "6.5"
+        },
+        {
+            "horse_number": "6",
+            "win": "5.3",
+            "place": "2.1"
+        },
+        {
+            "horse_number": "7",
+            "win": "10",
+            "place": "2.6"
+        },
+        {
+            "horse_number": "8",
+            "win": "16",
+            "place": "4.4"
+        },
+        {
+            "horse_number": "9",
+            "win": "2.4",
+            "place": "1.9"
+        },
+        {
+            "horse_number": "10",
+            "win": "41",
+            "place": "7.9"
+        },
+        {
+            "horse_number": "11",
+            "win": "18",
+            "place": "4.7"
+        },
+        {
+            "horse_number": "12",
+            "win": "11",
+            "place": "3.0"
+        },
+        {
+            "horse_number": "13",
+            "win": "28",
+            "place": "4.6"
+        },
+        {
+            "horse_number": "14",
+            "win": "27",
+            "place": "4.8"
+        }
+    ],
+    "quinella_odds": [
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "2",
+            "quinella_odds": "524"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "3",
+            "quinella_odds": "846"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "4",
+            "quinella_odds": "761"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "5",
+            "quinella_odds": "999"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "6",
+            "quinella_odds": "442"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "7",
+            "quinella_odds": "540"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "8",
+            "quinella_odds": "744"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "9",
+            "quinella_odds": "270"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "10",
+            "quinella_odds": "661"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "11",
+            "quinella_odds": "623"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "12",
+            "quinella_odds": "698"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "13",
+            "quinella_odds": "999"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "14",
+            "quinella_odds": "999"
+        },
+        {
+            "horse_number_1": "2",
+            "horse_number_2": "3",
+            "quinella_odds": "545"
+        },
+        {
+            "horse_number_1": "2",
+            "horse_number_2": "4",
+            "quinella_odds": "320"
+        },
+        {
+            "horse_number_1": "2",
+            "horse_number_2": "5",
+            "quinella_odds": "122"
+        },
+        {
+            "horse_number_1": "2",
+            "horse_number_2": "6",
+            "quinella_odds": "31"
+        },
+        {
+            "horse_number_1": "2",
+            "horse_number_2": "7",
+            "quinella_odds": "51"
+        },
+        {
+            "horse_number_1": "2",
+            "horse_number_2": "8",
+            "quinella_odds": "170"
+        },
+        {
+            "horse_number_1": "2",
+            "horse_number_2": "9",
+            "quinella_odds": "18"
+        },
+        {
+            "horse_number_1": "3",
+            "horse_number_2": "4",
+            "quinella_odds": "431"
+        },
+        {
+            "horse_number_1": "3",
+            "horse_number_2": "5",
+            "quinella_odds": "801"
+        },
+        {
+            "horse_number_1": "3",
+            "horse_number_2": "6",
+            "quinella_odds": "324"
+        },
+        {
+            "horse_number_1": "3",
+            "horse_number_2": "7",
+            "quinella_odds": "477"
+        },
+        {
+            "horse_number_1": "3",
+            "horse_number_2": "8",
+            "quinella_odds": "836"
+        },
+        {
+            "horse_number_1": "3",
+            "horse_number_2": "9",
+            "quinella_odds": "194"
+        },
+        {
+            "horse_number_1": "4",
+            "horse_number_2": "5",
+            "quinella_odds": "426"
+        },
+        {
+            "horse_number_1": "4",
+            "horse_number_2": "6",
+            "quinella_odds": "219"
+        },
+        {
+            "horse_number_1": "4",
+            "horse_number_2": "7",
+            "quinella_odds": "287"
+        },
+        {
+            "horse_number_1": "4",
+            "horse_number_2": "8",
+            "quinella_odds": "515"
+        },
+        {
+            "horse_number_1": "4",
+            "horse_number_2": "9",
+            "quinella_odds": "136"
+        },
+        {
+            "horse_number_1": "5",
+            "horse_number_2": "6",
+            "quinella_odds": "112"
+        },
+        {
+            "horse_number_1": "5",
+            "horse_number_2": "7",
+            "quinella_odds": "198"
+        },
+        {
+            "horse_number_1": "5",
+            "horse_number_2": "8",
+            "quinella_odds": "391"
+        },
+        {
+            "horse_number_1": "5",
+            "horse_number_2": "9",
+            "quinella_odds": "75"
+        },
+        {
+            "horse_number_1": "6",
+            "horse_number_2": "7",
+            "quinella_odds": "25"
+        },
+        {
+            "horse_number_1": "6",
+            "horse_number_2": "8",
+            "quinella_odds": "85"
+        },
+        {
+            "horse_number_1": "6",
+            "horse_number_2": "9",
+            "quinella_odds": "1.8"
+        },
+        {
+            "horse_number_1": "7",
+            "horse_number_2": "8",
+            "quinella_odds": "150"
+        },
+        {
+            "horse_number_1": "7",
+            "horse_number_2": "9",
+            "quinella_odds": "13"
+        },
+        {
+            "horse_number_1": "8",
+            "horse_number_2": "9",
+            "quinella_odds": "63"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "2",
+            "quinella_odds": "188"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "3",
+            "quinella_odds": "999"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "4",
+            "quinella_odds": "999"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "5",
+            "quinella_odds": "624"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "6",
+            "quinella_odds": "198"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "7",
+            "quinella_odds": "228"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "8",
+            "quinella_odds": "561"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "9",
+            "quinella_odds": "206"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "11",
+            "quinella_odds": "604"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "12",
+            "quinella_odds": "332"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "13",
+            "quinella_odds": "999"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "14",
+            "quinella_odds": "999"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "2",
+            "quinella_odds": "199"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "3",
+            "quinella_odds": "611"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "4",
+            "quinella_odds": "547"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "5",
+            "quinella_odds": "622"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "6",
+            "quinella_odds": "163"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "7",
+            "quinella_odds": "174"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "8",
+            "quinella_odds": "410"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "9",
+            "quinella_odds": "88"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "12",
+            "quinella_odds": "207"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "13",
+            "quinella_odds": "584"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "14",
+            "quinella_odds": "495"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "2",
+            "quinella_odds": "49"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "3",
+            "quinella_odds": "645"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "4",
+            "quinella_odds": "447"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "5",
+            "quinella_odds": "224"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "6",
+            "quinella_odds": "23"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "7",
+            "quinella_odds": "43"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "8",
+            "quinella_odds": "141"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "9",
+            "quinella_odds": "15"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "13",
+            "quinella_odds": "179"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "14",
+            "quinella_odds": "207"
+        },
+        {
+            "horse_number_1": "13",
+            "horse_number_2": "2",
+            "quinella_odds": "333"
+        },
+        {
+            "horse_number_1": "13",
+            "horse_number_2": "3",
+            "quinella_odds": "999"
+        },
+        {
+            "horse_number_1": "13",
+            "horse_number_2": "4",
+            "quinella_odds": "999"
+        },
+        {
+            "horse_number_1": "13",
+            "horse_number_2": "5",
+            "quinella_odds": "853"
+        },
+        {
+            "horse_number_1": "13",
+            "horse_number_2": "6",
+            "quinella_odds": "205"
+        },
+        {
+            "horse_number_1": "13",
+            "horse_number_2": "7",
+            "quinella_odds": "429"
+        },
+        {
+            "horse_number_1": "13",
+            "horse_number_2": "8",
+            "quinella_odds": "551"
+        },
+        {
+            "horse_number_1": "13",
+            "horse_number_2": "9",
+            "quinella_odds": "133"
+        },
+        {
+            "horse_number_1": "13",
+            "horse_number_2": "14",
+            "quinella_odds": "450"
+        },
+        {
+            "horse_number_1": "14",
+            "horse_number_2": "2",
+            "quinella_odds": "366"
+        },
+        {
+            "horse_number_1": "14",
+            "horse_number_2": "3",
+            "quinella_odds": "999"
+        },
+        {
+            "horse_number_1": "14",
+            "horse_number_2": "4",
+            "quinella_odds": "999"
+        },
+        {
+            "horse_number_1": "14",
+            "horse_number_2": "5",
+            "quinella_odds": "713"
+        },
+        {
+            "horse_number_1": "14",
+            "horse_number_2": "6",
+            "quinella_odds": "197"
+        },
+        {
+            "horse_number_1": "14",
+            "horse_number_2": "7",
+            "quinella_odds": "240"
+        },
+        {
+            "horse_number_1": "14",
+            "horse_number_2": "8",
+            "quinella_odds": "612"
+        },
+        {
+            "horse_number_1": "14",
+            "horse_number_2": "9",
+            "quinella_odds": "90"
+        }
+    ],
+    "quinella_place_odds": [
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "2",
+            "quinella_place_odds": "91"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "3",
+            "quinella_place_odds": "135"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "4",
+            "quinella_place_odds": "136"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "5",
+            "quinella_place_odds": "147"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "6",
+            "quinella_place_odds": "79"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "7",
+            "quinella_place_odds": "102"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "8",
+            "quinella_place_odds": "127"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "9",
+            "quinella_place_odds": "51"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "10",
+            "quinella_place_odds": "96"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "11",
+            "quinella_place_odds": "78"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "12",
+            "quinella_place_odds": "132"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "13",
+            "quinella_place_odds": "118"
+        },
+        {
+            "horse_number_1": "1",
+            "horse_number_2": "14",
+            "quinella_place_odds": "204"
+        },
+        {
+            "horse_number_1": "2",
+            "horse_number_2": "3",
+            "quinella_place_odds": "92"
+        },
+        {
+            "horse_number_1": "2",
+            "horse_number_2": "4",
+            "quinella_place_odds": "65"
+        },
+        {
+            "horse_number_1": "2",
+            "horse_number_2": "5",
+            "quinella_place_odds": "22"
+        },
+        {
+            "horse_number_1": "2",
+            "horse_number_2": "6",
+            "quinella_place_odds": "7.2"
+        },
+        {
+            "horse_number_1": "2",
+            "horse_number_2": "7",
+            "quinella_place_odds": "9.6"
+        },
+        {
+            "horse_number_1": "2",
+            "horse_number_2": "8",
+            "quinella_place_odds": "31"
+        },
+        {
+            "horse_number_1": "2",
+            "horse_number_2": "9",
+            "quinella_place_odds": "4.8"
+        },
+        {
+            "horse_number_1": "3",
+            "horse_number_2": "4",
+            "quinella_place_odds": "63"
+        },
+        {
+            "horse_number_1": "3",
+            "horse_number_2": "5",
+            "quinella_place_odds": "143"
+        },
+        {
+            "horse_number_1": "3",
+            "horse_number_2": "6",
+            "quinella_place_odds": "81"
+        },
+        {
+            "horse_number_1": "3",
+            "horse_number_2": "7",
+            "quinella_place_odds": "79"
+        },
+        {
+            "horse_number_1": "3",
+            "horse_number_2": "8",
+            "quinella_place_odds": "152"
+        },
+        {
+            "horse_number_1": "3",
+            "horse_number_2": "9",
+            "quinella_place_odds": "43"
+        },
+        {
+            "horse_number_1": "4",
+            "horse_number_2": "5",
+            "quinella_place_odds": "75"
+        },
+        {
+            "horse_number_1": "4",
+            "horse_number_2": "6",
+            "quinella_place_odds": "40"
+        },
+        {
+            "horse_number_1": "4",
+            "horse_number_2": "7",
+            "quinella_place_odds": "49"
+        },
+        {
+            "horse_number_1": "4",
+            "horse_number_2": "8",
+            "quinella_place_odds": "93"
+        },
+        {
+            "horse_number_1": "4",
+            "horse_number_2": "9",
+            "quinella_place_odds": "26"
+        },
+        {
+            "horse_number_1": "5",
+            "horse_number_2": "6",
+            "quinella_place_odds": "23"
+        },
+        {
+            "horse_number_1": "5",
+            "horse_number_2": "7",
+            "quinella_place_odds": "32"
+        },
+        {
+            "horse_number_1": "5",
+            "horse_number_2": "8",
+            "quinella_place_odds": "56"
+        },
+        {
+            "horse_number_1": "5",
+            "horse_number_2": "9",
+            "quinella_place_odds": "17"
+        },
+        {
+            "horse_number_1": "6",
+            "horse_number_2": "7",
+            "quinella_place_odds": "5.9"
+        },
+        {
+            "horse_number_1": "6",
+            "horse_number_2": "8",
+            "quinella_place_odds": "19"
+        },
+        {
+            "horse_number_1": "6",
+            "horse_number_2": "9",
+            "quinella_place_odds": "2.2"
+        },
+        {
+            "horse_number_1": "7",
+            "horse_number_2": "8",
+            "quinella_place_odds": "26"
+        },
+        {
+            "horse_number_1": "7",
+            "horse_number_2": "9",
+            "quinella_place_odds": "3.3"
+        },
+        {
+            "horse_number_1": "8",
+            "horse_number_2": "9",
+            "quinella_place_odds": "16"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "2",
+            "quinella_place_odds": "36"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "3",
+            "quinella_place_odds": "209"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "4",
+            "quinella_place_odds": "175"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "5",
+            "quinella_place_odds": "97"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "6",
+            "quinella_place_odds": "43"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "7",
+            "quinella_place_odds": "47"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "8",
+            "quinella_place_odds": "79"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "9",
+            "quinella_place_odds": "43"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "11",
+            "quinella_place_odds": "82"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "12",
+            "quinella_place_odds": "60"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "13",
+            "quinella_place_odds": "129"
+        },
+        {
+            "horse_number_1": "10",
+            "horse_number_2": "14",
+            "quinella_place_odds": "235"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "2",
+            "quinella_place_odds": "39"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "3",
+            "quinella_place_odds": "110"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "4",
+            "quinella_place_odds": "82"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "5",
+            "quinella_place_odds": "108"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "6",
+            "quinella_place_odds": "37"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "7",
+            "quinella_place_odds": "28"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "8",
+            "quinella_place_odds": "64"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "9",
+            "quinella_place_odds": "19"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "12",
+            "quinella_place_odds": "33"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "13",
+            "quinella_place_odds": "80"
+        },
+        {
+            "horse_number_1": "11",
+            "horse_number_2": "14",
+            "quinella_place_odds": "70"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "2",
+            "quinella_place_odds": "9.7"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "3",
+            "quinella_place_odds": "131"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "4",
+            "quinella_place_odds": "72"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "5",
+            "quinella_place_odds": "35"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "6",
+            "quinella_place_odds": "5.2"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "7",
+            "quinella_place_odds": "8.2"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "8",
+            "quinella_place_odds": "26"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "9",
+            "quinella_place_odds": "3.1"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "13",
+            "quinella_place_odds": "27"
+        },
+        {
+            "horse_number_1": "12",
+            "horse_number_2": "14",
+            "quinella_place_odds": "39"
+        },
+        {
+            "horse_number_1": "13",
+            "horse_number_2": "2",
+            "quinella_place_odds": "56"
+        },
+        {
+            "horse_number_1": "13",
+            "horse_number_2": "3",
+            "quinella_place_odds": "134"
+        },
+        {
+            "horse_number_1": "13",
+            "horse_number_2": "4",
+            "quinella_place_odds": "191"
+        },
+        {
+            "horse_number_1": "13",
+            "horse_number_2": "5",
+            "quinella_place_odds": "132"
+        },
+        {
+            "horse_number_1": "13",
+            "horse_number_2": "6",
+            "quinella_place_odds": "42"
+        },
+        {
+            "horse_number_1": "13",
+            "horse_number_2": "7",
+            "quinella_place_odds": "63"
+        },
+        {
+            "horse_number_1": "13",
+            "horse_number_2": "8",
+            "quinella_place_odds": "82"
+        },
+        {
+            "horse_number_1": "13",
+            "horse_number_2": "9",
+            "quinella_place_odds": "30"
+        },
+        {
+            "horse_number_1": "13",
+            "horse_number_2": "14",
+            "quinella_place_odds": "56"
+        },
+        {
+            "horse_number_1": "14",
+            "horse_number_2": "2",
+            "quinella_place_odds": "65"
+        },
+        {
+            "horse_number_1": "14",
+            "horse_number_2": "3",
+            "quinella_place_odds": "134"
+        },
+        {
+            "horse_number_1": "14",
+            "horse_number_2": "4",
+            "quinella_place_odds": "185"
+        },
+        {
+            "horse_number_1": "14",
+            "horse_number_2": "5",
+            "quinella_place_odds": "140"
+        },
+        {
+            "horse_number_1": "14",
+            "horse_number_2": "6",
+            "quinella_place_odds": "42"
+        },
+        {
+            "horse_number_1": "14",
+            "horse_number_2": "7",
+            "quinella_place_odds": "44"
+        },
+        {
+            "horse_number_1": "14",
+            "horse_number_2": "8",
+            "quinella_place_odds": "125"
+        },
+        {
+            "horse_number_1": "14",
+            "horse_number_2": "9",
+            "quinella_place_odds": "20"
+        }
+    ],
+    "url": "https://bet.hkjc.com/ch/racing/wpq/2025-06-22/ST/11",
+    "timestamp": "2025-06-22 11:13:00"
+}
