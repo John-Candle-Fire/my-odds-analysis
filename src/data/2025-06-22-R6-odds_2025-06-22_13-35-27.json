@@ -1,0 +1,53 @@
+{
+    "odds": [
+        {
+            "horse_number": "1",
+            "win": "",
+            "place": ""
+        },
+        {
+            "horse_number": "2",
+            "win": "",
+            "place": ""
+        },
+        {
+            "horse_number": "3",
+            "win": "",
+            "place": ""
+        },
+        {
+            "horse_number": "4",
+            "win": "",
+            "place": ""
+        },
+        {
+            "horse_number": "5",
+            "win": "",
+            "place": ""
+        },
+        {
+            "horse_number": "6",
+            "win": "",
+            "place": ""
+        },
+        {
+            "horse_number": "7",
+            "win": "",
+            "place": ""
+        },
+        {
+            "horse_number": "8",
+            "win": "",
+            "place": ""
+        },
+        {
+            "horse_number": "9",
+            "win": "",
+            "place": ""
+        }
+    ],
+    "quinella_odds": [],
+    "quinella_place_odds": [],
+    "url": "https://bet.hkjc.com/ch/racing/wpq/2025-06-22/ST/6",
+    "timestamp": "2025-06-22 13:35:27"
+}
