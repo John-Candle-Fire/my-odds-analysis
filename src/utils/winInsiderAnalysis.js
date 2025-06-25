@@ -1,4 +1,6 @@
 // src/utils/winInsiderAnalysis.js
+// 2025-06-25 changed (winOdds <= winIndex) from (winOdds < winIndex) in analyzeWinRaceDayIndex
+//            to avoid messages like 50%三甲機會 - 4 火焰閃爍: Current odds 3 (not better than expected 3)
 import { createAlert, addAlert } from './alertSystem.js';
 
 /**
@@ -47,7 +49,7 @@ export const analyzeWinRaceDayIndex = (groupHorses) => {
     const isNewHorse = lastWin === 0;
 
     // Only proceed if current odds are lower than expected index
-    if (winOdds < winIndex) {
+    if (winOdds <= winIndex) {
       const percentageDiff = ((winIndex - winOdds) / winIndex) * 100;
       const formattedPct = percentageDiff.toFixed(2) + '%';
 

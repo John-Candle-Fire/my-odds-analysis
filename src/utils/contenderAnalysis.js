@@ -1,4 +1,6 @@
 // src/utils/contenderAnalysis.js
+// 2025-06-25 1. Exclude new horses from Contenders analysis
+//            2. Negative analysis for Contenders with Win > Last Win and Win Index < 20
 /**
  * Analysis for Contenders group (5 < Win ≤10)
  */
@@ -38,15 +40,32 @@ export function analyzeContenders(
   // Case 1: Only one qualified contender
   if (qualifiedContenders.length === 1) {
     const horse = qualifiedContenders[0];
-    if (horse.place <= horse.expectedP) {
+    // Skip new horses
+    if (horse.isNewHorse) {
+      return alerts;
+    }
+    // Check for failure case
+    if (horse.win > horse.lastWin && horse.raceDayIndex < 20) {
       alerts.push(createAlert(
-        170,
+        160,
         horse.horseNumber,
         'Analyze',
-        `挑戰者 - ${horse.horseName} 今場抵買機會馬`,
-        30, // winScore
-        30  // placeScore
+        `缺乏信心 - ${horse.horseNumber} ${horse.horseName} 失敗挑戰者 可放棄`,
+        0, // winScore
+        0  // placeScore
       ));
+    } else {
+      // Existing logic
+      if (horse.place <= horse.expectedP) {
+        alerts.push(createAlert(
+          170,
+          horse.horseNumber,
+          'Analyze',
+          `挑戰者 - ${horse.horseName} 今場抵買機會馬`,
+          30, // winScore
+          30  // placeScore
+        ));
+      }
     }
     return alerts;
   }
