@@ -1,0 +1,110 @@
+{
+  "Race Date": "2025-06-28",
+  "Race Number": 8,
+  "Horses": [
+    {
+      "horseID": "HK_2023_J333",
+      "Horse Number": "1",
+      "Horse Name": "魔術控制",
+      "Weight": "135",
+      "Trainer": "巫偉傑",
+      "Jockey": "黃智弘",
+      "Post": "5",
+      "First Win Index": "3.5",
+      "Race Day Win Index": "3.8",
+      "lastWin": "38",
+      "lastPosition": "11"
+    },
+    {
+      "horseID": "HK_2022_H411",
+      "Horse Number": "2",
+      "Horse Name": "氣勢",
+      "Weight": "134",
+      "Trainer": "蔡約翰",
+      "Jockey": "艾道拿",
+      "Post": "2",
+      "First Win Index": "3.3",
+      "Race Day Win Index": "3.7",
+      "lastWin": "3.5",
+      "lastPosition": "01"
+    },
+    {
+      "horseID": "HK_2022_H294",
+      "Horse Number": "3",
+      "Horse Name": "美麗第一",
+      "Weight": "128",
+      "Trainer": "告東尼",
+      "Jockey": "巴度",
+      "Post": "8",
+      "First Win Index": "6.9",
+      "Race Day Win Index": "7.1",
+      "lastWin": "20",
+      "lastPosition": "10"
+    },
+    {
+      "horseID": "HK_2023_J066",
+      "Horse Number": "4",
+      "Horse Name": "晨曦儷人",
+      "Weight": "120",
+      "Trainer": "伍鵬志",
+      "Jockey": "潘明輝",
+      "Post": "7",
+      "First Win Index": "57.1",
+      "Race Day Win Index": "26.4",
+      "lastWin": "7.9",
+      "lastPosition": "06"
+    },
+    {
+      "horseID": "HK_2023_J185",
+      "Horse Number": "5",
+      "Horse Name": "同祥和順",
+      "Weight": "120",
+      "Trainer": "廖康銘",
+      "Jockey": "蔡明紹",
+      "Post": "4",
+      "First Win Index": "15.9",
+      "Race Day Win Index": "17.4",
+      "lastWin": "10",
+      "lastPosition": "11"
+    },
+    {
+      "horseID": "HK_2023_J431",
+      "Horse Number": "6",
+      "Horse Name": "馬力",
+      "Weight": "118",
+      "Trainer": "羅富全",
+      "Jockey": "潘頓",
+      "Post": "3",
+      "First Win Index": "25",
+      "Race Day Win Index": "9.5",
+      "lastWin": "2.9",
+      "lastPosition": "09"
+    },
+    {
+      "horseID": "HK_2022_H241",
+      "Horse Number": "7",
+      "Horse Name": "紅逸舍",
+      "Weight": "118",
+      "Trainer": "韋達",
+      "Jockey": "董明朗",
+      "Post": "1",
+      "First Win Index": "74.2",
+      "Race Day Win Index": "99",
+      "lastWin": "9.7",
+      "lastPosition": "08"
+    },
+    {
+      "horseID": "HK_2023_J186",
+      "Horse Number": "8",
+      "Horse Name": "星際快車",
+      "Weight": "115",
+      "Trainer": "蔡約翰",
+      "Jockey": "艾兆禮",
+      "Post": "6",
+      "First Win Index": "7.5",
+      "Race Day Win Index": "8.7",
+      "lastWin": "39",
+      "lastPosition": "12"
+    }
+  ]
+}
