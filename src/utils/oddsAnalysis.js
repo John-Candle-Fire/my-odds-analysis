@@ -3,7 +3,8 @@
 // v1.0.2 add handleAlertAction
 import { createAlert, getAlerts, clearAlerts, addAlerts, deduplicateAlerts, handleAlertAction, resetHighlights } from './alertSystem';
 import { DEFAULT_GROUPS } from './coreAnalysis';
-import { 
+import { createPredictionAlerts } from './predictionUtils';
+import {
   findWinFavorite,
   findPlaceFavorite,
   findQuinellaFavorite,
@@ -129,6 +130,10 @@ export function analyzeRace(data) {
     }
     debugAlerts('After PQ in Group');
   });
+
+  // 14. Generate prediction alerts
+  createPredictionAlerts(data);
+  debugAlerts('After Prediction Alerts');
 
   const finalAlerts = getAlerts();
   finalAlerts.forEach(handleAlertAction); // Process highlights
