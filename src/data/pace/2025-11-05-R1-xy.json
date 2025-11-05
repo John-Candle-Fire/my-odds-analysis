@@ -1,0 +1,46 @@
+{
+    "course": "快活谷",
+    "date": "2025-11-05",
+    "race_number": 1,
+    "class": "第五班",
+    "track": "草地 - C+3 賽道 - 向後移欄",
+    "distance": 2200,
+    "pace": "中等偏慢",
+    "Array": [
+        {
+            "horse_number": 1,
+            "lead_position": 2,
+            "wide_position": 1
+        },
+        {
+            "horse_number": 2,
+            "lead_position": 3,
+            "wide_position": 1
+        },
+        {
+            "horse_number": 3,
+            "lead_position": 4,
+            "wide_position": 1
+        },
+        {
+            "horse_number": 4,
+            "lead_position": 1,
+            "wide_position": 1
+        },
+        {
+            "horse_number": 5,
+            "lead_position": 2,
+            "wide_position": 2
+        },
+        {
+            "horse_number": 6,
+            "lead_position": 3,
+            "wide_position": 2
+        },
+        {
+            "horse_number": 7,
+            "lead_position": 4,
+            "wide_position": 2
+        }
+    ]
+}
