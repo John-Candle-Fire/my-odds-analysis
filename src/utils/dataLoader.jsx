@@ -185,6 +185,7 @@ export const loadRaceData = async (date, raceNumber, timestamp) => {
           "RTG1": rtgData ? String(rtgData.RTG1 || "") : "",
           "RTG2": rtgData ? String(rtgData.RTG2 || "") : "",
           "RTG3": rtgData ? String(rtgData.RTG3 || "") : "",
+          "RTG4": rtgData ? String(rtgData.RTG3 || "") : "",
           "score1": rtgData ? String(rtgData.score1 || "") : "",
           "score2": rtgData ? String(rtgData.score2 || "") : "",
           "score3": rtgData ? String(rtgData.score3 || "") : ""

@@ -7,7 +7,7 @@
  * - DBL1, DBL2, DBL3 (Double bet predictions)
  * - Q1, Q2, Q3, Q4 (Quinella predictions) 
  * - QP1, QP2, QP3, QP4 (Quinella Place predictions)
- * - RTG1, RTG2, RTG3 (Rating predictions) plus their scores
+ * - RTG1, RTG2, RTG3, RTG4 (Rating predictions) plus their scores
  */
 
 import { createAlert, addAlert } from './alertSystem.js';
@@ -86,7 +86,7 @@ export const createPredictionAlerts = (raceData) => {
 
     // Create the base message using the same format as winInsiderAnalysis.js
     let baseMessage = createBaseMessage(horse);
-    if (['RTG1', 'RTG2', 'RTG3'].includes(predictionField)) {
+    if (['RTG1', 'RTG2', 'RTG3', 'RTG4'].includes(predictionField)) {
       baseMessage += ' !Score = ' + Number(winScore).toFixed(2);
     }
 

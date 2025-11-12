@@ -33,7 +33,7 @@
  * @property {string} Post - Starting gate position
  * @property {number} First Win Index (0-100)
  * @property {number} Race Day Win Index (0-100)
- * @property {number} lastWin - Win odds from last race (0 if never won)
+ * @property {number} lastWin - Win odds from last race (0 if no history)
  * @property {number} lastPosition - Last race finishing position (0 if no history)
  * @property {number} Win - Current win odds
  * @property {number} Place - Current place odds
@@ -102,9 +102,11 @@
 * @property {number} RTG1 - First rating bet horse number
 * @property {number} RTG2 - Second rating bet horse number
 * @property {number} RTG3 - Third rating bet horse number
+* @property {number} RTG4 - Banker (Fourth rating) bet horse number
 * @property {number} score1 - First rating
 * @property {number} score2 - Second rating
 * @property {number} score3 - Third rating 
+* @property {number} score4 - Fourth rating 
 
  */
 
@@ -126,9 +128,11 @@
  * @property {string} RTG1 - First rating horse number (stringified)
  * @property {string} RTG2 - Second rating horse number (stringified)
  * @property {string} RTG3 - Third rating horse number (stringified)
+ * @property {string} RTG4 - Fourth rating horse number (stringified)
  * @property {string} score1 - First rating (stringified)
  * @property {string} score2 - Second rating (stringified)
  * @property {string} score3 - Third rating (stringified)
+ * @property {string} score4 - Fourth rating (stringified)
  
  */
 
