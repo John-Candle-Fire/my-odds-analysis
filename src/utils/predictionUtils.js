@@ -12,6 +12,7 @@
 
 import { createAlert, addAlert } from './alertSystem.js';
 
+
 /**
  * Creates prediction-based alert messages for all predicted horses
  * Creates one alert message per prediction field (e.g., one for DBL1, one for DBL2, etc.)
@@ -121,6 +122,7 @@ export const createPredictionAlerts = (raceData) => {
   if (predictions.DBL3) {
     createPredictionAlert('DBL3', predictions.DBL3, 160, 40, 30);
   }
+  
 
   console.log('Processing Q predictions...');
 
@@ -157,20 +159,25 @@ export const createPredictionAlerts = (raceData) => {
   console.log('Processing RTG predictions...');
 
   // RTG predictions - Higher priority (170) for RTG1, RTG2, RTG3
-  if (predictions.DBL1) {
+  if (predictions.RTG1) {
     createPredictionAlert('RTG1', predictions.RTG1, 160, parseFloat(predictions.score1), 60);
   }
-  if (predictions.DBL2) {
+  if (predictions.RTG2) {
     createPredictionAlert('RTG2', predictions.RTG2, 160, parseFloat(predictions.score2), 30);
   }
-  if (predictions.DBL3) {
+  if (predictions.RTG3) {
     createPredictionAlert('RTG3', predictions.RTG3, 160, parseFloat(predictions.score3), 60);
+  }
+  if (predictions.RTG4) {
+    createPredictionAlert('RTG4', predictions.RTG4, 160, parseFloat(predictions.score4), 60);
   }
 
 
   console.log('=== Finished createPredictionAlerts ===');
 };
-
-export default {
+// Define the default export object
+const predictionUtils = {
   createPredictionAlerts
 };
+
+export default predictionUtils ;
