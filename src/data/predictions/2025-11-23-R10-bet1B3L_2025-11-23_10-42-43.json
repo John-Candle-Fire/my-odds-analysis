@@ -1,18 +1,18 @@
 {
-  "race_date": "2025-11-19",
-  "race_number": 7,
-  "timestamp_source": "2025-11-19_17-21-06",
+  "race_date": "2025-11-23",
+  "race_number": 10,
+  "timestamp_source": "2025-11-23_10-42-43",
   "strategy": "1B3L",
   "strategy_version": "v2.3_simplified",
   "expected_success_rate": "41.18%",
   "BANKER": 4,
   "BANKER_source": "QP",
-  "LEG1": 7,
+  "LEG1": 3,
   "LEG1_source": "Q",
-  "LEG2": 3,
-  "LEG2_source": "Q2",
-  "LEG3": 12,
+  "LEG2": 1,
+  "LEG2_source": "Q3",
+  "LEG3": 8,
   "LEG3_source": "Q4",
   "active_legs": 3,
-  "total_candidates_available": 7
+  "total_candidates_available": 5
 }
