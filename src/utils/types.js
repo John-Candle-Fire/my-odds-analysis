@@ -313,5 +313,32 @@
  * @property {PaceHorsePosition[]} positions - Array of horse positions
  */
 
+/**
+ * @typedef {Object} BetRecommendation
+ * @property {string} race_date - Race date (YYYY-MM-DD)
+ * @property {number} race_number - Race number
+ * @property {string} timestamp_source - Timestamp of bet file
+ * @property {string} strategy - Bet strategy (e.g., "1B3L")
+ * @property {string} strategy_version - Version of strategy
+ * @property {string} expected_success_rate - Success rate percentage
+ * @property {number} BANKER - Banker horse number
+ * @property {string} BANKER_source - Source of banker selection
+ * @property {number} LEG1 - First leg horse number
+ * @property {string} LEG1_source - Source of LEG1
+ * @property {number} LEG2 - Second leg horse number
+ * @property {string} LEG2_source - Source of LEG2
+ * @property {number} LEG3 - Third leg horse number
+ * @property {string} LEG3_source - Source of LEG3
+ * @property {number} active_legs - Number of active legs
+ * @property {number} total_candidates_available - Total candidates
+ */
+
+/**
+ * @typedef {Object} RecommendationMessage
+ * @property {number} order - Display order (ascending)
+ * @property {string} message - Formatted recommendation message
+ * @property {string} timestamp - Original timestamp for reference
+ */
+
 // Export for TypeScript
 export {};

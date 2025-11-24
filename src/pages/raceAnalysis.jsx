@@ -1,5 +1,6 @@
 // src/pages/raceAnalysis.jsx
 // version 1.01 add pace map tab
+// version 1.02 replace unused horseDetails tab (deleted) with Recommendation tab
 import '../styles/main.css';
 import React, { useState } from 'react';
 import { useAuth } from '../auth/AuthContext';
@@ -11,6 +12,7 @@ import QuinellaMatrix from '../components/quinellaMatrix';
 import { getHighlights, resetHighlights } from '../utils/alertSystem';
 import QuinellaPlaceMatrix from '../components/quinellaPlaceMatrix';
 import PaceMap from '../components/paceMap';
+import RecommendationDisplay from '../components/recommendationDisplay';
 import { 
   Tabs, 
   Tab, 
@@ -42,6 +44,14 @@ const RaceAnalysis = () => {
     try {
       resetHighlights();
       const data = await loadRaceData(date, raceNumber, timestamp);
+      
+      //  ADD THESE DEBUG LINES
+      console.log('=== RACE DATA LOADED ===');
+      console.log('Full raceData:', data);
+      console.log('betRecommendData:', data?.betRecommendData);
+      console.log('betRecommendData exists?', !!data?.betRecommendData);
+      console.log('Recommendation tab should show:', !!data?.betRecommendData);
+  
       setRaceData(data);
       setFindings(analyzeRace(data));
       setHighlights(getHighlights());
@@ -191,42 +201,17 @@ const RaceAnalysis = () => {
     </Box>
   );
 
-  const HorseDetailsTab = () => (
-    <Box sx={{ mt: 3 }}>
-      <Typography variant="h5" gutterBottom>Horse Details</Typography>
-      <TableContainer component={Paper}>
-        <Table size="small">
-          <TableHead>
-            <TableRow>
-              <TableCell>Horse</TableCell>
-              <TableCell align="right">Win Odds</TableCell>
-              <TableCell align="right">Place Odds</TableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {raceData?.odds?.map((horse) => (
-              <TableRow key={horse.horseNumber}>
-                <TableCell>{horse.horseNumber}. {horse.horseName}</TableCell>
-                <TableCell 
-                  align="right"
-                  className={highlights.win.includes(horse.horseNumber) ? 'highlight-win' : ''}
-                >
-                  {horse.win}
-                </TableCell>
-                <TableCell 
-                  align="right"
-                  className={highlights.place.includes(horse.horseNumber) ? 'highlight-place' : ''}
-                >
-                  {horse.place}
-                </TableCell>
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
-      </TableContainer>
+  // Recommendation Tab
+  const RecommendationTab = () => (
+    <Box sx={{ p: 2 }}>
+      <RecommendationDisplay 
+        betRecommendData={raceData?.betRecommendData}
+        horseInfo={raceData?.horseInfo?.Horses}
+      />
     </Box>
   );
-
+  
+  
   const tabComponents = [
     <HorseInfoTab key="horse-info" />,
     <MatricesTab key="matrices" />,
@@ -236,7 +221,7 @@ const RaceAnalysis = () => {
       paceData={raceData.paceData}
       raceData={raceData}
       highlights={highlights} />,
-    <HorseDetailsTab key="horse-details" />
+    raceData?.betRecommendData && <RecommendationTab key="recommendation" /> 
   ].filter(Boolean);
 
   return (
@@ -287,7 +272,7 @@ const RaceAnalysis = () => {
           <Tab label="Q & PQ Odds" />
           <Tab label="Findings" />
           {raceData?.paceData && <Tab label="Pace Map" />}
-          <Tab label="Not Used" />
+          {raceData?.betRecommendData && <Tab label="Recommendations" />}
         </Tabs>
       </Box>
       <Box sx={{ p: 2 }}>

@@ -8,6 +8,8 @@
 
 // v1.0.8 - Added prediction data loading (DBL, Q, QP)
 
+// v1.0.9 - Added bet recommendation data loading (1B3L)
+
 const buildFilePath = (date, raceNumber, timestamp) => {
   return `${date}-${raceNumber}-odds_${timestamp}.json`;
 };
@@ -26,6 +28,10 @@ const buildPredictionFilePath = (date, raceNumber, predictionType, timestamp) =>
 
 const buildRTGFilePath = (date, raceNumber, predictionType) => {
   return `${date}-${raceNumber}-${predictionType}prediction.json`;
+};
+
+const buildBetFilePath = (date, raceNumber, strategy, timestamp) => {
+  return `${date}-${raceNumber}-bet${strategy}_${timestamp}.json`;
 };
 
 const toFixedNumber = (value, decimals = 1) => {
@@ -194,8 +200,38 @@ export const loadRaceData = async (date, raceNumber, timestamp) => {
     } catch (error) {
       console.log(`Error loading prediction data for ${date} race ${raceNumber}: ${error.message}`);
     }
-
-    // 6. Return standardized structure
+       
+    // 6. Load 1B3L betting strategy
+    let betRecommendData = null;
+    try {
+      const oneBThreeLFileName = buildBetFilePath(date, raceNumber, '1B3L', timestamp);
+      const oneBThreeLModule = await import(`../data/predictions/${oneBThreeLFileName}`);
+         
+      // Assign fields from the loaded module
+      const betData = oneBThreeLModule.default;
+      betRecommendData = {
+        race_date: betData.race_date,
+        race_number: betData.race_number,
+        timestamp_source: betData.timestamp_source,
+        strategy: betData.strategy,
+        strategy_version: betData.strategy_version,
+        expected_success_rate: betData.expected_success_rate,
+        BANKER: betData.BANKER,
+        BANKER_source: betData.BANKER_source,
+        LEG1: betData.LEG1,
+        LEG1_source: betData.LEG1_source,
+        LEG2: betData.LEG2,
+        LEG2_source: betData.LEG2_source,
+        LEG3: betData.LEG3,
+        LEG3_source: betData.LEG3_source,
+        active_legs: betData.active_legs,
+        total_candidates_available: betData.total_candidates_available
+      };
+    } catch (error) {
+      console.log(`No 1B3L prediction found for ${date} race ${raceNumber}: ${error.message}`);
+    }
+   
+    // 7. Return standardized structure
     return {
       odds: oddsData.map(horse => ({
         horseNumber: String(horse.horse_number),
@@ -220,7 +256,8 @@ export const loadRaceData = async (date, raceNumber, timestamp) => {
         url: data.default.url
       },
       paceData,
-      predictions
+      predictions,
+      betRecommendData
     };
 
   } catch (error) {
@@ -261,4 +298,9 @@ export const hasPlaceQuinella = (data) => {
 // Helper to check if predictions are available
 export const hasPredictions = (data) => {
   return data?.predictions !== null;
+};
+
+// Helper to check if bet recommendations are available
+export const hasBetRecommendations = (data) => {
+  return data?.betRecommendData !== null;
 };
