@@ -1,0 +1,18 @@
+{
+  "race_date": "2025-11-26",
+  "race_number": 1,
+  "timestamp_source": "2025-11-26_17-27-23",
+  "strategy": "1B3L",
+  "strategy_version": "v2.3_simplified",
+  "expected_success_rate": "41.18%",
+  "BANKER": 10,
+  "BANKER_source": "QP",
+  "LEG1": 1,
+  "LEG1_source": "Q",
+  "LEG2": 3,
+  "LEG2_source": "Q2",
+  "LEG3": 4,
+  "LEG3_source": "Q3",
+  "active_legs": 3,
+  "total_candidates_available": 5
+}
