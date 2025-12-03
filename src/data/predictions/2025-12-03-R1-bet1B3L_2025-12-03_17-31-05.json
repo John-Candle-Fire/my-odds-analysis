@@ -1,0 +1,18 @@
+{
+  "race_date": "2025-12-03",
+  "race_number": 1,
+  "timestamp_source": "2025-12-03_17-31-05",
+  "strategy": "4BOX6",
+  "strategy_version": "v2.3_simplified",
+  "expected_success_rate": "41.18%",
+  "BANKER": 8,
+  "BANKER_source": "QP",
+  "LEG1": 3,
+  "LEG1_source": "Q",
+  "LEG2": 4,
+  "LEG2_source": "Q3",
+  "LEG3": 7,
+  "LEG3_source": "Q4",
+  "active_legs": 3,
+  "total_candidates_available": 6
+}
