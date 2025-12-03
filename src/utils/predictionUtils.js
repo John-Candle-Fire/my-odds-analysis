@@ -8,6 +8,7 @@
  * - Q1, Q2, Q3, Q4 (Quinella predictions) 
  * - QP1, QP2, QP3, QP4 (Quinella Place predictions)
  * - RTG1, RTG2, RTG3, RTG4 (Rating predictions) plus their scores
+ * - ML1, ML2, ML3, ML4 (Meta-Learner predictions) plus their scores
  */
 
 import { createAlert, addAlert } from './alertSystem.js';
@@ -91,6 +92,7 @@ export const createPredictionAlerts = (raceData) => {
       baseMessage += ' !Score = ' + Number(winScore).toFixed(2);
     }
 
+    
     // Create the prediction alert message: "DBL1 - <baseMessage>"
     const alertMessage = `${predictionField} - ${baseMessage}`;
 
@@ -114,13 +116,13 @@ export const createPredictionAlerts = (raceData) => {
 
   // DBL predictions - Higher priority (170) for DBL1, DBL2; Lower priority (160) for DBL3
   if (predictions.DBL1) {
-    createPredictionAlert('DBL1', predictions.DBL1, 170, 50, 60);
+    createPredictionAlert('DBL1', predictions.DBL1, 150, 50, 60);
   }
   if (predictions.DBL2) {
-    createPredictionAlert('DBL2', predictions.DBL2, 170, 50, 60);
+    createPredictionAlert('DBL2', predictions.DBL2, 150, 50, 60);
   }
   if (predictions.DBL3) {
-    createPredictionAlert('DBL3', predictions.DBL3, 160, 40, 30);
+    createPredictionAlert('DBL3', predictions.DBL3, 150, 40, 30);
   }
   
 
@@ -128,50 +130,65 @@ export const createPredictionAlerts = (raceData) => {
 
   // Q predictions - Higher priority (170) for Q1, Q2; Lower priority (160) for Q3, Q4
   if (predictions.Q1) {
-    createPredictionAlert('Q1', predictions.Q1, 170, 50, 60);
+    createPredictionAlert('Q1', predictions.Q1, 110, 50, 60);
   }
   if (predictions.Q2) {
-    createPredictionAlert('Q2', predictions.Q2, 170, 50, 60);
+    createPredictionAlert('Q2', predictions.Q2, 110, 50, 60);
   }
   if (predictions.Q3) {
-    createPredictionAlert('Q3', predictions.Q3, 160, 40, 30);
+    createPredictionAlert('Q3', predictions.Q3, 110, 40, 30);
   }
   if (predictions.Q4) {
-    createPredictionAlert('Q4', predictions.Q4, 160, 40, 30);
+    createPredictionAlert('Q4', predictions.Q4, 110, 40, 30);
   }
 
   console.log('Processing QP predictions...');
 
   // QP predictions - Higher priority (170) for QP1, QP2; Lower priority (160) for QP3, QP4
   if (predictions.QP1) {
-    createPredictionAlert('QP1', predictions.QP1, 170, 50, 60);
+    createPredictionAlert('QP1', predictions.QP1, 110, 50, 60);
   }
   if (predictions.QP2) {
-    createPredictionAlert('QP2', predictions.QP2, 170, 50, 60);
+    createPredictionAlert('QP2', predictions.QP2, 110, 50, 60);
   }
   if (predictions.QP3) {
-    createPredictionAlert('QP3', predictions.QP3, 160, 40, 30);
+    createPredictionAlert('QP3', predictions.QP3, 110, 40, 30);
   }
   if (predictions.QP4) {
-    createPredictionAlert('QP4', predictions.QP4, 160, 40, 30);
+    createPredictionAlert('QP4', predictions.QP4, 110, 40, 30);
   }
 
   console.log('Processing RTG predictions...');
 
   // RTG predictions - Higher priority (170) for RTG1, RTG2, RTG3
   if (predictions.RTG1) {
-    createPredictionAlert('RTG1', predictions.RTG1, 160, parseFloat(predictions.score1), 60);
+    createPredictionAlert('RTG1', predictions.RTG1, 110, parseFloat(predictions.score1), 60);
   }
   if (predictions.RTG2) {
-    createPredictionAlert('RTG2', predictions.RTG2, 160, parseFloat(predictions.score2), 30);
+    createPredictionAlert('RTG2', predictions.RTG2, 110, parseFloat(predictions.score2), 30);
   }
   if (predictions.RTG3) {
-    createPredictionAlert('RTG3', predictions.RTG3, 160, parseFloat(predictions.score3), 60);
+    createPredictionAlert('RTG3', predictions.RTG3, 110, parseFloat(predictions.score3), 60);
   }
   if (predictions.RTG4) {
-    createPredictionAlert('RTG4', predictions.RTG4, 160, parseFloat(predictions.score4), 60);
+    createPredictionAlert('RTG4', predictions.RTG4, 110, parseFloat(predictions.score4), 60);
   }
 
+  console.log('Processing Meta Learner predictions...');
+
+  // Meta Learner predictions - Higher priority (170) for ML1, ML2, ML3, ML4
+  if (predictions.ML1) {
+    createPredictionAlert('ML1', predictions.ML1, 165, parseFloat(predictions.MLscore1), 60);
+  }
+  if (predictions.ML2) {
+    createPredictionAlert('ML2', predictions.ML2, 165, parseFloat(predictions.MLscore2), 30);
+  }
+  if (predictions.ML3) {
+    createPredictionAlert('ML3', predictions.ML3, 165, parseFloat(predictions.MLscore3), 60);
+  }
+  if (predictions.ML4) {
+    createPredictionAlert('ML4', predictions.ML4, 165, parseFloat(predictions.MLscore4), 60);
+  }
 
   console.log('=== Finished createPredictionAlerts ===');
 };

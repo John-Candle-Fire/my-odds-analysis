@@ -10,6 +10,8 @@
 
 // v1.0.9 - Added bet recommendation data loading (1B3L)
 
+// v1.1.0 - Added Meta-Learner prediction loading (ML)
+
 const buildFilePath = (date, raceNumber, timestamp) => {
   return `${date}-${raceNumber}-odds_${timestamp}.json`;
 };
@@ -28,6 +30,10 @@ const buildPredictionFilePath = (date, raceNumber, predictionType, timestamp) =>
 
 const buildRTGFilePath = (date, raceNumber, predictionType) => {
   return `${date}-${raceNumber}-${predictionType}prediction.json`;
+};
+
+const buildMLFilePath = (date, raceNumber, predictionType) => {
+  return `${date}-${raceNumber}-consolidated_prediction.json`;
 };
 
 const buildBetFilePath = (date, raceNumber, strategy, timestamp) => {
@@ -172,8 +178,18 @@ export const loadRaceData = async (date, raceNumber, timestamp) => {
         console.log(`No RTG prediction found for ${date} race ${raceNumber}: ${error.message}`);
       }
 
+      // Load Meta-Learner prediction
+      let mlData = null;
+      try {
+        const mlFileName = buildMLFilePath(date, raceNumber, 'Meta-Learner');
+        const mlModule = await import(`../data/predictions/${mlFileName}`);
+        mlData = mlModule.default;
+      } catch (error) {
+        console.log(`No Meta Learner prediction found for ${date} race ${raceNumber}: ${error.message}`);
+      }
+
       // Create predictions structure if any prediction data is available
-      if (dblData || qData || qpData || rtgData) {
+      if (dblData || qData || qpData || rtgData || mlData) {
         predictions = {
           "Race Date": date,
           "Race Number": String(raceNumber),
@@ -194,7 +210,15 @@ export const loadRaceData = async (date, raceNumber, timestamp) => {
           "RTG4": rtgData ? String(rtgData.RTG4 || "") : "",
           "score1": rtgData ? String(rtgData.score1 || "") : "",
           "score2": rtgData ? String(rtgData.score2 || "") : "",
-          "score3": rtgData ? String(rtgData.score3 || "") : ""
+          "score3": rtgData ? String(rtgData.score3 || "") : "",
+          "ML1": mlData ? String(mlData.ML1 || "") : "",
+          "ML2": mlData ? String(mlData.ML2 || "") : "",
+          "ML3": mlData ? String(mlData.ML3 || "") : "",
+          "ML4": mlData ? String(mlData.ML4 || "") : "",
+          "MLscore1": mlData ? String(mlData.score1 || "") : "",
+          "MLscore2": mlData ? String(mlData.score2 || "") : "",
+          "MLscore3": mlData ? String(mlData.score2 || "") : "",
+          "MLscore4": mlData ? String(mlData.score3 || "") : ""
         };
       }
     } catch (error) {

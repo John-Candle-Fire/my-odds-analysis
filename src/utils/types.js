@@ -110,6 +110,22 @@
 
  */
 
+/** 
+* @typedef {Object} MLPrediction
+* @property {string} race_date - Race date in YYYY-MM-DD format
+* @property {number} race_number - Race number
+* @property {string} type - Always "Meta-Learner"
+* @property {number} ML1 - First rating bet horse number
+* @property {number} ML2 - Second rating bet horse number
+* @property {number} ML3 - Third rating bet horse number
+* @property {number} ML4 - Banker (Fourth rating) bet horse number
+* @property {number} score1 - First rating
+* @property {number} score2 - Second rating
+* @property {number} score3 - Third rating 
+* @property {number} score4 - Fourth rating 
+
+ */
+
 /**
  * @typedef {Object} PredictionData
  * @property {string} Race Date - ISO date string
@@ -133,6 +149,15 @@
  * @property {string} score2 - Second rating (stringified)
  * @property {string} score3 - Third rating (stringified)
  * @property {string} score4 - Fourth rating (stringified)
+ * @property {string} ML1 - First rating bet horse number (stringified)
+ * @property {string} ML2 - Second rating bet horse number (stringified)
+ * @property {string} ML3 - Third rating bet horse number (stringified)
+ * @property {string} ML4 - Banker (Fourth rating) bet horse number (stringified)
+ * @property {string} MLscore1 - First rating (stringified)
+ * @property {string} MLscore2 - Second rating (stringified)
+ * @property {string} MLscore3 - Third rating (stringified)
+ * @property {string} MLscore4 - Fourth rating (stringified)
+
  
  */
 
