@@ -249,7 +249,11 @@ export const loadRaceData = async (date, raceNumber, timestamp) => {
         LEG3: betData.LEG3,
         LEG3_source: betData.LEG3_source,
         active_legs: betData.active_legs,
-        total_candidates_available: betData.total_candidates_available
+        total_candidates_available: betData.total_candidates_available,
+        // Safe check for weak_banker_detected (Boolean). Fallback to false if missing or not boolean.
+        weak_banker_detected:
+          typeof betData.weak_banker_detected === 'boolean' ? betData.weak_banker_detected : false
+
       };
     } catch (error) {
       console.log(`No 1B3L prediction found for ${date} race ${raceNumber}: ${error.message}`);

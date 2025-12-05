@@ -45,7 +45,10 @@ const RecommendationDisplay = ({ betRecommendData, horseInfo }) => {
   const leg3Name = horseNameMap[leg3Num] || '???';
 
   // Construct message
-  const message = `QP ${betRecommendData.BANKER} ${bankerName} > ${betRecommendData.LEG1} ${leg1Name} + ${betRecommendData.LEG2} ${leg2Name} + ${betRecommendData.LEG3} ${leg3Name} (${betRecommendData.expected_success_rate})`;
+  // append "Ignore Banker" when true, otherwise nothing
+  const ignoreText = betRecommendData.weak_banker_detected ? ' (Weak Banker)' : '';
+
+  const message = `QP ${betRecommendData.BANKER} ${bankerName}${ignoreText} > ${betRecommendData.LEG1} ${leg1Name} + ${betRecommendData.LEG2} ${leg2Name} + ${betRecommendData.LEG3} ${leg3Name} (${betRecommendData.expected_success_rate})`;
 
   return (
     <div className="findings-display">
@@ -131,7 +134,7 @@ const RecommendationDisplay = ({ betRecommendData, horseInfo }) => {
             color: '#666'
           }}>
             <div>
-              <strong>Strategy:</strong> {betRecommendData.strategy} ({betRecommendData.strategy_version})
+              <strong>Strategy:</strong> {betRecommendData.strategy} ({betRecommendData.strategy_version}) 
             </div>
             <div>
               <strong>Active Legs:</strong> {betRecommendData.active_legs} of {betRecommendData.total_candidates_available} candidates
@@ -162,6 +165,10 @@ const RecommendationDisplay = ({ betRecommendData, horseInfo }) => {
           The <strong>BANKER</strong> horse covers the three <strong>LEG</strong> horses. 
           Expected success rate is shown in parentheses.
         </p>
+        <p style={{ margin: '0.5rem 0 0 0', lineHeight: '1.4', color: '#555' }}>
+          <strong>Weak Banker</strong> indicates that the banker's success rate reduced to less than a normal leg.  Consider ML1 as banker.
+        </p>
+
       </div>
     </div>
   );

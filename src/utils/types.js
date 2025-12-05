@@ -356,6 +356,7 @@
  * @property {string} LEG3_source - Source of LEG3
  * @property {number} active_legs - Number of active legs
  * @property {number} total_candidates_available - Total candidates
+ * @property {boolean} weak_banker_detected - True = weak banker
  */
 
 /**
