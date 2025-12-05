@@ -2,8 +2,11 @@
   "race_date": "2025-11-19",
   "race_number": 1,
   "timestamp_source": "2025-11-19_17-20-33",
-  "strategy": "1B3L",
-  "strategy_version": "v2.3_simplified",
+  "strategy": "4BOX6",
+  "strategy_version": "v2.5_reordered_logic",
+  "banker_swapped": false,
+  "weak_banker_detected": true,
+  "weakness_reason": "Banker odds 9.4 > 8.0 (weak signal: 37% success rate)",
   "expected_success_rate": "41.18%",
   "BANKER": 8,
   "BANKER_source": "QP",
@@ -14,5 +17,5 @@
   "LEG3": 7,
   "LEG3_source": "Q4",
   "active_legs": 3,
-  "total_candidates_available": 6
+  "total_candidates_available": 7
 }
