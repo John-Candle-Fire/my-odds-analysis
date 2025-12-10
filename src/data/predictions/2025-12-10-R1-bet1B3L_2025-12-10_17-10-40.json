@@ -1,0 +1,21 @@
+{
+  "race_date": "2025-12-10",
+  "race_number": 1,
+  "timestamp_source": "2025-12-10_17-10-40",
+  "strategy": "1B3L",
+  "strategy_version": "v2.5_reordered_logic",
+  "banker_swapped": false,
+  "weak_banker_detected": false,
+  "weakness_reason": null,
+  "expected_success_rate": "41.18%",
+  "BANKER": 3,
+  "BANKER_source": "QP",
+  "LEG1": 6,
+  "LEG1_source": "Q",
+  "LEG2": 9,
+  "LEG2_source": "Q2",
+  "LEG3": 12,
+  "LEG3_source": "Q4",
+  "active_legs": 3,
+  "total_candidates_available": 7
+}
