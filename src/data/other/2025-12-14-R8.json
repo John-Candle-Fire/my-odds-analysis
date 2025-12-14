@@ -1,0 +1,97 @@
+{
+  "Race Date": "2025-12-14",
+  "Race Number": 8,
+  "Horses": [
+    {
+      "horseID": "HK_2020_E486",
+      "Horse Number": "1",
+      "Horse Name": "浪漫勇士",
+      "Weight": "126",
+      "Trainer": "沈集成",
+      "Jockey": "麥道朗",
+      "Post": "2",
+      "First Win Index": "2.5",
+      "Race Day Win Index": "2.5",
+      "lastWin": "1.4",
+      "lastPosition": "01"
+    },
+    {
+      "horseID": "HK_2025_L907",
+      "Horse Number": "2",
+      "Horse Name": "寶徠歌劇",
+      "Weight": "126",
+      "Trainer": "上村洋行",
+      "Jockey": "橫山和生",
+      "Post": "5",
+      "First Win Index": "3.7",
+      "Race Day Win Index": "3.7",
+      "lastWin": "0",
+      "lastPosition": "0"
+    },
+    {
+      "horseID": "HK_2023_J814",
+      "Horse Number": "3",
+      "Horse Name": "利森名園",
+      "Weight": "126",
+      "Trainer": "田中博康",
+      "Jockey": "李慕華",
+      "Post": "3",
+      "First Win Index": "11.8",
+      "Race Day Win Index": "13.4",
+      "lastWin": "8.4",
+      "lastPosition": "08"
+    },
+    {
+      "horseID": "HK_2025_L909",
+      "Horse Number": "4",
+      "Horse Name": "名醫",
+      "Weight": "126",
+      "Trainer": "岳本賢",
+      "Jockey": "麥文堅",
+      "Post": "7",
+      "First Win Index": "27.8",
+      "Race Day Win Index": "43.3",
+      "lastWin": "0",
+      "lastPosition": "0"
+    },
+    {
+      "horseID": "HK_2021_G435",
+      "Horse Number": "5",
+      "Horse Name": "直線力山",
+      "Weight": "126",
+      "Trainer": "大衛希斯",
+      "Jockey": "韋紀力",
+      "Post": "1",
+      "First Win Index": "18.7",
+      "Race Day Win Index": "17.1",
+      "lastWin": "21",
+      "lastPosition": "04"
+    },
+    {
+      "horseID": "HK_2022_H212",
+      "Horse Number": "6",
+      "Horse Name": "禪勝輝煌",
+      "Weight": "126",
+      "Trainer": "呂健威",
+      "Jockey": "紀仁安",
+      "Post": "6",
+      "First Win Index": "99",
+      "Race Day Win Index": "99",
+      "lastWin": "73",
+      "lastPosition": "07"
+    },
+    {
+      "horseID": "HK_2025_L910",
+      "Horse Number": "7",
+      "Horse Name": "健身心",
+      "Weight": "122",
+      "Trainer": "葛威法",
+      "Jockey": "蘇銘倫",
+      "Post": "4",
+      "First Win Index": "6.4",
+      "Race Day Win Index": "5.6",
+      "lastWin": "0",
+      "lastPosition": "0"
+    }
+  ]
+}
