@@ -1,0 +1,14 @@
+{
+  "race_date": "2025-12-23",
+  "race_number": 1,
+  "timestamp_source": "2025-12-23_17-46-56",
+  "type": "DBL",
+  "DBL1": 3,
+  "DBL2": 6,
+  "DBL3": 2,
+  "analysis_type": "dd_insider_detection",
+  "methods_used": [
+    "dd_first_leg_underlay"
+  ],
+  "total_signals": 11
+}
