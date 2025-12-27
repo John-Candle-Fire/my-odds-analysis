@@ -1,0 +1,81 @@
+{
+    "course": "沙田",
+    "date": "2025-12-27",
+    "race_number": 9,
+    "class": "第三班",
+    "track": "全天候跑道",
+    "distance": 1650,
+    "pace": "中等",
+    "Array": [
+        {
+            "horse_number": 1,
+            "lead_position": 1,
+            "wide_position": 1
+        },
+        {
+            "horse_number": 2,
+            "lead_position": 6,
+            "wide_position": 1
+        },
+        {
+            "horse_number": 3,
+            "lead_position": 2,
+            "wide_position": 2
+        },
+        {
+            "horse_number": 4,
+            "lead_position": 4,
+            "wide_position": 1
+        },
+        {
+            "horse_number": 5,
+            "lead_position": 2,
+            "wide_position": 1
+        },
+        {
+            "horse_number": 6,
+            "lead_position": 6,
+            "wide_position": 2
+        },
+        {
+            "horse_number": 7,
+            "lead_position": 5,
+            "wide_position": 1
+        },
+        {
+            "horse_number": 8,
+            "lead_position": 3,
+            "wide_position": 1
+        },
+        {
+            "horse_number": 9,
+            "lead_position": 3,
+            "wide_position": 3
+        },
+        {
+            "horse_number": 10,
+            "lead_position": 4,
+            "wide_position": 2
+        },
+        {
+            "horse_number": 11,
+            "lead_position": 4,
+            "wide_position": 3
+        },
+        {
+            "horse_number": 12,
+            "lead_position": 2,
+            "wide_position": 3
+        },
+        {
+            "horse_number": 13,
+            "lead_position": 3,
+            "wide_position": 2
+        },
+        {
+            "horse_number": 14,
+            "lead_position": 5,
+            "wide_position": 2
+        }
+    ]
+}
