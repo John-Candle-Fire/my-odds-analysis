@@ -1,0 +1,21 @@
+{
+  "race_date": "2026-01-04",
+  "race_number": 11,
+  "timestamp_source": "2026-01-04_10-20-25",
+  "strategy": "1B3L",
+  "strategy_version": "v2.5_reordered_logic",
+  "banker_swapped": false,
+  "weak_banker_detected": false,
+  "weakness_reason": null,
+  "expected_success_rate": "41.18%",
+  "BANKER": 1,
+  "BANKER_source": "Banker",
+  "LEG1": 8,
+  "LEG1_source": "Q2",
+  "LEG2": 9,
+  "LEG2_source": "Q3",
+  "LEG3": 10,
+  "LEG3_source": "Q4",
+  "active_legs": 3,
+  "total_candidates_available": 7
+}
