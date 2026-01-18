@@ -1,0 +1,21 @@
+{
+  "race_date": "2026-01-18",
+  "race_number": 4,
+  "timestamp_source": "2026-01-18_10-34-17",
+  "strategy": "4BOX6",
+  "strategy_version": "v2.5_reordered_logic",
+  "banker_swapped": true,
+  "weak_banker_detected": true,
+  "weakness_reason": "Banker odds 8.8 > 8.0 (weak signal: 37% success rate)",
+  "expected_success_rate": "41.18%",
+  "BANKER": 5,
+  "BANKER_source": "Q",
+  "LEG1": 12,
+  "LEG1_source": "Q2",
+  "LEG2": 2,
+  "LEG2_source": "Q3",
+  "LEG3": 1,
+  "LEG3_source": "Q4",
+  "active_legs": 3,
+  "total_candidates_available": 7
+}
