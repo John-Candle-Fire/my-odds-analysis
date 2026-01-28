@@ -1,0 +1,25 @@
+{
+    "race_date": "2026-01-28",
+    "race_number": 9,
+    "timestamp_source": "2026-01-28_17-26-39",
+    "strategy": "1B3L_Gold",
+    "strategy_version": "v4.0_Tiered_Step2",
+    "banker_swapped": false,
+    "weak_banker_detected": false,
+    "weakness_reason": null,
+    "expected_success_rate": "41.18%",
+    "BANKER": 12,
+    "BANKER_source": "Gold(Class3-1200m)",
+    "LEG1": 1,
+    "LEG1_source": "LNG3",
+    "LEG2": 3,
+    "LEG2_source": "PredV2_Rank1",
+    "LEG3": 11,
+    "LEG3_source": "PredV2_Rank2",
+    "active_legs": 3,
+    "total_candidates_available": 6,
+    "details": {
+        "tier": "Gold",
+        "score_gap": 0.6500000000000057
+    }
+}
