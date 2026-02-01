@@ -1,0 +1,84 @@
+{
+  "Race Date": "2026-02-01",
+  "Race Number": 3,
+  "Horses": [
+    {
+      "horseID": "HK_2022_H485",
+      "Horse Number": "1",
+      "Horse Name": "手機錶霸",
+      "Weight": "135",
+      "Trainer": "呂健威",
+      "Jockey": "布文",
+      "Post": "2",
+      "First Win Index": "2.6",
+      "Race Day Win Index": "3.0",
+      "lastWin": "11",
+      "lastPosition": "03"
+    },
+    {
+      "horseID": "HK_2022_H303",
+      "Horse Number": "2",
+      "Horse Name": "好友心得",
+      "Weight": "135",
+      "Trainer": "大衛希斯",
+      "Jockey": "班德禮",
+      "Post": "5",
+      "First Win Index": "15.7",
+      "Race Day Win Index": "14.2",
+      "lastWin": "112",
+      "lastPosition": "05"
+    },
+    {
+      "horseID": "HK_2024_K130",
+      "Horse Number": "3",
+      "Horse Name": "光年魅力",
+      "Weight": "132",
+      "Trainer": "游達榮",
+      "Jockey": "麥道朗",
+      "Post": "6",
+      "First Win Index": "4.6",
+      "Race Day Win Index": "4.3",
+      "lastWin": "4.8",
+      "lastPosition": "08"
+    },
+    {
+      "horseID": "HK_2022_H008",
+      "Horse Number": "4",
+      "Horse Name": "永遠美麗",
+      "Weight": "123",
+      "Trainer": "蔡約翰",
+      "Jockey": "艾道拿",
+      "Post": "4",
+      "First Win Index": "43.7",
+      "Race Day Win Index": "57.4",
+      "lastWin": "65",
+      "lastPosition": "05"
+    },
+    {
+      "horseID": "HK_2019_D435",
+      "Horse Number": "5",
+      "Horse Name": "健康愉快",
+      "Weight": "122",
+      "Trainer": "羅富全",
+      "Jockey": "周俊樂",
+      "Post": "1",
+      "First Win Index": "8.1",
+      "Race Day Win Index": "8.1",
+      "lastWin": "34",
+      "lastPosition": "06"
+    },
+    {
+      "horseID": "HK_2022_H117",
+      "Horse Number": "6",
+      "Horse Name": "飛鷹翱翔",
+      "Weight": "115",
+      "Trainer": "伍鵬志",
+      "Jockey": "艾兆禮",
+      "Post": "3",
+      "First Win Index": "5.2",
+      "Race Day Win Index": "4.6",
+      "lastWin": "14",
+      "lastPosition": "10"
+    }
+  ]
+}

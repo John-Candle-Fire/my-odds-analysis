@@ -1,0 +1,41 @@
+{
+    "course": "沙田",
+    "date": "2026-02-01",
+    "race_number": 3,
+    "class": "第一班",
+    "track": "草地 - B+2 賽道",
+    "distance": 1400,
+    "pace": "中等偏慢",
+    "Array": [
+        {
+            "horse_number": 1,
+            "lead_position": 3,
+            "wide_position": 1
+        },
+        {
+            "horse_number": 2,
+            "lead_position": 2,
+            "wide_position": 2
+        },
+        {
+            "horse_number": 3,
+            "lead_position": 4,
+            "wide_position": 1
+        },
+        {
+            "horse_number": 4,
+            "lead_position": 3,
+            "wide_position": 2
+        },
+        {
+            "horse_number": 5,
+            "lead_position": 2,
+            "wide_position": 1
+        },
+        {
+            "horse_number": 6,
+            "lead_position": 1,
+            "wide_position": 1
+        }
+    ]
+}
