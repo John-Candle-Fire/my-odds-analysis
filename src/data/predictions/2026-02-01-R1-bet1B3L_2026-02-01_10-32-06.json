@@ -21,5 +21,9 @@
     "details": {
         "tier": "Toxic",
         "score_gap": 4.333333333333329
-    }
+    },
+    "LEG4": 9,
+    "LEG4_source": "QPLeg",
+    "LEG5": null,
+    "LEG5_source": null
 }

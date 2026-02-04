@@ -1,0 +1,110 @@
+{
+  "Race Date": "2026-02-04",
+  "Race Number": 3,
+  "Horses": [
+    {
+      "horseID": "HK_2022_H474",
+      "Horse Number": "1",
+      "Horse Name": "智取神駒",
+      "Weight": "135",
+      "Trainer": "沈集成",
+      "Jockey": "潘頓",
+      "Post": "3",
+      "First Win Index": "16.5",
+      "Race Day Win Index": "25.8",
+      "lastWin": "8.7",
+      "lastPosition": "09"
+    },
+    {
+      "horseID": "HK_2022_H215",
+      "Horse Number": "2",
+      "Horse Name": "喜蓮勇感",
+      "Weight": "134",
+      "Trainer": "沈集成",
+      "Jockey": "布文",
+      "Post": "2",
+      "First Win Index": "3.8",
+      "Race Day Win Index": "3.7",
+      "lastWin": "5.3",
+      "lastPosition": "03"
+    },
+    {
+      "horseID": "HK_2023_J197",
+      "Horse Number": "3",
+      "Horse Name": "大浪圖田",
+      "Weight": "126",
+      "Trainer": "丁冠豪",
+      "Jockey": "巴度",
+      "Post": "4",
+      "First Win Index": "3.7",
+      "Race Day Win Index": "3.5",
+      "lastWin": "5.3",
+      "lastPosition": "02"
+    },
+    {
+      "horseID": "HK_2022_H216",
+      "Horse Number": "4",
+      "Horse Name": "鈦易搵",
+      "Weight": "123",
+      "Trainer": "方嘉柏",
+      "Jockey": "黃智弘",
+      "Post": "6",
+      "First Win Index": "12.4",
+      "Race Day Win Index": "12.4",
+      "lastWin": "39",
+      "lastPosition": "12"
+    },
+    {
+      "horseID": "HK_2024_K094",
+      "Horse Number": "5",
+      "Horse Name": "新意馬",
+      "Weight": "122",
+      "Trainer": "廖康銘",
+      "Jockey": "希威森",
+      "Post": "5",
+      "First Win Index": "34.2",
+      "Race Day Win Index": "79.2",
+      "lastWin": "3.4",
+      "lastPosition": "01"
+    },
+    {
+      "horseID": "HK_2023_J127",
+      "Horse Number": "6",
+      "Horse Name": "太陽勇士",
+      "Weight": "121",
+      "Trainer": "大衛希斯",
+      "Jockey": "紀仁安",
+      "Post": "7",
+      "First Win Index": "11.2",
+      "Race Day Win Index": "14.0",
+      "lastWin": "3.8",
+      "lastPosition": "05"
+    },
+    {
+      "horseID": "HK_2023_J050",
+      "Horse Number": "7",
+      "Horse Name": "非惟僥倖",
+      "Weight": "115",
+      "Trainer": "姚本輝",
+      "Jockey": "艾兆禮",
+      "Post": "1",
+      "First Win Index": "99",
+      "Race Day Win Index": "39.6",
+      "lastWin": "18",
+      "lastPosition": "11"
+    },
+    {
+      "horseID": "HK_2024_K057",
+      "Horse Number": "8",
+      "Horse Name": "銀亮奔騰",
+      "Weight": "115",
+      "Trainer": "游達榮",
+      "Jockey": "田泰安",
+      "Post": "8",
+      "First Win Index": "4.7",
+      "Race Day Win Index": "4.5",
+      "lastWin": "4.6",
+      "lastPosition": "02"
+    }
+  ]
+}

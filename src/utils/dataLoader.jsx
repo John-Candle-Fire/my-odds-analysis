@@ -248,6 +248,10 @@ export const loadRaceData = async (date, raceNumber, timestamp) => {
         LEG2_source: betData.LEG2_source,
         LEG3: betData.LEG3,
         LEG3_source: betData.LEG3_source,
+        LEG4: betData.LEG4 ?? null,
+        LEG4_source: betData.LEG4_source ?? null,
+        LEG5: betData.LEG5 ?? null,
+        LEG5_source: betData.LEG5_source ?? null,
         active_legs: betData.active_legs,
         total_candidates_available: betData.total_candidates_available,
         // Safe check for weak_banker_detected (Boolean). Fallback to false if missing or not boolean.

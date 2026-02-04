@@ -21,5 +21,9 @@
     "details": {
         "tier": "Gold",
         "score_gap": 7.677777777777763
-    }
+    },
+    "LEG4": 6,
+    "LEG4_source": "QPLeg",
+    "LEG5": 1,
+    "LEG5_source": "QPLeg"
 }

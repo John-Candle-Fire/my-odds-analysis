@@ -21,5 +21,9 @@
     "details": {
         "tier": "Diamond",
         "score_gap": 15.277777777777771
-    }
+    },
+    "LEG4": 4,
+    "LEG4_source": "QPLeg",
+    "LEG5": 7,
+    "LEG5_source": "QPLeg"
 }

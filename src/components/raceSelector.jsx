@@ -19,7 +19,8 @@ const RaceSelector = ({ onAnalyze }) => {
       return `${parts[0]}-${parts[1]}-${parts[2]}`; // YYYY-MM-DD
     });
     
-    setAvailableDates([...new Set(dates)].sort());
+    setAvailableDates([...new Set(dates)].sort().reverse());
+
   }, []);
 
   // Load race numbers when date changes

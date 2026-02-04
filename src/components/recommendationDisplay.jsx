@@ -37,18 +37,43 @@ const RecommendationDisplay = ({ betRecommendData, horseInfo }) => {
   const leg1Num = String(betRecommendData.LEG1).trim();
   const leg2Num = String(betRecommendData.LEG2).trim();
   const leg3Num = String(betRecommendData.LEG3).trim();
-
   // Get horse names
   const bankerName = horseNameMap[bankerNum] || '???';
   const leg1Name = horseNameMap[leg1Num] || '???';
   const leg2Name = horseNameMap[leg2Num] || '???';
   const leg3Name = horseNameMap[leg3Num] || '???';
-
   // Construct message
   // append "Ignore Banker" when true, otherwise nothing
   const ignoreText = betRecommendData.weak_banker_detected ? ' (Weak Banker)' : '';
+  const message = `QP ${betRecommendData.BANKER} ${bankerName}${ignoreText} > ${betRecommendData.LEG1} ${leg1Name} + 
+            ${betRecommendData.LEG2} ${leg2Name} + 
+            ${betRecommendData.LEG3} ${leg3Name} (${betRecommendData.expected_success_rate})`;
+  
+  // Build Alternate leg segment dynamically
+  // Only build LEG4/LEG5 numbers if they are not null/undefined
+  const leg4Num =
+    betRecommendData.LEG4 != null ? String(betRecommendData.LEG4).trim() : null;
+  const leg5Num =
+    betRecommendData.LEG5 != null ? String(betRecommendData.LEG5).trim() : null;
+  const leg4Name =
+    leg4Num != null ? (horseNameMap[leg4Num] || '???') : null;
+  const leg5Name =
+    leg5Num != null ? (horseNameMap[leg5Num] || '???') : null;
 
-  const message = `QP ${betRecommendData.BANKER} ${bankerName}${ignoreText} > ${betRecommendData.LEG1} ${leg1Name} + ${betRecommendData.LEG2} ${leg2Name} + ${betRecommendData.LEG3} ${leg3Name} (${betRecommendData.expected_success_rate})`;
+  // Build alternates line if needed
+  let alternatesLine = '';
+  const altParts = [];
+
+  if (leg4Num != null) {
+    altParts.push(`${betRecommendData.LEG4} ${leg4Name}`);
+  }
+  if (leg5Num != null) {
+    altParts.push(`${betRecommendData.LEG5} ${leg5Name}`);
+  }
+
+  if (altParts.length > 0) {
+    alternatesLine = `Alternates: ${altParts.join('  ')}`;
+  }  
 
   return (
     <div className="findings-display">
@@ -118,6 +143,9 @@ const RecommendationDisplay = ({ betRecommendData, horseInfo }) => {
             wordBreak: 'break-word'
           }}>
             {message}
+            {alternatesLine && (
+            <div>{alternatesLine}</div>
+      )}
           </p>
         </div>
 
