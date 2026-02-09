@@ -1,0 +1,29 @@
+{
+    "race_date": "2026-02-08",
+    "race_number": 2,
+    "timestamp_source": "2026-02-08_10-21-13",
+    "strategy": "4BOX",
+    "strategy_version": "v4.0_Tiered_Step2",
+    "banker_swapped": false,
+    "weak_banker_detected": false,
+    "weakness_reason": null,
+    "expected_success_rate": "41.18%",
+    "BANKER": 3,
+    "BANKER_source": "Toxic(Class4-1200m)",
+    "LEG1": 6,
+    "LEG1_source": "LNG3",
+    "LEG2": 11,
+    "LEG2_source": "PredV2_Rank1",
+    "LEG3": 9,
+    "LEG3_source": "PredV2_Rank2",
+    "active_legs": 3,
+    "total_candidates_available": 6,
+    "LEG4": null,
+    "LEG4_source": null,
+    "LEG5": null,
+    "LEG5_source": null,
+    "details": {
+        "tier": "Toxic",
+        "score_gap": 8.222222222222229
+    }
+}
