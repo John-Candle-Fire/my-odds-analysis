@@ -1,0 +1,29 @@
+{
+    "race_date": "2026-02-11",
+    "race_number": 9,
+    "timestamp_source": "2026-02-11_17-26-33",
+    "strategy": "4BOX",
+    "strategy_version": "v4.0_Tiered_Step2",
+    "banker_swapped": true,
+    "weak_banker_detected": false,
+    "weakness_reason": null,
+    "expected_success_rate": "41.18%",
+    "BANKER": 7,
+    "BANKER_source": "Gold(Class3-1200m) | LowSuit(2)",
+    "LEG1": 8,
+    "LEG1_source": "LNG3",
+    "LEG2": 3,
+    "LEG2_source": "PredV2_Rank1",
+    "LEG3": 6,
+    "LEG3_source": "PredV2_Rank2",
+    "active_legs": 3,
+    "total_candidates_available": 6,
+    "LEG4": 2,
+    "LEG4_source": "QPLeg",
+    "LEG5": 5,
+    "LEG5_source": "QPLeg",
+    "details": {
+        "tier": "Gold-Unsafe",
+        "score_gap": 5.92
+    }
+}
