@@ -6,9 +6,7 @@
   "DBL1": 4,
   "DBL2": 12,
   "DBL3": 5,
-  "analysis_type": "dd_insider_detection",
-  "methods_used": [
-    "dd_first_leg_underlay"
-  ],
-  "total_signals": 11
+  "analysis_type": "favorites_fallback",
+  "methods_used": [],
+  "total_signals": 0
 }

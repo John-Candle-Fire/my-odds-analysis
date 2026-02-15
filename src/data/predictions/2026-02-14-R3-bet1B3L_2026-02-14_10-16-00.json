@@ -18,8 +18,8 @@
     "LEG3_source": "PredV2_Rank2",
     "active_legs": 3,
     "total_candidates_available": 5,
-    "LEG4": 2,
-    "LEG4_source": "QPLeg",
+    "LEG4": null,
+    "LEG4_source": null,
     "LEG5": null,
     "LEG5_source": null,
     "details": {
