@@ -1,0 +1,35 @@
+{
+    "meta": {
+        "date": "2026-02-19",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "威武年代",
+        "score_value1": 37.44,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 25,
+            "fast_works": 4
+        },
+        "score2": 4,
+        "horse_name2": "友瑩仁",
+        "score_value2": 26.64,
+        "factors2": {
+            "weight": 128.0,
+            "days_away": 25,
+            "fast_works": 4
+        },
+        "score3": 9,
+        "horse_name3": "幸運愉快",
+        "score_value3": 26.04,
+        "factors3": {
+            "weight": 122.0,
+            "days_away": 25,
+            "fast_works": 4
+        }
+    }
+}

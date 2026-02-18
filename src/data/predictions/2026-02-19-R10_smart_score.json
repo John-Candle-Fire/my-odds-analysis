@@ -1,0 +1,35 @@
+{
+    "meta": {
+        "date": "2026-02-19",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "穿甲戰鷹",
+        "score_value1": 29.48,
+        "factors1": {
+            "weight": 118.0,
+            "days_away": 11,
+            "fast_works": 1
+        },
+        "score2": 7,
+        "horse_name2": "勇闖高峰",
+        "score_value2": 22.8,
+        "factors2": {
+            "weight": 120.0,
+            "days_away": 25,
+            "fast_works": 3
+        },
+        "score3": 13,
+        "horse_name3": "喜慶寶",
+        "score_value3": 18.0,
+        "factors3": {
+            "weight": 117.0,
+            "days_away": 32,
+            "fast_works": 5
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "meta": {
+        "date": "2026-02-19",
+        "race_number": 2,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "賢者威楓",
+        "score_value1": 20.4,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 18,
+            "fast_works": 2
+        },
+        "score2": 8,
+        "horse_name2": "小魔怪",
+        "score_value2": 16.56,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 25,
+            "fast_works": 4
+        },
+        "score3": 5,
+        "horse_name3": "機不可失",
+        "score_value3": 15.12,
+        "factors3": {
+            "weight": 128.0,
+            "days_away": 36,
+            "fast_works": 5
+        }
+    }
+}

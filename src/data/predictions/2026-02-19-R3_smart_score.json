@@ -1,0 +1,35 @@
+{
+    "meta": {
+        "date": "2026-02-19",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "年年友福",
+        "score_value1": 26.4,
+        "factors1": {
+            "weight": 132.0,
+            "days_away": 29,
+            "fast_works": 5
+        },
+        "score2": 6,
+        "horse_name2": "本領輝煌",
+        "score_value2": 14.16,
+        "factors2": {
+            "weight": 129.0,
+            "days_away": 29,
+            "fast_works": 4
+        },
+        "score3": 14,
+        "horse_name3": "滿洛城",
+        "score_value3": 11.5,
+        "factors3": {
+            "weight": 117.0,
+            "days_away": 18,
+            "fast_works": 3
+        }
+    }
+}

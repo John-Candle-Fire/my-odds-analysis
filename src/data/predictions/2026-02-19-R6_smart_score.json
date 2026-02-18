@@ -1,0 +1,35 @@
+{
+    "meta": {
+        "date": "2026-02-19",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "至尊瑰寶",
+        "score_value1": 28.7,
+        "factors1": {
+            "weight": 119.0,
+            "days_away": 15,
+            "fast_works": 2
+        },
+        "score2": 1,
+        "horse_name2": "安遇",
+        "score_value2": 28.49,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 11,
+            "fast_works": 2
+        },
+        "score3": 6,
+        "horse_name3": "太陽勇士",
+        "score_value3": 28.0,
+        "factors3": {
+            "weight": 125.0,
+            "days_away": 15,
+            "fast_works": 2
+        }
+    }
+}

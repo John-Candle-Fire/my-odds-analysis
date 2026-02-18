@@ -1,0 +1,35 @@
+{
+    "meta": {
+        "date": "2026-02-19",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "魅力星",
+        "score_value1": 24.96,
+        "factors1": {
+            "weight": 130.0,
+            "days_away": 29,
+            "fast_works": 6
+        },
+        "score2": 4,
+        "horse_name2": "快樂寶寶",
+        "score_value2": 17.52,
+        "factors2": {
+            "weight": 132.0,
+            "days_away": 22,
+            "fast_works": 2
+        },
+        "score3": 11,
+        "horse_name3": "駿先生",
+        "score_value3": 16.08,
+        "factors3": {
+            "weight": 124.0,
+            "days_away": 71,
+            "fast_works": 4
+        }
+    }
+}

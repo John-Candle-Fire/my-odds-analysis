@@ -1,0 +1,35 @@
+{
+    "meta": {
+        "date": "2026-02-19",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 14,
+        "horse_name1": "同喜",
+        "score_value1": 30.72,
+        "factors1": {
+            "weight": 120.0,
+            "days_away": 32,
+            "fast_works": 4
+        },
+        "score2": 11,
+        "horse_name2": "雷神太保",
+        "score_value2": 28.92,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 22,
+            "fast_works": 4
+        },
+        "score3": 1,
+        "horse_name3": "跨境駿馬",
+        "score_value3": 27.6,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 18,
+            "fast_works": 3
+        }
+    }
+}

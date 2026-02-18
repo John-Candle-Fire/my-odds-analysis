@@ -1,0 +1,161 @@
+{
+    "metadata": {
+        "date": "2026-02-19",
+        "generated_at": "2026-02-18 20:12:10"
+    },
+    "meeting_context": {
+        "volatility": "STANDARD",
+        "attacking_stables": [
+            "蔡約翰",
+            "告東尼",
+            "大衛希斯",
+            "呂健威",
+            "桂福特",
+            "沈集成",
+            "游達榮",
+            "丁冠豪"
+        ],
+        "attacking_jockeys": [
+            "潘頓",
+            "紀仁安",
+            "布文",
+            "何澤堯",
+            "艾兆禮",
+            "田泰安",
+            "麥文堅"
+        ]
+    },
+    "details": {
+        "stable_attack_stats": [
+            {
+                "trainer": "蔡約翰",
+                "strong_chances_count": 7,
+                "tier": 1
+            },
+            {
+                "trainer": "告東尼",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "trainer": "大衛希斯",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "呂健威",
+                "strong_chances_count": 6,
+                "tier": 2
+            },
+            {
+                "trainer": "桂福特",
+                "strong_chances_count": 5,
+                "tier": 2
+            },
+            {
+                "trainer": "沈集成",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "trainer": "游達榮",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "trainer": "丁冠豪",
+                "strong_chances_count": 3,
+                "tier": 3
+            }
+        ],
+        "jockey_attack_stats": [
+            {
+                "jockey": "潘頓",
+                "strong_chances_count": 8,
+                "tier": 1
+            },
+            {
+                "jockey": "紀仁安",
+                "strong_chances_count": 7,
+                "tier": 1
+            },
+            {
+                "jockey": "布文",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "jockey": "何澤堯",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "jockey": "艾兆禮",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "jockey": "田泰安",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "jockey": "麥文堅",
+                "strong_chances_count": 3,
+                "tier": 3
+            }
+        ],
+        "race_volatility": {
+            "1": "STANDARD",
+            "2": "CHAOS",
+            "3": "STANDARD",
+            "4": "CHAOS",
+            "5": "CHAOS",
+            "6": "STANDARD",
+            "7": "STANDARD",
+            "8": "CHAOS",
+            "9": "STANDARD",
+            "10": "CHAOS",
+            "11": "STANDARD"
+        },
+        "traffic_risks": [
+            {
+                "race_number": 9,
+                "bias": "STRONG_FAVOR_INNER",
+                "field_size": 14
+            }
+        ],
+        "jockey_upgrades": [
+            {
+                "race": 1,
+                "horse": "首駿",
+                "switch": "麥文堅(T3) -> 布文(T1)"
+            },
+            {
+                "race": 5,
+                "horse": "天天友福",
+                "switch": "楊明綸(T3) -> 何澤堯(T1)"
+            },
+            {
+                "race": 7,
+                "horse": "開心五月",
+                "switch": "蔡明紹(T3) -> 潘頓(T1)"
+            },
+            {
+                "race": 7,
+                "horse": "金運來",
+                "switch": "梁家俊(T3) -> 何澤堯(T1)"
+            },
+            {
+                "race": 8,
+                "horse": "帥帥友福",
+                "switch": "麥文堅(T3) -> 布文(T1)"
+            },
+            {
+                "race": 9,
+                "horse": "君子傳承",
+                "switch": "蔡明紹(T3) -> 布文(T1)"
+            }
+        ]
+    }
+}
