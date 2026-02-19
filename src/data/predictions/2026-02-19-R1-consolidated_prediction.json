@@ -2,12 +2,12 @@
   "race_date": "2026-02-19",
   "race_number": 1,
   "type": "Meta-Learner",
-  "ML1": 14,
-  "score1": 3.39,
-  "ML2": 12,
-  "score2": 2.95,
-  "ML3": 6,
-  "score3": 2.84,
-  "ML4": 10,
-  "score4": 2.79
+  "ML1": 6,
+  "score1": 3.64,
+  "ML2": 5,
+  "score2": 3.1,
+  "ML3": 11,
+  "score3": 1.77,
+  "ML4": 2,
+  "score4": 1.77
 }

@@ -1,7 +1,7 @@
 {
     "metadata": {
         "date": "2026-02-19",
-        "generated_at": "2026-02-18 20:12:10"
+        "generated_at": "2026-02-19 10:33:16"
     },
     "meeting_context": {
         "volatility": "STANDARD",
@@ -18,9 +18,9 @@
         "attacking_jockeys": [
             "潘頓",
             "紀仁安",
+            "艾兆禮",
             "布文",
             "何澤堯",
-            "艾兆禮",
             "田泰安",
             "麥文堅"
         ]
@@ -29,7 +29,7 @@
         "stable_attack_stats": [
             {
                 "trainer": "蔡約翰",
-                "strong_chances_count": 7,
+                "strong_chances_count": 5,
                 "tier": 1
             },
             {
@@ -76,22 +76,22 @@
             },
             {
                 "jockey": "紀仁安",
-                "strong_chances_count": 7,
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "jockey": "艾兆禮",
+                "strong_chances_count": 4,
                 "tier": 1
             },
             {
                 "jockey": "布文",
-                "strong_chances_count": 5,
+                "strong_chances_count": 4,
                 "tier": 1
             },
             {
                 "jockey": "何澤堯",
                 "strong_chances_count": 4,
-                "tier": 1
-            },
-            {
-                "jockey": "艾兆禮",
-                "strong_chances_count": 3,
                 "tier": 1
             },
             {
