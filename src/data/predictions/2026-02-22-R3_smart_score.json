@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-02-22",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1800,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 13,
+        "horse_name1": "極速之子",
+        "draw1": "13",
+        "score_value1": 29.76,
+        "factors1": {
+            "weight": 118.0,
+            "days_away": 25,
+            "fast_works": 4
+        },
+        "score2": 2,
+        "horse_name2": "特別美麗",
+        "draw2": "2",
+        "score_value2": 28.32,
+        "factors2": {
+            "weight": 134.0,
+            "days_away": 46,
+            "fast_works": 5
+        },
+        "score3": 6,
+        "horse_name3": "夢照發",
+        "draw3": "3",
+        "score_value3": 27.6,
+        "factors3": {
+            "weight": 132.0,
+            "days_away": 35,
+            "fast_works": 5
+        }
+    }
+}

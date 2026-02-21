@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-02-22",
+        "race_number": 2,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "踏雪尋梅",
+        "draw1": "3",
+        "score_value1": 22.9,
+        "factors1": {
+            "weight": 129.0,
+            "days_away": 18,
+            "fast_works": 2
+        },
+        "score2": 2,
+        "horse_name2": "千杯不醉",
+        "draw2": "13",
+        "score_value2": 19.1,
+        "factors2": {
+            "weight": 134.0,
+            "days_away": 21,
+            "fast_works": 2
+        },
+        "score3": 7,
+        "horse_name3": "大才",
+        "draw3": "12",
+        "score_value3": 13.64,
+        "factors3": {
+            "weight": 133.0,
+            "days_away": 8,
+            "fast_works": 0
+        }
+    }
+}

@@ -1,0 +1,157 @@
+{
+    "metadata": {
+        "date": "2026-02-22",
+        "generated_at": "2026-02-21 21:25:35"
+    },
+    "meeting_context": {
+        "volatility": "STANDARD",
+        "attacking_stables": [
+            "蔡約翰",
+            "大衛希斯",
+            "姚本輝",
+            "桂福特",
+            "羅富全",
+            "巫偉傑",
+            "黎昭昇"
+        ],
+        "attacking_jockeys": [
+            "潘頓",
+            "布文",
+            "紀仁安",
+            "何澤堯",
+            "霍宏聲",
+            "希威森",
+            "班德禮",
+            "麥文堅",
+            "潘明輝"
+        ]
+    },
+    "details": {
+        "stable_attack_stats": [
+            {
+                "trainer": "蔡約翰",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "trainer": "大衛希斯",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "trainer": "姚本輝",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "桂福特",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "trainer": "羅富全",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "trainer": "巫偉傑",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "trainer": "黎昭昇",
+                "strong_chances_count": 4,
+                "tier": 3
+            }
+        ],
+        "jockey_attack_stats": [
+            {
+                "jockey": "潘頓",
+                "strong_chances_count": 9,
+                "tier": 1
+            },
+            {
+                "jockey": "布文",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "jockey": "紀仁安",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "jockey": "何澤堯",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "jockey": "霍宏聲",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "jockey": "希威森",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "jockey": "班德禮",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "jockey": "麥文堅",
+                "strong_chances_count": 5,
+                "tier": 3
+            },
+            {
+                "jockey": "潘明輝",
+                "strong_chances_count": 3,
+                "tier": 3
+            }
+        ],
+        "race_volatility": {
+            "1": "CHAOS",
+            "2": "CHAOS",
+            "3": "STANDARD",
+            "4": "STANDARD",
+            "5": "CHAOS",
+            "6": "CHAOS",
+            "7": "STANDARD",
+            "8": "STANDARD",
+            "9": "CHAOS",
+            "10": "STANDARD",
+            "11": "STANDARD"
+        },
+        "traffic_risks": [
+            {
+                "race_number": 10,
+                "bias": "STRONG_FAVOR_INNER",
+                "field_size": 14
+            }
+        ],
+        "jockey_upgrades": [
+            {
+                "race": 5,
+                "horse": "豐功偉績",
+                "switch": "麥文堅(T3) -> 艾兆禮(T1)"
+            },
+            {
+                "race": 10,
+                "horse": "巴閉仔",
+                "switch": "麥文堅(T3) -> 布文(T1)"
+            },
+            {
+                "race": 11,
+                "horse": "膨才",
+                "switch": "麥文堅(T3) -> 何澤堯(T1)"
+            },
+            {
+                "race": 11,
+                "horse": "嘉應奇兵",
+                "switch": "潘明輝(T3) -> 潘頓(T1)"
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-02-22",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "一級賽"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "嘉應高昇",
+        "draw1": "3",
+        "score_value1": 54.0,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 28,
+            "fast_works": 6
+        },
+        "score2": 2,
+        "horse_name2": "金鑽貴人",
+        "draw2": "1",
+        "score_value2": 33.84,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score3": 3,
+        "horse_name3": "驕陽明駒",
+        "draw3": "5",
+        "score_value3": 31.44,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 28,
+            "fast_works": 6
+        }
+    }
+}
