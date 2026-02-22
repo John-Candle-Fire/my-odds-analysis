@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-02-22",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 14,
+        "horse_name1": "盛勢威楓",
+        "draw1": "9",
+        "score_value1": 30.91,
+        "factors1": {
+            "weight": 116.0,
+            "days_away": 8,
+            "fast_works": 0
+        },
+        "score2": 1,
+        "horse_name2": "榮利雙收",
+        "draw2": "6",
+        "score_value2": 25.4,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score3": 4,
+        "horse_name3": "友瑩亮",
+        "draw3": "11",
+        "score_value3": 20.6,
+        "factors3": {
+            "weight": 131.0,
+            "days_away": 14,
+            "fast_works": 2
+        }
+    }
+}

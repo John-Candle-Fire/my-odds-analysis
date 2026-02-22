@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-02-22",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "冷娃",
+        "draw1": "5",
+        "score_value1": 36.72,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 35,
+            "fast_works": 6
+        },
+        "score2": 10,
+        "horse_name2": "大愛無疆",
+        "draw2": "6",
+        "score_value2": 31.8,
+        "factors2": {
+            "weight": 120.0,
+            "days_away": 42,
+            "fast_works": 4
+        },
+        "score3": 7,
+        "horse_name3": "包裝明將",
+        "draw3": "4",
+        "score_value3": 26.4,
+        "factors3": {
+            "weight": 122.0,
+            "days_away": 28,
+            "fast_works": 4
+        }
+    }
+}
