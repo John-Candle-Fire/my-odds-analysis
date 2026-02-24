@@ -366,5 +366,77 @@
  * @property {string} timestamp - Original timestamp for reference
  */
 
+// Pace Data Structures
+/**
+ * @typedef {Object PaceHorsePosition}
+ * ...
+ */
+
+/**
+ * @typedef {Object BetRecommendation}
+ * ...
+ */
+
+/**
+ * Daily highlights for a meeting (all races on a date).
+ *
+ * @typedef {Object DailyHighlightsMetadata}
+ * @property {string} date - Race date in YYYY-MM-DD format
+ * @property {string} generatedat - Generation timestamp, e.g. "2026-02-23 17:25:45"
+ *
+ * @typedef {Object DailyHighlightsMeetingContext}
+ * @property {string} volatility - Overall meeting volatility flag e.g. "STANDARD" | "CHAOS"
+ * @property {Array<Object>} attackingstables - List of attacking stables for the day
+ * @property {Array<Object>} attackingjockeys - List of attacking jockeys for the day
+ *
+ * @typedef {Object DailyHighlightsStableAttackStats}
+ * @property {string} trainer - Trainer code or name
+ * @property {number} strongchancescount - Number of strong chances for this trainer
+ * @property {string} tier - Tier grouping "1" | "2" | "3"
+ *
+ * @typedef {Object DailyHighlightsJockeyAttackStats}
+ * @property {string} jockey - Jockey code or name
+ * @property {number} strongchancescount - Number of strong chances for this jockey
+ * @property {string} tier - Tier grouping "1" | "2" | "3"
+ *
+ * @typedef {Object DailyHighlightsRaceVolatility}
+ * @property {number} racenumber - Race number (1-based)
+ * @property {string} volatility - Volatility for this race, e.g. "STANDARD" | "CHAOS"
+ *
+ * @typedef {Object DailyHighlightsTrafficRisk}
+ * @property {number} racenumber - Race number
+ * @property {string} bias - Track bias description e.g. "STRONGFAVORINNER"
+ * @property {number} fieldsize - Field size for this race
+ *
+ * @typedef {Object DailyHighlightsLatestSteamer}
+ * @property {number} racenumber - Race number
+ * @property {number|string} latesteamer - Horse number of latest steamer
+ * @property {string} latesteamername - Horse name (if available)
+ *
+ * @typedef {Object DailyHighlightsEarlyFavorite}
+ * @property {number} racenumber - Race number
+ * @property {number|string} earlyfavorite - Horse number of early favourite
+ * @property {string} earlyfavoritename - Horse name (if available)
+ *
+ * @typedef {Object DailyHighlightsJockeyUpgrade}
+ * @property {number} race - Race number
+ * @property {string|number} horse - Horse identifier
+ * @property {string} switch - Upgrade description, e.g. "T3 - T1"
+ *
+ * @typedef {Object DailyHighlightsDetails}
+ * @property {Array<DailyHighlightsStableAttackStats>} stableattackstats
+ * @property {Array<DailyHighlightsJockeyAttackStats>} jockeyattackstats
+ * @property {Array<DailyHighlightsRaceVolatility>} racevolatility
+ * @property {Array<DailyHighlightsTrafficRisk>} trafficrisks
+ * @property {Array<DailyHighlightsLatestSteamer>} scenarioAlatesteamers
+ * @property {Array<DailyHighlightsEarlyFavorite>} scenarioBearlyfavorites
+ * @property {Array<DailyHighlightsJockeyUpgrade>} jockeyupgrades
+ *
+ * @typedef {Object DailyHighlights}
+ * @property {DailyHighlightsMetadata} metadata
+ * @property {DailyHighlightsMeetingContext} meetingcontext
+ * @property {DailyHighlightsDetails} details
+ */
+
 // Export for TypeScript
 export {};

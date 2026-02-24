@@ -13,6 +13,8 @@ import { getHighlights, resetHighlights } from '../utils/alertSystem';
 import QuinellaPlaceMatrix from '../components/quinellaPlaceMatrix';
 import PaceMap from '../components/paceMap';
 import RecommendationDisplay from '../components/recommendationDisplay';
+import DailyHighlightsDisplay from "../components/dailyHighlightsDisplay";
+// import {hasDailyHighlights} from '../utils/dataLoader'; 
 import { 
   Tabs, 
   Tab, 
@@ -211,6 +213,14 @@ const RaceAnalysis = () => {
     </Box>
   );
   
+  // Daily Highlights Tab
+  const DailyHighlightsTab = () =>(
+    <Box sx={{ p: 2 }}>
+      <DailyHighlightsDisplay 
+        dailyHighlights={raceData?.dailyHighlights}
+      />
+    </Box>
+  );
   
   const tabComponents = [
     <HorseInfoTab key="horse-info" />,
@@ -221,6 +231,9 @@ const RaceAnalysis = () => {
       paceData={raceData.paceData}
       raceData={raceData}
       highlights={highlights} />,
+    raceData?.dailyHighlights && (
+        <DailyHighlightsTab key="daily-highlights" />
+      ),
     raceData?.betRecommendData && <RecommendationTab key="recommendation" /> 
   ].filter(Boolean);
 
@@ -272,6 +285,7 @@ const RaceAnalysis = () => {
           <Tab label="Q & PQ Odds" />
           <Tab label="Findings" />
           {raceData?.paceData && <Tab label="Pace Map" />}
+          {raceData?.dailyHighlights && <Tab label="Daily Highlights" />}
           {raceData?.betRecommendData && <Tab label="Recommendations" />}
         </Tabs>
       </Box>

@@ -12,6 +12,8 @@
 
 // v1.1.0 - Added Meta-Learner prediction loading (ML)
 
+// v1.1.11 - Added Daily Highlights loading
+
 const buildFilePath = (date, raceNumber, timestamp) => {
   return `${date}-${raceNumber}-odds_${timestamp}.json`;
 };
@@ -39,6 +41,10 @@ const buildMLFilePath = (date, raceNumber, predictionType) => {
 const buildBetFilePath = (date, raceNumber, strategy, timestamp) => {
   return `${date}-${raceNumber}-bet${strategy}_${timestamp}.json`;
 };
+
+const buildDailyHighlightsPath = (date) => {
+  return `${date}_daily_highlights.json`;
+};  
 
 const toFixedNumber = (value, decimals = 1) => {
   const num = Number(value);
@@ -262,8 +268,20 @@ export const loadRaceData = async (date, raceNumber, timestamp) => {
     } catch (error) {
       console.log(`No 1B3L prediction found for ${date} race ${raceNumber}: ${error.message}`);
     }
-   
-    // 7. Return standardized structure
+    
+    // 7. Load daily highlights (meeting level, by date only)
+    let dailyHighlights = null;
+    try {
+      const highlightsFileName = buildDailyHighlightsPath(date);
+      const highlightsModule = await import(
+        `../data/daily_highlights/${highlightsFileName}`
+      );
+      dailyHighlights = highlightsModule.default;
+    } catch (error) {
+      console.log(`No daily highlights found for date ${date}`, error.message);
+    }
+
+    // 8. Return standardized structure
     return {
       odds: oddsData.map(horse => ({
         horseNumber: String(horse.horse_number),
@@ -289,7 +307,8 @@ export const loadRaceData = async (date, raceNumber, timestamp) => {
       },
       paceData,
       predictions,
-      betRecommendData
+      betRecommendData,
+      dailyHighlights
     };
 
   } catch (error) {
@@ -335,4 +354,9 @@ export const hasPredictions = (data) => {
 // Helper to check if bet recommendations are available
 export const hasBetRecommendations = (data) => {
   return data?.betRecommendData !== null;
+};
+
+// Helper to check if daily highlights are available
+export const hasDailyHighlights = (data) => {
+  return data?.dailyHighlights != null;
 };
