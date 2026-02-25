@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-02-25",
+        "race_number": 7,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "一定掂",
+        "draw1": "2",
+        "score_value1": 18.24,
+        "factors1": {
+            "weight": 128.0,
+            "days_away": 28,
+            "fast_works": 3
+        },
+        "score2": 6,
+        "horse_name2": "開心三寶",
+        "draw2": "10",
+        "score_value2": 17.5,
+        "factors2": {
+            "weight": 129.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score3": 2,
+        "horse_name3": "納百川",
+        "draw3": "9",
+        "score_value3": 12.6,
+        "factors3": {
+            "weight": 134.0,
+            "days_away": 31,
+            "fast_works": 4
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-02-25",
+        "race_number": 8,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "團結勇士",
+        "draw1": "2",
+        "score_value1": 40.8,
+        "factors1": {
+            "weight": 119.0,
+            "days_away": 28,
+            "fast_works": 3
+        },
+        "score2": 1,
+        "horse_name2": "燭光晚餐",
+        "draw2": "10",
+        "score_value2": 24.8,
+        "factors2": {
+            "weight": 134.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score3": 10,
+        "horse_name3": "好節拍",
+        "draw3": "6",
+        "score_value3": 22.56,
+        "factors3": {
+            "weight": 118.0,
+            "days_away": 28,
+            "fast_works": 5
+        }
+    }
+}

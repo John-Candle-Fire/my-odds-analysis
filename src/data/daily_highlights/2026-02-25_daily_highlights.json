@@ -1,0 +1,135 @@
+{
+    "metadata": {
+        "date": "2026-02-25",
+        "generated_at": "2026-02-25 17:39:10"
+    },
+    "meeting_context": {
+        "volatility": "STANDARD",
+        "attacking_stables": [
+            "蔡約翰",
+            "方嘉柏",
+            "巫偉傑",
+            "伍鵬志",
+            "丁冠豪",
+            "葉楚航"
+        ],
+        "attacking_jockeys": [
+            "潘頓",
+            "艾兆禮",
+            "紀仁安",
+            "周俊樂",
+            "麥文堅",
+            "梁家俊",
+            "黃智弘"
+        ]
+    },
+    "details": {
+        "stable_attack_stats": [
+            {
+                "trainer": "蔡約翰",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "方嘉柏",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "巫偉傑",
+                "strong_chances_count": 5,
+                "tier": 2
+            },
+            {
+                "trainer": "伍鵬志",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "trainer": "丁冠豪",
+                "strong_chances_count": 4,
+                "tier": 3
+            },
+            {
+                "trainer": "葉楚航",
+                "strong_chances_count": 3,
+                "tier": 3
+            }
+        ],
+        "jockey_attack_stats": [
+            {
+                "jockey": "潘頓",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "jockey": "艾兆禮",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "jockey": "紀仁安",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "jockey": "周俊樂",
+                "strong_chances_count": 6,
+                "tier": 2
+            },
+            {
+                "jockey": "麥文堅",
+                "strong_chances_count": 4,
+                "tier": 3
+            },
+            {
+                "jockey": "梁家俊",
+                "strong_chances_count": 4,
+                "tier": 3
+            },
+            {
+                "jockey": "黃智弘",
+                "strong_chances_count": 3,
+                "tier": 4
+            }
+        ],
+        "race_volatility": {
+            "1": "STANDARD",
+            "2": "CHAOS",
+            "3": "STANDARD",
+            "4": "CHAOS",
+            "5": "STANDARD",
+            "6": "STANDARD",
+            "7": "STANDARD",
+            "8": "STANDARD",
+            "9": "STANDARD"
+        },
+        "traffic_risks": [],
+        "scenario_A_late_steamers": [
+            {
+                "race_number": 5,
+                "late_steamer": 5,
+                "late_steamer_name": "銀刺勇士"
+            },
+            {
+                "race_number": 9,
+                "late_steamer": 11,
+                "late_steamer_name": "快搏"
+            }
+        ],
+        "scenario_B_early_favorites": [
+            {
+                "race_number": 8,
+                "early_favorite": 8,
+                "early_favorite_name": "團結勇士"
+            }
+        ],
+        "jockey_upgrades": [
+            {
+                "race": 8,
+                "horse": "輕功猛男",
+                "switch": "黃智弘(T4) -> 何澤堯(T1)"
+            }
+        ]
+    }
+}

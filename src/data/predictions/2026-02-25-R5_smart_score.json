@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-02-25",
+        "race_number": 5,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "銀刺勇士",
+        "draw1": "12",
+        "score_value1": 32.76,
+        "factors1": {
+            "weight": 127.0,
+            "days_away": 24,
+            "fast_works": 3
+        },
+        "score2": 6,
+        "horse_name2": "好精神",
+        "draw2": "3",
+        "score_value2": 28.3,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 21,
+            "fast_works": 2
+        },
+        "score3": 2,
+        "horse_name3": "當家精彩",
+        "draw3": "1",
+        "score_value3": 22.8,
+        "factors3": {
+            "weight": 134.0,
+            "days_away": 77,
+            "fast_works": 3
+        }
+    }
+}

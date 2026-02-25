@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-02-25",
+        "race_number": 2,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "比特星",
+        "draw1": "3",
+        "score_value1": 28.8,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score2": 7,
+        "horse_name2": "佳運發",
+        "draw2": "1",
+        "score_value2": 18.24,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 42,
+            "fast_works": 5
+        },
+        "score3": 1,
+        "horse_name3": "維港激流",
+        "draw3": "8",
+        "score_value3": 15.96,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 21,
+            "fast_works": 4
+        }
+    }
+}

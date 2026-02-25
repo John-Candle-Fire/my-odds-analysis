@@ -1,0 +1,97 @@
+{
+  "Race Date": "2026-02-25",
+  "Race Number": 3,
+  "Horses": [
+    {
+      "horseID": "HK_2022_H418",
+      "Horse Number": "1",
+      "Horse Name": "加州動員",
+      "Weight": "135",
+      "Trainer": "告東尼",
+      "Jockey": "艾道拿",
+      "Post": "7",
+      "First Win Index": "4.5",
+      "Race Day Win Index": "5.4",
+      "lastWin": "5.4",
+      "lastPosition": "02"
+    },
+    {
+      "horseID": "HK_2023_J197",
+      "Horse Number": "2",
+      "Horse Name": "大浪圖田",
+      "Weight": "134",
+      "Trainer": "丁冠豪",
+      "Jockey": "巴度",
+      "Post": "4",
+      "First Win Index": "3.1",
+      "Race Day Win Index": "3.3",
+      "lastWin": "4.9",
+      "lastPosition": "03"
+    },
+    {
+      "horseID": "HK_2021_G448",
+      "Horse Number": "3",
+      "Horse Name": "知足常樂",
+      "Weight": "134",
+      "Trainer": "羅富全",
+      "Jockey": "梁家俊",
+      "Post": "6",
+      "First Win Index": "74.2",
+      "Race Day Win Index": "99",
+      "lastWin": "4.7",
+      "lastPosition": "04"
+    },
+    {
+      "horseID": "HK_2023_J050",
+      "Horse Number": "4",
+      "Horse Name": "非惟僥倖",
+      "Weight": "130",
+      "Trainer": "姚本輝",
+      "Jockey": "艾兆禮",
+      "Post": "5",
+      "First Win Index": "3.6",
+      "Race Day Win Index": "3.6",
+      "lastWin": "18",
+      "lastPosition": "01"
+    },
+    {
+      "horseID": "HK_2023_J127",
+      "Horse Number": "5",
+      "Horse Name": "太陽勇士",
+      "Weight": "130",
+      "Trainer": "大衛希斯",
+      "Jockey": "布文",
+      "Post": "1",
+      "First Win Index": "16.1",
+      "Race Day Win Index": "23.8",
+      "lastWin": "4.1",
+      "lastPosition": "06"
+    },
+    {
+      "horseID": "HK_2023_J092",
+      "Horse Number": "6",
+      "Horse Name": "仁心星",
+      "Weight": "122",
+      "Trainer": "方嘉柏",
+      "Jockey": "黃智弘",
+      "Post": "2",
+      "First Win Index": "21.4",
+      "Race Day Win Index": "6.8",
+      "lastWin": "23",
+      "lastPosition": "06"
+    },
+    {
+      "horseID": "HK_2021_G266",
+      "Horse Number": "7",
+      "Horse Name": "銀進",
+      "Weight": "117",
+      "Trainer": "方嘉柏",
+      "Jockey": "田泰安",
+      "Post": "3",
+      "First Win Index": "17.8",
+      "Race Day Win Index": "27.1",
+      "lastWin": "12",
+      "lastPosition": "10"
+    }
+  ]
+}
