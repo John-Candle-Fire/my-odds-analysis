@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-01",
+        "race_number": 11,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "會當凌",
+        "draw1": "6",
+        "score_value1": 41.8,
+        "factors1": {
+            "weight": 119.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score2": 3,
+        "horse_name2": "新意馬",
+        "draw2": "3",
+        "score_value2": 30.48,
+        "factors2": {
+            "weight": 130.0,
+            "days_away": 25,
+            "fast_works": 2
+        },
+        "score3": 10,
+        "horse_name3": "至尊高超",
+        "draw3": "9",
+        "score_value3": 21.5,
+        "factors3": {
+            "weight": 119.0,
+            "days_away": 21,
+            "fast_works": 4
+        }
+    }
+}

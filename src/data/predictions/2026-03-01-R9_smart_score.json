@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-01",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1800,
+        "class": "四歲"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "小鳥天堂",
+        "draw1": "3",
+        "score_value1": 51.36,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score2": 5,
+        "horse_name2": "晒冷",
+        "draw2": "14",
+        "score_value2": 43.92,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score3": 6,
+        "horse_name3": "美麗星晨",
+        "draw3": "9",
+        "score_value3": 41.16,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 28,
+            "fast_works": 5
+        }
+    }
+}

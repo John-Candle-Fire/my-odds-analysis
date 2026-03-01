@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-01",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "金多囍",
+        "draw1": "3",
+        "score_value1": 20.7,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score2": 14,
+        "horse_name2": "果然僥倖",
+        "draw2": "12",
+        "score_value2": 20.5,
+        "factors2": {
+            "weight": 117.0,
+            "days_away": 15,
+            "fast_works": 1
+        },
+        "score3": 3,
+        "horse_name3": "手機錶勁",
+        "draw3": "13",
+        "score_value3": 18.0,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 35,
+            "fast_works": 5
+        }
+    }
+}

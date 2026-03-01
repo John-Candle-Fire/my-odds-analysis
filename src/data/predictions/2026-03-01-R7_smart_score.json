@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-01",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 2000,
+        "class": "一級賽"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "浪漫勇士",
+        "draw1": "4",
+        "score_value1": 54.0,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 35,
+            "fast_works": 4
+        },
+        "score2": 6,
+        "horse_name2": "天將龍駒",
+        "draw2": "3",
+        "score_value2": 40.56,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 35,
+            "fast_works": 5
+        },
+        "score3": 2,
+        "horse_name3": "遨遊氣泡",
+        "draw3": "6",
+        "score_value3": 39.0,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 35,
+            "fast_works": 5
+        }
+    }
+}

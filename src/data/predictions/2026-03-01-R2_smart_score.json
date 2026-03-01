@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-01",
+        "race_number": 2,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "紅衣醒目",
+        "draw1": "14",
+        "score_value1": 21.9,
+        "factors1": {
+            "weight": 132.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score2": 7,
+        "horse_name2": "加州勇勝",
+        "draw2": "4",
+        "score_value2": 19.5,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 15,
+            "fast_works": 2
+        },
+        "score3": 3,
+        "horse_name3": "超拍檔",
+        "draw3": "11",
+        "score_value3": 18.72,
+        "factors3": {
+            "weight": 128.0,
+            "days_away": 28,
+            "fast_works": 5
+        }
+    }
+}

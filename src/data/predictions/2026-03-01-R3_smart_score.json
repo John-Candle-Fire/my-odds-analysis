@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-01",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "綫路萬里",
+        "draw1": "1",
+        "score_value1": 41.76,
+        "factors1": {
+            "weight": 123.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score2": 2,
+        "horse_name2": "進傲星",
+        "draw2": "8",
+        "score_value2": 27.2,
+        "factors2": {
+            "weight": 134.0,
+            "days_away": 21,
+            "fast_works": 2
+        },
+        "score3": 11,
+        "horse_name3": "海王",
+        "draw3": "10",
+        "score_value3": 10.5,
+        "factors3": {
+            "weight": 120.0,
+            "days_away": 21,
+            "fast_works": 2
+        }
+    }
+}

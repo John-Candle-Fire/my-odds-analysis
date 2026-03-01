@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-01",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "俏眼光",
+        "draw1": "7",
+        "score_value1": 32.7,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 15,
+            "fast_works": 2
+        },
+        "score2": 6,
+        "horse_name2": "臻至辰",
+        "draw2": "5",
+        "score_value2": 26.4,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 25,
+            "fast_works": 4
+        },
+        "score3": 3,
+        "horse_name3": "閃耀天河",
+        "draw3": "11",
+        "score_value3": 26.0,
+        "factors3": {
+            "weight": 130.0,
+            "days_away": 21,
+            "fast_works": 2
+        }
+    }
+}

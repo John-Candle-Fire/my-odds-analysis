@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-01",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 2000,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "君子傳承",
+        "draw1": "7",
+        "score_value1": 33.66,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 10,
+            "fast_works": 0
+        },
+        "score2": 3,
+        "horse_name2": "奔放",
+        "draw2": "10",
+        "score_value2": 32.34,
+        "factors2": {
+            "weight": 127.0,
+            "days_away": 10,
+            "fast_works": 0
+        },
+        "score3": 9,
+        "horse_name3": "滿心星",
+        "draw3": "9",
+        "score_value3": 26.6,
+        "factors3": {
+            "weight": 123.0,
+            "days_away": 15,
+            "fast_works": 1
+        }
+    }
+}

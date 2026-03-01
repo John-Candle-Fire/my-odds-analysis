@@ -1,0 +1,183 @@
+{
+    "metadata": {
+        "date": "2026-03-01",
+        "generated_at": "2026-03-01 10:33:04"
+    },
+    "meeting_context": {
+        "volatility": "STANDARD",
+        "attacking_stables": [
+            "告東尼",
+            "蔡約翰",
+            "大衛希斯",
+            "廖康銘",
+            "羅富全",
+            "呂健威"
+        ],
+        "attacking_jockeys": [
+            "潘頓",
+            "艾兆禮",
+            "紀仁安",
+            "麥道朗",
+            "周俊樂",
+            "希威森",
+            "麥文堅"
+        ]
+    },
+    "details": {
+        "stable_attack_stats": [
+            {
+                "trainer": "告東尼",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "trainer": "蔡約翰",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "trainer": "大衛希斯",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "廖康銘",
+                "strong_chances_count": 5,
+                "tier": 2
+            },
+            {
+                "trainer": "羅富全",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "trainer": "呂健威",
+                "strong_chances_count": 4,
+                "tier": 2
+            }
+        ],
+        "jockey_attack_stats": [
+            {
+                "jockey": "潘頓",
+                "strong_chances_count": 7,
+                "tier": 1
+            },
+            {
+                "jockey": "艾兆禮",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "jockey": "紀仁安",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "jockey": "麥道朗",
+                "strong_chances_count": 6,
+                "tier": 2
+            },
+            {
+                "jockey": "周俊樂",
+                "strong_chances_count": 5,
+                "tier": 2
+            },
+            {
+                "jockey": "希威森",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "jockey": "麥文堅",
+                "strong_chances_count": 5,
+                "tier": 3
+            }
+        ],
+        "race_volatility": {
+            "1": "STANDARD",
+            "2": "CHAOS",
+            "3": "STANDARD",
+            "4": "CHAOS",
+            "5": "CHAOS",
+            "6": "CHAOS",
+            "7": "STANDARD",
+            "8": "STANDARD",
+            "9": "STANDARD",
+            "10": "STANDARD",
+            "11": "STANDARD"
+        },
+        "traffic_risks": [
+            {
+                "race_number": 2,
+                "bias": "STRONG_FAVOR_INNER",
+                "field_size": 14
+            },
+            {
+                "race_number": 3,
+                "bias": "STRONG_FAVOR_INNER",
+                "field_size": 14
+            },
+            {
+                "race_number": 10,
+                "bias": "STRONG_FAVOR_INNER",
+                "field_size": 14
+            }
+        ],
+        "scenario_A_late_steamers": [
+            {
+                "race_number": 2,
+                "late_steamer": 1,
+                "late_steamer_name": "定數"
+            },
+            {
+                "race_number": 3,
+                "late_steamer": 4,
+                "late_steamer_name": "龍之邦"
+            },
+            {
+                "race_number": 8,
+                "late_steamer": 3,
+                "late_steamer_name": "巴基之勝"
+            },
+            {
+                "race_number": 9,
+                "late_steamer": 5,
+                "late_steamer_name": "晒冷"
+            },
+            {
+                "race_number": 9,
+                "late_steamer": 10,
+                "late_steamer_name": "風將"
+            }
+        ],
+        "scenario_B_early_favorites": [
+            {
+                "race_number": 5,
+                "early_favorite": 6,
+                "early_favorite_name": "錶之浩瀚"
+            },
+            {
+                "race_number": 9,
+                "early_favorite": 3,
+                "early_favorite_name": "睿盛人生"
+            },
+            {
+                "race_number": 10,
+                "early_favorite": 9,
+                "early_favorite_name": "滿心星"
+            },
+            {
+                "race_number": 11,
+                "early_favorite": 1,
+                "early_favorite_name": "健康愉快"
+            }
+        ],
+        "jockey_upgrades": [
+            {
+                "race": 4,
+                "horse": "馬達",
+                "switch": "梁家俊(T3) -> 布文(T1)"
+            }
+        ]
+    }
+}

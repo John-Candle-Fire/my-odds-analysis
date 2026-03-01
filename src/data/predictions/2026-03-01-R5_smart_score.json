@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-01",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "逍遙人生",
+        "draw1": "2",
+        "score_value1": 27.6,
+        "factors1": {
+            "weight": 130.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 3,
+        "horse_name2": "鼓浪好友",
+        "draw2": "10",
+        "score_value2": 26.8,
+        "factors2": {
+            "weight": 132.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score3": 6,
+        "horse_name3": "錶之浩瀚",
+        "draw3": "7",
+        "score_value3": 18.5,
+        "factors3": {
+            "weight": 129.0,
+            "days_away": 21,
+            "fast_works": 3
+        }
+    }
+}
