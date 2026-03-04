@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-03-04",
+        "race_number": 5,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "運來伍寶",
+        "draw1": "2",
+        "score_value1": 6.075,
+        "factors1": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 1.375,
+            "volatility": 0.0
+        },
+        "score2": 12,
+        "horse_name2": "快樂高球",
+        "draw2": "1",
+        "score_value2": 5.7,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.0,
+            "pace_wt": 3.2,
+            "volatility": 0.0
+        },
+        "score3": 11,
+        "horse_name3": "萬里雲",
+        "draw3": "5",
+        "score_value3": 4.475,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 2.5999999999999996,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        }
+    }
+}

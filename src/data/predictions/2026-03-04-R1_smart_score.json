@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-04",
+        "race_number": 1,
+        "course": "跑馬地",
+        "distance": 1800,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "開心三多",
+        "draw1": "9",
+        "score_value1": 19.44,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 45,
+            "fast_works": 5
+        },
+        "score2": 2,
+        "horse_name2": "齊歡最樂",
+        "draw2": "7",
+        "score_value2": 15.4,
+        "factors2": {
+            "weight": 132.0,
+            "days_away": 10,
+            "fast_works": 1
+        },
+        "score3": 4,
+        "horse_name3": "光輝歲月",
+        "draw3": "3",
+        "score_value3": 14.21,
+        "factors3": {
+            "weight": 130.0,
+            "days_away": 10,
+            "fast_works": 0
+        }
+    }
+}
