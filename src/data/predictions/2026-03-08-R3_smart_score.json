@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-08",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "顯勝高昇",
+        "draw1": "12",
+        "score_value1": 28.94,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 28,
+            "fast_works": 6
+        },
+        "score2": 11,
+        "horse_name2": "起舞奜奜",
+        "draw2": "6",
+        "score_value2": 23.47,
+        "factors2": {
+            "weight": 117.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score3": 8,
+        "horse_name3": "祥勝力駒",
+        "draw3": "2",
+        "score_value3": 20.92,
+        "factors3": {
+            "weight": 125.0,
+            "days_away": 39,
+            "fast_works": 4
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-08",
+        "race_number": 11,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "綠野飛馳",
+        "draw1": "5",
+        "score_value1": 45.6,
+        "factors1": {
+            "weight": 132.0,
+            "days_away": 17,
+            "fast_works": 3
+        },
+        "score2": 14,
+        "horse_name2": "榮利雙收",
+        "draw2": "14",
+        "score_value2": 28.88,
+        "factors2": {
+            "weight": 116.0,
+            "days_away": 14,
+            "fast_works": 3
+        },
+        "score3": 5,
+        "horse_name3": "蓮冠皇",
+        "draw3": "7",
+        "score_value3": 26.46,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 49,
+            "fast_works": 3
+        }
+    }
+}

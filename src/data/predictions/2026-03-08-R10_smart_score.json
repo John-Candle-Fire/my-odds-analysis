@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-08",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第一班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "舉步生風",
+        "draw1": "1",
+        "score_value1": 43.34,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 42,
+            "fast_works": 5
+        },
+        "score2": 6,
+        "horse_name2": "星際快車",
+        "draw2": "12",
+        "score_value2": 39.6,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score3": 8,
+        "horse_name3": "笑傲江湖",
+        "draw3": "8",
+        "score_value3": 37.55,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 22,
+            "fast_works": 5
+        }
+    }
+}

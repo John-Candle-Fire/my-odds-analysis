@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-08",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "安都",
+        "draw1": "14",
+        "score_value1": 37.87,
+        "factors1": {
+            "weight": 122.0,
+            "days_away": 22,
+            "fast_works": 4
+        },
+        "score2": 6,
+        "horse_name2": "超勁赤兔",
+        "draw2": "7",
+        "score_value2": 34.56,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score3": 7,
+        "horse_name3": "榮駿大道",
+        "draw3": "9",
+        "score_value3": 23.94,
+        "factors3": {
+            "weight": 124.0,
+            "days_away": 28,
+            "fast_works": 6
+        }
+    }
+}

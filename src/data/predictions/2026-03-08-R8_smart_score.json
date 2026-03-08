@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-08",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "時時歡欣",
+        "draw1": "3",
+        "score_value1": 51.41,
+        "factors1": {
+            "weight": 132.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score2": 5,
+        "horse_name2": "錶之極光",
+        "draw2": "7",
+        "score_value2": 50.4,
+        "factors2": {
+            "weight": 128.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score3": 6,
+        "horse_name3": "樂勝天下",
+        "draw3": "1",
+        "score_value3": 37.44,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 28,
+            "fast_works": 5
+        }
+    }
+}

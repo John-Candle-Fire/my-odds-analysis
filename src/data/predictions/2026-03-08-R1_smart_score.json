@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-08",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "佳運發",
+        "draw1": "6",
+        "score_value1": 21.23,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 11,
+            "fast_works": 1
+        },
+        "score2": 12,
+        "horse_name2": "天下寵兒",
+        "draw2": "13",
+        "score_value2": 19.66,
+        "factors2": {
+            "weight": 123.0,
+            "days_away": 32,
+            "fast_works": 3
+        },
+        "score3": 8,
+        "horse_name3": "日出東方",
+        "draw3": "4",
+        "score_value3": 12.6,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 14,
+            "fast_works": 2
+        }
+    }
+}

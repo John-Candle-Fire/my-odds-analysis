@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-08",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 1800,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "太陽勇士",
+        "draw1": "3",
+        "score_value1": 38.02,
+        "factors1": {
+            "weight": 131.0,
+            "days_away": 11,
+            "fast_works": 1
+        },
+        "score2": 6,
+        "horse_name2": "桃花開",
+        "draw2": "9",
+        "score_value2": 25.41,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 17,
+            "fast_works": 3
+        },
+        "score3": 5,
+        "horse_name3": "包裝福星",
+        "draw3": "4",
+        "score_value3": 23.21,
+        "factors3": {
+            "weight": 125.0,
+            "days_away": 17,
+            "fast_works": 3
+        }
+    }
+}

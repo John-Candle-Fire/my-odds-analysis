@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-08",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "暴風一族",
+        "draw1": "7",
+        "score_value1": 28.8,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 22,
+            "fast_works": 5
+        },
+        "score2": 1,
+        "horse_name2": "八仟好運",
+        "draw2": "11",
+        "score_value2": 21.0,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score3": 6,
+        "horse_name3": "烈焰光芒",
+        "draw3": "6",
+        "score_value3": 16.51,
+        "factors3": {
+            "weight": 129.0,
+            "days_away": 22,
+            "fast_works": 3
+        }
+    }
+}

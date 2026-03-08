@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-08",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "金玉良言",
+        "draw1": "5",
+        "score_value1": 31.39,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score2": 8,
+        "horse_name2": "勁勇皇駒",
+        "draw2": "10",
+        "score_value2": 22.93,
+        "factors2": {
+            "weight": 123.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score3": 2,
+        "horse_name3": "常嚐發財",
+        "draw3": "8",
+        "score_value3": 19.8,
+        "factors3": {
+            "weight": 133.0,
+            "days_away": 46,
+            "fast_works": 4
+        }
+    }
+}

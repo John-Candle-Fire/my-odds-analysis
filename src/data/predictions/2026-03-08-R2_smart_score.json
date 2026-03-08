@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-08",
+        "race_number": 2,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "全神貫注",
+        "draw1": "1",
+        "score_value1": 52.13,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score2": 9,
+        "horse_name2": "快樂老撾",
+        "draw2": "8",
+        "score_value2": 27.09,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 66,
+            "fast_works": 5
+        },
+        "score3": 2,
+        "horse_name3": "旋風傳奇",
+        "draw3": "11",
+        "score_value3": 25.33,
+        "factors3": {
+            "weight": 133.0,
+            "days_away": 28,
+            "fast_works": 6
+        }
+    }
+}
