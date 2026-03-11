@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-11",
+        "race_number": 4,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "時間寶",
+        "draw1": "1",
+        "score_value1": 36.48,
+        "factors1": {
+            "weight": 118.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 7,
+        "horse_name2": "隨緣得勝",
+        "draw2": "12",
+        "score_value2": 28.98,
+        "factors2": {
+            "weight": 121.0,
+            "days_away": 35,
+            "fast_works": 3
+        },
+        "score3": 4,
+        "horse_name3": "活力精神",
+        "draw3": "4",
+        "score_value3": 18.43,
+        "factors3": {
+            "weight": 129.0,
+            "days_away": 28,
+            "fast_works": 5
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-11",
+        "race_number": 1,
+        "course": "跑馬地",
+        "distance": 1000,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "謙謙君子",
+        "draw1": "5",
+        "score_value1": 36.14,
+        "factors1": {
+            "weight": 118.0,
+            "days_away": 28,
+            "fast_works": 2
+        },
+        "score2": 9,
+        "horse_name2": "銀亮濠俠",
+        "draw2": "11",
+        "score_value2": 36.0,
+        "factors2": {
+            "weight": 127.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score3": 4,
+        "horse_name3": "獵寶勤",
+        "draw3": "4",
+        "score_value3": 28.94,
+        "factors3": {
+            "weight": 133.0,
+            "days_away": 28,
+            "fast_works": 6
+        }
+    }
+}

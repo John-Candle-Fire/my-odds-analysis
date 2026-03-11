@@ -1,0 +1,236 @@
+{
+    "metadata": {
+        "date": "2026-03-11",
+        "generated_at": "2026-03-11 17:58:17"
+    },
+    "meeting_context": {
+        "volatility": "STANDARD",
+        "attacking_stables": [
+            "方嘉柏",
+            "大衛希斯",
+            "蔡約翰",
+            "告東尼",
+            "巫偉傑",
+            "桂福特",
+            "伍鵬志",
+            "羅富全",
+            "葉楚航"
+        ],
+        "attacking_jockeys": [
+            "潘頓",
+            "布文",
+            "何澤堯",
+            "田泰安",
+            "奧爾民",
+            "麥文堅",
+            "鍾易禮",
+            "蔡明紹",
+            "潘明輝",
+            "梁家俊"
+        ]
+    },
+    "details": {
+        "stable_attack_stats": [
+            {
+                "trainer": "方嘉柏",
+                "strong_chances_count": 6,
+                "tier": 1
+            },
+            {
+                "trainer": "大衛希斯",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "蔡約翰",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "告東尼",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "巫偉傑",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "trainer": "桂福特",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "trainer": "伍鵬志",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "trainer": "羅富全",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "trainer": "葉楚航",
+                "strong_chances_count": 4,
+                "tier": 3
+            }
+        ],
+        "jockey_attack_stats": [
+            {
+                "jockey": "潘頓",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "jockey": "布文",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "jockey": "何澤堯",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "jockey": "田泰安",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "jockey": "奧爾民",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "jockey": "麥文堅",
+                "strong_chances_count": 3,
+                "tier": 3
+            },
+            {
+                "jockey": "鍾易禮",
+                "strong_chances_count": 3,
+                "tier": 3
+            },
+            {
+                "jockey": "蔡明紹",
+                "strong_chances_count": 3,
+                "tier": 3
+            },
+            {
+                "jockey": "潘明輝",
+                "strong_chances_count": 3,
+                "tier": 3
+            },
+            {
+                "jockey": "梁家俊",
+                "strong_chances_count": 3,
+                "tier": 3
+            }
+        ],
+        "race_volatility": {
+            "1": "STANDARD",
+            "2": "STANDARD",
+            "3": "STANDARD",
+            "4": "STANDARD",
+            "5": "STANDARD",
+            "6": "STANDARD",
+            "7": "STANDARD",
+            "8": "STANDARD",
+            "9": "STANDARD"
+        },
+        "traffic_risks": [],
+        "scenario_A_late_steamers": [
+            {
+                "race_number": 2,
+                "late_steamer": 1,
+                "late_steamer_name": "莊家班"
+            },
+            {
+                "race_number": 2,
+                "late_steamer": 6,
+                "late_steamer_name": "你知我得"
+            },
+            {
+                "race_number": 4,
+                "late_steamer": 1,
+                "late_steamer_name": "浪漫老撾"
+            },
+            {
+                "race_number": 4,
+                "late_steamer": 6,
+                "late_steamer_name": "知道穩勝"
+            },
+            {
+                "race_number": 5,
+                "late_steamer": 1,
+                "late_steamer_name": "安康萬里"
+            },
+            {
+                "race_number": 6,
+                "late_steamer": 3,
+                "late_steamer_name": "中環精英"
+            },
+            {
+                "race_number": 9,
+                "late_steamer": 6,
+                "late_steamer_name": "智勇名駒"
+            }
+        ],
+        "scenario_B_early_favorites": [
+            {
+                "race_number": 6,
+                "early_favorite": 1,
+                "early_favorite_name": "維港激流"
+            },
+            {
+                "race_number": 9,
+                "early_favorite": 1,
+                "early_favorite_name": "銀進"
+            }
+        ],
+        "jockey_upgrades": [
+            {
+                "race": 1,
+                "horse": "辣得金",
+                "switch": "梁家俊(T3) -> 布文(T1)"
+            },
+            {
+                "race": 1,
+                "horse": "喆喆友福",
+                "switch": "麥文堅(T3) -> 潘頓(T1)"
+            },
+            {
+                "race": 2,
+                "horse": "莊家班",
+                "switch": "巫顯東(T4) -> 布文(T1)"
+            },
+            {
+                "race": 4,
+                "horse": "鬆啲",
+                "switch": "楊明綸(T3) -> 布文(T1)"
+            },
+            {
+                "race": 5,
+                "horse": "星火燎原",
+                "switch": "鍾易禮(T3) -> 布文(T1)"
+            },
+            {
+                "race": 7,
+                "horse": "解碼",
+                "switch": "麥文堅(T3) -> 艾兆禮(T1)"
+            },
+            {
+                "race": 8,
+                "horse": "好好戀愛",
+                "switch": "黃智弘(T4) -> 何澤堯(T1)"
+            },
+            {
+                "race": 9,
+                "horse": "中國心",
+                "switch": "楊明綸(T3) -> 潘頓(T1)"
+            }
+        ]
+    }
+}

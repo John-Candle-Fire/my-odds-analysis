@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-03-11",
+        "race_number": 5,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "佛亮老撾",
+        "draw1": "5",
+        "score_value1": 5.775,
+        "factors1": {
+            "base": 0.5,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 1.5750000000000002,
+            "volatility": 0.0
+        },
+        "score2": 3,
+        "horse_name2": "天外迎天",
+        "draw2": "1",
+        "score_value2": 5.7,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 1.0,
+            "volatility": 0.0
+        },
+        "score3": 5,
+        "horse_name3": "鈁糖武士",
+        "draw3": "3",
+        "score_value3": 4.475,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 1.3749999999999996,
+            "volatility": 0.0
+        }
+    }
+}

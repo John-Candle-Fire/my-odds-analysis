@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-11",
+        "race_number": 3,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "康昌之星",
+        "draw1": "12",
+        "score_value1": 25.9,
+        "factors1": {
+            "weight": 132.0,
+            "days_away": 14,
+            "fast_works": 1
+        },
+        "score2": 5,
+        "horse_name2": "奮鬥輝煌",
+        "draw2": "6",
+        "score_value2": 17.64,
+        "factors2": {
+            "weight": 128.0,
+            "days_away": 14,
+            "fast_works": 1
+        },
+        "score3": 11,
+        "horse_name3": "喜馬",
+        "draw3": "9",
+        "score_value3": 15.75,
+        "factors3": {
+            "weight": 120.0,
+            "days_away": 63,
+            "fast_works": 2
+        }
+    }
+}
