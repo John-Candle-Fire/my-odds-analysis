@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-15",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "興馳千里",
+        "draw1": "9",
+        "score_value1": 28.98,
+        "factors1": {
+            "weight": 121.0,
+            "days_away": 29,
+            "fast_works": 6
+        },
+        "score2": 7,
+        "horse_name2": "會長之寶",
+        "draw2": "5",
+        "score_value2": 23.28,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 29,
+            "fast_works": 5
+        },
+        "score3": 12,
+        "horse_name3": "路路勁",
+        "draw3": "6",
+        "score_value3": 22.18,
+        "factors3": {
+            "weight": 118.0,
+            "days_away": 29,
+            "fast_works": 6
+        }
+    }
+}

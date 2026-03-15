@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-15",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1650,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "皇龍飛將",
+        "draw1": "9",
+        "score_value1": 36.79,
+        "factors1": {
+            "weight": 131.0,
+            "days_away": 29,
+            "fast_works": 5
+        },
+        "score2": 9,
+        "horse_name2": "富國兄弟",
+        "draw2": "8",
+        "score_value2": 28.2,
+        "factors2": {
+            "weight": 115.0,
+            "days_away": 24,
+            "fast_works": 4
+        },
+        "score3": 11,
+        "horse_name3": "凱明神駒",
+        "draw3": "4",
+        "score_value3": 22.93,
+        "factors3": {
+            "weight": 115.0,
+            "days_away": 39,
+            "fast_works": 3
+        }
+    }
+}

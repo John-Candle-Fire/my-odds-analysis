@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-15",
+        "race_number": 2,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "首駿",
+        "draw1": "1",
+        "score_value1": 30.82,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 24,
+            "fast_works": 2
+        },
+        "score2": 5,
+        "horse_name2": "駿馬之星",
+        "draw2": "10",
+        "score_value2": 24.62,
+        "factors2": {
+            "weight": 129.0,
+            "days_away": 42,
+            "fast_works": 5
+        },
+        "score3": 8,
+        "horse_name3": "怡昌奇兵",
+        "draw3": "2",
+        "score_value3": 21.17,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 24,
+            "fast_works": 4
+        }
+    }
+}

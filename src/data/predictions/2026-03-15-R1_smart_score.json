@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-15",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1650,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "幻影旋風",
+        "draw1": "6",
+        "score_value1": 28.22,
+        "factors1": {
+            "weight": 122.0,
+            "days_away": 53,
+            "fast_works": 4
+        },
+        "score2": 2,
+        "horse_name2": "魔法速遞",
+        "draw2": "8",
+        "score_value2": 21.6,
+        "factors2": {
+            "weight": 133.0,
+            "days_away": 53,
+            "fast_works": 5
+        },
+        "score3": 1,
+        "horse_name3": "悠悠乾坤",
+        "draw3": "10",
+        "score_value3": 19.35,
+        "factors3": {
+            "weight": 134.0,
+            "days_away": 53,
+            "fast_works": 6
+        }
+    }
+}

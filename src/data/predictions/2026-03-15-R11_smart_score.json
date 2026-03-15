@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-15",
+        "race_number": 11,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "同心同樂",
+        "draw1": "9",
+        "score_value1": 36.86,
+        "factors1": {
+            "weight": 134.0,
+            "days_away": 24,
+            "fast_works": 2
+        },
+        "score2": 7,
+        "horse_name2": "一世美麗",
+        "draw2": "6",
+        "score_value2": 27.07,
+        "factors2": {
+            "weight": 124.0,
+            "days_away": 24,
+            "fast_works": 4
+        },
+        "score3": 11,
+        "horse_name3": "包裝明將",
+        "draw3": "4",
+        "score_value3": 26.1,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 21,
+            "fast_works": 3
+        }
+    }
+}

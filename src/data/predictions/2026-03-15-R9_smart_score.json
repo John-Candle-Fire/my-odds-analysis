@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-15",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "君達得",
+        "draw1": "4",
+        "score_value1": 35.42,
+        "factors1": {
+            "weight": 122.0,
+            "days_away": 29,
+            "fast_works": 3
+        },
+        "score2": 2,
+        "horse_name2": "自動自覺",
+        "draw2": "14",
+        "score_value2": 27.72,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 29,
+            "fast_works": 5
+        },
+        "score3": 3,
+        "horse_name3": "開心老闆",
+        "draw3": "2",
+        "score_value3": 21.02,
+        "factors3": {
+            "weight": 133.0,
+            "days_away": 42,
+            "fast_works": 4
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-15",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "跨境駿馬",
+        "draw1": "5",
+        "score_value1": 45.79,
+        "factors1": {
+            "weight": 134.0,
+            "days_away": 24,
+            "fast_works": 5
+        },
+        "score2": 5,
+        "horse_name2": "賢知友您",
+        "draw2": "10",
+        "score_value2": 21.42,
+        "factors2": {
+            "weight": 127.0,
+            "days_away": 35,
+            "fast_works": 5
+        },
+        "score3": 7,
+        "horse_name3": "安定神駒",
+        "draw3": "1",
+        "score_value3": 15.12,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 24,
+            "fast_works": 4
+        }
+    }
+}
