@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-18",
+        "race_number": 9,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "勁沙塵",
+        "draw1": "5",
+        "score_value1": 52.7,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 35,
+            "fast_works": 5
+        },
+        "score2": 3,
+        "horse_name2": "做好自己",
+        "draw2": "4",
+        "score_value2": 42.21,
+        "factors2": {
+            "weight": 124.0,
+            "days_away": 27,
+            "fast_works": 4
+        },
+        "score3": 9,
+        "horse_name3": "翠兒威威",
+        "draw3": "6",
+        "score_value3": 38.01,
+        "factors3": {
+            "weight": 120.0,
+            "days_away": 21,
+            "fast_works": 3
+        }
+    }
+}

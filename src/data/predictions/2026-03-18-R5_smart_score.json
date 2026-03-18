@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-03-18",
+        "race_number": 5,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "彩虹七色",
+        "draw1": "3",
+        "score_value1": 6.6,
+        "factors1": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.1999999999999993,
+            "pace_wt": 1.0,
+            "volatility": -1.0999999999999996
+        },
+        "score2": 9,
+        "horse_name2": "風火猴王",
+        "draw2": "5",
+        "score_value2": 4.6,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 0.5,
+            "volatility": -0.6000000000000005
+        },
+        "score3": 12,
+        "horse_name3": "過關勇士",
+        "draw3": "6",
+        "score_value3": 3.4,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.0,
+            "pace_wt": 1.2000000000000002,
+            "volatility": -0.30000000000000027
+        }
+    }
+}

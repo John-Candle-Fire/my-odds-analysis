@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-18",
+        "race_number": 6,
+        "course": "跑馬地",
+        "distance": 1800,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "祥勝將軍",
+        "draw1": "3",
+        "score_value1": 42.48,
+        "factors1": {
+            "weight": 129.0,
+            "days_away": 14,
+            "fast_works": 1
+        },
+        "score2": 5,
+        "horse_name2": "蜜蜜送",
+        "draw2": "4",
+        "score_value2": 27.48,
+        "factors2": {
+            "weight": 129.0,
+            "days_away": 17,
+            "fast_works": 2
+        },
+        "score3": 6,
+        "horse_name3": "愛心波",
+        "draw3": "6",
+        "score_value3": 21.55,
+        "factors3": {
+            "weight": 125.0,
+            "days_away": 32,
+            "fast_works": 5
+        }
+    }
+}

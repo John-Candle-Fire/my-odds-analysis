@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-18",
+        "race_number": 1,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "電訊驕陽",
+        "draw1": "9",
+        "score_value1": 29.99,
+        "factors1": {
+            "weight": 134.0,
+            "days_away": 35,
+            "fast_works": 5
+        },
+        "score2": 4,
+        "horse_name2": "至旺財",
+        "draw2": "3",
+        "score_value2": 27.72,
+        "factors2": {
+            "weight": 133.0,
+            "days_away": 14,
+            "fast_works": 1
+        },
+        "score3": 11,
+        "horse_name3": "極速之子",
+        "draw3": "11",
+        "score_value3": 25.7,
+        "factors3": {
+            "weight": 119.0,
+            "days_away": 24,
+            "fast_works": 4
+        }
+    }
+}

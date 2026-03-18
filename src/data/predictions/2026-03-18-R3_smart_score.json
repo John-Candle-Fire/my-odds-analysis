@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-18",
+        "race_number": 3,
+        "course": "跑馬地",
+        "distance": 1000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "凝聚美麗",
+        "draw1": "9",
+        "score_value1": 40.9,
+        "factors1": {
+            "weight": 132.0,
+            "days_away": 35,
+            "fast_works": 6
+        },
+        "score2": 4,
+        "horse_name2": "天火同人",
+        "draw2": "11",
+        "score_value2": 33.84,
+        "factors2": {
+            "weight": 130.0,
+            "days_away": 35,
+            "fast_works": 4
+        },
+        "score3": 12,
+        "horse_name3": "亮寶",
+        "draw3": "2",
+        "score_value3": 29.61,
+        "factors3": {
+            "weight": 120.0,
+            "days_away": 35,
+            "fast_works": 5
+        }
+    }
+}

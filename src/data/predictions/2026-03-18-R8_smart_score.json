@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-03-18",
+        "race_number": 8,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "當家精彩",
+        "draw1": "9",
+        "score_value1": 7.275,
+        "factors1": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 4.2,
+            "pace_wt": 1.5750000000000002,
+            "volatility": 0.0
+        },
+        "score2": 11,
+        "horse_name2": "勇霸龍",
+        "draw2": "5",
+        "score_value2": 4.475,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 2.5999999999999996,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        },
+        "score3": 8,
+        "horse_name3": "電源之駒",
+        "draw3": "7",
+        "score_value3": 4.075,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": -1.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        }
+    }
+}
