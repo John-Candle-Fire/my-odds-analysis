@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-22",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "活力拍檔",
+        "draw1": "3",
+        "score_value1": 50.11,
+        "factors1": {
+            "weight": 123.0,
+            "days_away": 36,
+            "fast_works": 5
+        },
+        "score2": 2,
+        "horse_name2": "綠野飛馳",
+        "draw2": "11",
+        "score_value2": 45.12,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score3": 9,
+        "horse_name3": "友瑩亮",
+        "draw3": "4",
+        "score_value3": 42.05,
+        "factors3": {
+            "weight": 122.0,
+            "days_away": 28,
+            "fast_works": 5
+        }
+    }
+}

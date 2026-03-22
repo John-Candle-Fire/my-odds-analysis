@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-22",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1800,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "安可",
+        "draw1": "7",
+        "score_value1": 27.5,
+        "factors1": {
+            "weight": 118.0,
+            "days_away": 31,
+            "fast_works": 4
+        },
+        "score2": 6,
+        "horse_name2": "榮駿大道",
+        "draw2": "5",
+        "score_value2": 26.4,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score3": 5,
+        "horse_name3": "發財先鋒",
+        "draw3": "3",
+        "score_value3": 26.15,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 21,
+            "fast_works": 4
+        }
+    }
+}

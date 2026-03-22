@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-22",
+        "race_number": 2,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "辣得準",
+        "draw1": "12",
+        "score_value1": 37.44,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 175,
+            "fast_works": 6
+        },
+        "score2": 9,
+        "horse_name2": "賢者威楓",
+        "draw2": "6",
+        "score_value2": 31.5,
+        "factors2": {
+            "weight": 127.0,
+            "days_away": 31,
+            "fast_works": 5
+        },
+        "score3": 13,
+        "horse_name3": "雷神太保",
+        "draw3": "10",
+        "score_value3": 22.52,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 7,
+            "fast_works": 0
+        }
+    }
+}

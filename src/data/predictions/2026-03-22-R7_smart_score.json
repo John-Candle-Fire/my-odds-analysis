@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-22",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 2000,
+        "class": "四歲"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "會當凌",
+        "draw1": "8",
+        "score_value1": 44.2,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 21,
+            "fast_works": 2
+        },
+        "score2": 10,
+        "horse_name2": "至尊瑰寶",
+        "draw2": "4",
+        "score_value2": 41.9,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 31,
+            "fast_works": 5
+        },
+        "score3": 9,
+        "horse_name3": "喜尊龍",
+        "draw3": "1",
+        "score_value3": 37.55,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 31,
+            "fast_works": 4
+        }
+    }
+}

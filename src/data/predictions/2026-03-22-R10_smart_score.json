@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-22",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "勁速威龍",
+        "draw1": "3",
+        "score_value1": 47.23,
+        "factors1": {
+            "weight": 132.0,
+            "days_away": 42,
+            "fast_works": 5
+        },
+        "score2": 12,
+        "horse_name2": "韋金主",
+        "draw2": "8",
+        "score_value2": 33.24,
+        "factors2": {
+            "weight": 115.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score3": 4,
+        "horse_name3": "喜蓮勇感",
+        "draw3": "4",
+        "score_value3": 31.2,
+        "factors3": {
+            "weight": 134.0,
+            "days_away": 46,
+            "fast_works": 4
+        }
+    }
+}
