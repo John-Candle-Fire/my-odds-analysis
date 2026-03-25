@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-03-25",
+        "race_number": 9,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "福星小子",
+        "draw1": "7",
+        "score_value1": 6.699999999999999,
+        "factors1": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.1999999999999993,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        },
+        "score2": 4,
+        "horse_name2": "飛馬座",
+        "draw2": "3",
+        "score_value2": 6.2,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 1.5,
+            "volatility": 0.0
+        },
+        "score3": 1,
+        "horse_name3": "乘數表",
+        "draw3": "4",
+        "score_value3": 5.199999999999999,
+        "factors3": {
+            "base": 2.5,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.1999999999999993,
+            "pace_wt": -1.0,
+            "volatility": 0.0
+        }
+    }
+}

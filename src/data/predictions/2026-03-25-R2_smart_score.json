@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-25",
+        "race_number": 2,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "佳登",
+        "draw1": "7",
+        "score_value1": 26.98,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score2": 12,
+        "horse_name2": "多利神駒",
+        "draw2": "3",
+        "score_value2": 23.69,
+        "factors2": {
+            "weight": 117.0,
+            "days_away": 73,
+            "fast_works": 4
+        },
+        "score3": 3,
+        "horse_name3": "知道穩勝",
+        "draw3": "2",
+        "score_value3": 19.95,
+        "factors3": {
+            "weight": 128.0,
+            "days_away": 14,
+            "fast_works": 2
+        }
+    }
+}

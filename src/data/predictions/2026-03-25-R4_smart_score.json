@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-25",
+        "race_number": 4,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "本領非凡",
+        "draw1": "2",
+        "score_value1": 28.14,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score2": 12,
+        "horse_name2": "堅多福",
+        "draw2": "7",
+        "score_value2": 25.44,
+        "factors2": {
+            "weight": 118.0,
+            "days_away": 21,
+            "fast_works": 1
+        },
+        "score3": 4,
+        "horse_name3": "康昌之星",
+        "draw3": "5",
+        "score_value3": 20.64,
+        "factors3": {
+            "weight": 132.0,
+            "days_away": 14,
+            "fast_works": 1
+        }
+    }
+}

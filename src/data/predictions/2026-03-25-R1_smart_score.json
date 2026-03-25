@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-25",
+        "race_number": 1,
+        "course": "跑馬地",
+        "distance": 2200,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "香港精神",
+        "draw1": "7",
+        "score_value1": 36.72,
+        "factors1": {
+            "weight": 131.0,
+            "days_away": 66,
+            "fast_works": 5
+        },
+        "score2": 4,
+        "horse_name2": "夢照發",
+        "draw2": "4",
+        "score_value2": 35.78,
+        "factors2": {
+            "weight": 133.0,
+            "days_away": 31,
+            "fast_works": 6
+        },
+        "score3": 9,
+        "horse_name3": "開心三多",
+        "draw3": "10",
+        "score_value3": 25.2,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 21,
+            "fast_works": 4
+        }
+    }
+}

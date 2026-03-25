@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-25",
+        "race_number": 8,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "加州活力",
+        "draw1": "3",
+        "score_value1": 32.88,
+        "factors1": {
+            "weight": 121.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score2": 12,
+        "horse_name2": "心雄雄",
+        "draw2": "8",
+        "score_value2": 32.16,
+        "factors2": {
+            "weight": 119.0,
+            "days_away": 34,
+            "fast_works": 4
+        },
+        "score3": 2,
+        "horse_name3": "一定掂",
+        "draw3": "6",
+        "score_value3": 31.25,
+        "factors3": {
+            "weight": 134.0,
+            "days_away": 28,
+            "fast_works": 3
+        }
+    }
+}
