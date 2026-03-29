@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-29",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "奇異歡星",
+        "draw1": "7",
+        "score_value1": 29.52,
+        "factors1": {
+            "weight": 131.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 13,
+        "horse_name2": "天天更好",
+        "draw2": "13",
+        "score_value2": 25.49,
+        "factors2": {
+            "weight": 120.0,
+            "days_away": 38,
+            "fast_works": 5
+        },
+        "score3": 10,
+        "horse_name3": "銳目",
+        "draw3": "1",
+        "score_value3": 19.15,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 43,
+            "fast_works": 5
+        }
+    }
+}

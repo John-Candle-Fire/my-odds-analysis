@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-29",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "大愛無疆",
+        "draw1": "13",
+        "score_value1": 24.44,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 35,
+            "fast_works": 2
+        },
+        "score2": 4,
+        "horse_name2": "日出東方",
+        "draw2": "5",
+        "score_value2": 24.15,
+        "factors2": {
+            "weight": 133.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score3": 2,
+        "horse_name3": "北地烈馬",
+        "draw3": "8",
+        "score_value3": 22.3,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 18,
+            "fast_works": 1
+        }
+    }
+}

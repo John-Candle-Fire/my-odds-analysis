@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-29",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "扶搖勢勁",
+        "draw1": "7",
+        "score_value1": 41.83,
+        "factors1": {
+            "weight": 130.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score2": 1,
+        "horse_name2": "開心指數",
+        "draw2": "11",
+        "score_value2": 34.78,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 38,
+            "fast_works": 4
+        },
+        "score3": 2,
+        "horse_name3": "增強",
+        "draw3": "8",
+        "score_value3": 34.13,
+        "factors3": {
+            "weight": 131.0,
+            "days_away": 28,
+            "fast_works": 6
+        }
+    }
+}

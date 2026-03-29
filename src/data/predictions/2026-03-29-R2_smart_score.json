@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-29",
+        "race_number": 2,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 13,
+        "horse_name1": "盛勢威楓",
+        "draw1": "10",
+        "score_value1": 46.94,
+        "factors1": {
+            "weight": 119.0,
+            "days_away": 35,
+            "fast_works": 5
+        },
+        "score2": 4,
+        "horse_name2": "龍城強將",
+        "draw2": "11",
+        "score_value2": 28.48,
+        "factors2": {
+            "weight": 132.0,
+            "days_away": 49,
+            "fast_works": 3
+        },
+        "score3": 9,
+        "horse_name3": "龍傲綾羅",
+        "draw3": "12",
+        "score_value3": 24.91,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 28,
+            "fast_works": 5
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-29",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "勁沙塵",
+        "draw1": "3",
+        "score_value1": 46.07,
+        "factors1": {
+            "weight": 120.0,
+            "days_away": 11,
+            "fast_works": 0
+        },
+        "score2": 3,
+        "horse_name2": "非惟僥倖",
+        "draw2": "1",
+        "score_value2": 27.94,
+        "factors2": {
+            "weight": 131.0,
+            "days_away": 32,
+            "fast_works": 4
+        },
+        "score3": 8,
+        "horse_name3": "仁心星",
+        "draw3": "5",
+        "score_value3": 25.58,
+        "factors3": {
+            "weight": 123.0,
+            "days_away": 32,
+            "fast_works": 2
+        }
+    }
+}

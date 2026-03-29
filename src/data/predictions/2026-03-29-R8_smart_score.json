@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-29",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "極上紗瓏",
+        "draw1": "10",
+        "score_value1": 47.52,
+        "factors1": {
+            "weight": 134.0,
+            "days_away": 35,
+            "fast_works": 5
+        },
+        "score2": 7,
+        "horse_name2": "亨驥",
+        "draw2": "8",
+        "score_value2": 30.24,
+        "factors2": {
+            "weight": 122.0,
+            "days_away": 35,
+            "fast_works": 6
+        },
+        "score3": 2,
+        "horse_name3": "一生好彩",
+        "draw3": "3",
+        "score_value3": 24.44,
+        "factors3": {
+            "weight": 133.0,
+            "days_away": 28,
+            "fast_works": 3
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-29",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "劍無情",
+        "draw1": "9",
+        "score_value1": 33.6,
+        "factors1": {
+            "weight": 124.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score2": 10,
+        "horse_name2": "飛躍凱旋",
+        "draw2": "2",
+        "score_value2": 23.18,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 60,
+            "fast_works": 4
+        },
+        "score3": 6,
+        "horse_name3": "順善寶",
+        "draw3": "10",
+        "score_value3": 21.6,
+        "factors3": {
+            "weight": 132.0,
+            "days_away": 49,
+            "fast_works": 2
+        }
+    }
+}

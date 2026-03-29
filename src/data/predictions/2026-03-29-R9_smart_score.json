@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-29",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "燈胆將軍",
+        "draw1": "7",
+        "score_value1": 46.87,
+        "factors1": {
+            "weight": 123.0,
+            "days_away": 176,
+            "fast_works": 6
+        },
+        "score2": 11,
+        "horse_name2": "閃耀天河",
+        "draw2": "4",
+        "score_value2": 42.34,
+        "factors2": {
+            "weight": 118.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score3": 6,
+        "horse_name3": "時時歡欣",
+        "draw3": "6",
+        "score_value3": 40.74,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 21,
+            "fast_works": 2
+        }
+    }
+}

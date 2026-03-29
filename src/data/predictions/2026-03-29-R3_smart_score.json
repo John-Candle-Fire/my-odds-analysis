@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-03-29",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 2000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "步風雷",
+        "draw1": "4",
+        "score_value1": 49.9,
+        "factors1": {
+            "weight": 128.0,
+            "days_away": 28,
+            "fast_works": 6
+        },
+        "score2": 7,
+        "horse_name2": "同益善",
+        "draw2": "7",
+        "score_value2": 29.04,
+        "factors2": {
+            "weight": 127.0,
+            "days_away": 28,
+            "fast_works": 3
+        },
+        "score3": 10,
+        "horse_name3": "禾道威",
+        "draw3": "2",
+        "score_value3": 27.97,
+        "factors3": {
+            "weight": 119.0,
+            "days_away": 25,
+            "fast_works": 5
+        }
+    }
+}
