@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-01",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1800,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "加州星馳",
+        "draw1": "10",
+        "score_value1": 36.48,
+        "factors1": {
+            "weight": 132.0,
+            "days_away": 17,
+            "fast_works": 3
+        },
+        "score2": 5,
+        "horse_name2": "開心宇宙",
+        "draw2": "3",
+        "score_value2": 23.2,
+        "factors2": {
+            "weight": 130.0,
+            "days_away": 17,
+            "fast_works": 2
+        },
+        "score3": 8,
+        "horse_name3": "森林之王",
+        "draw3": "14",
+        "score_value3": 19.25,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 3,
+            "fast_works": 0
+        }
+    }
+}

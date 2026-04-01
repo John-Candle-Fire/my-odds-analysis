@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-01",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1650,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "浪漫戰神",
+        "draw1": "13",
+        "score_value1": 25.2,
+        "factors1": {
+            "weight": 120.0,
+            "days_away": 17,
+            "fast_works": 3
+        },
+        "score2": 9,
+        "horse_name2": "哪吒",
+        "draw2": "12",
+        "score_value2": 23.31,
+        "factors2": {
+            "weight": 116.0,
+            "days_away": 17,
+            "fast_works": 3
+        },
+        "score3": 3,
+        "horse_name3": "皇龍飛將",
+        "draw3": "4",
+        "score_value3": 21.84,
+        "factors3": {
+            "weight": 130.0,
+            "days_away": 17,
+            "fast_works": 1
+        }
+    }
+}

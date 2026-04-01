@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-01",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "銳一",
+        "draw1": "3",
+        "score_value1": 36.29,
+        "factors1": {
+            "weight": 133.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 6,
+        "horse_name2": "銀亮濠俠",
+        "draw2": "8",
+        "score_value2": 33.6,
+        "factors2": {
+            "weight": 129.0,
+            "days_away": 21,
+            "fast_works": 2
+        },
+        "score3": 9,
+        "horse_name3": "東方寶寶",
+        "draw3": "9",
+        "score_value3": 23.94,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 115,
+            "fast_works": 5
+        }
+    }
+}

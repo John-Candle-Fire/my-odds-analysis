@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-01",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "伶俐驫駒",
+        "draw1": "8",
+        "score_value1": 53.28,
+        "factors1": {
+            "weight": 133.0,
+            "days_away": 52,
+            "fast_works": 5
+        },
+        "score2": 3,
+        "horse_name2": "常嚐發財",
+        "draw2": "3",
+        "score_value2": 25.32,
+        "factors2": {
+            "weight": 132.0,
+            "days_away": 24,
+            "fast_works": 4
+        },
+        "score3": 12,
+        "horse_name3": "後無來者",
+        "draw3": "1",
+        "score_value3": 20.76,
+        "factors3": {
+            "weight": 116.0,
+            "days_away": 24,
+            "fast_works": 3
+        }
+    }
+}

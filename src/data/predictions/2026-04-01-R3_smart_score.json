@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-01",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "奮鬥心",
+        "draw1": "4",
+        "score_value1": 27.84,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 126,
+            "fast_works": 4
+        },
+        "score2": 14,
+        "horse_name2": "領創動力",
+        "draw2": "11",
+        "score_value2": 24.48,
+        "factors2": {
+            "weight": 117.0,
+            "days_away": 46,
+            "fast_works": 5
+        },
+        "score3": 13,
+        "horse_name3": "午夜快車",
+        "draw3": "12",
+        "score_value3": 18.5,
+        "factors3": {
+            "weight": 120.0,
+            "days_away": 17,
+            "fast_works": 2
+        }
+    }
+}
