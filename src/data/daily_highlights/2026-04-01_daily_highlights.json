@@ -1,7 +1,7 @@
 {
     "metadata": {
         "date": "2026-04-01",
-        "generated_at": "2026-04-01 17:40:05"
+        "generated_at": "2026-04-01 18:25:46"
     },
     "meeting_context": {
         "volatility": "STANDARD",
@@ -9,15 +9,18 @@
             "告東尼",
             "姚本輝",
             "沈集成",
-            "桂福特",
             "廖康銘",
+            "桂福特",
             "賀賢"
         ],
         "attacking_jockeys": [
             "潘頓",
+            "艾兆禮",
             "布文",
+            "袁幸堯",
             "田泰安",
-            "袁幸堯"
+            "霍宏聲",
+            "楊明綸"
         ]
     },
     "details": {
@@ -29,7 +32,7 @@
             },
             {
                 "trainer": "姚本輝",
-                "strong_chances_count": 3,
+                "strong_chances_count": 4,
                 "tier": 1
             },
             {
@@ -38,12 +41,12 @@
                 "tier": 2
             },
             {
-                "trainer": "桂福特",
-                "strong_chances_count": 3,
+                "trainer": "廖康銘",
+                "strong_chances_count": 4,
                 "tier": 2
             },
             {
-                "trainer": "廖康銘",
+                "trainer": "桂福特",
                 "strong_chances_count": 3,
                 "tier": 2
             },
@@ -56,7 +59,12 @@
         "jockey_attack_stats": [
             {
                 "jockey": "潘頓",
-                "strong_chances_count": 7,
+                "strong_chances_count": 8,
+                "tier": 1
+            },
+            {
+                "jockey": "艾兆禮",
+                "strong_chances_count": 3,
                 "tier": 1
             },
             {
@@ -65,14 +73,24 @@
                 "tier": 1
             },
             {
+                "jockey": "袁幸堯",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
                 "jockey": "田泰安",
                 "strong_chances_count": 4,
                 "tier": 2
             },
             {
-                "jockey": "袁幸堯",
+                "jockey": "霍宏聲",
                 "strong_chances_count": 3,
                 "tier": 2
+            },
+            {
+                "jockey": "楊明綸",
+                "strong_chances_count": 3,
+                "tier": 3
             }
         ],
         "race_volatility": {
@@ -81,7 +99,7 @@
             "3": "STANDARD-Strong Banker Race",
             "4": "STANDARD-Multi Contender Dominant Favorite",
             "5": "STANDARD-Strong Banker Race",
-            "6": "STANDARD-Open Race Weak Favorite",
+            "6": "STANDARD-Multi Contender Non Dominant Favorite",
             "7": "STANDARD-Strong Banker Race",
             "8": "STANDARD-Two Contender Race",
             "9": "STANDARD-Strong Banker Race"
