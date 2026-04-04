@@ -262,8 +262,8 @@ export const loadRaceData = async (date, raceNumber, timestamp) => {
         total_candidates_available: betData.total_candidates_available,
         // Safe check for weak_banker_detected (Boolean). Fallback to false if missing or not boolean.
         weak_banker_detected:
-          typeof betData.weak_banker_detected === 'boolean' ? betData.weak_banker_detected : false
-
+          typeof betData.weak_banker_detected === 'boolean' ? betData.weak_banker_detected : false,
+        decision_log: Array.isArray(betData.decision_log) ? betData.decision_log : []
       };
     } catch (error) {
       console.log(`No 1B3L prediction found for ${date} race ${raceNumber}: ${error.message}`);

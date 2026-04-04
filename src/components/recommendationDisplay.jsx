@@ -63,6 +63,8 @@ const RecommendationDisplay = ({ betRecommendData, horseInfo }) => {
   // Build alternates line if needed
   let alternatesLine = '';
   const altParts = [];
+  
+  // Build decision log
 
   if (leg4Num != null) {
     altParts.push(`${betRecommendData.LEG4} ${leg4Name}`);
@@ -176,6 +178,32 @@ const RecommendationDisplay = ({ betRecommendData, horseInfo }) => {
           </div>
         </div>
       </div>
+
+      {/* Decision Log section */}
+      {Array.isArray(betRecommendData.decision_log) && betRecommendData.decision_log.length > 0 && (
+        <div style={{
+          background: '#fffbea',
+          padding: '1rem',
+          borderRadius: '4px',
+          borderLeft: '4px solid var(--warning)',
+          marginBottom: '1rem',
+          fontSize: '0.9rem',
+          color: '#444'
+        }}>
+          <p style={{ margin: '0 0 0.5rem 0', fontWeight: 'bold', color: 'var(--warning)' }}>
+          📝 Decision Log
+          </p>
+          <pre style={{
+            whiteSpace: 'pre-wrap',
+            wordBreak: 'break-word',
+            margin: 0,
+            fontFamily: 'monospace',
+            lineHeight: '1.5'
+          }}>
+            {betRecommendData.decision_log.join('\n')}
+          </pre>
+        </div>
+      )}
 
       {/* Legend/Help section */}
       <div style={{
