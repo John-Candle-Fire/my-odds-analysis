@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-06",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "二級賽"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "舉步生風",
+        "draw1": "11",
+        "score_value1": 44.35,
+        "factors1": {
+            "weight": 123.0,
+            "days_away": 29,
+            "fast_works": 4
+        },
+        "score2": 14,
+        "horse_name2": "桃花開",
+        "draw2": "14",
+        "score_value2": 39.31,
+        "factors2": {
+            "weight": 123.0,
+            "days_away": 29,
+            "fast_works": 5
+        },
+        "score3": 1,
+        "horse_name3": "遨遊氣泡",
+        "draw3": "3",
+        "score_value3": 35.71,
+        "factors3": {
+            "weight": 128.0,
+            "days_away": 36,
+            "fast_works": 6
+        }
+    }
+}

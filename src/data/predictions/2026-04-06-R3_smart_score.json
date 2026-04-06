@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-06",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "紅衣醒目",
+        "draw1": "8",
+        "score_value1": 37.01,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 36,
+            "fast_works": 5
+        },
+        "score2": 7,
+        "horse_name2": "大回報",
+        "draw2": "12",
+        "score_value2": 25.33,
+        "factors2": {
+            "weight": 124.0,
+            "days_away": 22,
+            "fast_works": 4
+        },
+        "score3": 2,
+        "horse_name3": "凝妙星",
+        "draw3": "11",
+        "score_value3": 15.84,
+        "factors3": {
+            "weight": 130.0,
+            "days_away": 19,
+            "fast_works": 3
+        }
+    }
+}

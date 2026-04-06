@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-06",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 14,
+        "horse_name1": "快樂高球",
+        "draw1": "12",
+        "score_value1": 19.78,
+        "factors1": {
+            "weight": 115.0,
+            "days_away": 33,
+            "fast_works": 6
+        },
+        "score2": 1,
+        "horse_name2": "閃電小子",
+        "draw2": "5",
+        "score_value2": 18.9,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 43,
+            "fast_works": 5
+        },
+        "score3": 2,
+        "horse_name3": "超強六十",
+        "draw3": "10",
+        "score_value3": 13.92,
+        "factors3": {
+            "weight": 129.0,
+            "days_away": 68,
+            "fast_works": 2
+        }
+    }
+}

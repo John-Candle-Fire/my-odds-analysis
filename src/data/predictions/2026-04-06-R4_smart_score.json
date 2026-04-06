@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-06",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "威武年代",
+        "draw1": "5",
+        "score_value1": 41.2,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 46,
+            "fast_works": 4
+        },
+        "score2": 8,
+        "horse_name2": "加州勇勝",
+        "draw2": "6",
+        "score_value2": 28.8,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 22,
+            "fast_works": 4
+        },
+        "score3": 3,
+        "horse_name3": "機械之星",
+        "draw3": "7",
+        "score_value3": 22.05,
+        "factors3": {
+            "weight": 134.0,
+            "days_away": 15,
+            "fast_works": 2
+        }
+    }
+}

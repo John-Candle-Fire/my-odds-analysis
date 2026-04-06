@@ -1,0 +1,198 @@
+{
+    "metadata": {
+        "date": "2026-04-06",
+        "generated_at": "2026-04-06 10:32:33"
+    },
+    "meeting_context": {
+        "volatility": "STANDARD",
+        "attacking_stables": [
+            "告東尼",
+            "姚本輝",
+            "大衛希斯",
+            "呂健威",
+            "羅富全",
+            "廖康銘",
+            "韋達"
+        ],
+        "attacking_jockeys": [
+            "潘頓",
+            "布文",
+            "袁幸堯",
+            "田泰安",
+            "周俊樂",
+            "巴度"
+        ]
+    },
+    "details": {
+        "stable_attack_stats": [
+            {
+                "trainer": "告東尼",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "trainer": "姚本輝",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "大衛希斯",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "呂健威",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "trainer": "羅富全",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "trainer": "廖康銘",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "trainer": "韋達",
+                "strong_chances_count": 3,
+                "tier": 2
+            }
+        ],
+        "jockey_attack_stats": [
+            {
+                "jockey": "潘頓",
+                "strong_chances_count": 9,
+                "tier": 1
+            },
+            {
+                "jockey": "布文",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "jockey": "袁幸堯",
+                "strong_chances_count": 6,
+                "tier": 2
+            },
+            {
+                "jockey": "田泰安",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "jockey": "周俊樂",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "jockey": "巴度",
+                "strong_chances_count": 3,
+                "tier": 2
+            }
+        ],
+        "race_volatility": {
+            "1": "CHAOS-Super Strong Banker Race",
+            "2": "STANDARD-Multi Contender No Dominant Favorite",
+            "3": "STANDARD-Two Contender No Dominant Favorite",
+            "4": "CHAOS-Two Contender Race",
+            "5": "CHAOS-Two Contender No Dominant Favorite",
+            "6": "CHAOS-Multi Contender No Dominant Favorite",
+            "7": "STANDARD-Super Strong Banker Race",
+            "8": "CHAOS-Multi Contender Dominant Favorite",
+            "9": "STANDARD-Two Contender No Dominant Favorite",
+            "10": "STANDARD-Multi Contender Dominant Favorite",
+            "11": "STANDARD-Two Contender No Dominant Favorite"
+        },
+        "traffic_risks": [
+            {
+                "race_number": 3,
+                "bias": "STRONG_FAVOR_INNER",
+                "field_size": 13
+            },
+            {
+                "race_number": 4,
+                "bias": "STRONG_FAVOR_INNER",
+                "field_size": 14
+            },
+            {
+                "race_number": 9,
+                "bias": "STRONG_FAVOR_INNER",
+                "field_size": 14
+            }
+        ],
+        "scenario_A_late_steamers": [
+            {
+                "race_number": 3,
+                "late_steamer": 6,
+                "late_steamer_name": "家樂寶駒"
+            },
+            {
+                "race_number": 5,
+                "late_steamer": 8,
+                "late_steamer_name": "龍之尊"
+            },
+            {
+                "race_number": 6,
+                "late_steamer": 2,
+                "late_steamer_name": "狀元及第"
+            },
+            {
+                "race_number": 11,
+                "late_steamer": 8,
+                "late_steamer_name": "發財先鋒"
+            }
+        ],
+        "scenario_B_early_favorites": [
+            {
+                "race_number": 3,
+                "early_favorite": 7,
+                "early_favorite_name": "大回報"
+            }
+        ],
+        "jockey_upgrades": [
+            {
+                "race": 3,
+                "horse": "捷威",
+                "switch": "麥文堅(T3) -> 潘頓(T1)"
+            },
+            {
+                "race": 4,
+                "horse": "逍遙騎士",
+                "switch": "麥文堅(T3) -> 何澤堯(T1)"
+            },
+            {
+                "race": 5,
+                "horse": "紅衣財神",
+                "switch": "梁家俊(T3) -> 何澤堯(T1)"
+            },
+            {
+                "race": 6,
+                "horse": "好評如潮",
+                "switch": "梁家俊(T3) -> 潘頓(T1)"
+            },
+            {
+                "race": 6,
+                "horse": "精巧時計",
+                "switch": "潘明輝(T3) -> 艾兆禮(T1)"
+            },
+            {
+                "race": 9,
+                "horse": "紅運帝王",
+                "switch": "麥文堅(T3) -> 艾兆禮(T1)"
+            },
+            {
+                "race": 11,
+                "horse": "話你知",
+                "switch": "麥文堅(T3) -> 何澤堯(T1)"
+            },
+            {
+                "race": 11,
+                "horse": "安帝",
+                "switch": "麥文堅(T3) -> 艾兆禮(T1)"
+            }
+        ]
+    }
+}

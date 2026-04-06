@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-06",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 14,
+        "horse_name1": "同喜",
+        "draw1": "2",
+        "score_value1": 38.74,
+        "factors1": {
+            "weight": 119.0,
+            "days_away": 26,
+            "fast_works": 4
+        },
+        "score2": 12,
+        "horse_name2": "金快飛飛",
+        "draw2": "5",
+        "score_value2": 33.84,
+        "factors2": {
+            "weight": 120.0,
+            "days_away": 22,
+            "fast_works": 3
+        },
+        "score3": 3,
+        "horse_name3": "千杯不醉",
+        "draw3": "8",
+        "score_value3": 22.18,
+        "factors3": {
+            "weight": 134.0,
+            "days_away": 26,
+            "fast_works": 3
+        }
+    }
+}

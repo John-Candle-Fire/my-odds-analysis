@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-06",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "超勁赤兔",
+        "draw1": "4",
+        "score_value1": 42.77,
+        "factors1": {
+            "weight": 128.0,
+            "days_away": 29,
+            "fast_works": 5
+        },
+        "score2": 10,
+        "horse_name2": "包裝明將",
+        "draw2": "3",
+        "score_value2": 36.67,
+        "factors2": {
+            "weight": 120.0,
+            "days_away": 22,
+            "fast_works": 3
+        },
+        "score3": 4,
+        "horse_name3": "一世美麗",
+        "draw3": "7",
+        "score_value3": 33.36,
+        "factors3": {
+            "weight": 129.0,
+            "days_away": 22,
+            "fast_works": 3
+        }
+    }
+}

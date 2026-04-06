@@ -1,0 +1,97 @@
+{
+  "Race Date": "2026-04-06",
+  "Race Number": 7,
+  "Horses": [
+    {
+      "horseID": "HK_2023_J062",
+      "Horse Number": "1",
+      "Horse Name": "嘉應高昇",
+      "Weight": "128",
+      "Trainer": "大衛希斯",
+      "Jockey": "潘頓",
+      "Post": "5",
+      "First Win Index": "2.6",
+      "Race Day Win Index": "2.5",
+      "lastWin": "1",
+      "lastPosition": "01"
+    },
+    {
+      "horseID": "HK_2022_H302",
+      "Horse Number": "2",
+      "Horse Name": "驕陽明駒",
+      "Weight": "123",
+      "Trainer": "蔡約翰",
+      "Jockey": "布文",
+      "Post": "4",
+      "First Win Index": "3.7",
+      "Race Day Win Index": "3.6",
+      "lastWin": "44",
+      "lastPosition": "02"
+    },
+    {
+      "horseID": "HK_2022_H368",
+      "Horse Number": "3",
+      "Horse Name": "精算暴雪",
+      "Weight": "123",
+      "Trainer": "蔡約翰",
+      "Jockey": "艾道拿",
+      "Post": "7",
+      "First Win Index": "5.9",
+      "Race Day Win Index": "5.9",
+      "lastWin": "158",
+      "lastPosition": "05"
+    },
+    {
+      "horseID": "HK_2022_H303",
+      "Horse Number": "4",
+      "Horse Name": "好友心得",
+      "Weight": "123",
+      "Trainer": "大衛希斯",
+      "Jockey": "班德禮",
+      "Post": "3",
+      "First Win Index": "8.3",
+      "Race Day Win Index": "8.7",
+      "lastWin": "15",
+      "lastPosition": "04"
+    },
+    {
+      "horseID": "HK_2022_H294",
+      "Horse Number": "5",
+      "Horse Name": "美麗第一",
+      "Weight": "123",
+      "Trainer": "告東尼",
+      "Jockey": "巴度",
+      "Post": "1",
+      "First Win Index": "25",
+      "Race Day Win Index": "40.2",
+      "lastWin": "17",
+      "lastPosition": "10"
+    },
+    {
+      "horseID": "HK_2020_E356",
+      "Horse Number": "6",
+      "Horse Name": "幸運有您",
+      "Weight": "123",
+      "Trainer": "羅富全",
+      "Jockey": "霍宏聲",
+      "Post": "2",
+      "First Win Index": "99",
+      "Race Day Win Index": "66.0",
+      "lastWin": "7.6",
+      "lastPosition": "11"
+    },
+    {
+      "horseID": "HK_2023_J186",
+      "Horse Number": "7",
+      "Horse Name": "星際快車",
+      "Weight": "123",
+      "Trainer": "蔡約翰",
+      "Jockey": "艾兆禮",
+      "Post": "6",
+      "First Win Index": "74.2",
+      "Race Day Win Index": "99",
+      "lastWin": "10",
+      "lastPosition": "06"
+    }
+  ]
+}

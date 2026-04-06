@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-06",
+        "race_number": 11,
+        "course": "沙田",
+        "distance": 2000,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "榮駿大道",
+        "draw1": "8",
+        "score_value1": 29.8,
+        "factors1": {
+            "weight": 127.0,
+            "days_away": 15,
+            "fast_works": 0
+        },
+        "score2": 8,
+        "horse_name2": "發財先鋒",
+        "draw2": "10",
+        "score_value2": 28.45,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 15,
+            "fast_works": 1
+        },
+        "score3": 6,
+        "horse_name3": "火焰閃爍",
+        "draw3": "3",
+        "score_value3": 25.07,
+        "factors3": {
+            "weight": 128.0,
+            "days_away": 29,
+            "fast_works": 4
+        }
+    }
+}
