@@ -2,7 +2,7 @@
   "race_date": "2026-04-06",
   "race_number": 5,
   "timestamp_source": "2026-04-06_10-16-17",
-  "strategy": "1B3L_Gold-S3",
+  "strategy": "1B3L_Gold-S3-Two Contender No Dominant Favorite",
   "strategy_version": "v2.2_1B3L",
   "tier": "Gold",
   "expected_success_rate": "38-41%",
@@ -17,13 +17,21 @@
   "LEG2_source": "RTG2",
   "LEG3": 7,
   "LEG3_source": "Q3",
-  "LEG4": 3,
-  "LEG4_source": "SystemMover_S3(odds=9.8,score=119.69)",
+  "LEG4": null,
+  "LEG4_source": null,
   "race_class": 4,
   "race_distance": 1200,
   "race_course": "沙田",
   "ml_gap": 12.09,
   "decision_log": [
+    "Scenario: ST Two Contender No Dominant Favorite (field: 14 runners) ",
+    "Odds < 6: [H1]@3.9  [H7]@4.8",
+    "Odds 6–10: [H8]@7.3  [H12]@8.1  [H3]@9.8  [H14]@10.0",
+    "Odds 11–20: [H6]@11.0  [H4]@19.0  [H10]@20.0",
+    "Odds > 20: [H9]@29.0  [H11]@40.0  [H2]@62.0  [H5]@62.0  [H13]@62.0",
+    "Predicted Odds Pattern: favorite > second_contender > 4-10 odds > 10-15 odds > 6-15 odds",
+    "Banker selected: H1 via favorite",
+    "Legs selected: H7 via second_contender, H3 via 4-10 odds, H14 via 10-15 odds, H12 via 6-15 odds",
     "Top-1 picks — Q1:1  QP1:1  SS1:14  RTG1:12",
     "ML prediction gap: 12.09",
     "Class 4: using Q1 (1) as banker",
@@ -38,6 +46,6 @@
     "⚠ LEG3 candidate QP2=12 duplicates banker/LEG1/LEG2, trying next",
     "⚠ LEG3 candidate SS2=12 duplicates banker/LEG1/LEG2, trying next",
     "LEG3: 7 from Q3",
-    "  LEG4: 3 [System Mover] odds 9.8 late market mover (2) "
+    "⊘ QPLeg1=7 already covered by banker/LEG1-3"
   ]
 }
