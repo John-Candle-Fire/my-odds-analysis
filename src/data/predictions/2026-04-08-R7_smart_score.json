@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-08",
+        "race_number": 7,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "銀亮奔騰",
+        "draw1": "2",
+        "score_value1": 42.77,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 35,
+            "fast_works": 3
+        },
+        "score2": 8,
+        "horse_name2": "翠兒威威",
+        "draw2": "6",
+        "score_value2": 30.03,
+        "factors2": {
+            "weight": 119.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score3": 2,
+        "horse_name3": "滿心星",
+        "draw3": "1",
+        "score_value3": 22.75,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 24,
+            "fast_works": 2
+        }
+    }
+}

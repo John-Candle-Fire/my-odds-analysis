@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-04-08",
+        "race_number": 9,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "俏眼光",
+        "draw1": "5",
+        "score_value1": 5.199999999999999,
+        "factors1": {
+            "base": 2.5,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.1999999999999993,
+            "pace_wt": -1.0,
+            "volatility": 0.0
+        },
+        "score2": 10,
+        "horse_name2": "佛亮老撾",
+        "draw2": "3",
+        "score_value2": 4.875,
+        "factors2": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 0.0,
+            "pace_wt": 1.375,
+            "volatility": 0.0
+        },
+        "score3": 12,
+        "horse_name3": "喵喵怪",
+        "draw3": "6",
+        "score_value3": 4.3,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 1.1999999999999997,
+            "volatility": 0.0
+        }
+    }
+}

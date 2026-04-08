@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-04-08",
+        "race_number": 8,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "泰泰精神",
+        "draw1": "8",
+        "score_value1": 5.075,
+        "factors1": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        },
+        "score2": 8,
+        "horse_name2": "椒椒醒",
+        "draw2": "1",
+        "score_value2": 3.975,
+        "factors2": {
+            "base": 0.5,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 1.375,
+            "volatility": 0.0
+        },
+        "score3": 2,
+        "horse_name3": "安康萬里",
+        "draw3": "6",
+        "score_value3": 3.475,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        }
+    }
+}

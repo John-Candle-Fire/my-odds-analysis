@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-04-08",
+        "race_number": 6,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "富心星",
+        "draw1": "7",
+        "score_value1": 6.199999999999999,
+        "factors1": {
+            "base": 2.5,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.1999999999999993,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        },
+        "score2": 11,
+        "horse_name2": "電玩精英",
+        "draw2": "1",
+        "score_value2": 5.975,
+        "factors2": {
+            "base": 2.5,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.5999999999999996,
+            "pace_wt": 1.375,
+            "volatility": 0.0
+        },
+        "score3": 6,
+        "horse_name3": "幸運愉快",
+        "draw3": "9",
+        "score_value3": 4.975,
+        "factors3": {
+            "base": 2.5,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.5999999999999996,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-08",
+        "race_number": 4,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "喜馬",
+        "draw1": "7",
+        "score_value1": 34.56,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 28,
+            "fast_works": 3
+        },
+        "score2": 5,
+        "horse_name2": "奮鬥輝煌",
+        "draw2": "9",
+        "score_value2": 25.78,
+        "factors2": {
+            "weight": 127.0,
+            "days_away": 28,
+            "fast_works": 3
+        },
+        "score3": 10,
+        "horse_name3": "大數據",
+        "draw3": "12",
+        "score_value3": 19.32,
+        "factors3": {
+            "weight": 122.0,
+            "days_away": 28,
+            "fast_works": 4
+        }
+    }
+}

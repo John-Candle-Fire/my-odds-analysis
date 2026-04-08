@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-04-08",
+        "race_number": 5,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "博愛先鋒",
+        "draw1": "8",
+        "score_value1": 5.475,
+        "factors1": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.5999999999999996,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        },
+        "score2": 9,
+        "horse_name2": "你知我得",
+        "draw2": "5",
+        "score_value2": 5.1,
+        "factors2": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.5999999999999996,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        },
+        "score3": 6,
+        "horse_name3": "三強",
+        "draw3": "2",
+        "score_value3": 4.1,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.9999999999999996,
+            "volatility": 0.0
+        }
+    }
+}

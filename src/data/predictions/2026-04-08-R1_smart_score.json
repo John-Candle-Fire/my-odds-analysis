@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-04-08",
+        "race_number": 1,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "歷險大將",
+        "draw1": "1",
+        "score_value1": 4.475,
+        "factors1": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 1.3749999999999996,
+            "volatility": 0.0
+        },
+        "score2": 7,
+        "horse_name2": "千杯",
+        "draw2": "3",
+        "score_value2": 2.5,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 0.0,
+            "pace_wt": 1.0,
+            "volatility": 0.0
+        },
+        "score3": 6,
+        "horse_name3": "神燦金剛",
+        "draw3": "4",
+        "score_value3": 1.875,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 0.0,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        }
+    }
+}
