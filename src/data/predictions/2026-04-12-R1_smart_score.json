@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-12",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "新馬賽"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "嘉應感恩",
+        "draw1": "2",
+        "score_value1": 0.0,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 0,
+            "fast_works": 3
+        },
+        "score2": 2,
+        "horse_name2": "通情達理",
+        "draw2": "4",
+        "score_value2": 0.0,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 0,
+            "fast_works": 2
+        },
+        "score3": 3,
+        "horse_name3": "銀騎士",
+        "draw3": "3",
+        "score_value3": 0.0,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 0,
+            "fast_works": 5
+        }
+    }
+}

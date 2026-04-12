@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-12",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "醒目高球",
+        "draw1": "4",
+        "score_value1": 47.12,
+        "factors1": {
+            "weight": 132.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 1,
+        "horse_name2": "跨境寶馬",
+        "draw2": "11",
+        "score_value2": 45.11,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 101,
+            "fast_works": 5
+        },
+        "score3": 6,
+        "horse_name3": "興馳千里",
+        "draw3": "9",
+        "score_value3": 44.64,
+        "factors3": {
+            "weight": 128.0,
+            "days_away": 28,
+            "fast_works": 6
+        }
+    }
+}

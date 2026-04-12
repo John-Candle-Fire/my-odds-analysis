@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-12",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "盛勢威楓",
+        "draw1": "5",
+        "score_value1": 40.11,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score2": 11,
+        "horse_name2": "隋我同來",
+        "draw2": "3",
+        "score_value2": 30.24,
+        "factors2": {
+            "weight": 123.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score3": 3,
+        "horse_name3": "哥倫布",
+        "draw3": "10",
+        "score_value3": 19.68,
+        "factors3": {
+            "weight": 131.0,
+            "days_away": 21,
+            "fast_works": 1
+        }
+    }
+}

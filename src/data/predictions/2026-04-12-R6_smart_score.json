@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-12",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "鼓浪好友",
+        "draw1": "12",
+        "score_value1": 32.55,
+        "factors1": {
+            "weight": 133.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score2": 2,
+        "horse_name2": "精英高球",
+        "draw2": "5",
+        "score_value2": 29.74,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 52,
+            "fast_works": 3
+        },
+        "score3": 1,
+        "horse_name3": "櫻花酒杯",
+        "draw3": "3",
+        "score_value3": 21.53,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 21,
+            "fast_works": 4
+        }
+    }
+}

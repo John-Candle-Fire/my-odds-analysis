@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-12",
+        "race_number": 11,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "競駿輝煌",
+        "draw1": "7",
+        "score_value1": 39.84,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score2": 9,
+        "horse_name2": "扶搖勢勁",
+        "draw2": "8",
+        "score_value2": 38.85,
+        "factors2": {
+            "weight": 117.0,
+            "days_away": 14,
+            "fast_works": 1
+        },
+        "score3": 1,
+        "horse_name3": "顏色之皇",
+        "draw3": "12",
+        "score_value3": 35.53,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 25,
+            "fast_works": 4
+        }
+    }
+}

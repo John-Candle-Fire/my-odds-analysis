@@ -1,0 +1,84 @@
+{
+  "Race Date": "2026-04-12",
+  "Race Number": 1,
+  "Horses": [
+    {
+      "horseID": "HK_2025_L114",
+      "Horse Number": "1",
+      "Horse Name": "嘉應感恩",
+      "Weight": "126",
+      "Trainer": "巫偉傑",
+      "Jockey": "梁家俊",
+      "Post": "2",
+      "First Win Index": "18.2",
+      "Race Day Win Index": "18.5",
+      "lastWin": "0",
+      "lastPosition": "0"
+    },
+    {
+      "horseID": "HK_2025_L183",
+      "Horse Number": "2",
+      "Horse Name": "通情達理",
+      "Weight": "126",
+      "Trainer": "葉楚航",
+      "Jockey": "潘頓",
+      "Post": "4",
+      "First Win Index": "4.3",
+      "Race Day Win Index": "3.4",
+      "lastWin": "0",
+      "lastPosition": "0"
+    },
+    {
+      "horseID": "HK_2025_L236",
+      "Horse Number": "3",
+      "Horse Name": "銀騎士",
+      "Weight": "126",
+      "Trainer": "韋達",
+      "Jockey": "希威森",
+      "Post": "3",
+      "First Win Index": "7.8",
+      "Race Day Win Index": "9.7",
+      "lastWin": "0",
+      "lastPosition": "0"
+    },
+    {
+      "horseID": "HK_2025_L348",
+      "Horse Number": "4",
+      "Horse Name": "盛世英雄",
+      "Weight": "121",
+      "Trainer": "大衛希斯",
+      "Jockey": "田泰安",
+      "Post": "5",
+      "First Win Index": "99",
+      "Race Day Win Index": "65.5",
+      "lastWin": "0",
+      "lastPosition": "0"
+    },
+    {
+      "horseID": "HK_2025_L290",
+      "Horse Number": "5",
+      "Horse Name": "雙劍合璧",
+      "Weight": "121",
+      "Trainer": "大衛希斯",
+      "Jockey": "班德禮",
+      "Post": "6",
+      "First Win Index": "4.1",
+      "Race Day Win Index": "4.1",
+      "lastWin": "0",
+      "lastPosition": "0"
+    },
+    {
+      "horseID": "HK_2025_L295",
+      "Horse Number": "6",
+      "Horse Name": "精英奪冠",
+      "Weight": "121",
+      "Trainer": "大衛希斯",
+      "Jockey": "楊明綸",
+      "Post": "1",
+      "First Win Index": "2.9",
+      "Race Day Win Index": "3.4",
+      "lastWin": "0",
+      "lastPosition": "0"
+    }
+  ]
+}
