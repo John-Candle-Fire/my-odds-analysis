@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-15",
+        "race_number": 8,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "好實力",
+        "draw1": "8",
+        "score_value1": 36.29,
+        "factors1": {
+            "weight": 133.0,
+            "days_away": 42,
+            "fast_works": 4
+        },
+        "score2": 8,
+        "horse_name2": "穿甲金鷹",
+        "draw2": "1",
+        "score_value2": 26.5,
+        "factors2": {
+            "weight": 124.0,
+            "days_away": 28,
+            "fast_works": 3
+        },
+        "score3": 2,
+        "horse_name3": "瑪瑙",
+        "draw3": "6",
+        "score_value3": 25.41,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 21,
+            "fast_works": 4
+        }
+    }
+}

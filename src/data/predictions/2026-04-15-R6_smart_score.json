@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-04-15",
+        "race_number": 6,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "川河石駒",
+        "draw1": "2",
+        "score_value1": 6.075,
+        "factors1": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 1.375,
+            "volatility": 0.0
+        },
+        "score2": 7,
+        "horse_name2": "方圓星",
+        "draw2": "3",
+        "score_value2": 4.475,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 1.3749999999999996,
+            "volatility": 0.0
+        },
+        "score3": 1,
+        "horse_name3": "馬達",
+        "draw3": "6",
+        "score_value3": 3.9749999999999996,
+        "factors3": {
+            "base": 2.5,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.5999999999999996,
+            "pace_wt": -0.625,
+            "volatility": 0.0
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-15",
+        "race_number": 3,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "時間寶",
+        "draw1": "6",
+        "score_value1": 40.32,
+        "factors1": {
+            "weight": 118.0,
+            "days_away": 35,
+            "fast_works": 5
+        },
+        "score2": 4,
+        "horse_name2": "先到先得",
+        "draw2": "2",
+        "score_value2": 25.2,
+        "factors2": {
+            "weight": 124.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score3": 1,
+        "horse_name3": "凡凡有餘",
+        "draw3": "3",
+        "score_value3": 23.04,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 28,
+            "fast_works": 6
+        }
+    }
+}

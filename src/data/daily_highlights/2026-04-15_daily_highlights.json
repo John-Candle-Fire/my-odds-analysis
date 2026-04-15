@@ -1,0 +1,165 @@
+{
+    "metadata": {
+        "date": "2026-04-15",
+        "generated_at": "2026-04-15 17:39:21"
+    },
+    "meeting_context": {
+        "volatility": "STANDARD",
+        "attacking_stables": [
+            "方嘉柏",
+            "蔡約翰",
+            "姚本輝",
+            "告東尼",
+            "沈集成",
+            "呂健威",
+            "廖康銘"
+        ],
+        "attacking_jockeys": [
+            "莫雷拉",
+            "潘頓",
+            "艾兆禮",
+            "布文",
+            "霍宏聲",
+            "潘明輝"
+        ]
+    },
+    "details": {
+        "stable_attack_stats": [
+            {
+                "trainer": "方嘉柏",
+                "strong_chances_count": 8,
+                "tier": 1
+            },
+            {
+                "trainer": "蔡約翰",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "trainer": "姚本輝",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "告東尼",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "沈集成",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "trainer": "呂健威",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "trainer": "廖康銘",
+                "strong_chances_count": 3,
+                "tier": 2
+            }
+        ],
+        "jockey_attack_stats": [
+            {
+                "jockey": "莫雷拉",
+                "strong_chances_count": 8,
+                "tier": 1
+            },
+            {
+                "jockey": "潘頓",
+                "strong_chances_count": 6,
+                "tier": 1
+            },
+            {
+                "jockey": "艾兆禮",
+                "strong_chances_count": 6,
+                "tier": 1
+            },
+            {
+                "jockey": "布文",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "jockey": "霍宏聲",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "jockey": "潘明輝",
+                "strong_chances_count": 3,
+                "tier": 3
+            }
+        ],
+        "race_volatility": {
+            "1": "STANDARD-Two Contender No Dominant Favorite",
+            "2": "STANDARD-Two Contender No Dominant Favorite",
+            "3": "STANDARD-Two Contender No Dominant Favorite",
+            "4": "STANDARD-Two Contender No Dominant Favorite",
+            "5": "STANDARD-Multi Contender No Dominant Favorite",
+            "6": "STANDARD-Multi Contender No Dominant Favorite",
+            "7": "STANDARD-Two Contender Race",
+            "8": "STANDARD-Strong Banker Race",
+            "9": "STANDARD-Strong Banker Race"
+        },
+        "traffic_risks": [],
+        "scenario_A_late_steamers": [
+            {
+                "race_number": 1,
+                "late_steamer": 2,
+                "late_steamer_name": "運來勇士"
+            },
+            {
+                "race_number": 4,
+                "late_steamer": 5,
+                "late_steamer_name": "蜜蜜送"
+            },
+            {
+                "race_number": 4,
+                "late_steamer": 9,
+                "late_steamer_name": "君智盛"
+            }
+        ],
+        "scenario_B_early_favorites": [
+            {
+                "race_number": 4,
+                "early_favorite": 10,
+                "early_favorite_name": "竣誠駒"
+            },
+            {
+                "race_number": 6,
+                "early_favorite": 9,
+                "early_favorite_name": "快樂神駒"
+            }
+        ],
+        "jockey_upgrades": [
+            {
+                "race": 1,
+                "horse": "幸運傳承",
+                "switch": "黃智弘(T4) -> 莫雷拉(T1)"
+            },
+            {
+                "race": 2,
+                "horse": "富裕君子",
+                "switch": "麥文堅(T3) -> 莫雷拉(T1)"
+            },
+            {
+                "race": 8,
+                "horse": "同心同樂",
+                "switch": "麥文堅(T3) -> 潘頓(T1)"
+            },
+            {
+                "race": 9,
+                "horse": "川河動駒",
+                "switch": "鍾易禮(T3) -> 布文(T1)"
+            },
+            {
+                "race": 9,
+                "horse": "幸運大夫",
+                "switch": "楊明綸(T3) -> 何澤堯(T1)"
+            }
+        ]
+    }
+}

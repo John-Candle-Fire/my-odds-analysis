@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-15",
+        "race_number": 1,
+        "course": "跑馬地",
+        "distance": 1000,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "銀亮濠俠",
+        "draw1": "1",
+        "score_value1": 36.2,
+        "factors1": {
+            "weight": 130.0,
+            "days_away": 14,
+            "fast_works": 1
+        },
+        "score2": 3,
+        "horse_name2": "幸運傳承",
+        "draw2": "2",
+        "score_value2": 19.8,
+        "factors2": {
+            "weight": 132.0,
+            "days_away": 9,
+            "fast_works": 0
+        },
+        "score3": 9,
+        "horse_name3": "東方魅影",
+        "draw3": "11",
+        "score_value3": 11.22,
+        "factors3": {
+            "weight": 122.0,
+            "days_away": 9,
+            "fast_works": 0
+        }
+    }
+}
