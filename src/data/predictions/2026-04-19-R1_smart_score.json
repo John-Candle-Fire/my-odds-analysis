@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-19",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1800,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "大利好運",
+        "draw1": "8",
+        "score_value1": 26.4,
+        "factors1": {
+            "weight": 128.0,
+            "days_away": 18,
+            "fast_works": 2
+        },
+        "score2": 8,
+        "horse_name2": "香港精神",
+        "draw2": "3",
+        "score_value2": 25.92,
+        "factors2": {
+            "weight": 131.0,
+            "days_away": 25,
+            "fast_works": 5
+        },
+        "score3": 11,
+        "horse_name3": "開心三多",
+        "draw3": "11",
+        "score_value3": 22.18,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 25,
+            "fast_works": 4
+        }
+    }
+}

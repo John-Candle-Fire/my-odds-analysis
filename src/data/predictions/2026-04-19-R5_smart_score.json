@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-19",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "勤德天下",
+        "draw1": "12",
+        "score_value1": 32.13,
+        "factors1": {
+            "weight": 127.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score2": 3,
+        "horse_name2": "睿智多寶",
+        "draw2": "6",
+        "score_value2": 28.32,
+        "factors2": {
+            "weight": 130.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score3": 11,
+        "horse_name3": "超開心",
+        "draw3": "1",
+        "score_value3": 26.06,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 28,
+            "fast_works": 6
+        }
+    }
+}

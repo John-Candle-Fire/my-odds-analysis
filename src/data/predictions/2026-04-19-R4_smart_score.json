@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-19",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "超拍檔",
+        "draw1": "12",
+        "score_value1": 23.18,
+        "factors1": {
+            "weight": 133.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score2": 13,
+        "horse_name2": "文武全能",
+        "draw2": "5",
+        "score_value2": 22.68,
+        "factors2": {
+            "weight": 116.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score3": 8,
+        "horse_name3": "遨遊波士",
+        "draw3": "10",
+        "score_value3": 21.74,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 28,
+            "fast_works": 6
+        }
+    }
+}

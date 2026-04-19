@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-19",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "盛勢威楓",
+        "draw1": "1",
+        "score_value1": 38.92,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 7,
+            "fast_works": 1
+        },
+        "score2": 1,
+        "horse_name2": "奮鬥心",
+        "draw2": "9",
+        "score_value2": 29.19,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 18,
+            "fast_works": 3
+        },
+        "score3": 4,
+        "horse_name3": "加州星馳",
+        "draw3": "14",
+        "score_value3": 25.2,
+        "factors3": {
+            "weight": 131.0,
+            "days_away": 18,
+            "fast_works": 3
+        }
+    }
+}

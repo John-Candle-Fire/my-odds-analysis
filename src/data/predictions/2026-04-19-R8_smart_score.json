@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-19",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "錶之極光",
+        "draw1": "4",
+        "score_value1": 32.16,
+        "factors1": {
+            "weight": 130.0,
+            "days_away": 18,
+            "fast_works": 3
+        },
+        "score2": 1,
+        "horse_name2": "友愛心得",
+        "draw2": "10",
+        "score_value2": 29.9,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 18,
+            "fast_works": 3
+        },
+        "score3": 5,
+        "horse_name3": "熾烈神駒",
+        "draw3": "-",
+        "score_value3": 26.73,
+        "factors3": {
+            "weight": 0.0,
+            "days_away": 0,
+            "fast_works": 4
+        }
+    }
+}

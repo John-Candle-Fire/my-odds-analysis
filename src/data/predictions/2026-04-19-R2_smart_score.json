@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-19",
+        "race_number": 2,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "謙謙君子",
+        "draw1": "3",
+        "score_value1": 24.96,
+        "factors1": {
+            "weight": 117.0,
+            "days_away": 39,
+            "fast_works": 3
+        },
+        "score2": 9,
+        "horse_name2": "爆熱",
+        "draw2": "1",
+        "score_value2": 24.48,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 18,
+            "fast_works": 3
+        },
+        "score3": 4,
+        "horse_name3": "多彩多姿",
+        "draw3": "4",
+        "score_value3": 22.32,
+        "factors3": {
+            "weight": 133.0,
+            "days_away": 133,
+            "fast_works": 3
+        }
+    }
+}

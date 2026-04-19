@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-19",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "首飾天空",
+        "draw1": "5",
+        "score_value1": 54.72,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 378,
+            "fast_works": 5
+        },
+        "score2": 4,
+        "horse_name2": "友瑩亮",
+        "draw2": "9",
+        "score_value2": 50.69,
+        "factors2": {
+            "weight": 129.0,
+            "days_away": 28,
+            "fast_works": 6
+        },
+        "score3": 7,
+        "horse_name3": "開心三寶",
+        "draw3": "10",
+        "score_value3": 19.53,
+        "factors3": {
+            "weight": 125.0,
+            "days_away": 21,
+            "fast_works": 3
+        }
+    }
+}

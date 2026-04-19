@@ -1,0 +1,224 @@
+{
+    "metadata": {
+        "date": "2026-04-19",
+        "generated_at": "2026-04-19 10:33:32"
+    },
+    "meeting_context": {
+        "volatility": "STANDARD",
+        "attacking_stables": [
+            "方嘉柏",
+            "姚本輝",
+            "告東尼",
+            "蔡約翰",
+            "文家良",
+            "羅富全",
+            "伍鵬志",
+            "賀賢",
+            "廖康銘",
+            "呂健威",
+            "丁冠豪"
+        ],
+        "attacking_jockeys": [
+            "莫雷拉",
+            "艾兆禮",
+            "布文",
+            "潘頓",
+            "袁幸堯",
+            "周俊樂",
+            "潘明輝",
+            "黃寶妮"
+        ]
+    },
+    "details": {
+        "stable_attack_stats": [
+            {
+                "trainer": "方嘉柏",
+                "strong_chances_count": 6,
+                "tier": 1
+            },
+            {
+                "trainer": "姚本輝",
+                "strong_chances_count": 6,
+                "tier": 1
+            },
+            {
+                "trainer": "告東尼",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "trainer": "蔡約翰",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "文家良",
+                "strong_chances_count": 5,
+                "tier": 2
+            },
+            {
+                "trainer": "羅富全",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "trainer": "伍鵬志",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "trainer": "賀賢",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "trainer": "廖康銘",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "trainer": "呂健威",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "trainer": "丁冠豪",
+                "strong_chances_count": 3,
+                "tier": 3
+            }
+        ],
+        "jockey_attack_stats": [
+            {
+                "jockey": "莫雷拉",
+                "strong_chances_count": 8,
+                "tier": 1
+            },
+            {
+                "jockey": "艾兆禮",
+                "strong_chances_count": 8,
+                "tier": 1
+            },
+            {
+                "jockey": "布文",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "jockey": "潘頓",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "jockey": "袁幸堯",
+                "strong_chances_count": 6,
+                "tier": 2
+            },
+            {
+                "jockey": "周俊樂",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "jockey": "潘明輝",
+                "strong_chances_count": 5,
+                "tier": 3
+            },
+            {
+                "jockey": "黃寶妮",
+                "strong_chances_count": 3,
+                "tier": 4
+            }
+        ],
+        "race_volatility": {
+            "1": "STANDARD-Strong Banker Race",
+            "2": "STANDARD-Multi Contender Dominant Favorite",
+            "3": "CHAOS-Two Contender No Dominant Favorite",
+            "4": "STANDARD-Multi Contender No Dominant Favorite",
+            "5": "STANDARD-Multi Contender No Dominant Favorite",
+            "6": "STANDARD-Strong Banker Race",
+            "7": "STANDARD-Two Contender No Dominant Favorite",
+            "8": "STANDARD-Multi Contender Dominant Favorite",
+            "9": "CHAOS-Multi Contender Dominant Favorite",
+            "10": "CHAOS-Multi Contender Dominant Favorite",
+            "11": "STANDARD-Strong Banker Race"
+        },
+        "traffic_risks": [
+            {
+                "race_number": 4,
+                "bias": "STRONG_FAVOR_INNER",
+                "field_size": 14
+            }
+        ],
+        "scenario_A_late_steamers": [
+            {
+                "race_number": 2,
+                "late_steamer": 5,
+                "late_steamer_name": "巴閉佬"
+            },
+            {
+                "race_number": 9,
+                "late_steamer": 7,
+                "late_steamer_name": "開心三寶"
+            },
+            {
+                "race_number": 10,
+                "late_steamer": 1,
+                "late_steamer_name": "南區之星"
+            },
+            {
+                "race_number": 11,
+                "late_steamer": 2,
+                "late_steamer_name": "桃花開"
+            }
+        ],
+        "scenario_B_early_favorites": [
+            {
+                "race_number": 3,
+                "early_favorite": 2,
+                "early_favorite_name": "飛輪霸"
+            },
+            {
+                "race_number": 11,
+                "early_favorite": 6,
+                "early_favorite_name": "君子傳承"
+            }
+        ],
+        "jockey_upgrades": [
+            {
+                "race": 4,
+                "horse": "遨遊波士",
+                "switch": "麥文堅(T3) -> 艾兆禮(T1)"
+            },
+            {
+                "race": 6,
+                "horse": "精彩動力",
+                "switch": "黃智弘(T4) -> 莫雷拉(T1)"
+            },
+            {
+                "race": 6,
+                "horse": "花開",
+                "switch": "潘明輝(T3) -> 艾兆禮(T1)"
+            },
+            {
+                "race": 7,
+                "horse": "觀眾之力",
+                "switch": "黃智弘(T4) -> 莫雷拉(T1)"
+            },
+            {
+                "race": 9,
+                "horse": "星願無限",
+                "switch": "巫顯東(T4) -> 艾兆禮(T1)"
+            },
+            {
+                "race": 11,
+                "horse": "錶之宇宙",
+                "switch": "麥文堅(T3) -> 潘頓(T1)"
+            },
+            {
+                "race": 11,
+                "horse": "春風萬里",
+                "switch": "黃智弘(T4) -> 莫雷拉(T1)"
+            }
+        ]
+    }
+}

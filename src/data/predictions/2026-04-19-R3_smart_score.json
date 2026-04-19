@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-19",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "日出東方",
+        "draw1": "12",
+        "score_value1": 29.82,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score2": 11,
+        "horse_name2": "飛來霸",
+        "draw2": "7",
+        "score_value2": 27.98,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 13,
+            "fast_works": 1
+        },
+        "score3": 2,
+        "horse_name3": "飛輪霸",
+        "draw3": "8",
+        "score_value3": 19.21,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 18,
+            "fast_works": 2
+        }
+    }
+}

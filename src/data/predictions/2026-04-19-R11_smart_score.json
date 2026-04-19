@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-19",
+        "race_number": 11,
+        "course": "沙田",
+        "distance": 1800,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "君子傳承",
+        "draw1": "5",
+        "score_value1": 51.55,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 49,
+            "fast_works": 5
+        },
+        "score2": 3,
+        "horse_name2": "天將龍駒",
+        "draw2": "11",
+        "score_value2": 41.45,
+        "factors2": {
+            "weight": 131.0,
+            "days_away": 49,
+            "fast_works": 6
+        },
+        "score3": 4,
+        "horse_name3": "錶之宇宙",
+        "draw3": "4",
+        "score_value3": 35.86,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 28,
+            "fast_works": 4
+        }
+    }
+}
