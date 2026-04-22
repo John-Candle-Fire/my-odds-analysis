@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-22",
+        "race_number": 2,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "飛躍凱旋",
+        "draw1": "6",
+        "score_value1": 27.96,
+        "factors1": {
+            "weight": 127.0,
+            "days_away": 24,
+            "fast_works": 6
+        },
+        "score2": 6,
+        "horse_name2": "東方寶寶",
+        "draw2": "4",
+        "score_value2": 25.96,
+        "factors2": {
+            "weight": 128.0,
+            "days_away": 7,
+            "fast_works": 0
+        },
+        "score3": 8,
+        "horse_name3": "朗日雪峰",
+        "draw3": "2",
+        "score_value3": 23.16,
+        "factors3": {
+            "weight": 128.0,
+            "days_away": 21,
+            "fast_works": 2
+        }
+    }
+}

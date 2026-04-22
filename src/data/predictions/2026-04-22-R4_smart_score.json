@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-04-22",
+        "race_number": 4,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "銳目",
+        "draw1": "2",
+        "score_value1": 6.6,
+        "factors1": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.5999999999999996,
+            "pace_wt": 1.5,
+            "volatility": 0.0
+        },
+        "score2": 1,
+        "horse_name2": "競駿非凡",
+        "draw2": "3",
+        "score_value2": 5.2,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 0.5,
+            "volatility": 0.0
+        },
+        "score3": 2,
+        "horse_name3": "團長好",
+        "draw3": "5",
+        "score_value3": 3.2,
+        "factors3": {
+            "base": -0.5,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        }
+    }
+}

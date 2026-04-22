@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-22",
+        "race_number": 7,
+        "course": "跑馬地",
+        "distance": 1000,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "品德寶寶",
+        "draw1": "11",
+        "score_value1": 51.91,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 10,
+        "horse_name2": "富心星",
+        "draw2": "4",
+        "score_value2": 37.2,
+        "factors2": {
+            "weight": 121.0,
+            "days_away": 14,
+            "fast_works": 1
+        },
+        "score3": 2,
+        "horse_name3": "燭光晚餐",
+        "draw3": "10",
+        "score_value3": 27.0,
+        "factors3": {
+            "weight": 134.0,
+            "days_away": 28,
+            "fast_works": 4
+        }
+    }
+}

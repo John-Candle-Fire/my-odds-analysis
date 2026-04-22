@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-04-22",
+        "race_number": 5,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "小魔怪",
+        "draw1": "7",
+        "score_value1": 4.2,
+        "factors1": {
+            "base": 0.5,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        },
+        "score2": 12,
+        "horse_name2": "過關勇士",
+        "draw2": "4",
+        "score_value2": 3.7,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.0,
+            "pace_wt": 1.2000000000000002,
+            "volatility": 0.0
+        },
+        "score3": 11,
+        "horse_name3": "雷神太保",
+        "draw3": "1",
+        "score_value3": 3.6,
+        "factors3": {
+            "base": 0.5,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 1.0,
+            "volatility": 0.0
+        }
+    }
+}

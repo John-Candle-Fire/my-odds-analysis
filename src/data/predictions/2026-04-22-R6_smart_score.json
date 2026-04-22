@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-22",
+        "race_number": 6,
+        "course": "跑馬地",
+        "distance": 1000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "皇者有利",
+        "draw1": "12",
+        "score_value1": 30.96,
+        "factors1": {
+            "weight": 134.0,
+            "days_away": 28,
+            "fast_works": 6
+        },
+        "score2": 6,
+        "horse_name2": "鴻圖新星",
+        "draw2": "1",
+        "score_value2": 26.08,
+        "factors2": {
+            "weight": 127.0,
+            "days_away": 168,
+            "fast_works": 6
+        },
+        "score3": 1,
+        "horse_name3": "添開心",
+        "draw3": "2",
+        "score_value3": 24.24,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 116,
+            "fast_works": 5
+        }
+    }
+}

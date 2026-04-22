@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-22",
+        "race_number": 8,
+        "course": "跑馬地",
+        "distance": 1800,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "祥勝將軍",
+        "draw1": "11",
+        "score_value1": 56.16,
+        "factors1": {
+            "weight": 117.0,
+            "days_away": 35,
+            "fast_works": 5
+        },
+        "score2": 3,
+        "horse_name2": "中國心",
+        "draw2": "2",
+        "score_value2": 43.32,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 24,
+            "fast_works": 6
+        },
+        "score3": 1,
+        "horse_name3": "奔放",
+        "draw3": "3",
+        "score_value3": 26.25,
+        "factors3": {
+            "weight": 130.0,
+            "days_away": 16,
+            "fast_works": 2
+        }
+    }
+}
