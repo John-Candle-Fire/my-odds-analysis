@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-26",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "勁勇皇駒",
+        "draw1": "4",
+        "score_value1": 33.52,
+        "factors1": {
+            "weight": 129.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 3,
+        "horse_name2": "機械之星",
+        "draw2": "10",
+        "score_value2": 28.77,
+        "factors2": {
+            "weight": 134.0,
+            "days_away": 20,
+            "fast_works": 3
+        },
+        "score3": 12,
+        "horse_name3": "部族高手",
+        "draw3": "13",
+        "score_value3": 25.2,
+        "factors3": {
+            "weight": 123.0,
+            "days_away": 28,
+            "fast_works": 5
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-26",
+        "race_number": 2,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "大回報",
+        "draw1": "3",
+        "score_value1": 35.28,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 20,
+            "fast_works": 4
+        },
+        "score2": 1,
+        "horse_name2": "都靈冠星",
+        "draw2": "4",
+        "score_value2": 23.62,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 35,
+            "fast_works": 5
+        },
+        "score3": 8,
+        "horse_name3": "奮鬥輝煌",
+        "draw3": "5",
+        "score_value3": 19.9,
+        "factors3": {
+            "weight": 125.0,
+            "days_away": 18,
+            "fast_works": 1
+        }
+    }
+}

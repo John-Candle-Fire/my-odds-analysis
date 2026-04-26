@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-26",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "一級賽"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "白鷺金剛",
+        "draw1": "5",
+        "score_value1": 52.7,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 35,
+            "fast_works": 5
+        },
+        "score2": 4,
+        "horse_name2": "金鑽貴人",
+        "draw2": "4",
+        "score_value2": 36.75,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 20,
+            "fast_works": 4
+        },
+        "score3": 5,
+        "horse_name3": "祝願",
+        "draw3": "10",
+        "score_value3": 31.44,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 20,
+            "fast_works": 3
+        }
+    }
+}

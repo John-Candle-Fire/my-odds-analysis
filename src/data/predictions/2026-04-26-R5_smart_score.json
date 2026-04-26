@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-26",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "一級賽"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "嘉應高昇",
+        "draw1": "3",
+        "score_value1": 54.0,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 20,
+            "fast_works": 4
+        },
+        "score2": 3,
+        "horse_name2": "驕陽明駒",
+        "draw2": "6",
+        "score_value2": 36.96,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 20,
+            "fast_works": 4
+        },
+        "score3": 4,
+        "horse_name3": "舉步生風",
+        "draw3": "2",
+        "score_value3": 27.72,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 20,
+            "fast_works": 3
+        }
+    }
+}

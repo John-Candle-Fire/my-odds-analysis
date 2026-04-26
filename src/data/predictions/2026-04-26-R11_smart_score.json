@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-26",
+        "race_number": 11,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "極上紗瓏",
+        "draw1": "4",
+        "score_value1": 49.14,
+        "factors1": {
+            "weight": 115.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 5,
+        "horse_name2": "時時歡聲",
+        "draw2": "2",
+        "score_value2": 37.8,
+        "factors2": {
+            "weight": 122.0,
+            "days_away": 20,
+            "fast_works": 3
+        },
+        "score3": 8,
+        "horse_name3": "會當凌",
+        "draw3": "14",
+        "score_value3": 35.52,
+        "factors3": {
+            "weight": 118.0,
+            "days_away": 35,
+            "fast_works": 3
+        }
+    }
+}

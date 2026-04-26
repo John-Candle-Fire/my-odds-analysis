@@ -1,0 +1,110 @@
+{
+  "Race Date": "2026-04-26",
+  "Race Number": 9,
+  "Horses": [
+    {
+      "horseID": "HK_2025_L919",
+      "Horse Number": "1",
+      "Horse Name": "蒙面舞會",
+      "Weight": "126",
+      "Trainer": "手塚貴久",
+      "Jockey": "李慕華",
+      "Post": "6",
+      "First Win Index": "3.7",
+      "Race Day Win Index": "3.9",
+      "lastWin": "0",
+      "lastPosition": "0"
+    },
+    {
+      "horseID": "HK_2020_E486",
+      "Horse Number": "2",
+      "Horse Name": "浪漫勇士",
+      "Weight": "126",
+      "Trainer": "沈集成",
+      "Jockey": "麥道朗",
+      "Post": "5",
+      "First Win Index": "2.5",
+      "Race Day Win Index": "2.5",
+      "lastWin": "1",
+      "lastPosition": "01"
+    },
+    {
+      "horseID": "HK_2025_L920",
+      "Horse Number": "3",
+      "Horse Name": "御冠軍",
+      "Weight": "126",
+      "Trainer": "伯特",
+      "Jockey": "莫艾誠",
+      "Post": "1",
+      "First Win Index": "11.0",
+      "Race Day Win Index": "14.3",
+      "lastWin": "0",
+      "lastPosition": "0"
+    },
+    {
+      "horseID": "HK_2025_L913",
+      "Horse Number": "4",
+      "Horse Name": "同工之妙",
+      "Weight": "126",
+      "Trainer": "費伯華",
+      "Jockey": "紀仁安",
+      "Post": "2",
+      "First Win Index": "5.2",
+      "Race Day Win Index": "4.7",
+      "lastWin": "2.7",
+      "lastPosition": "01"
+    },
+    {
+      "horseID": "HK_2025_L922",
+      "Horse Number": "5",
+      "Horse Name": "神之禮",
+      "Weight": "126",
+      "Trainer": "杉山晴紀",
+      "Jockey": "高力德",
+      "Post": "8",
+      "First Win Index": "99",
+      "Race Day Win Index": "99",
+      "lastWin": "0",
+      "lastPosition": "0"
+    },
+    {
+      "horseID": "HK_2025_L924",
+      "Horse Number": "6",
+      "Horse Name": "六月豪取",
+      "Weight": "126",
+      "Trainer": "武英智",
+      "Jockey": "莫雷拉",
+      "Post": "7",
+      "First Win Index": "74.2",
+      "Race Day Win Index": "99",
+      "lastWin": "0",
+      "lastPosition": "0"
+    },
+    {
+      "horseID": "HK_2022_H412",
+      "Horse Number": "7",
+      "Horse Name": "球星",
+      "Weight": "126",
+      "Trainer": "大衛希斯",
+      "Jockey": "布文",
+      "Post": "3",
+      "First Win Index": "99",
+      "Race Day Win Index": "99",
+      "lastWin": "67",
+      "lastPosition": "12"
+    },
+    {
+      "horseID": "HK_2025_L080",
+      "Horse Number": "8",
+      "Horse Name": "數字天文",
+      "Weight": "126",
+      "Trainer": "羅富全",
+      "Jockey": "梁家俊",
+      "Post": "4",
+      "First Win Index": "27.8",
+      "Race Day Win Index": "17.1",
+      "lastWin": "5.3",
+      "lastPosition": "02"
+    }
+  ]
+}

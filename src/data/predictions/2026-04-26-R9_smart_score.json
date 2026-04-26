@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-26",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 2000,
+        "class": "一級賽"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "浪漫勇士",
+        "draw1": "5",
+        "score_value1": 56.7,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 56,
+            "fast_works": 5
+        },
+        "score2": 8,
+        "horse_name2": "數字天文",
+        "draw2": "4",
+        "score_value2": 48.67,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 35,
+            "fast_works": 5
+        },
+        "score3": 4,
+        "horse_name3": "同工之妙",
+        "draw3": "2",
+        "score_value3": 18.0,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 133,
+            "fast_works": 4
+        }
+    }
+}

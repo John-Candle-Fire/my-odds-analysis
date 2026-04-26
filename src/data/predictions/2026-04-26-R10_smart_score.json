@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-26",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "黃金騎士",
+        "draw1": "10",
+        "score_value1": 43.6,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 5,
+        "horse_name2": "開心勇駒",
+        "draw2": "11",
+        "score_value2": 28.48,
+        "factors2": {
+            "weight": 130.0,
+            "days_away": 28,
+            "fast_works": 6
+        },
+        "score3": 1,
+        "horse_name3": "一生好彩",
+        "draw3": "6",
+        "score_value3": 27.09,
+        "factors3": {
+            "weight": 134.0,
+            "days_away": 28,
+            "fast_works": 4
+        }
+    }
+}

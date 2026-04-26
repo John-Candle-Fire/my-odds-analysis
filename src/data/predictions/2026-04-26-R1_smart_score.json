@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-26",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "星運少爵",
+        "draw1": "5",
+        "score_value1": 38.68,
+        "factors1": {
+            "weight": 128.0,
+            "days_away": 11,
+            "fast_works": 0
+        },
+        "score2": 11,
+        "horse_name2": "賢者威楓",
+        "draw2": "6",
+        "score_value2": 31.68,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 11,
+            "fast_works": 1
+        },
+        "score3": 9,
+        "horse_name3": "利高八斗",
+        "draw3": "1",
+        "score_value3": 11.03,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 20,
+            "fast_works": 3
+        }
+    }
+}

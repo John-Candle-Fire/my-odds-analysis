@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-26",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "冷娃",
+        "draw1": "13",
+        "score_value1": 49.39,
+        "factors1": {
+            "weight": 129.0,
+            "days_away": 35,
+            "fast_works": 5
+        },
+        "score2": 4,
+        "horse_name2": "增強",
+        "draw2": "9",
+        "score_value2": 39.46,
+        "factors2": {
+            "weight": 130.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score3": 6,
+        "horse_name3": "健康快車",
+        "draw3": "2",
+        "score_value3": 28.73,
+        "factors3": {
+            "weight": 129.0,
+            "days_away": 35,
+            "fast_works": 6
+        }
+    }
+}
