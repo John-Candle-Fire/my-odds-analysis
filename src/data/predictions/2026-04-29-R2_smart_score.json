@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-04-29",
+        "race_number": 2,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "可靠大師",
+        "draw1": "4",
+        "score_value1": 6.699999999999999,
+        "factors1": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.1999999999999993,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        },
+        "score2": 12,
+        "horse_name2": "友得盈",
+        "draw2": "2",
+        "score_value2": 5.7,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.0,
+            "pace_wt": 3.2,
+            "volatility": 0.0
+        },
+        "score3": 9,
+        "horse_name3": "皇帝英豪",
+        "draw3": "3",
+        "score_value3": 3.7,
+        "factors3": {
+            "base": 0.0,
+            "workout": -0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 1.0,
+            "volatility": 0.0
+        }
+    }
+}

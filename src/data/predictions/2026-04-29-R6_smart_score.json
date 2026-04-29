@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-29",
+        "race_number": 6,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "隨緣得勝",
+        "draw1": "6",
+        "score_value1": 29.2,
+        "factors1": {
+            "weight": 123.0,
+            "days_away": 21,
+            "fast_works": 1
+        },
+        "score2": 1,
+        "horse_name2": "勁進駒",
+        "draw2": "12",
+        "score_value2": 21.84,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score3": 8,
+        "horse_name3": "上浦福旺",
+        "draw3": "9",
+        "score_value3": 17.43,
+        "factors3": {
+            "weight": 130.0,
+            "days_away": 21,
+            "fast_works": 4
+        }
+    }
+}

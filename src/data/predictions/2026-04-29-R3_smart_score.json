@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-29",
+        "race_number": 3,
+        "course": "跑馬地",
+        "distance": 2200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "禾道威",
+        "draw1": "5",
+        "score_value1": 35.28,
+        "factors1": {
+            "weight": 122.0,
+            "days_away": 31,
+            "fast_works": 6
+        },
+        "score2": 11,
+        "horse_name2": "夢照發",
+        "draw2": "12",
+        "score_value2": 34.55,
+        "factors2": {
+            "weight": 119.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score3": 12,
+        "horse_name3": "君智盛",
+        "draw3": "9",
+        "score_value3": 20.2,
+        "factors3": {
+            "weight": 119.0,
+            "days_away": 14,
+            "fast_works": 1
+        }
+    }
+}

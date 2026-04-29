@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-29",
+        "race_number": 1,
+        "course": "跑馬地",
+        "distance": 1800,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "悠悠乾坤",
+        "draw1": "7",
+        "score_value1": 23.81,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 5,
+        "horse_name2": "富裕君子",
+        "draw2": "8",
+        "score_value2": 14.14,
+        "factors2": {
+            "weight": 134.0,
+            "days_away": 14,
+            "fast_works": 0
+        },
+        "score3": 7,
+        "horse_name3": "幸運同行",
+        "draw3": "5",
+        "score_value3": 14.11,
+        "factors3": {
+            "weight": 130.0,
+            "days_away": 35,
+            "fast_works": 5
+        }
+    }
+}

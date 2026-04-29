@@ -1,0 +1,16 @@
+{
+  "race_date": "2026-04-29",
+  "race_number": 6,
+  "timestamp_source": "2026-04-29_17-26-19",
+  "type": "DBL",
+  "DBL1": 10,
+  "DBL2": 4,
+  "DBL3": 2,
+  "analysis_type": "dd_insider_detection",
+  "methods_used": [
+    "dd_first_leg_underlay",
+    "dd_second_leg_win_underlay",
+    "dd_second_leg_place_underlay"
+  ],
+  "total_signals": 19
+}

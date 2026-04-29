@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-29",
+        "race_number": 7,
+        "course": "跑馬地",
+        "distance": 1000,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "勇敢巨星",
+        "draw1": "3",
+        "score_value1": 41.18,
+        "factors1": {
+            "weight": 117.0,
+            "days_away": 42,
+            "fast_works": 6
+        },
+        "score2": 8,
+        "horse_name2": "好評如潮",
+        "draw2": "8",
+        "score_value2": 31.92,
+        "factors2": {
+            "weight": 115.0,
+            "days_away": 23,
+            "fast_works": 4
+        },
+        "score3": 10,
+        "horse_name3": "燭光晚餐",
+        "draw3": "2",
+        "score_value3": 25.99,
+        "factors3": {
+            "weight": 115.0,
+            "days_away": 7,
+            "fast_works": 0
+        }
+    }
+}

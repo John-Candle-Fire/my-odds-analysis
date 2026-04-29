@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-04-29",
+        "race_number": 9,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "相映紅",
+        "draw1": "8",
+        "score_value1": 32.16,
+        "factors1": {
+            "weight": 132.0,
+            "days_away": 56,
+            "fast_works": 4
+        },
+        "score2": 1,
+        "horse_name2": "一定掂",
+        "draw2": "9",
+        "score_value2": 30.11,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 35,
+            "fast_works": 4
+        },
+        "score3": 9,
+        "horse_name3": "翠兒威威",
+        "draw3": "12",
+        "score_value3": 27.5,
+        "factors3": {
+            "weight": 122.0,
+            "days_away": 21,
+            "fast_works": 3
+        }
+    }
+}
