@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-03",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 2000,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "友瑩光",
+        "draw1": "5",
+        "score_value1": 32.54,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 27,
+            "fast_works": 5
+        },
+        "score2": 7,
+        "horse_name2": "發財先鋒",
+        "draw2": "8",
+        "score_value2": 25.7,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 27,
+            "fast_works": 3
+        },
+        "score3": 9,
+        "horse_name3": "紫荊拼搏",
+        "draw3": "3",
+        "score_value3": 20.33,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 7,
+            "fast_works": 0
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-03",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "果然僥倖",
+        "draw1": "12",
+        "score_value1": 36.29,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 27,
+            "fast_works": 3
+        },
+        "score2": 11,
+        "horse_name2": "皇金合",
+        "draw2": "13",
+        "score_value2": 28.2,
+        "factors2": {
+            "weight": 129.0,
+            "days_away": 27,
+            "fast_works": 3
+        },
+        "score3": 5,
+        "horse_name3": "首駿",
+        "draw3": "3",
+        "score_value3": 27.72,
+        "factors3": {
+            "weight": 133.0,
+            "days_away": 27,
+            "fast_works": 3
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-03",
+        "race_number": 11,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "醒目高球",
+        "draw1": "14",
+        "score_value1": 53.86,
+        "factors1": {
+            "weight": 132.0,
+            "days_away": 49,
+            "fast_works": 3
+        },
+        "score2": 4,
+        "horse_name2": "興馳千里",
+        "draw2": "3",
+        "score_value2": 40.8,
+        "factors2": {
+            "weight": 130.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score3": 8,
+        "horse_name3": "千杯不醉",
+        "draw3": "6",
+        "score_value3": 31.71,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 14,
+            "fast_works": 1
+        }
+    }
+}

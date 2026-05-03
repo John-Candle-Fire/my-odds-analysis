@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-03",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 13,
+        "horse_name1": "同喜",
+        "draw1": "4",
+        "score_value1": 37.04,
+        "factors1": {
+            "weight": 121.0,
+            "days_away": 27,
+            "fast_works": 4
+        },
+        "score2": 1,
+        "horse_name2": "龍之悅",
+        "draw2": "12",
+        "score_value2": 21.0,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score3": 2,
+        "horse_name3": "團結戰靈",
+        "draw3": "10",
+        "score_value3": 19.4,
+        "factors3": {
+            "weight": 131.0,
+            "days_away": 18,
+            "fast_works": 3
+        }
+    }
+}

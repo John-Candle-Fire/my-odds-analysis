@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-03",
+        "race_number": 2,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "應龍飛影",
+        "draw1": "5",
+        "score_value1": 16.8,
+        "factors1": {
+            "weight": 128.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score2": 13,
+        "horse_name2": "有你有我",
+        "draw2": "12",
+        "score_value2": 16.63,
+        "factors2": {
+            "weight": 122.0,
+            "days_away": 25,
+            "fast_works": 3
+        },
+        "score3": 9,
+        "horse_name3": "賢知友您",
+        "draw3": "8",
+        "score_value3": 16.42,
+        "factors3": {
+            "weight": 129.0,
+            "days_away": 32,
+            "fast_works": 4
+        }
+    }
+}

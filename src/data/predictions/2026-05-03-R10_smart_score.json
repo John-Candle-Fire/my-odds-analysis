@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-03",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 14,
+        "horse_name1": "櫻花酒杯",
+        "draw1": "7",
+        "score_value1": 30.6,
+        "factors1": {
+            "weight": 118.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score2": 2,
+        "horse_name2": "嘉應奇兵",
+        "draw2": "13",
+        "score_value2": 26.5,
+        "factors2": {
+            "weight": 134.0,
+            "days_away": 14,
+            "fast_works": 1
+        },
+        "score3": 11,
+        "horse_name3": "怡昌光輝",
+        "draw3": "12",
+        "score_value3": 22.89,
+        "factors3": {
+            "weight": 122.0,
+            "days_away": 21,
+            "fast_works": 4
+        }
+    }
+}

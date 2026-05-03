@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-03",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 2400,
+        "class": "三級賽"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "君子傳承",
+        "draw1": "1",
+        "score_value1": 34.12,
+        "factors1": {
+            "weight": 129.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score2": 7,
+        "horse_name2": "浪漫戰神",
+        "draw2": "2",
+        "score_value2": 26.76,
+        "factors2": {
+            "weight": 115.0,
+            "days_away": 32,
+            "fast_works": 5
+        },
+        "score3": 4,
+        "horse_name3": "春風萬里",
+        "draw3": "6",
+        "score_value3": 24.5,
+        "factors3": {
+            "weight": 124.0,
+            "days_away": 14,
+            "fast_works": 1
+        }
+    }
+}
