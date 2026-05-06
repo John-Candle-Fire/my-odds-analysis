@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-06",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1650,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "安泰",
+        "draw1": "2",
+        "score_value1": 41.18,
+        "factors1": {
+            "weight": 120.0,
+            "days_away": 24,
+            "fast_works": 4
+        },
+        "score2": 7,
+        "horse_name2": "滿心星",
+        "draw2": "10",
+        "score_value2": 33.41,
+        "factors2": {
+            "weight": 124.0,
+            "days_away": 28,
+            "fast_works": 3
+        },
+        "score3": 1,
+        "horse_name3": "精英雄心",
+        "draw3": "11",
+        "score_value3": 31.68,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 35,
+            "fast_works": 4
+        }
+    }
+}

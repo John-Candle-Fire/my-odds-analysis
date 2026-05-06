@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-06",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "光年程祥",
+        "draw1": "5",
+        "score_value1": 23.42,
+        "factors1": {
+            "weight": 132.0,
+            "days_away": 17,
+            "fast_works": 2
+        },
+        "score2": 3,
+        "horse_name2": "顯勝高昇",
+        "draw2": "11",
+        "score_value2": 15.12,
+        "factors2": {
+            "weight": 130.0,
+            "days_away": 17,
+            "fast_works": 3
+        },
+        "score3": 10,
+        "horse_name3": "加州勇勝",
+        "draw3": "2",
+        "score_value3": 11.78,
+        "factors3": {
+            "weight": 122.0,
+            "days_away": 10,
+            "fast_works": 0
+        }
+    }
+}

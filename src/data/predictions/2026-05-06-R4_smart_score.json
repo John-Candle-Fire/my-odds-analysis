@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-06",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1800,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "開心宇宙",
+        "draw1": "10",
+        "score_value1": 36.72,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 35,
+            "fast_works": 4
+        },
+        "score2": 9,
+        "horse_name2": "精明選擇",
+        "draw2": "3",
+        "score_value2": 25.44,
+        "factors2": {
+            "weight": 122.0,
+            "days_away": 35,
+            "fast_works": 6
+        },
+        "score3": 10,
+        "horse_name3": "風起雲湧",
+        "draw3": "4",
+        "score_value3": 25.2,
+        "factors3": {
+            "weight": 116.0,
+            "days_away": 17,
+            "fast_works": 1
+        }
+    }
+}

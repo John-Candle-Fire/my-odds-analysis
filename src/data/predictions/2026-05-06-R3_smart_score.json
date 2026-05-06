@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-06",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "巧眼光",
+        "draw1": "9",
+        "score_value1": 34.27,
+        "factors1": {
+            "weight": 131.0,
+            "days_away": 81,
+            "fast_works": 5
+        },
+        "score2": 7,
+        "horse_name2": "起舞奜奜",
+        "draw2": "5",
+        "score_value2": 29.04,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 17,
+            "fast_works": 2
+        },
+        "score3": 4,
+        "horse_name3": "快樂神駒",
+        "draw3": "12",
+        "score_value3": 22.26,
+        "factors3": {
+            "weight": 128.0,
+            "days_away": 21,
+            "fast_works": 2
+        }
+    }
+}

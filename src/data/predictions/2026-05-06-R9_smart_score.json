@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-06",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "樂勝天下",
+        "draw1": "3",
+        "score_value1": 42.0,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 35,
+            "fast_works": 4
+        },
+        "score2": 1,
+        "horse_name2": "友愛心得",
+        "draw2": "6",
+        "score_value2": 35.88,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 35,
+            "fast_works": 3
+        },
+        "score3": 4,
+        "horse_name3": "錶之極光",
+        "draw3": "10",
+        "score_value3": 34.56,
+        "factors3": {
+            "weight": 130.0,
+            "days_away": 17,
+            "fast_works": 2
+        }
+    }
+}

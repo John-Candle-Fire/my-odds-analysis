@@ -1,0 +1,151 @@
+{
+    "metadata": {
+        "date": "2026-05-06",
+        "generated_at": "2026-05-06 17:39:13"
+    },
+    "meeting_context": {
+        "volatility": "STANDARD",
+        "attacking_stables": [
+            "方嘉柏",
+            "蔡約翰",
+            "廖康銘",
+            "羅富全",
+            "文家良",
+            "賀賢",
+            "徐雨石",
+            "葉楚航"
+        ],
+        "attacking_jockeys": [
+            "艾兆禮",
+            "潘頓",
+            "莫雷拉",
+            "布文",
+            "田泰安",
+            "袁幸堯"
+        ]
+    },
+    "details": {
+        "stable_attack_stats": [
+            {
+                "trainer": "方嘉柏",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "trainer": "蔡約翰",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "廖康銘",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "羅富全",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "文家良",
+                "strong_chances_count": 5,
+                "tier": 2
+            },
+            {
+                "trainer": "賀賢",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "trainer": "徐雨石",
+                "strong_chances_count": 3,
+                "tier": 3
+            },
+            {
+                "trainer": "葉楚航",
+                "strong_chances_count": 3,
+                "tier": 3
+            }
+        ],
+        "jockey_attack_stats": [
+            {
+                "jockey": "艾兆禮",
+                "strong_chances_count": 6,
+                "tier": 1
+            },
+            {
+                "jockey": "潘頓",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "jockey": "莫雷拉",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "jockey": "布文",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "jockey": "田泰安",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "jockey": "袁幸堯",
+                "strong_chances_count": 4,
+                "tier": 3
+            }
+        ],
+        "race_volatility": {
+            "1": "STANDARD-Strong Favorite Race",
+            "2": "STANDARD-Two Contender No Dominant Favorite",
+            "3": "CHAOS-Two Contender No Dominant Favorite",
+            "4": "STANDARD-Multi Contender Dominant Favorite",
+            "5": "CHAOS-Two Contender No Dominant Favorite",
+            "6": "STANDARD-Two Contender No Dominant Favorite",
+            "7": "STANDARD-Weak Favorite Race",
+            "8": "STANDARD-Weak Favorite Race",
+            "9": "STANDARD-Two Contender No Dominant Favorite"
+        },
+        "traffic_risks": [],
+        "scenario_A_late_steamers": [
+            {
+                "race_number": 1,
+                "late_steamer": 11,
+                "late_steamer_name": "上市魅力"
+            },
+            {
+                "race_number": 8,
+                "late_steamer": 6,
+                "late_steamer_name": "將睿"
+            }
+        ],
+        "scenario_B_early_favorites": [
+            {
+                "race_number": 9,
+                "early_favorite": 8,
+                "early_favorite_name": "德心知遇"
+            }
+        ],
+        "jockey_upgrades": [
+            {
+                "race": 3,
+                "horse": "文明戰士",
+                "switch": "周俊樂(T3) -> 布文(T1)"
+            },
+            {
+                "race": 7,
+                "horse": "天天耍樂",
+                "switch": "袁幸堯(T3) -> 潘頓(T1)"
+            },
+            {
+                "race": 9,
+                "horse": "熾烈神駒",
+                "switch": "周俊樂(T3) -> 潘頓(T1)"
+            }
+        ]
+    }
+}
