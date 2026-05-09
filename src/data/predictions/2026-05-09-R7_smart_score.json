@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-09",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 13,
+        "horse_name1": "金鑽精靈",
+        "draw1": "12",
+        "score_value1": 35.28,
+        "factors1": {
+            "weight": 118.0,
+            "days_away": 27,
+            "fast_works": 4
+        },
+        "score2": 1,
+        "horse_name2": "威武年代",
+        "draw2": "1",
+        "score_value2": 32.26,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 33,
+            "fast_works": 5
+        },
+        "score3": 5,
+        "horse_name3": "大千雄心",
+        "draw3": "8",
+        "score_value3": 30.53,
+        "factors3": {
+            "weight": 134.0,
+            "days_away": 69,
+            "fast_works": 4
+        }
+    }
+}

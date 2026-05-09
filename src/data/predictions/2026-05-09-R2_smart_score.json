@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-09",
+        "race_number": 2,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "北地烈馬",
+        "draw1": "3",
+        "score_value1": 20.66,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 41,
+            "fast_works": 3
+        },
+        "score2": 5,
+        "horse_name2": "奇異歡星",
+        "draw2": "2",
+        "score_value2": 16.63,
+        "factors2": {
+            "weight": 128.0,
+            "days_away": 13,
+            "fast_works": 2
+        },
+        "score3": 4,
+        "horse_name3": "朗日自強",
+        "draw3": "6",
+        "score_value3": 16.17,
+        "factors3": {
+            "weight": 128.0,
+            "days_away": 10,
+            "fast_works": 1
+        }
+    }
+}

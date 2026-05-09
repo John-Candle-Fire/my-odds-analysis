@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-09",
+        "race_number": 11,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "燈胆將軍",
+        "draw1": "4",
+        "score_value1": 53.71,
+        "factors1": {
+            "weight": 116.0,
+            "days_away": 41,
+            "fast_works": 5
+        },
+        "score2": 11,
+        "horse_name2": "喜慶寶",
+        "draw2": "11",
+        "score_value2": 47.52,
+        "factors2": {
+            "weight": 115.0,
+            "days_away": 48,
+            "fast_works": 5
+        },
+        "score3": 5,
+        "horse_name3": "競駿輝煌",
+        "draw3": "5",
+        "score_value3": 42.97,
+        "factors3": {
+            "weight": 122.0,
+            "days_away": 27,
+            "fast_works": 5
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-09",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "凝聚美麗",
+        "draw1": "7",
+        "score_value1": 36.67,
+        "factors1": {
+            "weight": 129.0,
+            "days_away": 31,
+            "fast_works": 4
+        },
+        "score2": 6,
+        "horse_name2": "鴻圖新星",
+        "draw2": "4",
+        "score_value2": 31.2,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 17,
+            "fast_works": 3
+        },
+        "score3": 1,
+        "horse_name3": "展雄威",
+        "draw3": "8",
+        "score_value3": 19.08,
+        "factors3": {
+            "weight": 130.0,
+            "days_away": 20,
+            "fast_works": 1
+        }
+    }
+}

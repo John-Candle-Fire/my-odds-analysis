@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-09",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "手機錶勁",
+        "draw1": "11",
+        "score_value1": 43.92,
+        "factors1": {
+            "weight": 128.0,
+            "days_away": 20,
+            "fast_works": 4
+        },
+        "score2": 10,
+        "horse_name2": "辣得準",
+        "draw2": "8",
+        "score_value2": 38.02,
+        "factors2": {
+            "weight": 117.0,
+            "days_away": 27,
+            "fast_works": 5
+        },
+        "score3": 4,
+        "horse_name3": "超寫意",
+        "draw3": "3",
+        "score_value3": 34.9,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 27,
+            "fast_works": 5
+        }
+    }
+}

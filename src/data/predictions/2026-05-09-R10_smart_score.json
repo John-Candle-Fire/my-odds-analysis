@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-09",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "活力拍檔",
+        "draw1": "2",
+        "score_value1": 50.65,
+        "factors1": {
+            "weight": 129.0,
+            "days_away": 27,
+            "fast_works": 5
+        },
+        "score2": 3,
+        "horse_name2": "安都",
+        "draw2": "9",
+        "score_value2": 35.24,
+        "factors2": {
+            "weight": 132.0,
+            "days_away": 13,
+            "fast_works": 2
+        },
+        "score3": 2,
+        "horse_name3": "火悟空",
+        "draw3": "5",
+        "score_value3": 31.94,
+        "factors3": {
+            "weight": 132.0,
+            "days_away": 13,
+            "fast_works": 2
+        }
+    }
+}

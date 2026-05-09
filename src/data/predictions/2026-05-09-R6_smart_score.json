@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-09",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 13,
+        "horse_name1": "全神貫注",
+        "draw1": "6",
+        "score_value1": 31.75,
+        "factors1": {
+            "weight": 119.0,
+            "days_away": 27,
+            "fast_works": 5
+        },
+        "score2": 6,
+        "horse_name2": "龍傲綾羅",
+        "draw2": "10",
+        "score_value2": 27.94,
+        "factors2": {
+            "weight": 128.0,
+            "days_away": 27,
+            "fast_works": 5
+        },
+        "score3": 11,
+        "horse_name3": "有情有義",
+        "draw3": "13",
+        "score_value3": 27.36,
+        "factors3": {
+            "weight": 123.0,
+            "days_away": 20,
+            "fast_works": 3
+        }
+    }
+}

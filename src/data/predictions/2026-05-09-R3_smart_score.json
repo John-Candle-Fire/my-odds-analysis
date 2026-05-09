@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-09",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "朗日雪峰",
+        "draw1": "12",
+        "score_value1": 25.08,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 17,
+            "fast_works": 2
+        },
+        "score2": 5,
+        "horse_name2": "銳一",
+        "draw2": "9",
+        "score_value2": 21.67,
+        "factors2": {
+            "weight": 131.0,
+            "days_away": 38,
+            "fast_works": 5
+        },
+        "score3": 13,
+        "horse_name3": "添喜運",
+        "draw3": "2",
+        "score_value3": 17.8,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 17,
+            "fast_works": 2
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-09",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "大愛無疆",
+        "draw1": "4",
+        "score_value1": 42.34,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 41,
+            "fast_works": 3
+        },
+        "score2": 1,
+        "horse_name2": "會長之寶",
+        "draw2": "6",
+        "score_value2": 33.12,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 33,
+            "fast_works": 4
+        },
+        "score3": 7,
+        "horse_name3": "團結勇士",
+        "draw3": "2",
+        "score_value3": 25.44,
+        "factors3": {
+            "weight": 122.0,
+            "days_away": 24,
+            "fast_works": 4
+        }
+    }
+}
