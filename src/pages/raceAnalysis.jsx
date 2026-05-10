@@ -47,6 +47,7 @@ const RaceAnalysis = () => {
       resetHighlights();
       const data = await loadRaceData(date, raceNumber, timestamp);
       
+      
       //  ADD THESE DEBUG LINES
       console.log('=== RACE DATA LOADED ===');
       console.log('Full raceData:', data);
@@ -59,14 +60,20 @@ const RaceAnalysis = () => {
       setHighlights(getHighlights());
       setTabValue(0);
     } catch (error) {
-      setFindings([{
-        priority: 0,
-        horseNumber: 'ALL',
-        action: 'Alert',
-        message: `Analysis failed: ${error instanceof Error ? error.message : String(error)}`,
-        winScore: 0,
-        placeScore: 0
-      }]);
+      console.log('=== CAUGHT ERROR ===', String(error), typeof error);
+    console.log('Type:', typeof error);
+    console.log('Value:', error);
+    console.log('JSON:', JSON.stringify(error));
+    console.log('Keys:', error ? Object.keys(error) : 'null/undefined');
+
+    setFindings([{
+      priority: 0,
+      horseNumber: 'ALL',
+      action: 'Alert',
+      message: `Analysis failed: ${error instanceof Error ? error.message : String(error)}`,
+      winScore: 0,
+      placeScore: 0
+    }]);
     }
   };
 

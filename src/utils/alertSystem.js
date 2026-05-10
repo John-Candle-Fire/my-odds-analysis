@@ -122,7 +122,13 @@ export const createAlert = (
 // ===================
 
 export const addAlert = (alert, autoSort = false) => {
-  if (!isAlert(alert)) throw new Error('Invalid alert object');
+  if (!isAlert(alert)) {
+    console.log('=== INVALID ALERT OBJECT ===');
+    console.log('Received:', JSON.stringify(alert));
+    console.log('Has purpose?', alert?.purpose);
+    console.log('Has action?', alert?.action);
+    throw new Error('Invalid alert object');
+  }
   alerts.push(alert);
   if (autoSort) alerts.sort((a, b) => b.priority - a.priority);
 };

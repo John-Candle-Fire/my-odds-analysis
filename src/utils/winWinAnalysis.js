@@ -90,12 +90,23 @@ export const analyzeWinWinX = (preprocessedData) => {
         addAlert(createAlert(
             20,
             horse.horseNumber,
-            isUnexpected ? 'Warning' : 'Analyze',
+            'Analyze',
             messageParts.join(' | '),
             priority,
             subPriority,
             'Generic'
         ));
+
+        if (isUnexpected) {
+            addAlert(createAlert(
+                160,
+                horse.horseNumber,
+                'Analyze',
+                `異常落飛 - ${horse.horseNumber} ${horse.horseName} ，需要特別留意`,
+                priority + 20,
+                subPriority + 20
+            ));
+        }
 
         if (isNewHorse && ((isOnlyFavourite && (isUnexpected || isBeatIndex)) || (!isOnlyFavourite && isUnexpected))) {
             newHorseAlertAdded = true;
