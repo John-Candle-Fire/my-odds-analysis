@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-13",
+        "race_number": 5,
+        "course": "跑馬地",
+        "distance": 1800,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "祥勝將軍",
+        "draw1": "8",
+        "score_value1": 40.95,
+        "factors1": {
+            "weight": 124.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score2": 1,
+        "horse_name2": "奔放",
+        "draw2": "1",
+        "score_value2": 32.76,
+        "factors2": {
+            "weight": 134.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score3": 2,
+        "horse_name3": "瑪瑙",
+        "draw3": "4",
+        "score_value3": 21.0,
+        "factors3": {
+            "weight": 133.0,
+            "days_away": 14,
+            "fast_works": 2
+        }
+    }
+}

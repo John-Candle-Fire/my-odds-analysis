@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-05-13",
+        "race_number": 7,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "勝在當下",
+        "draw1": "2",
+        "score_value1": 7.3,
+        "factors1": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 2.5999999999999996,
+            "pace_wt": 3.2,
+            "volatility": 0.0
+        },
+        "score2": 6,
+        "horse_name2": "銳目",
+        "draw2": "7",
+        "score_value2": 6.699999999999999,
+        "factors2": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.1999999999999993,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        },
+        "score3": 5,
+        "horse_name3": "你知我得",
+        "draw3": "10",
+        "score_value3": 5.199999999999999,
+        "factors3": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.1999999999999993,
+            "pace_wt": -1.5,
+            "volatility": 0.0
+        }
+    }
+}
