@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-17",
+        "race_number": 2,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "日出東方",
+        "draw1": "6",
+        "score_value1": 39.44,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score2": 3,
+        "horse_name2": "快樂神駒",
+        "draw2": "10",
+        "score_value2": 29.44,
+        "factors2": {
+            "weight": 128.0,
+            "days_away": 11,
+            "fast_works": 0
+        },
+        "score3": 14,
+        "horse_name3": "拉合爾",
+        "draw3": "9",
+        "score_value3": 24.34,
+        "factors3": {
+            "weight": 122.0,
+            "days_away": 105,
+            "fast_works": 5
+        }
+    }
+}

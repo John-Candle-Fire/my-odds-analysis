@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-17",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "傑出雷霆",
+        "draw1": "7",
+        "score_value1": 24.99,
+        "factors1": {
+            "weight": 124.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score2": 3,
+        "horse_name2": "健康快車",
+        "draw2": "2",
+        "score_value2": 19.68,
+        "factors2": {
+            "weight": 131.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score3": 5,
+        "horse_name3": "天外迎天",
+        "draw3": "12",
+        "score_value3": 19.2,
+        "factors3": {
+            "weight": 128.0,
+            "days_away": 32,
+            "fast_works": 5
+        }
+    }
+}

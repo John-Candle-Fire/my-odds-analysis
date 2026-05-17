@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-17",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "鼓浪好友",
+        "draw1": "12",
+        "score_value1": 31.68,
+        "factors1": {
+            "weight": 133.0,
+            "days_away": 35,
+            "fast_works": 4
+        },
+        "score2": 5,
+        "horse_name2": "非凡時刻",
+        "draw2": "8",
+        "score_value2": 24.99,
+        "factors2": {
+            "weight": 128.0,
+            "days_away": 14,
+            "fast_works": 0
+        },
+        "score3": 3,
+        "horse_name3": "利高八斗",
+        "draw3": "6",
+        "score_value3": 22.8,
+        "factors3": {
+            "weight": 129.0,
+            "days_away": 21,
+            "fast_works": 4
+        }
+    }
+}

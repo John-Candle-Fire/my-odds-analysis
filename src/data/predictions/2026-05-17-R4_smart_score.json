@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-17",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "天天更好",
+        "draw1": "7",
+        "score_value1": 36.0,
+        "factors1": {
+            "weight": 123.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score2": 1,
+        "horse_name2": "禾道豐",
+        "draw2": "4",
+        "score_value2": 29.52,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 63,
+            "fast_works": 4
+        },
+        "score3": 11,
+        "horse_name3": "小魔怪",
+        "draw3": "11",
+        "score_value3": 17.16,
+        "factors3": {
+            "weight": 120.0,
+            "days_away": 25,
+            "fast_works": 3
+        }
+    }
+}

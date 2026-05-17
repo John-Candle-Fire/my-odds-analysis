@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-17",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "城中勇士",
+        "draw1": "10",
+        "score_value1": 29.19,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score2": 4,
+        "horse_name2": "首駿",
+        "draw2": "6",
+        "score_value2": 24.26,
+        "factors2": {
+            "weight": 129.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score3": 3,
+        "horse_name3": "快樂高球",
+        "draw3": "11",
+        "score_value3": 22.55,
+        "factors3": {
+            "weight": 129.0,
+            "days_away": 41,
+            "fast_works": 5
+        }
+    }
+}

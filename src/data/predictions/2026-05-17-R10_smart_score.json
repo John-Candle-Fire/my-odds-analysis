@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-17",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "安泰",
+        "draw1": "8",
+        "score_value1": 39.73,
+        "factors1": {
+            "weight": 131.0,
+            "days_away": 11,
+            "fast_works": 1
+        },
+        "score2": 10,
+        "horse_name2": "臻至辰",
+        "draw2": "9",
+        "score_value2": 20.59,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 28,
+            "fast_works": 3
+        },
+        "score3": 3,
+        "horse_name3": "勁先生",
+        "draw3": "6",
+        "score_value3": 15.72,
+        "factors3": {
+            "weight": 133.0,
+            "days_away": 28,
+            "fast_works": 5
+        }
+    }
+}

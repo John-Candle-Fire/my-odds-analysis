@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-17",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1800,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "開心三多",
+        "draw1": "4",
+        "score_value1": 33.26,
+        "factors1": {
+            "weight": 127.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 5,
+        "horse_name2": "富裕君子",
+        "draw2": "14",
+        "score_value2": 27.48,
+        "factors2": {
+            "weight": 132.0,
+            "days_away": 18,
+            "fast_works": 2
+        },
+        "score3": 1,
+        "horse_name3": "光輝歲月",
+        "draw3": "11",
+        "score_value3": 25.99,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 11,
+            "fast_works": 1
+        }
+    }
+}
