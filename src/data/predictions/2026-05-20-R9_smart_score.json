@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-05-20",
+        "race_number": 9,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "增強",
+        "draw1": "5",
+        "score_value1": 5.975,
+        "factors1": {
+            "base": 2.5,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 2.5999999999999996,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        },
+        "score2": 11,
+        "horse_name2": "興馳千里",
+        "draw2": "10",
+        "score_value2": 5.6,
+        "factors2": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 2.5999999999999996,
+            "pace_wt": -0.5,
+            "volatility": 0.0
+        },
+        "score3": 9,
+        "horse_name3": "俏眼光",
+        "draw3": "4",
+        "score_value3": 5.475,
+        "factors3": {
+            "base": 2.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 2.5999999999999996,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        }
+    }
+}

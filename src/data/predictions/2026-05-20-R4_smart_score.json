@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-20",
+        "race_number": 4,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "多利神駒",
+        "draw1": "6",
+        "score_value1": 28.85,
+        "factors1": {
+            "weight": 116.0,
+            "days_away": 28,
+            "fast_works": 3
+        },
+        "score2": 8,
+        "horse_name2": "有情有義",
+        "draw2": "1",
+        "score_value2": 25.61,
+        "factors2": {
+            "weight": 121.0,
+            "days_away": 11,
+            "fast_works": 0
+        },
+        "score3": 6,
+        "horse_name3": "康昌之星",
+        "draw3": "9",
+        "score_value3": 19.58,
+        "factors3": {
+            "weight": 125.0,
+            "days_away": 28,
+            "fast_works": 3
+        }
+    }
+}

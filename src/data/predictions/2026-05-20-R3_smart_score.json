@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-05-20",
+        "race_number": 3,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "團長好",
+        "draw1": "5",
+        "score_value1": 5.2,
+        "factors1": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 0.5,
+            "volatility": 0.0
+        },
+        "score2": 1,
+        "horse_name2": "合夥飛馳",
+        "draw2": "10",
+        "score_value2": 3.7,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": -1.0,
+            "volatility": 0.0
+        },
+        "score3": 8,
+        "horse_name3": "星辰千帥",
+        "draw3": "8",
+        "score_value3": 3.7,
+        "factors3": {
+            "base": 0.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        }
+    }
+}

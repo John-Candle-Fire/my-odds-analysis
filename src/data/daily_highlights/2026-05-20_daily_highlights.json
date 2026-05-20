@@ -1,0 +1,157 @@
+{
+    "metadata": {
+        "date": "2026-05-20",
+        "generated_at": "2026-05-20 17:41:07"
+    },
+    "meeting_context": {
+        "volatility": "STANDARD",
+        "attacking_stables": [
+            "方嘉柏",
+            "羅富全",
+            "廖康銘",
+            "呂健威",
+            "告東尼",
+            "韋達",
+            "賀賢"
+        ],
+        "attacking_jockeys": [
+            "莫雷拉",
+            "潘頓",
+            "布文",
+            "巴度",
+            "奧爾民",
+            "希威森",
+            "田泰安",
+            "周俊樂"
+        ]
+    },
+    "details": {
+        "stable_attack_stats": [
+            {
+                "trainer": "方嘉柏",
+                "strong_chances_count": 7,
+                "tier": 1
+            },
+            {
+                "trainer": "羅富全",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "廖康銘",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "呂健威",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "告東尼",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "韋達",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "trainer": "賀賢",
+                "strong_chances_count": 3,
+                "tier": 2
+            }
+        ],
+        "jockey_attack_stats": [
+            {
+                "jockey": "莫雷拉",
+                "strong_chances_count": 7,
+                "tier": 1
+            },
+            {
+                "jockey": "潘頓",
+                "strong_chances_count": 6,
+                "tier": 1
+            },
+            {
+                "jockey": "布文",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "jockey": "巴度",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "jockey": "奧爾民",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "jockey": "希威森",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "jockey": "田泰安",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "jockey": "周俊樂",
+                "strong_chances_count": 4,
+                "tier": 3
+            }
+        ],
+        "race_volatility": {
+            "1": "STANDARD-Multi Contender Dominant Favorite",
+            "2": "STANDARD-Strong Favorite Race",
+            "3": "STANDARD-Weak Favorite Race",
+            "4": "STANDARD-Multi Contender Dominant Favorite",
+            "5": "STANDARD-Two Contender Race",
+            "6": "STANDARD-Two Contender No Dominant Favorite",
+            "7": "STANDARD-Multi Contender No Dominant Favorite",
+            "8": "STANDARD-Strong Favorite Race",
+            "9": "STANDARD-Weak Favorite Race"
+        },
+        "traffic_risks": [],
+        "scenario_A_late_steamers": [
+            {
+                "race_number": 1,
+                "late_steamer": 5,
+                "late_steamer_name": "鄉村樂韻"
+            }
+        ],
+        "scenario_B_early_favorites": [
+            {
+                "race_number": 9,
+                "early_favorite": 9,
+                "early_favorite_name": "俏眼光"
+            }
+        ],
+        "jockey_upgrades": [
+            {
+                "race": 2,
+                "horse": "隨緣得勝",
+                "switch": "周俊樂(T3) -> 潘頓(T1)"
+            },
+            {
+                "race": 3,
+                "horse": "合夥飛馳",
+                "switch": "楊明綸(T3) -> 布文(T1)"
+            },
+            {
+                "race": 5,
+                "horse": "超強六十",
+                "switch": "黃智弘(T4) -> 莫雷拉(T1)"
+            },
+            {
+                "race": 6,
+                "horse": "巴閉王",
+                "switch": "黃寶妮(T3) -> 布文(T1)"
+            }
+        ]
+    }
+}

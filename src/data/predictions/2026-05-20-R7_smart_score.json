@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-20",
+        "race_number": 7,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "做好自己",
+        "draw1": "11",
+        "score_value1": 43.6,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 35,
+            "fast_works": 5
+        },
+        "score2": 1,
+        "horse_name2": "滿心星",
+        "draw2": "1",
+        "score_value2": 36.24,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 14,
+            "fast_works": 0
+        },
+        "score3": 12,
+        "horse_name3": "知道穩勝",
+        "draw3": "9",
+        "score_value3": 35.91,
+        "factors3": {
+            "weight": 116.0,
+            "days_away": 35,
+            "fast_works": 5
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-20",
+        "race_number": 2,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "林寶精神",
+        "draw1": "7",
+        "score_value1": 29.4,
+        "factors1": {
+            "weight": 121.0,
+            "days_away": 14,
+            "fast_works": 1
+        },
+        "score2": 2,
+        "horse_name2": "本領非凡",
+        "draw2": "3",
+        "score_value2": 28.98,
+        "factors2": {
+            "weight": 134.0,
+            "days_away": 28,
+            "fast_works": 6
+        },
+        "score3": 10,
+        "horse_name3": "隨緣得勝",
+        "draw3": "5",
+        "score_value3": 24.15,
+        "factors3": {
+            "weight": 122.0,
+            "days_away": 21,
+            "fast_works": 2
+        }
+    }
+}

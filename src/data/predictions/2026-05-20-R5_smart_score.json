@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-20",
+        "race_number": 5,
+        "course": "跑馬地",
+        "distance": 1000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "比特星",
+        "draw1": "1",
+        "score_value1": 31.5,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 56,
+            "fast_works": 4
+        },
+        "score2": 8,
+        "horse_name2": "天火同人",
+        "draw2": "11",
+        "score_value2": 25.58,
+        "factors2": {
+            "weight": 127.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score3": 5,
+        "horse_name3": "紅錢到",
+        "draw3": "10",
+        "score_value3": 24.7,
+        "factors3": {
+            "weight": 129.0,
+            "days_away": 28,
+            "fast_works": 6
+        }
+    }
+}
