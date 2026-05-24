@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-24",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "精英高球",
+        "draw1": "6",
+        "score_value1": 40.57,
+        "factors1": {
+            "weight": 122.0,
+            "days_away": 42,
+            "fast_works": 4
+        },
+        "score2": 4,
+        "horse_name2": "冷娃",
+        "draw2": "14",
+        "score_value2": 40.19,
+        "factors2": {
+            "weight": 128.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score3": 7,
+        "horse_name3": "久久為昇",
+        "draw3": "3",
+        "score_value3": 26.08,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 63,
+            "fast_works": 3
+        }
+    }
+}

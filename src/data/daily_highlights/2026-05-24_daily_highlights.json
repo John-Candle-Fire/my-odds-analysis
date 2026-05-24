@@ -1,0 +1,188 @@
+{
+    "metadata": {
+        "date": "2026-05-24",
+        "generated_at": "2026-05-24 10:35:25"
+    },
+    "meeting_context": {
+        "volatility": "STANDARD",
+        "attacking_stables": [
+            "沈集成",
+            "呂健威",
+            "蔡約翰",
+            "姚本輝",
+            "大衛希斯",
+            "蘇偉賢"
+        ],
+        "attacking_jockeys": [
+            "潘頓",
+            "布文",
+            "艾兆禮",
+            "麥道朗",
+            "奧爾民",
+            "韋紀力",
+            "袁幸堯",
+            "周俊樂"
+        ]
+    },
+    "details": {
+        "stable_attack_stats": [
+            {
+                "trainer": "沈集成",
+                "strong_chances_count": 6,
+                "tier": 1
+            },
+            {
+                "trainer": "呂健威",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "trainer": "蔡約翰",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "trainer": "姚本輝",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "大衛希斯",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "蘇偉賢",
+                "strong_chances_count": 4,
+                "tier": 2
+            }
+        ],
+        "jockey_attack_stats": [
+            {
+                "jockey": "潘頓",
+                "strong_chances_count": 9,
+                "tier": 1
+            },
+            {
+                "jockey": "布文",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "jockey": "艾兆禮",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "jockey": "麥道朗",
+                "strong_chances_count": 6,
+                "tier": 2
+            },
+            {
+                "jockey": "奧爾民",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "jockey": "韋紀力",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "jockey": "袁幸堯",
+                "strong_chances_count": 4,
+                "tier": 3
+            },
+            {
+                "jockey": "周俊樂",
+                "strong_chances_count": 3,
+                "tier": 3
+            }
+        ],
+        "race_volatility": {
+            "1": "STANDARD-Two Contender No Dominant Favorite",
+            "2": "CHAOS-Two Contender No Dominant Favorite",
+            "3": "CHAOS-Two Contender Race",
+            "4": "CHAOS-Two Contender Race",
+            "5": "CHAOS-Multi Contender No Dominant Favorite",
+            "6": "STANDARD-Two Contender No Dominant Favorite",
+            "7": "STANDARD-Strong Favorite Race",
+            "8": "STANDARD-Super Strong Favorite Race",
+            "9": "STANDARD-Two Contender No Dominant Favorite",
+            "10": "CHAOS-Two Contender No Dominant Favorite",
+            "11": "STANDARD-Two Contender Race"
+        },
+        "traffic_risks": [],
+        "scenario_A_late_steamers": [
+            {
+                "race_number": 2,
+                "late_steamer": 6,
+                "late_steamer_name": "綠色鐵驥"
+            },
+            {
+                "race_number": 4,
+                "late_steamer": 14,
+                "late_steamer_name": "新力驕"
+            },
+            {
+                "race_number": 5,
+                "late_steamer": 1,
+                "late_steamer_name": "雙星報喜"
+            },
+            {
+                "race_number": 7,
+                "late_steamer": 1,
+                "late_steamer_name": "春風萬里"
+            },
+            {
+                "race_number": 9,
+                "late_steamer": 4,
+                "late_steamer_name": "美麗星晨"
+            }
+        ],
+        "scenario_B_early_favorites": [
+            {
+                "race_number": 2,
+                "early_favorite": 2,
+                "early_favorite_name": "嵐臣"
+            },
+            {
+                "race_number": 10,
+                "early_favorite": 9,
+                "early_favorite_name": "精英高球"
+            }
+        ],
+        "jockey_upgrades": [
+            {
+                "race": 1,
+                "horse": "威力非凡",
+                "switch": "潘明輝(T3) -> 潘頓(T1)"
+            },
+            {
+                "race": 1,
+                "horse": "肥仔精神",
+                "switch": "周俊樂(T3) -> 布文(T1)"
+            },
+            {
+                "race": 2,
+                "horse": "金快飛飛",
+                "switch": "蔡明紹(T3) -> 潘頓(T1)"
+            },
+            {
+                "race": 5,
+                "horse": "同樣世界",
+                "switch": "周俊樂(T3) -> 潘頓(T1)"
+            },
+            {
+                "race": 8,
+                "horse": "浪漫戰神",
+                "switch": "潘明輝(T3) -> 潘頓(T1)"
+            },
+            {
+                "race": 10,
+                "horse": "鈁糖武士",
+                "switch": "黃智弘(T4) -> 莫雷拉(T1)"
+            }
+        ]
+    }
+}

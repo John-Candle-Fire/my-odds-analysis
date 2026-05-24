@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-24",
+        "race_number": 2,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "嵐臣",
+        "draw1": "1",
+        "score_value1": 29.23,
+        "factors1": {
+            "weight": 132.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 1,
+        "horse_name2": "包裝明將",
+        "draw2": "14",
+        "score_value2": 28.85,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 32,
+            "fast_works": 5
+        },
+        "score3": 10,
+        "horse_name3": "隋我同來",
+        "draw3": "3",
+        "score_value3": 20.88,
+        "factors3": {
+            "weight": 123.0,
+            "days_away": 42,
+            "fast_works": 3
+        }
+    }
+}

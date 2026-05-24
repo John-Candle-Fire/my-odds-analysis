@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-24",
+        "race_number": 11,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "凌登",
+        "draw1": "2",
+        "score_value1": 46.94,
+        "factors1": {
+            "weight": 129.0,
+            "days_away": 60,
+            "fast_works": 4
+        },
+        "score2": 5,
+        "horse_name2": "一世美麗",
+        "draw2": "10",
+        "score_value2": 42.19,
+        "factors2": {
+            "weight": 128.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score3": 7,
+        "horse_name3": "櫻花酒杯",
+        "draw3": "1",
+        "score_value3": 40.32,
+        "factors3": {
+            "weight": 124.0,
+            "days_away": 21,
+            "fast_works": 4
+        }
+    }
+}

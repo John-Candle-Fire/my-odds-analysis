@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-24",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "韋金主",
+        "draw1": "6",
+        "score_value1": 40.32,
+        "factors1": {
+            "weight": 128.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score2": 7,
+        "horse_name2": "千帆駒",
+        "draw2": "8",
+        "score_value2": 38.43,
+        "factors2": {
+            "weight": 124.0,
+            "days_away": 28,
+            "fast_works": 3
+        },
+        "score3": 11,
+        "horse_name3": "至尊高超",
+        "draw3": "7",
+        "score_value3": 24.19,
+        "factors3": {
+            "weight": 120.0,
+            "days_away": 28,
+            "fast_works": 5
+        }
+    }
+}

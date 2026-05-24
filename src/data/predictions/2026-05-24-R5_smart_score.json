@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-24",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "大回報",
+        "draw1": "6",
+        "score_value1": 42.72,
+        "factors1": {
+            "weight": 133.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 7,
+        "horse_name2": "旌採",
+        "draw2": "14",
+        "score_value2": 31.39,
+        "factors2": {
+            "weight": 129.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score3": 6,
+        "horse_name3": "創科群英",
+        "draw3": "11",
+        "score_value3": 23.44,
+        "factors3": {
+            "weight": 129.0,
+            "days_away": 67,
+            "fast_works": 4
+        }
+    }
+}

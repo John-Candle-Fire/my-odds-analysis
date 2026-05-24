@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-24",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "醒目先駒",
+        "draw1": "9",
+        "score_value1": 26.5,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 42,
+            "fast_works": 4
+        },
+        "score2": 4,
+        "horse_name2": "馬馳登",
+        "draw2": "7",
+        "score_value2": 20.79,
+        "factors2": {
+            "weight": 134.0,
+            "days_away": 15,
+            "fast_works": 2
+        },
+        "score3": 14,
+        "horse_name3": "觀萬物",
+        "draw3": "6",
+        "score_value3": 19.95,
+        "factors3": {
+            "weight": 119.0,
+            "days_away": 21,
+            "fast_works": 3
+        }
+    }
+}
