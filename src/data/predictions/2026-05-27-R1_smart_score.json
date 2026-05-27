@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-05-27",
+        "race_number": 1,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "魅力星",
+        "draw1": "2",
+        "score_value1": 5.2,
+        "factors1": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 0.5,
+            "volatility": 0.0
+        },
+        "score2": 8,
+        "horse_name2": "鑽得勝",
+        "draw2": "5",
+        "score_value2": 4.7,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        },
+        "score3": 10,
+        "horse_name3": "星之願",
+        "draw3": "3",
+        "score_value3": 2.6,
+        "factors3": {
+            "base": -0.5,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 1.0,
+            "volatility": 0.0
+        }
+    }
+}

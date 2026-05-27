@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-05-27",
+        "race_number": 7,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "精益大師",
+        "draw1": "9",
+        "score_value1": 6.3,
+        "factors1": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 2.5999999999999996,
+            "pace_wt": 2.2,
+            "volatility": 0.0
+        },
+        "score2": 7,
+        "horse_name2": "加州勇勝",
+        "draw2": "7",
+        "score_value2": 5.475,
+        "factors2": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.5999999999999996,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        },
+        "score3": 11,
+        "horse_name3": "良駒好友",
+        "draw3": "2",
+        "score_value3": 4.475,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 1.3749999999999996,
+            "volatility": 0.0
+        }
+    }
+}

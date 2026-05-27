@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-27",
+        "race_number": 3,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "紅衣醒目",
+        "draw1": "10",
+        "score_value1": 38.18,
+        "factors1": {
+            "weight": 131.0,
+            "days_away": 24,
+            "fast_works": 5
+        },
+        "score2": 1,
+        "horse_name2": "魅力知耀",
+        "draw2": "3",
+        "score_value2": 22.56,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 18,
+            "fast_works": 2
+        },
+        "score3": 10,
+        "horse_name3": "瑞祺威楓",
+        "draw3": "2",
+        "score_value3": 16.86,
+        "factors3": {
+            "weight": 124.0,
+            "days_away": 10,
+            "fast_works": 0
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-27",
+        "race_number": 8,
+        "course": "跑馬地",
+        "distance": 1000,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "馬力",
+        "draw1": "7",
+        "score_value1": 29.23,
+        "factors1": {
+            "weight": 134.0,
+            "days_away": 35,
+            "fast_works": 4
+        },
+        "score2": 2,
+        "horse_name2": "燭光晚餐",
+        "draw2": "1",
+        "score_value2": 26.52,
+        "factors2": {
+            "weight": 133.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score3": 10,
+        "horse_name3": "飛龍在天",
+        "draw3": "2",
+        "score_value3": 21.31,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 63,
+            "fast_works": 4
+        }
+    }
+}

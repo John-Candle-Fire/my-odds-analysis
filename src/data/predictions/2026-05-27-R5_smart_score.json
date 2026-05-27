@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-27",
+        "race_number": 5,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "穿甲金鷹",
+        "draw1": "3",
+        "score_value1": 39.06,
+        "factors1": {
+            "weight": 130.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 8,
+        "horse_name2": "凡凡有餘",
+        "draw2": "1",
+        "score_value2": 34.68,
+        "factors2": {
+            "weight": 121.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score3": 9,
+        "horse_name3": "榮利雙收",
+        "draw3": "6",
+        "score_value3": 30.98,
+        "factors3": {
+            "weight": 120.0,
+            "days_away": 14,
+            "fast_works": 2
+        }
+    }
+}
