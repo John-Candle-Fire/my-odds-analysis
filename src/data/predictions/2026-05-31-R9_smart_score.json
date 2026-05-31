@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-31",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "三級賽"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "錶之星河",
+        "draw1": "1",
+        "score_value1": 45.12,
+        "factors1": {
+            "weight": 121.0,
+            "days_away": 22,
+            "fast_works": 3
+        },
+        "score2": 8,
+        "horse_name2": "翠紅",
+        "draw2": "9",
+        "score_value2": 43.78,
+        "factors2": {
+            "weight": 120.0,
+            "days_away": 22,
+            "fast_works": 3
+        },
+        "score3": 6,
+        "horse_name3": "笑傲江湖",
+        "draw3": "5",
+        "score_value3": 43.63,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 84,
+            "fast_works": 6
+        }
+    }
+}

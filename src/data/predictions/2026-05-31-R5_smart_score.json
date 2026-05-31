@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-31",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 13,
+        "horse_name1": "勁勇皇駒",
+        "draw1": "7",
+        "score_value1": 48.1,
+        "factors1": {
+            "weight": 117.0,
+            "days_away": 35,
+            "fast_works": 5
+        },
+        "score2": 8,
+        "horse_name2": "友瑩仁",
+        "draw2": "3",
+        "score_value2": 45.36,
+        "factors2": {
+            "weight": 122.0,
+            "days_away": 35,
+            "fast_works": 6
+        },
+        "score3": 5,
+        "horse_name3": "綫路英雄",
+        "draw3": "8",
+        "score_value3": 37.68,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 70,
+            "fast_works": 4
+        }
+    }
+}

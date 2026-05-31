@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-31",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "新馬賽"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "鵲橋飛昇",
+        "draw1": "9",
+        "score_value1": 18.9,
+        "factors1": {
+            "weight": 133.0,
+            "days_away": 22,
+            "fast_works": 3
+        },
+        "score2": 6,
+        "horse_name2": "銳行星",
+        "draw2": "13",
+        "score_value2": 17.28,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 22,
+            "fast_works": 2
+        },
+        "score3": 9,
+        "horse_name3": "永福",
+        "draw3": "3",
+        "score_value3": 13.23,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 22,
+            "fast_works": 4
+        }
+    }
+}

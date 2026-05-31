@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-31",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "三級賽"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "首飾天空",
+        "draw1": "7",
+        "score_value1": 61.63,
+        "factors1": {
+            "weight": 119.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 6,
+        "horse_name2": "時時歡聲",
+        "draw2": "3",
+        "score_value2": 59.04,
+        "factors2": {
+            "weight": 124.0,
+            "days_away": 35,
+            "fast_works": 5
+        },
+        "score3": 9,
+        "horse_name3": "錶之宇宙",
+        "draw3": "6",
+        "score_value3": 19.92,
+        "factors3": {
+            "weight": 116.0,
+            "days_away": 42,
+            "fast_works": 5
+        }
+    }
+}

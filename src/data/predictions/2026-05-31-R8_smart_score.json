@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-31",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "綫路萬里",
+        "draw1": "11",
+        "score_value1": 43.92,
+        "factors1": {
+            "weight": 133.0,
+            "days_away": 28,
+            "fast_works": 2
+        },
+        "score2": 2,
+        "horse_name2": "龍傲綾羅",
+        "draw2": "5",
+        "score_value2": 41.76,
+        "factors2": {
+            "weight": 133.0,
+            "days_away": 22,
+            "fast_works": 4
+        },
+        "score3": 12,
+        "horse_name3": "文明福星",
+        "draw3": "3",
+        "score_value3": 28.22,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 22,
+            "fast_works": 3
+        }
+    }
+}

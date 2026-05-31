@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-31",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 2000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "風火恆雲",
+        "draw1": "14",
+        "score_value1": 38.81,
+        "factors1": {
+            "weight": 130.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 12,
+        "horse_name2": "夢照發",
+        "draw2": "11",
+        "score_value2": 32.2,
+        "factors2": {
+            "weight": 123.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score3": 1,
+        "horse_name3": "同益善",
+        "draw3": "10",
+        "score_value3": 26.16,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 28,
+            "fast_works": 3
+        }
+    }
+}

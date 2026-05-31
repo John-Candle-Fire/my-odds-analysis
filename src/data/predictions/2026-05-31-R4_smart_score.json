@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-05-31",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "伶俐驫駒",
+        "draw1": "12",
+        "score_value1": 42.12,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 39,
+            "fast_works": 5
+        },
+        "score2": 2,
+        "horse_name2": "賢知友您",
+        "draw2": "9",
+        "score_value2": 29.48,
+        "factors2": {
+            "weight": 133.0,
+            "days_away": 28,
+            "fast_works": 3
+        },
+        "score3": 13,
+        "horse_name3": "全神貫注",
+        "draw3": "8",
+        "score_value3": 21.42,
+        "factors3": {
+            "weight": 118.0,
+            "days_away": 22,
+            "fast_works": 2
+        }
+    }
+}
