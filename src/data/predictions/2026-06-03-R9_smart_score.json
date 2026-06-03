@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-03",
+        "race_number": 9,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "凌登",
+        "draw1": "11",
+        "score_value1": 39.73,
+        "factors1": {
+            "weight": 130.0,
+            "days_away": 10,
+            "fast_works": 1
+        },
+        "score2": 1,
+        "horse_name2": "榮駿大道",
+        "draw2": "5",
+        "score_value2": 35.03,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 25,
+            "fast_works": 5
+        },
+        "score3": 6,
+        "horse_name3": "榮利雙收",
+        "draw3": "8",
+        "score_value3": 26.93,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 7,
+            "fast_works": 0
+        }
+    }
+}

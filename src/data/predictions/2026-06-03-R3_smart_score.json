@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-06-03",
+        "race_number": 3,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "有你有我",
+        "draw1": "5",
+        "score_value1": 5.775,
+        "factors1": {
+            "base": 0.0,
+            "workout": 0.5,
+            "age_pen": -0.5,
+            "jt_bonus": 4.2,
+            "pace_wt": 1.5750000000000002,
+            "volatility": 0.0
+        },
+        "score2": 3,
+        "horse_name2": "團長好",
+        "draw2": "2",
+        "score_value2": 5.7,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 1.0,
+            "volatility": 0.0
+        },
+        "score3": 4,
+        "horse_name3": "驕陽雄心",
+        "draw3": "9",
+        "score_value3": 5.475,
+        "factors3": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.5999999999999996,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        }
+    }
+}

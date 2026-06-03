@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-03",
+        "race_number": 8,
+        "course": "跑馬地",
+        "distance": 1800,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "穿甲金鷹",
+        "draw1": "6",
+        "score_value1": 48.31,
+        "factors1": {
+            "weight": 119.0,
+            "days_away": 7,
+            "fast_works": 0
+        },
+        "score2": 7,
+        "horse_name2": "一起美麗",
+        "draw2": "2",
+        "score_value2": 37.56,
+        "factors2": {
+            "weight": 121.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score3": 6,
+        "horse_name3": "銀亮奔騰",
+        "draw3": "1",
+        "score_value3": 35.64,
+        "factors3": {
+            "weight": 123.0,
+            "days_away": 21,
+            "fast_works": 2
+        }
+    }
+}
