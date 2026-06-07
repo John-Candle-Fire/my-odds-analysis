@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-07",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1800,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "精明選擇",
+        "draw1": "4",
+        "score_value1": 36.79,
+        "factors1": {
+            "weight": 128.0,
+            "days_away": 32,
+            "fast_works": 6
+        },
+        "score2": 11,
+        "horse_name2": "午夜快車",
+        "draw2": "8",
+        "score_value2": 27.22,
+        "factors2": {
+            "weight": 124.0,
+            "days_away": 32,
+            "fast_works": 5
+        },
+        "score3": 1,
+        "horse_name3": "開心宇宙",
+        "draw3": "6",
+        "score_value3": 24.0,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 32,
+            "fast_works": 4
+        }
+    }
+}

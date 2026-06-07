@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-07",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "富國兄弟",
+        "draw1": "5",
+        "score_value1": 30.72,
+        "factors1": {
+            "weight": 118.0,
+            "days_away": 29,
+            "fast_works": 4
+        },
+        "score2": 5,
+        "horse_name2": "超寫意",
+        "draw2": "2",
+        "score_value2": 27.07,
+        "factors2": {
+            "weight": 127.0,
+            "days_away": 29,
+            "fast_works": 5
+        },
+        "score3": 12,
+        "horse_name3": "辣得準",
+        "draw3": "12",
+        "score_value3": 25.63,
+        "factors3": {
+            "weight": 117.0,
+            "days_away": 29,
+            "fast_works": 7
+        }
+    }
+}

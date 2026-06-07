@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-07",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "深心星",
+        "draw1": "5",
+        "score_value1": 46.66,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 441,
+            "fast_works": 3
+        },
+        "score2": 4,
+        "horse_name2": "天天更好",
+        "draw2": "6",
+        "score_value2": 39.6,
+        "factors2": {
+            "weight": 127.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score3": 2,
+        "horse_name3": "支付之父",
+        "draw3": "1",
+        "score_value3": 25.2,
+        "factors3": {
+            "weight": 132.0,
+            "days_away": 29,
+            "fast_works": 5
+        }
+    }
+}

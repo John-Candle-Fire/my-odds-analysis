@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-07",
+        "race_number": 11,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "一世美麗",
+        "draw1": "14",
+        "score_value1": 36.36,
+        "factors1": {
+            "weight": 133.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score2": 4,
+        "horse_name2": "傑出雷霆",
+        "draw2": "9",
+        "score_value2": 33.6,
+        "factors2": {
+            "weight": 130.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score3": 5,
+        "horse_name3": "自動自覺",
+        "draw3": "5",
+        "score_value3": 29.4,
+        "factors3": {
+            "weight": 129.0,
+            "days_away": 21,
+            "fast_works": 4
+        }
+    }
+}

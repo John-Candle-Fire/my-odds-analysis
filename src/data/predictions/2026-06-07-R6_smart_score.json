@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-07",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "金鑽精靈",
+        "draw1": "6",
+        "score_value1": 43.85,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 29,
+            "fast_works": 5
+        },
+        "score2": 2,
+        "horse_name2": "睿智多寶",
+        "draw2": "13",
+        "score_value2": 26.46,
+        "factors2": {
+            "weight": 132.0,
+            "days_away": 25,
+            "fast_works": 4
+        },
+        "score3": 13,
+        "horse_name3": "瀧澤飛駒",
+        "draw3": "10",
+        "score_value3": 25.73,
+        "factors3": {
+            "weight": 119.0,
+            "days_away": 21,
+            "fast_works": 3
+        }
+    }
+}

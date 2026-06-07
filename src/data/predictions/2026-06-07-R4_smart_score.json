@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-07",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "實力加",
+        "draw1": "7",
+        "score_value1": 27.72,
+        "factors1": {
+            "weight": 130.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score2": 2,
+        "horse_name2": "龍城強將",
+        "draw2": "4",
+        "score_value2": 21.0,
+        "factors2": {
+            "weight": 131.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score3": 6,
+        "horse_name3": "八仟好運",
+        "draw3": "6",
+        "score_value3": 20.04,
+        "factors3": {
+            "weight": 131.0,
+            "days_away": 21,
+            "fast_works": 4
+        }
+    }
+}
