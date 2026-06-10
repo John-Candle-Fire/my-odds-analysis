@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-10",
+        "race_number": 4,
+        "course": "跑馬地",
+        "distance": 1000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "紅錢到",
+        "draw1": "7",
+        "score_value1": 23.84,
+        "factors1": {
+            "weight": 132.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score2": 1,
+        "horse_name2": "凝聚美麗",
+        "draw2": "6",
+        "score_value2": 22.16,
+        "factors2": {
+            "weight": 132.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score3": 3,
+        "horse_name3": "鴻圖新星",
+        "draw3": "2",
+        "score_value3": 21.38,
+        "factors3": {
+            "weight": 130.0,
+            "days_away": 10,
+            "fast_works": 0
+        }
+    }
+}

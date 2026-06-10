@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-06-10",
+        "race_number": 9,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "當家精彩",
+        "draw1": "9",
+        "score_value1": 5.9,
+        "factors1": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 1.2000000000000002,
+            "volatility": 0.0
+        },
+        "score2": 2,
+        "horse_name2": "健康快車",
+        "draw2": "5",
+        "score_value2": 5.075,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        },
+        "score3": 11,
+        "horse_name3": "觀眾之力",
+        "draw3": "2",
+        "score_value3": 5.075,
+        "factors3": {
+            "base": 0.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 1.375,
+            "volatility": 0.0
+        }
+    }
+}

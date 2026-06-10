@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-10",
+        "race_number": 1,
+        "course": "跑馬地",
+        "distance": 1800,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "幸運同行",
+        "draw1": "10",
+        "score_value1": 22.56,
+        "factors1": {
+            "weight": 124.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score2": 1,
+        "horse_name2": "竣誠駒",
+        "draw2": "2",
+        "score_value2": 18.9,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 24,
+            "fast_works": 5
+        },
+        "score3": 8,
+        "horse_name3": "開心三多",
+        "draw3": "7",
+        "score_value3": 14.07,
+        "factors3": {
+            "weight": 123.0,
+            "days_away": 14,
+            "fast_works": 1
+        }
+    }
+}
