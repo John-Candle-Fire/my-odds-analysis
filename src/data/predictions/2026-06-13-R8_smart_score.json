@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-13",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "勁沙塵",
+        "draw1": "4",
+        "score_value1": 36.29,
+        "factors1": {
+            "weight": 124.0,
+            "days_away": 41,
+            "fast_works": 4
+        },
+        "score2": 7,
+        "horse_name2": "一起美麗",
+        "draw2": "3",
+        "score_value2": 33.53,
+        "factors2": {
+            "weight": 122.0,
+            "days_away": 10,
+            "fast_works": 1
+        },
+        "score3": 3,
+        "horse_name3": "包裝福星",
+        "draw3": "5",
+        "score_value3": 33.4,
+        "factors3": {
+            "weight": 131.0,
+            "days_away": 10,
+            "fast_works": 1
+        }
+    }
+}

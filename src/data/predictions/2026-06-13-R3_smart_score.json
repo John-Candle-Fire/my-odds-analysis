@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-13",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "深心星",
+        "draw1": "11",
+        "score_value1": 30.26,
+        "factors1": {
+            "weight": 134.0,
+            "days_away": 6,
+            "fast_works": 0
+        },
+        "score2": 9,
+        "horse_name2": "馬上盈",
+        "draw2": "3",
+        "score_value2": 23.31,
+        "factors2": {
+            "weight": 127.0,
+            "days_away": 20,
+            "fast_works": 2
+        },
+        "score3": 12,
+        "horse_name3": "賢者威楓",
+        "draw3": "12",
+        "score_value3": 22.44,
+        "factors3": {
+            "weight": 125.0,
+            "days_away": 20,
+            "fast_works": 3
+        }
+    }
+}

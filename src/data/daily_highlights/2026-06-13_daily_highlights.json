@@ -1,0 +1,205 @@
+{
+    "metadata": {
+        "date": "2026-06-13",
+        "generated_at": "2026-06-13 13:54:16"
+    },
+    "meeting_context": {
+        "volatility": "STANDARD",
+        "attacking_stables": [
+            "呂健威",
+            "蔡約翰",
+            "方嘉柏",
+            "大衛希斯",
+            "廖康銘",
+            "姚本輝",
+            "羅富全",
+            "沈集成",
+            "文家良",
+            "伍鵬志",
+            "賀賢"
+        ],
+        "attacking_jockeys": [
+            "潘頓",
+            "布文",
+            "奧爾民",
+            "田泰安",
+            "何澤堯",
+            "艾道拿",
+            "周俊樂",
+            "布浩榮",
+            "袁幸堯"
+        ]
+    },
+    "details": {
+        "stable_attack_stats": [
+            {
+                "trainer": "呂健威",
+                "strong_chances_count": 6,
+                "tier": 1
+            },
+            {
+                "trainer": "蔡約翰",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "trainer": "方嘉柏",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "大衛希斯",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "廖康銘",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "姚本輝",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "羅富全",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "沈集成",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "文家良",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "trainer": "伍鵬志",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "trainer": "賀賢",
+                "strong_chances_count": 3,
+                "tier": 2
+            }
+        ],
+        "jockey_attack_stats": [
+            {
+                "jockey": "潘頓",
+                "strong_chances_count": 8,
+                "tier": 1
+            },
+            {
+                "jockey": "布文",
+                "strong_chances_count": 7,
+                "tier": 1
+            },
+            {
+                "jockey": "奧爾民",
+                "strong_chances_count": 5,
+                "tier": 2
+            },
+            {
+                "jockey": "田泰安",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "jockey": "何澤堯",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "jockey": "艾道拿",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "jockey": "周俊樂",
+                "strong_chances_count": 6,
+                "tier": 3
+            },
+            {
+                "jockey": "布浩榮",
+                "strong_chances_count": 4,
+                "tier": 3
+            },
+            {
+                "jockey": "袁幸堯",
+                "strong_chances_count": 3,
+                "tier": 3
+            }
+        ],
+        "race_volatility": {
+            "1": "CHAOS-Super Strong Favorite Race",
+            "2": "STANDARD-Two Contender No Dominant Favorite",
+            "3": "CHAOS-Multi Contender Dominant Favorite",
+            "4": "STANDARD-Multi Contender Dominant Favorite",
+            "5": "STANDARD-Two Contender No Dominant Favorite",
+            "6": "STANDARD-Two Contender No Dominant Favorite",
+            "7": "CHAOS-Two Contender Race",
+            "8": "STANDARD-Two Contender No Dominant Favorite",
+            "9": "STANDARD-Two Contender No Dominant Favorite",
+            "10": "CHAOS-Open Race Weak Favorite",
+            "11": "STANDARD-Two Contender No Dominant Favorite"
+        },
+        "traffic_risks": [
+            {
+                "race_number": 3,
+                "bias": "STRONG_FAVOR_INNER",
+                "field_size": 14
+            },
+            {
+                "race_number": 6,
+                "bias": "STRONG_FAVOR_INNER",
+                "field_size": 14
+            },
+            {
+                "race_number": 11,
+                "bias": "STRONG_FAVOR_INNER",
+                "field_size": 14
+            }
+        ],
+        "scenario_A_late_steamers": [
+            {
+                "race_number": 2,
+                "late_steamer": 7,
+                "late_steamer_name": "文武全能"
+            },
+            {
+                "race_number": 3,
+                "late_steamer": 1,
+                "late_steamer_name": "閃光燈"
+            },
+            {
+                "race_number": 6,
+                "late_steamer": 3,
+                "late_steamer_name": "卓越蒨鋒"
+            },
+            {
+                "race_number": 8,
+                "late_steamer": 1,
+                "late_steamer_name": "睿盛人生"
+            }
+        ],
+        "scenario_B_early_favorites": [
+            {
+                "race_number": 2,
+                "early_favorite": 3,
+                "early_favorite_name": "機械騎士"
+            }
+        ],
+        "jockey_upgrades": [
+            {
+                "race": 3,
+                "horse": "馬上盈",
+                "switch": "布浩榮(T3) -> 潘頓(T1)"
+            }
+        ]
+    }
+}

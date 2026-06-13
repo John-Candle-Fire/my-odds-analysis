@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-13",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "新馬賽"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "銳行星",
+        "draw1": "1",
+        "score_value1": 10.56,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 13,
+            "fast_works": 0
+        },
+        "score2": 7,
+        "horse_name2": "量子猴王",
+        "draw2": "7",
+        "score_value2": 8.25,
+        "factors2": {
+            "weight": 121.0,
+            "days_away": 13,
+            "fast_works": 1
+        },
+        "score3": 1,
+        "horse_name3": "禪勝閃亮",
+        "draw3": "2",
+        "score_value3": 3.47,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 13,
+            "fast_works": 2
+        }
+    }
+}
