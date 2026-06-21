@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-21",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 13,
+        "horse_name1": "包裝天王",
+        "draw1": "8",
+        "score_value1": 37.15,
+        "factors1": {
+            "weight": 116.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 1,
+        "horse_name2": "跨境寶馬",
+        "draw2": "5",
+        "score_value2": 35.28,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score3": 5,
+        "horse_name3": "勇者為皇",
+        "draw3": "1",
+        "score_value3": 17.85,
+        "factors3": {
+            "weight": 123.0,
+            "days_away": 21,
+            "fast_works": 4
+        }
+    }
+}

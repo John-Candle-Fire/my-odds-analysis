@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-21",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "包裝明將",
+        "draw1": "9",
+        "score_value1": 34.27,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score2": 2,
+        "horse_name2": "博愛先鋒",
+        "draw2": "4",
+        "score_value2": 34.23,
+        "factors2": {
+            "weight": 131.0,
+            "days_away": 18,
+            "fast_works": 1
+        },
+        "score3": 10,
+        "horse_name3": "快樂共濟",
+        "draw3": "11",
+        "score_value3": 21.96,
+        "factors3": {
+            "weight": 124.0,
+            "days_away": 21,
+            "fast_works": 3
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-21",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "三級賽"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "韋金主",
+        "draw1": "5",
+        "score_value1": 46.62,
+        "factors1": {
+            "weight": 115.0,
+            "days_away": 28,
+            "fast_works": 3
+        },
+        "score2": 2,
+        "horse_name2": "精算暴雪",
+        "draw2": "2",
+        "score_value2": 35.28,
+        "factors2": {
+            "weight": 134.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score3": 9,
+        "horse_name3": "時時歡聲",
+        "draw3": "9",
+        "score_value3": 32.97,
+        "factors3": {
+            "weight": 117.0,
+            "days_away": 21,
+            "fast_works": 3
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-21",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1800,
+        "class": "三級賽"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "浪漫戰神",
+        "draw1": "9",
+        "score_value1": 37.17,
+        "factors1": {
+            "weight": 115.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 7,
+        "horse_name2": "銀亮奔騰",
+        "draw2": "11",
+        "score_value2": 36.33,
+        "factors2": {
+            "weight": 115.0,
+            "days_away": 18,
+            "fast_works": 2
+        },
+        "score3": 8,
+        "horse_name3": "君子傳承",
+        "draw3": "4",
+        "score_value3": 28.08,
+        "factors3": {
+            "weight": 115.0,
+            "days_away": 28,
+            "fast_works": 4
+        }
+    }
+}

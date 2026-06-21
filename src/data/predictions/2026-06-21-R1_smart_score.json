@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-21",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "致力之城",
+        "draw1": "6",
+        "score_value1": 27.36,
+        "factors1": {
+            "weight": 127.0,
+            "days_away": 35,
+            "fast_works": 4
+        },
+        "score2": 5,
+        "horse_name2": "極速神影",
+        "draw2": "2",
+        "score_value2": 18.27,
+        "factors2": {
+            "weight": 128.0,
+            "days_away": 43,
+            "fast_works": 4
+        },
+        "score3": 8,
+        "horse_name3": "將傲",
+        "draw3": "10",
+        "score_value3": 17.4,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 21,
+            "fast_works": 3
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-21",
+        "race_number": 11,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "亨驥",
+        "draw1": "4",
+        "score_value1": 37.44,
+        "factors1": {
+            "weight": 122.0,
+            "days_away": 35,
+            "fast_works": 6
+        },
+        "score2": 14,
+        "horse_name2": "閃電小子",
+        "draw2": "14",
+        "score_value2": 30.74,
+        "factors2": {
+            "weight": 117.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score3": 3,
+        "horse_name3": "冷娃",
+        "draw3": "3",
+        "score_value3": 30.24,
+        "factors3": {
+            "weight": 128.0,
+            "days_away": 28,
+            "fast_works": 5
+        }
+    }
+}
