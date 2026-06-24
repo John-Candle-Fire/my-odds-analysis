@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-06-24",
+        "race_number": 8,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "競駿皇者",
+        "draw1": "2",
+        "score_value1": 4.475,
+        "factors1": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 1.3749999999999996,
+            "volatility": 0.0
+        },
+        "score2": 11,
+        "horse_name2": "可靠大師",
+        "draw2": "4",
+        "score_value2": 4.3,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 1.1999999999999997,
+            "volatility": 0.0
+        },
+        "score3": 8,
+        "horse_name3": "駿毅快車",
+        "draw3": "3",
+        "score_value3": 4.1,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.9999999999999996,
+            "volatility": 0.0
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-24",
+        "race_number": 4,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "本領非凡",
+        "draw1": "8",
+        "score_value1": 33.77,
+        "factors1": {
+            "weight": 134.0,
+            "days_away": 35,
+            "fast_works": 5
+        },
+        "score2": 5,
+        "horse_name2": "隨緣得勝",
+        "draw2": "2",
+        "score_value2": 31.45,
+        "factors2": {
+            "weight": 132.0,
+            "days_away": 35,
+            "fast_works": 5
+        },
+        "score3": 9,
+        "horse_name3": "步風雷",
+        "draw3": "5",
+        "score_value3": 21.84,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 52,
+            "fast_works": 4
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-24",
+        "race_number": 2,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "不假外求",
+        "draw1": "10",
+        "score_value1": 13.6,
+        "factors1": {
+            "weight": 116.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score2": 11,
+        "horse_name2": "東方魅影",
+        "draw2": "3",
+        "score_value2": 13.1,
+        "factors2": {
+            "weight": 120.0,
+            "days_away": 31,
+            "fast_works": 6
+        },
+        "score3": 9,
+        "horse_name3": "開心三多",
+        "draw3": "2",
+        "score_value3": 11.2,
+        "factors3": {
+            "weight": 123.0,
+            "days_away": 14,
+            "fast_works": 2
+        }
+    }
+}

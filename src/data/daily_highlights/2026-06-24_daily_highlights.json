@@ -1,0 +1,145 @@
+{
+    "metadata": {
+        "date": "2026-06-24",
+        "generated_at": "2026-06-24 17:42:12"
+    },
+    "meeting_context": {
+        "volatility": "STANDARD",
+        "attacking_stables": [
+            "方嘉柏",
+            "呂健威",
+            "姚本輝",
+            "蔡約翰",
+            "廖康銘",
+            "游達榮",
+            "巫偉傑"
+        ],
+        "attacking_jockeys": [
+            "潘頓",
+            "莫雷拉",
+            "何澤堯",
+            "周俊樂",
+            "梁家俊",
+            "鍾易禮"
+        ]
+    },
+    "details": {
+        "stable_attack_stats": [
+            {
+                "trainer": "方嘉柏",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "trainer": "呂健威",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "姚本輝",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "蔡約翰",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "廖康銘",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "游達榮",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "trainer": "巫偉傑",
+                "strong_chances_count": 3,
+                "tier": 2
+            }
+        ],
+        "jockey_attack_stats": [
+            {
+                "jockey": "潘頓",
+                "strong_chances_count": 8,
+                "tier": 1
+            },
+            {
+                "jockey": "莫雷拉",
+                "strong_chances_count": 6,
+                "tier": 1
+            },
+            {
+                "jockey": "何澤堯",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "jockey": "周俊樂",
+                "strong_chances_count": 3,
+                "tier": 3
+            },
+            {
+                "jockey": "梁家俊",
+                "strong_chances_count": 3,
+                "tier": 3
+            },
+            {
+                "jockey": "鍾易禮",
+                "strong_chances_count": 3,
+                "tier": 3
+            }
+        ],
+        "race_volatility": {
+            "1": "STANDARD-Two Contender No Dominant Favorite",
+            "2": "STANDARD-Weak Favorite Race",
+            "3": "STANDARD-Two Contender No Dominant Favorite",
+            "4": "STANDARD-Super Strong Favorite Race",
+            "5": "STANDARD-Two Contender No Dominant Favorite",
+            "6": "STANDARD-Two Contender No Dominant Favorite",
+            "7": "STANDARD-Strong Favorite Race",
+            "8": "STANDARD-Weak Favorite Race",
+            "9": "STANDARD-Two Contender Race"
+        },
+        "traffic_risks": [],
+        "scenario_A_late_steamers": [
+            {
+                "race_number": 2,
+                "late_steamer": 12,
+                "late_steamer_name": "不假外求"
+            },
+            {
+                "race_number": 5,
+                "late_steamer": 11,
+                "late_steamer_name": "精益大師"
+            }
+        ],
+        "scenario_B_early_favorites": [
+            {
+                "race_number": 9,
+                "early_favorite": 1,
+                "early_favorite_name": "好實力"
+            }
+        ],
+        "jockey_upgrades": [
+            {
+                "race": 2,
+                "horse": "東方魅影",
+                "switch": "黃寶妮(T3) -> 潘頓(T1)"
+            },
+            {
+                "race": 3,
+                "horse": "領航天子",
+                "switch": "鍾易禮(T3) -> 布文(T1)"
+            },
+            {
+                "race": 6,
+                "horse": "繼往開來",
+                "switch": "黃寶妮(T3) -> 布文(T1)"
+            }
+        ]
+    }
+}

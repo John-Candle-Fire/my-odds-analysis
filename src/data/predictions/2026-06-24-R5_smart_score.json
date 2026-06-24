@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-06-24",
+        "race_number": 5,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "勝在當下",
+        "draw1": "6",
+        "score_value1": 5.2,
+        "factors1": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.0,
+            "pace_wt": 2.7,
+            "volatility": 0.0
+        },
+        "score2": 8,
+        "horse_name2": "川河石駒",
+        "draw2": "7",
+        "score_value2": 4.7,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        },
+        "score3": 2,
+        "horse_name3": "喵喵怪",
+        "draw3": "4",
+        "score_value3": 3.1,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        }
+    }
+}

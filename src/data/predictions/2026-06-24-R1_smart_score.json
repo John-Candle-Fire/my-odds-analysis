@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-24",
+        "race_number": 1,
+        "course": "跑馬地",
+        "distance": 2200,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "捷足奔馳",
+        "draw1": "10",
+        "score_value1": 30.49,
+        "factors1": {
+            "weight": 133.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 2,
+        "horse_name2": "光輝歲月",
+        "draw2": "7",
+        "score_value2": 27.6,
+        "factors2": {
+            "weight": 134.0,
+            "days_away": 17,
+            "fast_works": 1
+        },
+        "score3": 8,
+        "horse_name3": "幸運同行",
+        "draw3": "5",
+        "score_value3": 20.89,
+        "factors3": {
+            "weight": 124.0,
+            "days_away": 14,
+            "fast_works": 2
+        }
+    }
+}

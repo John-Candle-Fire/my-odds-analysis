@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-24",
+        "race_number": 7,
+        "course": "跑馬地",
+        "distance": 1000,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "品德寶寶",
+        "draw1": "6",
+        "score_value1": 38.81,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 63,
+            "fast_works": 4
+        },
+        "score2": 1,
+        "horse_name2": "馬力",
+        "draw2": "11",
+        "score_value2": 33.84,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score3": 12,
+        "horse_name3": "官金騏",
+        "draw3": "10",
+        "score_value3": 30.37,
+        "factors3": {
+            "weight": 118.0,
+            "days_away": 28,
+            "fast_works": 5
+        }
+    }
+}

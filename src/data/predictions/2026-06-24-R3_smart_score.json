@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-24",
+        "race_number": 3,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "先到先得",
+        "draw1": "11",
+        "score_value1": 32.55,
+        "factors1": {
+            "weight": 129.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score2": 2,
+        "horse_name2": "勁進駒",
+        "draw2": "12",
+        "score_value2": 22.46,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 42,
+            "fast_works": 5
+        },
+        "score3": 9,
+        "horse_name3": "都靈勇士",
+        "draw3": "5",
+        "score_value3": 20.52,
+        "factors3": {
+            "weight": 123.0,
+            "days_away": 35,
+            "fast_works": 4
+        }
+    }
+}

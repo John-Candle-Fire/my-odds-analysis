@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-24",
+        "race_number": 9,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "浪漫鬥士",
+        "draw1": "1",
+        "score_value1": 33.52,
+        "factors1": {
+            "weight": 128.0,
+            "days_away": 42,
+            "fast_works": 5
+        },
+        "score2": 1,
+        "horse_name2": "好實力",
+        "draw2": "9",
+        "score_value2": 29.51,
+        "factors2": {
+            "weight": 134.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score3": 2,
+        "horse_name3": "三軍勇將",
+        "draw3": "2",
+        "score_value3": 27.98,
+        "factors3": {
+            "weight": 134.0,
+            "days_away": 11,
+            "fast_works": 1
+        }
+    }
+}
