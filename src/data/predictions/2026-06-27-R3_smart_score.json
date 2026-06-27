@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-27",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "穿甲戰鷹",
+        "draw1": "14",
+        "score_value1": 33.12,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 69,
+            "fast_works": 5
+        },
+        "score2": 6,
+        "horse_name2": "團結戰靈",
+        "draw2": "2",
+        "score_value2": 30.96,
+        "factors2": {
+            "weight": 128.0,
+            "days_away": 34,
+            "fast_works": 6
+        },
+        "score3": 11,
+        "horse_name3": "嘉應光彩",
+        "draw3": "7",
+        "score_value3": 20.45,
+        "factors3": {
+            "weight": 122.0,
+            "days_away": 27,
+            "fast_works": 5
+        }
+    }
+}

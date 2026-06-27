@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-27",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "第一班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "天天同樂",
+        "draw1": "3",
+        "score_value1": 31.88,
+        "factors1": {
+            "weight": 128.0,
+            "days_away": 38,
+            "fast_works": 4
+        },
+        "score2": 6,
+        "horse_name2": "昇瀧駒",
+        "draw2": "7",
+        "score_value2": 26.88,
+        "factors2": {
+            "weight": 118.0,
+            "days_away": 202,
+            "fast_works": 4
+        },
+        "score3": 8,
+        "horse_name3": "勇敢巨星",
+        "draw3": "10",
+        "score_value3": 24.95,
+        "factors3": {
+            "weight": 115.0,
+            "days_away": 59,
+            "fast_works": 4
+        }
+    }
+}

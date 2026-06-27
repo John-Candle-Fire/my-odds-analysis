@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-27",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "創寶駒",
+        "draw1": "14",
+        "score_value1": 34.52,
+        "factors1": {
+            "weight": 129.0,
+            "days_away": 27,
+            "fast_works": 5
+        },
+        "score2": 4,
+        "horse_name2": "光年程祥",
+        "draw2": "12",
+        "score_value2": 32.38,
+        "factors2": {
+            "weight": 131.0,
+            "days_away": 52,
+            "fast_works": 4
+        },
+        "score3": 6,
+        "horse_name3": "八仟好運",
+        "draw3": "4",
+        "score_value3": 26.64,
+        "factors3": {
+            "weight": 129.0,
+            "days_away": 20,
+            "fast_works": 4
+        }
+    }
+}

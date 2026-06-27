@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-27",
+        "race_number": 11,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "綫路英雄",
+        "draw1": "9",
+        "score_value1": 47.95,
+        "factors1": {
+            "weight": 131.0,
+            "days_away": 27,
+            "fast_works": 3
+        },
+        "score2": 7,
+        "horse_name2": "做好自己",
+        "draw2": "7",
+        "score_value2": 47.95,
+        "factors2": {
+            "weight": 130.0,
+            "days_away": 38,
+            "fast_works": 4
+        },
+        "score3": 2,
+        "horse_name3": "友瑩仁",
+        "draw3": "10",
+        "score_value3": 47.38,
+        "factors3": {
+            "weight": 133.0,
+            "days_away": 27,
+            "fast_works": 5
+        }
+    }
+}

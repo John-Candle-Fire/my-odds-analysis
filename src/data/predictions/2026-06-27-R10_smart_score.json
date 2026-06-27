@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-27",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "堅先生",
+        "draw1": "2",
+        "score_value1": 36.0,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 62,
+            "fast_works": 5
+        },
+        "score2": 7,
+        "horse_name2": "傑出雷霆",
+        "draw2": "11",
+        "score_value2": 23.73,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 20,
+            "fast_works": 4
+        },
+        "score3": 9,
+        "horse_name3": "千杯不醉",
+        "draw3": "9",
+        "score_value3": 20.16,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 27,
+            "fast_works": 3
+        }
+    }
+}

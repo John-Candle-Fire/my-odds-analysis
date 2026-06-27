@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-27",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "金風萬里",
+        "draw1": "6",
+        "score_value1": 25.34,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 24,
+            "fast_works": 5
+        },
+        "score2": 3,
+        "horse_name2": "果然僥倖",
+        "draw2": "5",
+        "score_value2": 21.0,
+        "factors2": {
+            "weight": 133.0,
+            "days_away": 14,
+            "fast_works": 1
+        },
+        "score3": 7,
+        "horse_name3": "後無來者",
+        "draw3": "11",
+        "score_value3": 20.52,
+        "factors3": {
+            "weight": 131.0,
+            "days_away": 41,
+            "fast_works": 1
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-27",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 2000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "佰勝金龍",
+        "draw1": "8",
+        "score_value1": 40.46,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 27,
+            "fast_works": 3
+        },
+        "score2": 2,
+        "horse_name2": "雙贏",
+        "draw2": "11",
+        "score_value2": 36.79,
+        "factors2": {
+            "weight": 133.0,
+            "days_away": 27,
+            "fast_works": 5
+        },
+        "score3": 6,
+        "horse_name3": "風火恆雲",
+        "draw3": "13",
+        "score_value3": 29.99,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 27,
+            "fast_works": 4
+        }
+    }
+}

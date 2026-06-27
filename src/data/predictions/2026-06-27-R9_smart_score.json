@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-06-27",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1650,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "自動自覺",
+        "draw1": "1",
+        "score_value1": 33.18,
+        "factors1": {
+            "weight": 119.0,
+            "days_away": 20,
+            "fast_works": 4
+        },
+        "score2": 13,
+        "horse_name2": "勁勇皇駒",
+        "draw2": "5",
+        "score_value2": 29.74,
+        "factors2": {
+            "weight": 115.0,
+            "days_away": 27,
+            "fast_works": 4
+        },
+        "score3": 2,
+        "horse_name3": "樂勝天下",
+        "draw3": "14",
+        "score_value3": 26.6,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 14,
+            "fast_works": 1
+        }
+    }
+}
