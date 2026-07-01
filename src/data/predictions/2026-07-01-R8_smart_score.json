@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-01",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "綫路萬里",
+        "draw1": "13",
+        "score_value1": 34.27,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 31,
+            "fast_works": 3
+        },
+        "score2": 3,
+        "horse_name2": "嵐臣",
+        "draw2": "12",
+        "score_value2": 32.63,
+        "factors2": {
+            "weight": 134.0,
+            "days_away": 38,
+            "fast_works": 4
+        },
+        "score3": 10,
+        "horse_name3": "挺秀弘利",
+        "draw3": "2",
+        "score_value3": 26.21,
+        "factors3": {
+            "weight": 124.0,
+            "days_away": 24,
+            "fast_works": 3
+        }
+    }
+}

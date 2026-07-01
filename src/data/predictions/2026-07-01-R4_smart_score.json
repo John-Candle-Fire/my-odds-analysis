@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-01",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 13,
+        "horse_name1": "天天更好",
+        "draw1": "11",
+        "score_value1": 48.82,
+        "factors1": {
+            "weight": 123.0,
+            "days_away": 24,
+            "fast_works": 5
+        },
+        "score2": 2,
+        "horse_name2": "拉合爾",
+        "draw2": "2",
+        "score_value2": 33.26,
+        "factors2": {
+            "weight": 128.0,
+            "days_away": 45,
+            "fast_works": 5
+        },
+        "score3": 1,
+        "horse_name3": "起舞奜奜",
+        "draw3": "4",
+        "score_value3": 30.35,
+        "factors3": {
+            "weight": 133.0,
+            "days_away": 18,
+            "fast_works": 2
+        }
+    }
+}

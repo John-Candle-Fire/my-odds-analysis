@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-01",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "勁爽",
+        "draw1": "1",
+        "score_value1": 29.04,
+        "factors1": {
+            "weight": 118.0,
+            "days_away": 38,
+            "fast_works": 5
+        },
+        "score2": 10,
+        "horse_name2": "東方魅影",
+        "draw2": "6",
+        "score_value2": 24.82,
+        "factors2": {
+            "weight": 119.0,
+            "days_away": 7,
+            "fast_works": 0
+        },
+        "score3": 12,
+        "horse_name3": "極速之子",
+        "draw3": "9",
+        "score_value3": 22.18,
+        "factors3": {
+            "weight": 115.0,
+            "days_away": 38,
+            "fast_works": 5
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-01",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "細水長流",
+        "draw1": "6",
+        "score_value1": 56.74,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 143,
+            "fast_works": 5
+        },
+        "score2": 2,
+        "horse_name2": "活力拍檔",
+        "draw2": "3",
+        "score_value2": 48.53,
+        "factors2": {
+            "weight": 129.0,
+            "days_away": 31,
+            "fast_works": 6
+        },
+        "score3": 7,
+        "horse_name3": "納百川",
+        "draw3": "11",
+        "score_value3": 28.1,
+        "factors3": {
+            "weight": 124.0,
+            "days_away": 35,
+            "fast_works": 4
+        }
+    }
+}

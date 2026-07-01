@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-01",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "嘉應奇兵",
+        "draw1": "10",
+        "score_value1": 40.03,
+        "factors1": {
+            "weight": 115.0,
+            "days_away": 31,
+            "fast_works": 5
+        },
+        "score2": 2,
+        "horse_name2": "笑傲江湖",
+        "draw2": "1",
+        "score_value2": 34.27,
+        "factors2": {
+            "weight": 133.0,
+            "days_away": 31,
+            "fast_works": 4
+        },
+        "score3": 10,
+        "horse_name3": "威利金箭",
+        "draw3": "5",
+        "score_value3": 30.1,
+        "factors3": {
+            "weight": 115.0,
+            "days_away": 24,
+            "fast_works": 5
+        }
+    }
+}

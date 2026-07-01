@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-01",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "猛將兄",
+        "draw1": "7",
+        "score_value1": 17.64,
+        "factors1": {
+            "weight": 117.0,
+            "days_away": 91,
+            "fast_works": 5
+        },
+        "score2": 3,
+        "horse_name2": "非凡時刻",
+        "draw2": "2",
+        "score_value2": 16.6,
+        "factors2": {
+            "weight": 129.0,
+            "days_away": 18,
+            "fast_works": 1
+        },
+        "score3": 4,
+        "horse_name3": "牛精新星",
+        "draw3": "11",
+        "score_value3": 15.23,
+        "factors3": {
+            "weight": 128.0,
+            "days_away": 21,
+            "fast_works": 4
+        }
+    }
+}
