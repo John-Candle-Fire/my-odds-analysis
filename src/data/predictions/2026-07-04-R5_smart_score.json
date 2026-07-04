@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-04",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "有情有義",
+        "draw1": "10",
+        "score_value1": 40.18,
+        "factors1": {
+            "weight": 128.0,
+            "days_away": 24,
+            "fast_works": 2
+        },
+        "score2": 13,
+        "horse_name2": "飛躍成就",
+        "draw2": "12",
+        "score_value2": 32.47,
+        "factors2": {
+            "weight": 120.0,
+            "days_away": 13,
+            "fast_works": 2
+        },
+        "score3": 1,
+        "horse_name3": "機械之星",
+        "draw3": "7",
+        "score_value3": 22.08,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 69,
+            "fast_works": 5
+        }
+    }
+}

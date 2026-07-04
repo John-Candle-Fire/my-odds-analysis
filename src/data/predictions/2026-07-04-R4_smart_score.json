@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-04",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "扶搖勢勁",
+        "draw1": "5",
+        "score_value1": 40.61,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 27,
+            "fast_works": 2
+        },
+        "score2": 5,
+        "horse_name2": "興馳千里",
+        "draw2": "2",
+        "score_value2": 34.44,
+        "factors2": {
+            "weight": 124.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score3": 3,
+        "horse_name3": "競駿輝煌",
+        "draw3": "6",
+        "score_value3": 22.8,
+        "factors3": {
+            "weight": 132.0,
+            "days_away": 27,
+            "fast_works": 5
+        }
+    }
+}

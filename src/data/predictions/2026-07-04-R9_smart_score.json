@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-04",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "利高八斗",
+        "draw1": "1",
+        "score_value1": 36.72,
+        "factors1": {
+            "weight": 132.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score2": 5,
+        "horse_name2": "應龍飛影",
+        "draw2": "5",
+        "score_value2": 33.52,
+        "factors2": {
+            "weight": 131.0,
+            "days_away": 27,
+            "fast_works": 4
+        },
+        "score3": 1,
+        "horse_name3": "鼓浪好友",
+        "draw3": "10",
+        "score_value3": 27.62,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 21,
+            "fast_works": 4
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-04",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "同喜",
+        "draw1": "1",
+        "score_value1": 24.72,
+        "factors1": {
+            "weight": 120.0,
+            "days_away": 41,
+            "fast_works": 3
+        },
+        "score2": 1,
+        "horse_name2": "日出東方",
+        "draw2": "10",
+        "score_value2": 20.16,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 27,
+            "fast_works": 5
+        },
+        "score3": 6,
+        "horse_name3": "老鼠斑",
+        "draw3": "8",
+        "score_value3": 19.4,
+        "factors3": {
+            "weight": 128.0,
+            "days_away": 7,
+            "fast_works": 0
+        }
+    }
+}

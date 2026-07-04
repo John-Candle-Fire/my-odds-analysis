@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-04",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "精彩駿將",
+        "draw1": "1",
+        "score_value1": 36.72,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 87,
+            "fast_works": 1
+        },
+        "score2": 6,
+        "horse_name2": "巴閉精",
+        "draw2": "4",
+        "score_value2": 34.8,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score3": 4,
+        "horse_name3": "人和家興",
+        "draw3": "6",
+        "score_value3": 20.79,
+        "factors3": {
+            "weight": 130.0,
+            "days_away": 13,
+            "fast_works": 1
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-04",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1800,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "風起雲湧",
+        "draw1": "12",
+        "score_value1": 42.59,
+        "factors1": {
+            "weight": 123.0,
+            "days_away": 27,
+            "fast_works": 3
+        },
+        "score2": 2,
+        "horse_name2": "紅衣醒目",
+        "draw2": "10",
+        "score_value2": 39.89,
+        "factors2": {
+            "weight": 131.0,
+            "days_away": 38,
+            "fast_works": 5
+        },
+        "score3": 14,
+        "horse_name3": "竣誠駒",
+        "draw3": "6",
+        "score_value3": 26.88,
+        "factors3": {
+            "weight": 116.0,
+            "days_away": 24,
+            "fast_works": 5
+        }
+    }
+}

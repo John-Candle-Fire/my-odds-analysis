@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-04",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "新馬賽"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "永福",
+        "draw1": "7",
+        "score_value1": 25.2,
+        "factors1": {
+            "weight": 121.0,
+            "days_away": 34,
+            "fast_works": 6
+        },
+        "score2": 2,
+        "horse_name2": "全能勇士",
+        "draw2": "2",
+        "score_value2": 17.64,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 34,
+            "fast_works": 5
+        },
+        "score3": 1,
+        "horse_name3": "星球勇士",
+        "draw3": "1",
+        "score_value3": 15.75,
+        "factors3": {
+            "weight": 128.0,
+            "days_away": 21,
+            "fast_works": 4
+        }
+    }
+}
