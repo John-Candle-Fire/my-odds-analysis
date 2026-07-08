@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-08",
+        "race_number": 7,
+        "course": "跑馬地",
+        "distance": 1000,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "品德寶寶",
+        "draw1": "12",
+        "score_value1": 37.56,
+        "factors1": {
+            "weight": 129.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score2": 1,
+        "horse_name2": "燭光晚餐",
+        "draw2": "7",
+        "score_value2": 32.38,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 42,
+            "fast_works": 5
+        },
+        "score3": 5,
+        "horse_name3": "加州本事",
+        "draw3": "2",
+        "score_value3": 29.74,
+        "factors3": {
+            "weight": 123.0,
+            "days_away": 105,
+            "fast_works": 4
+        }
+    }
+}

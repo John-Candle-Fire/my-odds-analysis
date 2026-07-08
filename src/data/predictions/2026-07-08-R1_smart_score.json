@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-08",
+        "race_number": 1,
+        "course": "跑馬地",
+        "distance": 1000,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "辣得金",
+        "draw1": "6",
+        "score_value1": 30.82,
+        "factors1": {
+            "weight": 129.0,
+            "days_away": 49,
+            "fast_works": 5
+        },
+        "score2": 1,
+        "horse_name2": "鄉村樂韻",
+        "draw2": "9",
+        "score_value2": 25.06,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 11,
+            "fast_works": 1
+        },
+        "score3": 2,
+        "horse_name3": "喆喆友福",
+        "draw3": "8",
+        "score_value3": 23.04,
+        "factors3": {
+            "weight": 134.0,
+            "days_away": 35,
+            "fast_works": 5
+        }
+    }
+}
