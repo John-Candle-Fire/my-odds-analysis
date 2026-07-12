@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-12",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "超開心",
+        "draw1": "9",
+        "score_value1": 39.02,
+        "factors1": {
+            "weight": 127.0,
+            "days_away": 29,
+            "fast_works": 5
+        },
+        "score2": 4,
+        "horse_name2": "隨緣得勝",
+        "draw2": "12",
+        "score_value2": 32.03,
+        "factors2": {
+            "weight": 132.0,
+            "days_away": 18,
+            "fast_works": 1
+        },
+        "score3": 10,
+        "horse_name3": "天蓬貓",
+        "draw3": "4",
+        "score_value3": 27.14,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 8,
+            "fast_works": 0
+        }
+    }
+}

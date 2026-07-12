@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-12",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "遨遊波士",
+        "draw1": "1",
+        "score_value1": 22.55,
+        "factors1": {
+            "weight": 124.0,
+            "days_away": 29,
+            "fast_works": 6
+        },
+        "score2": 14,
+        "horse_name2": "銀騰",
+        "draw2": "12",
+        "score_value2": 14.39,
+        "factors2": {
+            "weight": 117.0,
+            "days_away": 21,
+            "fast_works": 2
+        },
+        "score3": 13,
+        "horse_name3": "勤德皆備",
+        "draw3": "4",
+        "score_value3": 12.67,
+        "factors3": {
+            "weight": 120.0,
+            "days_away": 11,
+            "fast_works": 1
+        }
+    }
+}

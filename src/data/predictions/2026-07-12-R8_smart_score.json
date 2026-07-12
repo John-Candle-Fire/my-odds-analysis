@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-12",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第一班"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "大浪圖田",
+        "draw1": "8",
+        "score_value1": 37.92,
+        "factors1": {
+            "weight": 118.0,
+            "days_away": 137,
+            "fast_works": 4
+        },
+        "score2": 4,
+        "horse_name2": "太陽勇士",
+        "draw2": "7",
+        "score_value2": 32.51,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 29,
+            "fast_works": 4
+        },
+        "score3": 12,
+        "horse_name3": "勁沙塵",
+        "draw3": "6",
+        "score_value3": 32.28,
+        "factors3": {
+            "weight": 115.0,
+            "days_away": 29,
+            "fast_works": 4
+        }
+    }
+}

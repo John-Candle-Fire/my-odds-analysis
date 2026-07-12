@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-12",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "手機錶勁",
+        "draw1": "9",
+        "score_value1": 52.85,
+        "factors1": {
+            "weight": 129.0,
+            "days_away": 64,
+            "fast_works": 5
+        },
+        "score2": 8,
+        "horse_name2": "包裝天王",
+        "draw2": "8",
+        "score_value2": 34.68,
+        "factors2": {
+            "weight": 117.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score3": 1,
+        "horse_name3": "跨境寶馬",
+        "draw3": "12",
+        "score_value3": 31.8,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 21,
+            "fast_works": 4
+        }
+    }
+}

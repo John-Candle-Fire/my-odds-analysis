@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-12",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "哈羅威",
+        "draw1": "14",
+        "score_value1": 26.64,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 15,
+            "fast_works": 2
+        },
+        "score2": 5,
+        "horse_name2": "文明福星",
+        "draw2": "1",
+        "score_value2": 19.2,
+        "factors2": {
+            "weight": 128.0,
+            "days_away": 42,
+            "fast_works": 4
+        },
+        "score3": 13,
+        "horse_name3": "暴風一族",
+        "draw3": "4",
+        "score_value3": 12.36,
+        "factors3": {
+            "weight": 120.0,
+            "days_away": 35,
+            "fast_works": 5
+        }
+    }
+}

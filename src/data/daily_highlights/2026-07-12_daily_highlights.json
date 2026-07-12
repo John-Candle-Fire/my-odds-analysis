@@ -1,0 +1,221 @@
+{
+    "metadata": {
+        "date": "2026-07-12",
+        "generated_at": "2026-07-12 23:17:29"
+    },
+    "meeting_context": {
+        "volatility": "STANDARD",
+        "attacking_stables": [
+            "沈集成",
+            "羅富全",
+            "呂健威",
+            "方嘉柏",
+            "蔡約翰",
+            "大衛希斯",
+            "賀賢",
+            "文家良",
+            "巫偉傑"
+        ],
+        "attacking_jockeys": [
+            "潘頓",
+            "布文",
+            "莫雷拉",
+            "艾兆禮",
+            "田泰安",
+            "袁幸堯",
+            "潘明輝",
+            "布浩榮"
+        ]
+    },
+    "details": {
+        "stable_attack_stats": [
+            {
+                "trainer": "沈集成",
+                "strong_chances_count": 6,
+                "tier": 1
+            },
+            {
+                "trainer": "羅富全",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "trainer": "呂健威",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "方嘉柏",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "蔡約翰",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "大衛希斯",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "賀賢",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "trainer": "文家良",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "trainer": "巫偉傑",
+                "strong_chances_count": 3,
+                "tier": 2
+            }
+        ],
+        "jockey_attack_stats": [
+            {
+                "jockey": "潘頓",
+                "strong_chances_count": 8,
+                "tier": 1
+            },
+            {
+                "jockey": "布文",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "jockey": "莫雷拉",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "jockey": "艾兆禮",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "jockey": "田泰安",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "jockey": "袁幸堯",
+                "strong_chances_count": 5,
+                "tier": 3
+            },
+            {
+                "jockey": "潘明輝",
+                "strong_chances_count": 5,
+                "tier": 3
+            },
+            {
+                "jockey": "布浩榮",
+                "strong_chances_count": 3,
+                "tier": 3
+            }
+        ],
+        "race_volatility": {
+            "1": "STANDARD-Strong Favorite Race",
+            "2": "STANDARD-Multi Contender Dominant Favorite",
+            "3": "CHAOS-Multi Contender Dominant Favorite",
+            "4": "STANDARD-Strong Favorite Race",
+            "5": "CHAOS-Multi Contender Dominant Favorite",
+            "6": "CHAOS-Weak Favorite Race",
+            "7": "STANDARD-Two Contender No Dominant Favorite",
+            "8": "STANDARD-Strong Favorite Race",
+            "9": "CHAOS-Two Contender No Dominant Favorite",
+            "10": "STANDARD-Weak Favorite Race",
+            "11": "CHAOS-Two Contender No Dominant Favorite"
+        },
+        "traffic_risks": [],
+        "scenario_A_late_steamers": [
+            {
+                "race_number": 4,
+                "late_steamer": 13,
+                "late_steamer_name": "暴風一族"
+            },
+            {
+                "race_number": 7,
+                "late_steamer": 7,
+                "late_steamer_name": "家傳之寶"
+            },
+            {
+                "race_number": 10,
+                "late_steamer": 10,
+                "late_steamer_name": "金勝名駒"
+            },
+            {
+                "race_number": 10,
+                "late_steamer": 14,
+                "late_steamer_name": "北斗福星"
+            },
+            {
+                "race_number": 11,
+                "late_steamer": 8,
+                "late_steamer_name": "百勝威龍"
+            }
+        ],
+        "scenario_B_early_favorites": [
+            {
+                "race_number": 7,
+                "early_favorite": 4,
+                "early_favorite_name": "隨緣得勝"
+            },
+            {
+                "race_number": 8,
+                "early_favorite": 4,
+                "early_favorite_name": "太陽勇士"
+            },
+            {
+                "race_number": 10,
+                "early_favorite": 1,
+                "early_favorite_name": "安都"
+            }
+        ],
+        "jockey_upgrades": [
+            {
+                "race": 2,
+                "horse": "星之願",
+                "switch": "布浩榮(T3) -> 艾兆禮(T1)"
+            },
+            {
+                "race": 4,
+                "horse": "金滙千帥",
+                "switch": "潘明輝(T3) -> 潘頓(T1)"
+            },
+            {
+                "race": 4,
+                "horse": "戀愛狂",
+                "switch": "布浩榮(T3) -> 布文(T1)"
+            },
+            {
+                "race": 6,
+                "horse": "大丞相",
+                "switch": "潘明輝(T3) -> 布文(T1)"
+            },
+            {
+                "race": 6,
+                "horse": "銀刺勇士",
+                "switch": "黃智弘(T4) -> 莫雷拉(T1)"
+            },
+            {
+                "race": 7,
+                "horse": "友贏威馳",
+                "switch": "楊明綸(T3) -> 莫雷拉(T1)"
+            },
+            {
+                "race": 9,
+                "horse": "包裝天王",
+                "switch": "潘明輝(T3) -> 艾兆禮(T1)"
+            },
+            {
+                "race": 10,
+                "horse": "滿心星",
+                "switch": "袁幸堯(T3) -> 莫雷拉(T1)"
+            }
+        ]
+    }
+}
