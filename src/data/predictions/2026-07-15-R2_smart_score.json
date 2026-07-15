@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-07-15",
+        "race_number": 2,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "天下寵兒",
+        "draw1": "5",
+        "score_value1": 5.699999999999999,
+        "factors1": {
+            "base": 2.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.1999999999999993,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        },
+        "score2": 4,
+        "horse_name2": "團結戰靈",
+        "draw2": "3",
+        "score_value2": 4.475,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 1.3749999999999996,
+            "volatility": 0.0
+        },
+        "score3": 2,
+        "horse_name3": "紅錢到",
+        "draw3": "8",
+        "score_value3": 4.2,
+        "factors3": {
+            "base": 0.5,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        }
+    }
+}

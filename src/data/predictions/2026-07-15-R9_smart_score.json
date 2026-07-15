@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-07-15",
+        "race_number": 9,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "逍遙騎士",
+        "draw1": "10",
+        "score_value1": 6.699999999999999,
+        "factors1": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.1999999999999993,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        },
+        "score2": 11,
+        "horse_name2": "繼往開來",
+        "draw2": "6",
+        "score_value2": 6.3,
+        "factors2": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.5999999999999996,
+            "pace_wt": 1.2000000000000002,
+            "volatility": 0.0
+        },
+        "score3": 7,
+        "horse_name3": "駿毅快車",
+        "draw3": "4",
+        "score_value3": 5.2,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 0.5,
+            "volatility": 0.0
+        }
+    }
+}

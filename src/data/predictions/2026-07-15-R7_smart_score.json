@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-15",
+        "race_number": 7,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "棒棒糖",
+        "draw1": "1",
+        "score_value1": 30.24,
+        "factors1": {
+            "weight": 121.0,
+            "days_away": 63,
+            "fast_works": 2
+        },
+        "score2": 8,
+        "horse_name2": "勁好運",
+        "draw2": "11",
+        "score_value2": 16.99,
+        "factors2": {
+            "weight": 122.0,
+            "days_away": 35,
+            "fast_works": 3
+        },
+        "score3": 11,
+        "horse_name3": "富國兄弟",
+        "draw3": "8",
+        "score_value3": 15.12,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 18,
+            "fast_works": 1
+        }
+    }
+}

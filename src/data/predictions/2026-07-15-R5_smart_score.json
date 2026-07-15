@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-07-15",
+        "race_number": 5,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "威威神駒",
+        "draw1": "5",
+        "score_value1": 5.075,
+        "factors1": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        },
+        "score2": 12,
+        "horse_name2": "過關勇士",
+        "draw2": "8",
+        "score_value2": 3.675,
+        "factors2": {
+            "base": 0.0,
+            "workout": -0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 2.6,
+            "pace_wt": 1.5749999999999997,
+            "volatility": 0.0
+        },
+        "score3": 2,
+        "horse_name3": "凝聚美麗",
+        "draw3": "10",
+        "score_value3": 3.5999999999999996,
+        "factors3": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.5999999999999996,
+            "pace_wt": -1.5,
+            "volatility": 0.0
+        }
+    }
+}

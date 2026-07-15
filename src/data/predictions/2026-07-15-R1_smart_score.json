@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-15",
+        "race_number": 1,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "勁爽",
+        "draw1": "11",
+        "score_value1": 23.9,
+        "factors1": {
+            "weight": 118.0,
+            "days_away": 14,
+            "fast_works": 1
+        },
+        "score2": 5,
+        "horse_name2": "駟跑得",
+        "draw2": "12",
+        "score_value2": 23.47,
+        "factors2": {
+            "weight": 133.0,
+            "days_away": 42,
+            "fast_works": 5
+        },
+        "score3": 11,
+        "horse_name3": "電訊驕陽",
+        "draw3": "8",
+        "score_value3": 15.12,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 21,
+            "fast_works": 3
+        }
+    }
+}

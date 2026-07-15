@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-07-15",
+        "race_number": 4,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "華麗再贏",
+        "draw1": "10",
+        "score_value1": 35.42,
+        "factors1": {
+            "weight": 124.0,
+            "days_away": 32,
+            "fast_works": 3
+        },
+        "score2": 4,
+        "horse_name2": "先到先得",
+        "draw2": "7",
+        "score_value2": 29.71,
+        "factors2": {
+            "weight": 131.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score3": 3,
+        "horse_name3": "光年程祥",
+        "draw3": "5",
+        "score_value3": 24.24,
+        "factors3": {
+            "weight": 131.0,
+            "days_away": 18,
+            "fast_works": 2
+        }
+    }
+}
