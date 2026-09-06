@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-06",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "櫻花酒杯",
+        "draw1": "1",
+        "score_value1": 53.28,
+        "factors1": {
+            "weight": 131.0,
+            "days_away": 85,
+            "fast_works": 5
+        },
+        "score2": 6,
+        "horse_name2": "綫路英雄",
+        "draw2": "10",
+        "score_value2": 49.97,
+        "factors2": {
+            "weight": 129.0,
+            "days_away": 71,
+            "fast_works": 5
+        },
+        "score3": 4,
+        "horse_name3": "友瑩仁",
+        "draw3": "2",
+        "score_value3": 47.38,
+        "factors3": {
+            "weight": 131.0,
+            "days_away": 71,
+            "fast_works": 5
+        }
+    }
+}

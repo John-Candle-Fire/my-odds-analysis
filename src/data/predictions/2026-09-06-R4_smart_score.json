@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-06",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "神駒馬靈",
+        "draw1": "14",
+        "score_value1": 37.67,
+        "factors1": {
+            "weight": 133.0,
+            "days_away": 105,
+            "fast_works": 4
+        },
+        "score2": 1,
+        "horse_name2": "君達得",
+        "draw2": "12",
+        "score_value2": 29.61,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 67,
+            "fast_works": 5
+        },
+        "score3": 12,
+        "horse_name3": "上市魅力",
+        "draw3": "3",
+        "score_value3": 28.85,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 123,
+            "fast_works": 5
+        }
+    }
+}

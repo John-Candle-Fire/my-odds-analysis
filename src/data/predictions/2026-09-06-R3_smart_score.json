@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-06",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "三級賽"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "嘉應高昇",
+        "draw1": "1",
+        "score_value1": 64.8,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 133,
+            "fast_works": 5
+        },
+        "score2": 3,
+        "horse_name2": "錶之星河",
+        "draw2": "4",
+        "score_value2": 57.02,
+        "factors2": {
+            "weight": 115.0,
+            "days_away": 98,
+            "fast_works": 5
+        },
+        "score3": 5,
+        "horse_name3": "幸運有您",
+        "draw3": "2",
+        "score_value3": 26.64,
+        "factors3": {
+            "weight": 115.0,
+            "days_away": 53,
+            "fast_works": 5
+        }
+    }
+}

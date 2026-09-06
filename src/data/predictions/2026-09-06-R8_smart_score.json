@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-06",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "八仟好運",
+        "draw1": "13",
+        "score_value1": 37.55,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 71,
+            "fast_works": 5
+        },
+        "score2": 6,
+        "horse_name2": "手機錶能",
+        "draw2": "10",
+        "score_value2": 31.68,
+        "factors2": {
+            "weight": 130.0,
+            "days_away": 56,
+            "fast_works": 4
+        },
+        "score3": 1,
+        "horse_name3": "喜悅歡欣",
+        "draw3": "5",
+        "score_value3": 29.52,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 71,
+            "fast_works": 5
+        }
+    }
+}

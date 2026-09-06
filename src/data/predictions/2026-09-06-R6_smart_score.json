@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-06",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "哈羅威",
+        "draw1": "4",
+        "score_value1": 35.86,
+        "factors1": {
+            "weight": 131.0,
+            "days_away": 56,
+            "fast_works": 5
+        },
+        "score2": 4,
+        "horse_name2": "嘉應駿馬",
+        "draw2": "7",
+        "score_value2": 28.8,
+        "factors2": {
+            "weight": 129.0,
+            "days_away": 56,
+            "fast_works": 5
+        },
+        "score3": 7,
+        "horse_name3": "老鼠斑",
+        "draw3": "10",
+        "score_value3": 27.34,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 64,
+            "fast_works": 5
+        }
+    }
+}

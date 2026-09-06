@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-06",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "焦點",
+        "draw1": "9",
+        "score_value1": 39.56,
+        "factors1": {
+            "weight": 120.0,
+            "days_away": 60,
+            "fast_works": 2
+        },
+        "score2": 1,
+        "horse_name2": "鼓浪好友",
+        "draw2": "1",
+        "score_value2": 39.31,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 64,
+            "fast_works": 2
+        },
+        "score3": 10,
+        "horse_name3": "同喜",
+        "draw3": "12",
+        "score_value3": 31.92,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 64,
+            "fast_works": 3
+        }
+    }
+}
