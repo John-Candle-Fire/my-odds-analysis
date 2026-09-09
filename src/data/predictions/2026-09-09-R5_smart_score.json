@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-09",
+        "race_number": 5,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "做好自己",
+        "draw1": "5",
+        "score_value1": 35.88,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 74,
+            "fast_works": 5
+        },
+        "score2": 3,
+        "horse_name2": "中國心",
+        "draw2": "4",
+        "score_value2": 35.28,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 140,
+            "fast_works": 6
+        },
+        "score3": 12,
+        "horse_name3": "上浦福旺",
+        "draw3": "11",
+        "score_value3": 32.28,
+        "factors3": {
+            "weight": 116.0,
+            "days_away": 91,
+            "fast_works": 5
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-09-09",
+        "race_number": 1,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "魅力知福",
+        "draw1": "3",
+        "score_value1": 1.5,
+        "factors1": {
+            "base": 1.0,
+            "workout": -0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 0.0,
+            "pace_wt": 1.0,
+            "volatility": 0.0
+        },
+        "score2": 12,
+        "horse_name2": "添喜運",
+        "draw2": "10",
+        "score_value2": -0.19999999999999996,
+        "factors2": {
+            "base": -3.0,
+            "workout": -0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 1.7,
+            "volatility": 0.0
+        },
+        "score3": 4,
+        "horse_name3": "閃電武士",
+        "draw3": "1",
+        "score_value3": -0.8999999999999999,
+        "factors3": {
+            "base": -2.0,
+            "workout": -0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        }
+    }
+}

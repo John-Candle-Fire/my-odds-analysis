@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-09-09",
+        "race_number": 7,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "領袖勁力",
+        "draw1": "4",
+        "score_value1": 3.3,
+        "factors1": {
+            "base": 0.0,
+            "workout": -0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 2.6,
+            "pace_wt": 1.1999999999999997,
+            "volatility": 0.0
+        },
+        "score2": 7,
+        "horse_name2": "寶成智好",
+        "draw2": "7",
+        "score_value2": 0.6000000000000001,
+        "factors2": {
+            "base": -1.0,
+            "workout": -0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.5,
+            "volatility": 0.0
+        },
+        "score3": 6,
+        "horse_name3": "至合拍",
+        "draw3": "10",
+        "score_value3": 0.5,
+        "factors3": {
+            "base": 1.0,
+            "workout": -0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 0.0,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        }
+    }
+}

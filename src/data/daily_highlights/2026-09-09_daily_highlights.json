@@ -1,0 +1,135 @@
+{
+    "metadata": {
+        "date": "2026-09-09",
+        "generated_at": "2026-09-09 17:26:51"
+    },
+    "meeting_context": {
+        "volatility": "STANDARD",
+        "attacking_stables": [
+            "大衛希斯",
+            "告東尼",
+            "方嘉柏"
+        ],
+        "attacking_jockeys": [
+            "潘頓",
+            "田泰安",
+            "何澤堯",
+            "巴度",
+            "周俊樂",
+            "鍾易禮"
+        ]
+    },
+    "details": {
+        "stable_attack_stats": [
+            {
+                "trainer": "大衛希斯",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "trainer": "告東尼",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "方嘉柏",
+                "strong_chances_count": 3,
+                "tier": 1
+            }
+        ],
+        "jockey_attack_stats": [
+            {
+                "jockey": "潘頓",
+                "strong_chances_count": 6,
+                "tier": 1
+            },
+            {
+                "jockey": "田泰安",
+                "strong_chances_count": 6,
+                "tier": 2
+            },
+            {
+                "jockey": "何澤堯",
+                "strong_chances_count": 5,
+                "tier": 2
+            },
+            {
+                "jockey": "巴度",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "jockey": "周俊樂",
+                "strong_chances_count": 3,
+                "tier": 3
+            },
+            {
+                "jockey": "鍾易禮",
+                "strong_chances_count": 3,
+                "tier": 3
+            }
+        ],
+        "race_volatility": {
+            "1": "STANDARD-Two Contender No Dominant Favorite",
+            "2": "STANDARD-Two Contender Race",
+            "3": "STANDARD-Two Contender No Dominant Favorite",
+            "4": "STANDARD-Two Contender No Dominant Favorite",
+            "5": "STANDARD-Two Contender No Dominant Favorite",
+            "6": "STANDARD-Two Contender No Dominant Favorite",
+            "7": "STANDARD-Strong Favorite Race",
+            "8": "STANDARD-Two Contender No Dominant Favorite"
+        },
+        "traffic_risks": [],
+        "scenario_A_late_steamers": [
+            {
+                "race_number": 1,
+                "late_steamer": 1,
+                "late_steamer_name": "閃電星福"
+            },
+            {
+                "race_number": 2,
+                "late_steamer": 2,
+                "late_steamer_name": "加州活力"
+            },
+            {
+                "race_number": 5,
+                "late_steamer": 2,
+                "late_steamer_name": "一定掂"
+            },
+            {
+                "race_number": 5,
+                "late_steamer": 11,
+                "late_steamer_name": "同心同夢"
+            },
+            {
+                "race_number": 6,
+                "late_steamer": 9,
+                "late_steamer_name": "瑤瑤日上"
+            }
+        ],
+        "scenario_B_early_favorites": [
+            {
+                "race_number": 4,
+                "early_favorite": 4,
+                "early_favorite_name": "卓越蒨鋒"
+            }
+        ],
+        "jockey_upgrades": [
+            {
+                "race": 1,
+                "horse": "魅力知福",
+                "switch": "布浩榮(T3) -> 艾兆禮(T1)"
+            },
+            {
+                "race": 5,
+                "horse": "同心同夢",
+                "switch": "周俊樂(T3) -> 艾兆禮(T1)"
+            },
+            {
+                "race": 7,
+                "horse": "官金騏",
+                "switch": "鍾易禮(T3) -> 潘頓(T1)"
+            }
+        ]
+    }
+}

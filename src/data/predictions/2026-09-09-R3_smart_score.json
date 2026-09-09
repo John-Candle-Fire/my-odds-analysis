@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-09-09",
+        "race_number": 3,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "東方魅影",
+        "draw1": "2",
+        "score_value1": 2.175,
+        "factors1": {
+            "base": -1.5,
+            "workout": -0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 2.5749999999999997,
+            "volatility": 0.0
+        },
+        "score2": 8,
+        "horse_name2": "駿先生",
+        "draw2": "9",
+        "score_value2": 1.975,
+        "factors2": {
+            "base": 1.0,
+            "workout": -0.5,
+            "age_pen": -0.5,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        },
+        "score3": 4,
+        "horse_name3": "銀亮濠俠",
+        "draw3": "4",
+        "score_value3": 1.6,
+        "factors3": {
+            "base": 1.0,
+            "workout": -0.5,
+            "age_pen": -0.5,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        }
+    }
+}
