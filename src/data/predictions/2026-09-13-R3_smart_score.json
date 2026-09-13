@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-13",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "東方寶寶",
+        "draw1": "14",
+        "score_value1": 44.1,
+        "factors1": {
+            "weight": 132.0,
+            "days_away": 63,
+            "fast_works": 5
+        },
+        "score2": 8,
+        "horse_name2": "劍無情",
+        "draw2": "8",
+        "score_value2": 34.42,
+        "factors2": {
+            "weight": 129.0,
+            "days_away": 74,
+            "fast_works": 4
+        },
+        "score3": 14,
+        "horse_name3": "海洋帝君",
+        "draw3": "10",
+        "score_value3": 25.33,
+        "factors3": {
+            "weight": 120.0,
+            "days_away": 63,
+            "fast_works": 3
+        }
+    }
+}

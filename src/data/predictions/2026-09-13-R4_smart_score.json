@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-13",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "快樂高球",
+        "draw1": "2",
+        "score_value1": 36.54,
+        "factors1": {
+            "weight": 123.0,
+            "days_away": 63,
+            "fast_works": 5
+        },
+        "score2": 2,
+        "horse_name2": "逍遙人生",
+        "draw2": "4",
+        "score_value2": 30.37,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 92,
+            "fast_works": 4
+        },
+        "score3": 3,
+        "horse_name3": "砂漿麒星",
+        "draw3": "7",
+        "score_value3": 27.72,
+        "factors3": {
+            "weight": 130.0,
+            "days_away": 71,
+            "fast_works": 4
+        }
+    }
+}

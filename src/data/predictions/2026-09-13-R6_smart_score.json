@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-13",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "捷威",
+        "draw1": "4",
+        "score_value1": 41.47,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 71,
+            "fast_works": 5
+        },
+        "score2": 7,
+        "horse_name2": "特別美麗",
+        "draw2": "12",
+        "score_value2": 36.54,
+        "factors2": {
+            "weight": 122.0,
+            "days_away": 63,
+            "fast_works": 5
+        },
+        "score3": 5,
+        "horse_name3": "好運年",
+        "draw3": "3",
+        "score_value3": 30.36,
+        "factors3": {
+            "weight": 124.0,
+            "days_away": 67,
+            "fast_works": 4
+        }
+    }
+}

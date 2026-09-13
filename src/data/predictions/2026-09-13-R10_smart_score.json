@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-13",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "嵐臣",
+        "draw1": "1",
+        "score_value1": 46.66,
+        "factors1": {
+            "weight": 121.0,
+            "days_away": 74,
+            "fast_works": 4
+        },
+        "score2": 11,
+        "horse_name2": "大回報",
+        "draw2": "9",
+        "score_value2": 45.0,
+        "factors2": {
+            "weight": 122.0,
+            "days_away": 63,
+            "fast_works": 5
+        },
+        "score3": 4,
+        "horse_name3": "細水長流",
+        "draw3": "4",
+        "score_value3": 38.56,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 74,
+            "fast_works": 6
+        }
+    }
+}

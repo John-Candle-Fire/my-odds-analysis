@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-13",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "傑出雷霆",
+        "draw1": "4",
+        "score_value1": 39.89,
+        "factors1": {
+            "weight": 127.0,
+            "days_away": 60,
+            "fast_works": 5
+        },
+        "score2": 1,
+        "horse_name2": "超寫意",
+        "draw2": "1",
+        "score_value2": 34.52,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 98,
+            "fast_works": 4
+        },
+        "score3": 2,
+        "horse_name3": "錶之極光",
+        "draw3": "12",
+        "score_value3": 23.9,
+        "factors3": {
+            "weight": 134.0,
+            "days_away": 63,
+            "fast_works": 5
+        }
+    }
+}

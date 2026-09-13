@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-13",
+        "race_number": 2,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "紅海旺",
+        "draw1": "6",
+        "score_value1": 25.08,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 7,
+            "fast_works": 1
+        },
+        "score2": 2,
+        "horse_name2": "路路勁",
+        "draw2": "12",
+        "score_value2": 23.62,
+        "factors2": {
+            "weight": 132.0,
+            "days_away": 67,
+            "fast_works": 5
+        },
+        "score3": 11,
+        "horse_name3": "雷神太保",
+        "draw3": "1",
+        "score_value3": 8.36,
+        "factors3": {
+            "weight": 124.0,
+            "days_away": 7,
+            "fast_works": 0
+        }
+    }
+}

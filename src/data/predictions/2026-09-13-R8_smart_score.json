@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-13",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 13,
+        "horse_name1": "幸運糖",
+        "draw1": "4",
+        "score_value1": 42.59,
+        "factors1": {
+            "weight": 121.0,
+            "days_away": 74,
+            "fast_works": 4
+        },
+        "score2": 4,
+        "horse_name2": "團結勇士",
+        "draw2": "13",
+        "score_value2": 31.92,
+        "factors2": {
+            "weight": 133.0,
+            "days_away": 74,
+            "fast_works": 4
+        },
+        "score3": 2,
+        "horse_name3": "會長之寶",
+        "draw3": "6",
+        "score_value3": 27.24,
+        "factors3": {
+            "weight": 134.0,
+            "days_away": 74,
+            "fast_works": 4
+        }
+    }
+}
