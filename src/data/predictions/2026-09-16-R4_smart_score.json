@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-09-16",
+        "race_number": 4,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "烈焰光芒",
+        "draw1": "2",
+        "score_value1": 4.7,
+        "factors1": {
+            "base": 1.0,
+            "workout": -0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 1.0,
+            "volatility": 0.0
+        },
+        "score2": 5,
+        "horse_name2": "星威心得",
+        "draw2": "1",
+        "score_value2": 1.375,
+        "factors2": {
+            "base": 0.5,
+            "workout": -0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 0.0,
+            "pace_wt": 1.375,
+            "volatility": 0.0
+        },
+        "score3": 11,
+        "horse_name3": "頑童",
+        "draw3": "4",
+        "score_value3": 1.075,
+        "factors3": {
+            "base": -1.0,
+            "workout": -0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.0,
+            "pace_wt": 1.575,
+            "volatility": 0.0
+        }
+    }
+}

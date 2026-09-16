@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-16",
+        "race_number": 3,
+        "course": "跑馬地",
+        "distance": 1800,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "捷足奔馳",
+        "draw1": "1",
+        "score_value1": 40.57,
+        "factors1": {
+            "weight": 123.0,
+            "days_away": 84,
+            "fast_works": 4
+        },
+        "score2": 8,
+        "horse_name2": "富裕君子",
+        "draw2": "11",
+        "score_value2": 32.54,
+        "factors2": {
+            "weight": 121.0,
+            "days_away": 77,
+            "fast_works": 3
+        },
+        "score3": 10,
+        "horse_name3": "禾道威",
+        "draw3": "7",
+        "score_value3": 27.12,
+        "factors3": {
+            "weight": 120.0,
+            "days_away": 81,
+            "fast_works": 5
+        }
+    }
+}

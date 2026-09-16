@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-16",
+        "race_number": 7,
+        "course": "跑馬地",
+        "distance": 1000,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "品德寶寶",
+        "draw1": "7",
+        "score_value1": 38.43,
+        "factors1": {
+            "weight": 127.0,
+            "days_away": 70,
+            "fast_works": 5
+        },
+        "score2": 2,
+        "horse_name2": "燭光晚餐",
+        "draw2": "11",
+        "score_value2": 36.29,
+        "factors2": {
+            "weight": 133.0,
+            "days_away": 70,
+            "fast_works": 6
+        },
+        "score3": 1,
+        "horse_name3": "好好戀愛",
+        "draw3": "6",
+        "score_value3": 28.51,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 101,
+            "fast_works": 2
+        }
+    }
+}

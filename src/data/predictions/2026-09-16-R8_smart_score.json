@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-16",
+        "race_number": 8,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "銀亮奔騰",
+        "draw1": "12",
+        "score_value1": 45.36,
+        "factors1": {
+            "weight": 127.0,
+            "days_away": 66,
+            "fast_works": 2
+        },
+        "score2": 11,
+        "horse_name2": "穿甲金鷹",
+        "draw2": "11",
+        "score_value2": 42.05,
+        "factors2": {
+            "weight": 117.0,
+            "days_away": 105,
+            "fast_works": 4
+        },
+        "score3": 12,
+        "horse_name3": "極光之子",
+        "draw3": "4",
+        "score_value3": 37.3,
+        "factors3": {
+            "weight": 117.0,
+            "days_away": 70,
+            "fast_works": 4
+        }
+    }
+}

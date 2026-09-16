@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-09-16",
+        "race_number": 2,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "風火猴王",
+        "draw1": "5",
+        "score_value1": 4.2,
+        "factors1": {
+            "base": 1.0,
+            "workout": -0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 0.5,
+            "volatility": 0.0
+        },
+        "score2": 11,
+        "horse_name2": "天下寵兒",
+        "draw2": "10",
+        "score_value2": 2.2,
+        "factors2": {
+            "base": -1.5,
+            "workout": -2.0,
+            "age_pen": 0.0,
+            "jt_bonus": 4.2,
+            "pace_wt": 1.5,
+            "volatility": 0.0
+        },
+        "score3": 3,
+        "horse_name3": "朗日自強",
+        "draw3": "3",
+        "score_value3": 0.6000000000000001,
+        "factors3": {
+            "base": -1.5,
+            "workout": -0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 1.0,
+            "volatility": 0.0
+        }
+    }
+}
