@@ -1,0 +1,15 @@
+{
+  "race_date": "2026-09-23",
+  "race_number": 3,
+  "timestamp_source": "2026-09-23_17-17-05",
+  "type": "DBL",
+  "DBL1": 5,
+  "DBL2": 8,
+  "DBL3": 2,
+  "analysis_type": "dd_insider_detection",
+  "methods_used": [
+    "dd_first_leg_underlay",
+    "dd_second_leg_win_underlay"
+  ],
+  "total_signals": 22
+}

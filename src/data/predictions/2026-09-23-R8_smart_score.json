@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-09-23",
+        "race_number": 8,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "繼往開來",
+        "draw1": "5",
+        "score_value1": 2.475,
+        "factors1": {
+            "base": 1.0,
+            "workout": -0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        },
+        "score2": 1,
+        "horse_name2": "人和家興",
+        "draw2": "2",
+        "score_value2": 2.1,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": -1.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        },
+        "score3": 3,
+        "horse_name3": "富心星",
+        "draw3": "4",
+        "score_value3": 2.1,
+        "factors3": {
+            "base": 1.0,
+            "workout": -0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        }
+    }
+}

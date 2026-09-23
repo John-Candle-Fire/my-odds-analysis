@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-09-23",
+        "race_number": 4,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "焦點",
+        "draw1": "1",
+        "score_value1": 4.7,
+        "factors1": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": -1.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 1.0,
+            "volatility": 0.0
+        },
+        "score2": 7,
+        "horse_name2": "震撼人心",
+        "draw2": "-",
+        "score_value2": 3.7,
+        "factors2": {
+            "base": 0.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.0,
+            "pace_wt": 2.2,
+            "volatility": 0.0
+        },
+        "score3": 9,
+        "horse_name3": "將傲",
+        "draw3": "4",
+        "score_value3": 2.2,
+        "factors3": {
+            "base": -1.0,
+            "workout": -0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 0.5,
+            "volatility": 0.0
+        }
+    }
+}

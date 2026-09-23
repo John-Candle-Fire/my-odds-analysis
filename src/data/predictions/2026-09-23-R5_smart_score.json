@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-23",
+        "race_number": 5,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "爆竹",
+        "draw1": "11",
+        "score_value1": 35.14,
+        "factors1": {
+            "weight": 122.0,
+            "days_away": 105,
+            "fast_works": 5
+        },
+        "score2": 1,
+        "horse_name2": "本領非凡",
+        "draw2": "9",
+        "score_value2": 27.22,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 91,
+            "fast_works": 5
+        },
+        "score3": 7,
+        "horse_name3": "滿洛城",
+        "draw3": "7",
+        "score_value3": 25.45,
+        "factors3": {
+            "weight": 123.0,
+            "days_away": 112,
+            "fast_works": 4
+        }
+    }
+}

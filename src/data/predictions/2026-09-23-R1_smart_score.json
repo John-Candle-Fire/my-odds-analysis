@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-23",
+        "race_number": 1,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "東方魅影",
+        "draw1": "3",
+        "score_value1": 33.72,
+        "factors1": {
+            "weight": 119.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score2": 8,
+        "horse_name2": "電訊驕陽",
+        "draw2": "8",
+        "score_value2": 24.47,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 14,
+            "fast_works": 1
+        },
+        "score3": 3,
+        "horse_name3": "神駒馬靈",
+        "draw3": "4",
+        "score_value3": 24.4,
+        "factors3": {
+            "weight": 132.0,
+            "days_away": 17,
+            "fast_works": 2
+        }
+    }
+}
