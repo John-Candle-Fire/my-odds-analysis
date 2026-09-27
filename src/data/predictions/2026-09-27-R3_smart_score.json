@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-27",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "東方寶寶",
+        "draw1": "12",
+        "score_value1": 28.14,
+        "factors1": {
+            "weight": 130.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score2": 11,
+        "horse_name2": "快樂老撾",
+        "draw2": "9",
+        "score_value2": 26.16,
+        "factors2": {
+            "weight": 124.0,
+            "days_away": 14,
+            "fast_works": 1
+        },
+        "score3": 9,
+        "horse_name3": "果然僥倖",
+        "draw3": "10",
+        "score_value3": 19.2,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 18,
+            "fast_works": 3
+        }
+    }
+}

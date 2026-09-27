@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-27",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "伶俐驫駒",
+        "draw1": "10",
+        "score_value1": 44.78,
+        "factors1": {
+            "weight": 118.0,
+            "days_away": 85,
+            "fast_works": 4
+        },
+        "score2": 8,
+        "horse_name2": "致力之城",
+        "draw2": "6",
+        "score_value2": 40.32,
+        "factors2": {
+            "weight": 120.0,
+            "days_away": 85,
+            "fast_works": 4
+        },
+        "score3": 9,
+        "horse_name3": "包裝天王",
+        "draw3": "3",
+        "score_value3": 39.69,
+        "factors3": {
+            "weight": 120.0,
+            "days_away": 77,
+            "fast_works": 5
+        }
+    }
+}

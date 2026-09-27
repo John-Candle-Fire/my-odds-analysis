@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-27",
+        "race_number": 11,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "名揚四海",
+        "draw1": "14",
+        "score_value1": 42.62,
+        "factors1": {
+            "weight": 127.0,
+            "days_away": 77,
+            "fast_works": 4
+        },
+        "score2": 10,
+        "horse_name2": "哥倫布",
+        "draw2": "12",
+        "score_value2": 36.29,
+        "factors2": {
+            "weight": 122.0,
+            "days_away": 81,
+            "fast_works": 2
+        },
+        "score3": 8,
+        "horse_name3": "安泰",
+        "draw3": "8",
+        "score_value3": 34.27,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 85,
+            "fast_works": 5
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-27",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "扶搖勢勁",
+        "draw1": "7",
+        "score_value1": 48.67,
+        "factors1": {
+            "weight": 132.0,
+            "days_away": 85,
+            "fast_works": 4
+        },
+        "score2": 8,
+        "horse_name2": "極上紗瓏",
+        "draw2": "11",
+        "score_value2": 44.73,
+        "factors2": {
+            "weight": 124.0,
+            "days_away": 154,
+            "fast_works": 5
+        },
+        "score3": 5,
+        "horse_name3": "風再起時",
+        "draw3": "12",
+        "score_value3": 37.15,
+        "factors3": {
+            "weight": 130.0,
+            "days_away": 269,
+            "fast_works": 4
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-27",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "三級賽"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "白鷺金剛",
+        "draw1": "1",
+        "score_value1": 44.78,
+        "factors1": {
+            "weight": 127.0,
+            "days_away": 154,
+            "fast_works": 5
+        },
+        "score2": 2,
+        "horse_name2": "驕陽明駒",
+        "draw2": "4",
+        "score_value2": 30.74,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 154,
+            "fast_works": 6
+        },
+        "score3": 7,
+        "horse_name3": "紫荊盛勢",
+        "draw3": "3",
+        "score_value3": 28.98,
+        "factors3": {
+            "weight": 118.0,
+            "days_away": 147,
+            "fast_works": 6
+        }
+    }
+}

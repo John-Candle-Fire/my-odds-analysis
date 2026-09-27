@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-27",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "準輝煌",
+        "draw1": "14",
+        "score_value1": 27.51,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score2": 3,
+        "horse_name2": "綫路萬里",
+        "draw2": "1",
+        "score_value2": 21.84,
+        "factors2": {
+            "weight": 133.0,
+            "days_away": 88,
+            "fast_works": 5
+        },
+        "score3": 4,
+        "horse_name3": "哈羅威",
+        "draw3": "8",
+        "score_value3": 21.42,
+        "factors3": {
+            "weight": 131.0,
+            "days_away": 21,
+            "fast_works": 3
+        }
+    }
+}

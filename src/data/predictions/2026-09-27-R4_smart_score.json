@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-27",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "極速神影",
+        "draw1": "3",
+        "score_value1": 26.98,
+        "factors1": {
+            "weight": 134.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score2": 13,
+        "horse_name2": "共創歡欣",
+        "draw2": "10",
+        "score_value2": 16.1,
+        "factors2": {
+            "weight": 118.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score3": 9,
+        "horse_name3": "雷神太保",
+        "draw3": "12",
+        "score_value3": 14.3,
+        "factors3": {
+            "weight": 124.0,
+            "days_away": 14,
+            "fast_works": 2
+        }
+    }
+}

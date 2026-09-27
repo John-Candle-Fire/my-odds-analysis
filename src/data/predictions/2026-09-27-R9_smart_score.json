@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-09-27",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "活力拍檔",
+        "draw1": "7",
+        "score_value1": 49.25,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 88,
+            "fast_works": 5
+        },
+        "score2": 8,
+        "horse_name2": "包裝戰仕",
+        "draw2": "3",
+        "score_value2": 37.73,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 77,
+            "fast_works": 5
+        },
+        "score3": 9,
+        "horse_name3": "大回報",
+        "draw3": "10",
+        "score_value3": 25.4,
+        "factors3": {
+            "weight": 124.0,
+            "days_away": 14,
+            "fast_works": 2
+        }
+    }
+}
