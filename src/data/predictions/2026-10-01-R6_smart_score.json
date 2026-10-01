@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-01",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1800,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "佰勝金龍",
+        "draw1": "4",
+        "score_value1": 44.35,
+        "factors1": {
+            "weight": 133.0,
+            "days_away": 96,
+            "fast_works": 4
+        },
+        "score2": 7,
+        "horse_name2": "好運年",
+        "draw2": "13",
+        "score_value2": 30.0,
+        "factors2": {
+            "weight": 124.0,
+            "days_away": 18,
+            "fast_works": 3
+        },
+        "score3": 13,
+        "horse_name3": "禾道威",
+        "draw3": "7",
+        "score_value3": 25.93,
+        "factors3": {
+            "weight": 118.0,
+            "days_away": 15,
+            "fast_works": 3
+        }
+    }
+}

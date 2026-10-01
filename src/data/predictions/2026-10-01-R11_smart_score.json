@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-01",
+        "race_number": 11,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "利高八斗",
+        "draw1": "2",
+        "score_value1": 46.62,
+        "factors1": {
+            "weight": 120.0,
+            "days_away": 89,
+            "fast_works": 5
+        },
+        "score2": 1,
+        "horse_name2": "偵探傳奇",
+        "draw2": "11",
+        "score_value2": 42.34,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 81,
+            "fast_works": 6
+        },
+        "score3": 9,
+        "horse_name3": "星運少爵",
+        "draw3": "3",
+        "score_value3": 40.44,
+        "factors3": {
+            "weight": 122.0,
+            "days_away": 25,
+            "fast_works": 2
+        }
+    }
+}

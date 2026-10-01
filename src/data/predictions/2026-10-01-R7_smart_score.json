@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-01",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 14,
+        "horse_name1": "翠湖烈風",
+        "draw1": "13",
+        "score_value1": 33.41,
+        "factors1": {
+            "weight": 116.0,
+            "days_away": 22,
+            "fast_works": 2
+        },
+        "score2": 2,
+        "horse_name2": "光年程祥",
+        "draw2": "11",
+        "score_value2": 31.0,
+        "factors2": {
+            "weight": 132.0,
+            "days_away": 25,
+            "fast_works": 4
+        },
+        "score3": 11,
+        "horse_name3": "同喜",
+        "draw3": "9",
+        "score_value3": 24.0,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 25,
+            "fast_works": 4
+        }
+    }
+}

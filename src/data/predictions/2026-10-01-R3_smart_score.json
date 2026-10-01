@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-01",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "三級賽"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "翠紅",
+        "draw1": "8",
+        "score_value1": 42.34,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 78,
+            "fast_works": 3
+        },
+        "score2": 6,
+        "horse_name2": "天天同樂",
+        "draw2": "1",
+        "score_value2": 40.46,
+        "factors2": {
+            "weight": 120.0,
+            "days_away": 78,
+            "fast_works": 4
+        },
+        "score3": 4,
+        "horse_name3": "顏色之皇",
+        "draw3": "7",
+        "score_value3": 30.49,
+        "factors3": {
+            "weight": 123.0,
+            "days_away": 96,
+            "fast_works": 5
+        }
+    }
+}

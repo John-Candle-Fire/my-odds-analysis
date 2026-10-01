@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-01",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "實力加",
+        "draw1": "4",
+        "score_value1": 35.86,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 25,
+            "fast_works": 2
+        },
+        "score2": 10,
+        "horse_name2": "遨遊波士",
+        "draw2": "1",
+        "score_value2": 28.35,
+        "factors2": {
+            "weight": 122.0,
+            "days_away": 81,
+            "fast_works": 3
+        },
+        "score3": 12,
+        "horse_name3": "馬上盈",
+        "draw3": "12",
+        "score_value3": 9.6,
+        "factors3": {
+            "weight": 120.0,
+            "days_away": 22,
+            "fast_works": 2
+        }
+    }
+}

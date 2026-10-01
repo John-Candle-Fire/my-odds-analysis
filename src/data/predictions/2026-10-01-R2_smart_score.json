@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-01",
+        "race_number": 2,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "君達得",
+        "draw1": "6",
+        "score_value1": 34.78,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 25,
+            "fast_works": 2
+        },
+        "score2": 9,
+        "horse_name2": "開心三多",
+        "draw2": "1",
+        "score_value2": 31.81,
+        "factors2": {
+            "weight": 128.0,
+            "days_away": 8,
+            "fast_works": 1
+        },
+        "score3": 6,
+        "horse_name3": "志醒大將",
+        "draw3": "5",
+        "score_value3": 31.5,
+        "factors3": {
+            "weight": 130.0,
+            "days_away": 25,
+            "fast_works": 4
+        }
+    }
+}
