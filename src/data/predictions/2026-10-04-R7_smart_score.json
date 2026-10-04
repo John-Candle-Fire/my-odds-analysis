@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-04",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 14,
+        "horse_name1": "飛躍成就",
+        "draw1": "3",
+        "score_value1": 38.74,
+        "factors1": {
+            "weight": 119.0,
+            "days_away": 92,
+            "fast_works": 3
+        },
+        "score2": 13,
+        "horse_name2": "領袖勁力",
+        "draw2": "12",
+        "score_value2": 26.36,
+        "factors2": {
+            "weight": 120.0,
+            "days_away": 18,
+            "fast_works": 2
+        },
+        "score3": 12,
+        "horse_name3": "北極之錶",
+        "draw3": "9",
+        "score_value3": 18.65,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 84,
+            "fast_works": 4
+        }
+    }
+}

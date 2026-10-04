@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-04",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1650,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "花開",
+        "draw1": "10",
+        "score_value1": 36.0,
+        "factors1": {
+            "weight": 121.0,
+            "days_away": 102,
+            "fast_works": 4
+        },
+        "score2": 4,
+        "horse_name2": "富國兄弟",
+        "draw2": "9",
+        "score_value2": 30.61,
+        "factors2": {
+            "weight": 127.0,
+            "days_away": 11,
+            "fast_works": 1
+        },
+        "score3": 2,
+        "horse_name3": "相映紅",
+        "draw3": "11",
+        "score_value3": 23.69,
+        "factors3": {
+            "weight": 134.0,
+            "days_away": 158,
+            "fast_works": 3
+        }
+    }
+}

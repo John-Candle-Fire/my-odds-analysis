@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-04",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "手機錶能",
+        "draw1": "5",
+        "score_value1": 33.26,
+        "factors1": {
+            "weight": 130.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 6,
+        "horse_name2": "紅衣醒目",
+        "draw2": "2",
+        "score_value2": 23.44,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 92,
+            "fast_works": 5
+        },
+        "score3": 9,
+        "horse_name3": "盛勢威楓",
+        "draw3": "8",
+        "score_value3": 20.45,
+        "factors3": {
+            "weight": 124.0,
+            "days_away": 81,
+            "fast_works": 5
+        }
+    }
+}

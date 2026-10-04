@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-04",
+        "race_number": 2,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 14,
+        "horse_name1": "有你有我",
+        "draw1": "8",
+        "score_value1": 25.8,
+        "factors1": {
+            "weight": 121.0,
+            "days_away": 18,
+            "fast_works": 2
+        },
+        "score2": 11,
+        "horse_name2": "潮流勇駒",
+        "draw2": "1",
+        "score_value2": 14.4,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 95,
+            "fast_works": 5
+        },
+        "score3": 3,
+        "horse_name3": "合夥智能",
+        "draw3": "11",
+        "score_value3": 13.23,
+        "factors3": {
+            "weight": 130.0,
+            "days_away": 99,
+            "fast_works": 5
+        }
+    }
+}

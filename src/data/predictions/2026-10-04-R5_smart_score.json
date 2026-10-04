@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-04",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "風起雲湧",
+        "draw1": "5",
+        "score_value1": 39.31,
+        "factors1": {
+            "weight": 123.0,
+            "days_away": 25,
+            "fast_works": 5
+        },
+        "score2": 7,
+        "horse_name2": "超加加",
+        "draw2": "2",
+        "score_value2": 34.42,
+        "factors2": {
+            "weight": 129.0,
+            "days_away": 99,
+            "fast_works": 5
+        },
+        "score3": 4,
+        "horse_name3": "隨緣得勝",
+        "draw3": "4",
+        "score_value3": 33.7,
+        "factors3": {
+            "weight": 132.0,
+            "days_away": 84,
+            "fast_works": 3
+        }
+    }
+}

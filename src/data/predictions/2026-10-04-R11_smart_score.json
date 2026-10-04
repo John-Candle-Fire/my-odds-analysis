@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-04",
+        "race_number": 11,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "包裝明將",
+        "draw1": "13",
+        "score_value1": 40.82,
+        "factors1": {
+            "weight": 122.0,
+            "days_away": 105,
+            "fast_works": 4
+        },
+        "score2": 9,
+        "horse_name2": "閃電小子",
+        "draw2": "11",
+        "score_value2": 35.42,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 84,
+            "fast_works": 5
+        },
+        "score3": 1,
+        "horse_name3": "喜蓮勁感",
+        "draw3": "4",
+        "score_value3": 30.37,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 126,
+            "fast_works": 4
+        }
+    }
+}

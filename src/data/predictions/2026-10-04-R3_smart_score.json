@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-04",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1650,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "精英雄心",
+        "draw1": "4",
+        "score_value1": 37.15,
+        "factors1": {
+            "weight": 128.0,
+            "days_away": 99,
+            "fast_works": 5
+        },
+        "score2": 7,
+        "horse_name2": "滿心星",
+        "draw2": "1",
+        "score_value2": 27.65,
+        "factors2": {
+            "weight": 115.0,
+            "days_away": 84,
+            "fast_works": 2
+        },
+        "score3": 6,
+        "horse_name3": "時時精準",
+        "draw3": "7",
+        "score_value3": 26.5,
+        "factors3": {
+            "weight": 115.0,
+            "days_away": 25,
+            "fast_works": 2
+        }
+    }
+}
