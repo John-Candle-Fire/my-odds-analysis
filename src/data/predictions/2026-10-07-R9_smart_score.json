@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-10-07",
+        "race_number": 9,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "烈焰光芒",
+        "draw1": "9",
+        "score_value1": 5.1,
+        "factors1": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.5999999999999996,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        },
+        "score2": 6,
+        "horse_name2": "盈妍威楓",
+        "draw2": "3",
+        "score_value2": 4.5,
+        "factors2": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 0.0,
+            "pace_wt": 1.0,
+            "volatility": 0.0
+        },
+        "score3": 1,
+        "horse_name3": "志滿同行",
+        "draw3": "7",
+        "score_value3": 4.075,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": -0.625,
+            "volatility": 0.0
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-07",
+        "race_number": 4,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "超開心",
+        "draw1": "10",
+        "score_value1": 41.9,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 87,
+            "fast_works": 5
+        },
+        "score2": 4,
+        "horse_name2": "先到先得",
+        "draw2": "5",
+        "score_value2": 34.9,
+        "factors2": {
+            "weight": 129.0,
+            "days_away": 84,
+            "fast_works": 6
+        },
+        "score3": 10,
+        "horse_name3": "準希望",
+        "draw3": "2",
+        "score_value3": 30.11,
+        "factors3": {
+            "weight": 120.0,
+            "days_away": 28,
+            "fast_works": 4
+        }
+    }
+}

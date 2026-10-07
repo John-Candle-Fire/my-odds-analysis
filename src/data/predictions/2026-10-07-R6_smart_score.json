@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-10-07",
+        "race_number": 6,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "後無來者",
+        "draw1": "1",
+        "score_value1": 8.075,
+        "factors1": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.1999999999999993,
+            "pace_wt": 1.375,
+            "volatility": 0.0
+        },
+        "score2": 5,
+        "horse_name2": "加州勇勝",
+        "draw2": "2",
+        "score_value2": 4.1,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.9999999999999996,
+            "volatility": 0.0
+        },
+        "score3": 2,
+        "horse_name3": "龍虎精神",
+        "draw3": "7",
+        "score_value3": 3.475,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        }
+    }
+}
