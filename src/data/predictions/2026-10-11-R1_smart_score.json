@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-11",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "嘉嘉友福",
+        "draw1": "2",
+        "score_value1": 15.33,
+        "factors1": {
+            "weight": 130.0,
+            "days_away": 14,
+            "fast_works": 1
+        },
+        "score2": 7,
+        "horse_name2": "大浪園田",
+        "draw2": "7",
+        "score_value2": 15.0,
+        "factors2": {
+            "weight": 128.0,
+            "days_away": 14,
+            "fast_works": 1
+        },
+        "score3": 5,
+        "horse_name3": "日日獎",
+        "draw3": "9",
+        "score_value3": 14.5,
+        "factors3": {
+            "weight": 128.0,
+            "days_away": 14,
+            "fast_works": 0
+        }
+    }
+}

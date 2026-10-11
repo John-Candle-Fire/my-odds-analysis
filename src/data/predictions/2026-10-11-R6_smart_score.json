@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-11",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "創寶駒",
+        "draw1": "12",
+        "score_value1": 32.89,
+        "factors1": {
+            "weight": 133.0,
+            "days_away": 106,
+            "fast_works": 4
+        },
+        "score2": 10,
+        "horse_name2": "快樂高球",
+        "draw2": "8",
+        "score_value2": 23.69,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 28,
+            "fast_works": 6
+        },
+        "score3": 12,
+        "horse_name3": "共創歡欣",
+        "draw3": "5",
+        "score_value3": 15.36,
+        "factors3": {
+            "weight": 119.0,
+            "days_away": 14,
+            "fast_works": 2
+        }
+    }
+}

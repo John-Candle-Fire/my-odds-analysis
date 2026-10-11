@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-11",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "精英高球",
+        "draw1": "12",
+        "score_value1": 27.84,
+        "factors1": {
+            "weight": 123.0,
+            "days_away": 140,
+            "fast_works": 5
+        },
+        "score2": 10,
+        "horse_name2": "香港仔",
+        "draw2": "6",
+        "score_value2": 25.92,
+        "factors2": {
+            "weight": 119.0,
+            "days_away": 106,
+            "fast_works": 5
+        },
+        "score3": 4,
+        "horse_name3": "冷娃",
+        "draw3": "5",
+        "score_value3": 21.6,
+        "factors3": {
+            "weight": 128.0,
+            "days_away": 112,
+            "fast_works": 4
+        }
+    }
+}

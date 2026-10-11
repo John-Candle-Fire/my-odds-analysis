@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-11",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "致力之城",
+        "draw1": "2",
+        "score_value1": 46.8,
+        "factors1": {
+            "weight": 131.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score2": 1,
+        "horse_name2": "鑽石星空",
+        "draw2": "5",
+        "score_value2": 26.95,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 7,
+            "fast_works": 0
+        },
+        "score3": 8,
+        "horse_name3": "肯佩斯",
+        "draw3": "7",
+        "score_value3": 22.68,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 28,
+            "fast_works": 4
+        }
+    }
+}

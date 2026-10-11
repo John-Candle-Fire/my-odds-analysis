@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-11",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "做好自己",
+        "draw1": "7",
+        "score_value1": 28.98,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 32,
+            "fast_works": 5
+        },
+        "score2": 11,
+        "horse_name2": "暴風之子",
+        "draw2": "12",
+        "score_value2": 21.6,
+        "factors2": {
+            "weight": 124.0,
+            "days_away": 32,
+            "fast_works": 4
+        },
+        "score3": 3,
+        "horse_name3": "一世美麗",
+        "draw3": "5",
+        "score_value3": 20.29,
+        "factors3": {
+            "weight": 129.0,
+            "days_away": 28,
+            "fast_works": 6
+        }
+    }
+}

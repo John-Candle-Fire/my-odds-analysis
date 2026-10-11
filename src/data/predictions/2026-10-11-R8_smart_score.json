@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-11",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "旌採",
+        "draw1": "2",
+        "score_value1": 45.79,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 102,
+            "fast_works": 4
+        },
+        "score2": 9,
+        "horse_name2": "金鑽精靈",
+        "draw2": "11",
+        "score_value2": 33.36,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 126,
+            "fast_works": 4
+        },
+        "score3": 13,
+        "horse_name3": "天蓬貓",
+        "draw3": "14",
+        "score_value3": 29.4,
+        "factors3": {
+            "weight": 118.0,
+            "days_away": 91,
+            "fast_works": 5
+        }
+    }
+}

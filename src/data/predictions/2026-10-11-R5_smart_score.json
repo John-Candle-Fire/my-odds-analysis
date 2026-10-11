@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-11",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "文明戰士",
+        "draw1": "4",
+        "score_value1": 30.82,
+        "factors1": {
+            "weight": 133.0,
+            "days_away": 120,
+            "fast_works": 5
+        },
+        "score2": 7,
+        "horse_name2": "金玉良言",
+        "draw2": "12",
+        "score_value2": 20.4,
+        "factors2": {
+            "weight": 130.0,
+            "days_away": 99,
+            "fast_works": 3
+        },
+        "score3": 6,
+        "horse_name3": "穿甲戰鷹",
+        "draw3": "11",
+        "score_value3": 20.16,
+        "factors3": {
+            "weight": 130.0,
+            "days_away": 14,
+            "fast_works": 1
+        }
+    }
+}
