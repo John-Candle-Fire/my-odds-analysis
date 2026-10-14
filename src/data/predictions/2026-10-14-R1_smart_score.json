@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-14",
+        "race_number": 1,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "東方魅影",
+        "draw1": "9",
+        "score_value1": 35.31,
+        "factors1": {
+            "weight": 122.0,
+            "days_away": 10,
+            "fast_works": 0
+        },
+        "score2": 5,
+        "horse_name2": "文武全能",
+        "draw2": "11",
+        "score_value2": 33.13,
+        "factors2": {
+            "weight": 131.0,
+            "days_away": 10,
+            "fast_works": 1
+        },
+        "score3": 11,
+        "horse_name3": "威威父子",
+        "draw3": "2",
+        "score_value3": 18.84,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 21,
+            "fast_works": 3
+        }
+    }
+}

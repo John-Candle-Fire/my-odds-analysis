@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-14",
+        "race_number": 6,
+        "course": "跑馬地",
+        "distance": 1800,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "極光之子",
+        "draw1": "5",
+        "score_value1": 50.98,
+        "factors1": {
+            "weight": 123.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 4,
+        "horse_name2": "精英雄心",
+        "draw2": "6",
+        "score_value2": 33.26,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 10,
+            "fast_works": 0
+        },
+        "score3": 5,
+        "horse_name3": "銀亮奔騰",
+        "draw3": "3",
+        "score_value3": 30.24,
+        "factors3": {
+            "weight": 124.0,
+            "days_away": 28,
+            "fast_works": 3
+        }
+    }
+}

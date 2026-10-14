@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-10-14",
+        "race_number": 9,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "官金騏",
+        "draw1": "3",
+        "score_value1": 7.699999999999999,
+        "factors1": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.1999999999999993,
+            "pace_wt": 1.0,
+            "volatility": 0.0
+        },
+        "score2": 5,
+        "horse_name2": "長勝隊長",
+        "draw2": "12",
+        "score_value2": 4.574999999999999,
+        "factors2": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.1999999999999993,
+            "pace_wt": -2.125,
+            "volatility": 0.0
+        },
+        "score3": 10,
+        "horse_name3": "首飾悟空",
+        "draw3": "2",
+        "score_value3": 4.475,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 1.3749999999999996,
+            "volatility": 0.0
+        }
+    }
+}
