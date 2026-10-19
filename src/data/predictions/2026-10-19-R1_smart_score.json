@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-19",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1800,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "連連好運",
+        "draw1": "3",
+        "score_value1": 30.72,
+        "factors1": {
+            "weight": 134.0,
+            "days_away": 12,
+            "fast_works": 2
+        },
+        "score2": 4,
+        "horse_name2": "竣誠駒",
+        "draw2": "5",
+        "score_value2": 24.49,
+        "factors2": {
+            "weight": 133.0,
+            "days_away": 12,
+            "fast_works": 0
+        },
+        "score3": 8,
+        "horse_name3": "發財金戈",
+        "draw3": "11",
+        "score_value3": 23.1,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 18,
+            "fast_works": 3
+        }
+    }
+}

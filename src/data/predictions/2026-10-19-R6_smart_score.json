@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-19",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "紅海旺",
+        "draw1": "14",
+        "score_value1": 36.04,
+        "factors1": {
+            "weight": 132.0,
+            "days_away": 36,
+            "fast_works": 4
+        },
+        "score2": 10,
+        "horse_name2": "新力驕",
+        "draw2": "6",
+        "score_value2": 32.78,
+        "factors2": {
+            "weight": 123.0,
+            "days_away": 8,
+            "fast_works": 0
+        },
+        "score3": 1,
+        "horse_name3": "當家精彩",
+        "draw3": "9",
+        "score_value3": 26.71,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 131,
+            "fast_works": 4
+        }
+    }
+}

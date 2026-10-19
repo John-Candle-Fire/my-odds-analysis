@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-19",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "堅先生",
+        "draw1": "11",
+        "score_value1": 41.08,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 114,
+            "fast_works": 6
+        },
+        "score2": 10,
+        "horse_name2": "逍遙人生",
+        "draw2": "1",
+        "score_value2": 37.8,
+        "factors2": {
+            "weight": 120.0,
+            "days_away": 36,
+            "fast_works": 4
+        },
+        "score3": 2,
+        "horse_name3": "醒目高球",
+        "draw3": "3",
+        "score_value3": 34.27,
+        "factors3": {
+            "weight": 131.0,
+            "days_away": 141,
+            "fast_works": 5
+        }
+    }
+}

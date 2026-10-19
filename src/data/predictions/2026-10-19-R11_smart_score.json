@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-19",
+        "race_number": 11,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 13,
+        "horse_name1": "嵐臣",
+        "draw1": "11",
+        "score_value1": 53.86,
+        "factors1": {
+            "weight": 121.0,
+            "days_away": 36,
+            "fast_works": 4
+        },
+        "score2": 2,
+        "horse_name2": "極上紗瓏",
+        "draw2": "7",
+        "score_value2": 51.12,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 22,
+            "fast_works": 4
+        },
+        "score3": 8,
+        "horse_name3": "櫻花酒杯",
+        "draw3": "2",
+        "score_value3": 49.39,
+        "factors3": {
+            "weight": 131.0,
+            "days_away": 43,
+            "fast_works": 5
+        }
+    }
+}

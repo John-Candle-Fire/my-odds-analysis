@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-19",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "包裝戰仕",
+        "draw1": "9",
+        "score_value1": 48.1,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 22,
+            "fast_works": 4
+        },
+        "score2": 7,
+        "horse_name2": "喜悅歡欣",
+        "draw2": "3",
+        "score_value2": 43.2,
+        "factors2": {
+            "weight": 122.0,
+            "days_away": 43,
+            "fast_works": 4
+        },
+        "score3": 14,
+        "horse_name3": "八仟好運",
+        "draw3": "2",
+        "score_value3": 33.08,
+        "factors3": {
+            "weight": 116.0,
+            "days_away": 18,
+            "fast_works": 3
+        }
+    }
+}
