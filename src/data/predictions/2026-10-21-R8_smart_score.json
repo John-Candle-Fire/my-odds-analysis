@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-10-21",
+        "race_number": 8,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "驕陽雄心",
+        "draw1": "9",
+        "score_value1": 6.3,
+        "factors1": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 2.5999999999999996,
+            "pace_wt": 2.2,
+            "volatility": 0.0
+        },
+        "score2": 2,
+        "horse_name2": "精彩駿將",
+        "draw2": "4",
+        "score_value2": 4.2,
+        "factors2": {
+            "base": 0.5,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 3.2,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        },
+        "score3": 8,
+        "horse_name3": "飛馬座",
+        "draw3": "1",
+        "score_value3": 4.1,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.9999999999999996,
+            "volatility": 0.0
+        }
+    }
+}

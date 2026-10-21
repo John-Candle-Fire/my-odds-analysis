@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-21",
+        "race_number": 6,
+        "course": "跑馬地",
+        "distance": 1000,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "天天同樂",
+        "draw1": "10",
+        "score_value1": 36.36,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 20,
+            "fast_works": 4
+        },
+        "score2": 4,
+        "horse_name2": "馬力",
+        "draw2": "6",
+        "score_value2": 35.52,
+        "factors2": {
+            "weight": 118.0,
+            "days_away": 17,
+            "fast_works": 2
+        },
+        "score3": 5,
+        "horse_name3": "俏眼光",
+        "draw3": "5",
+        "score_value3": 31.68,
+        "factors3": {
+            "weight": 117.0,
+            "days_away": 154,
+            "fast_works": 5
+        }
+    }
+}

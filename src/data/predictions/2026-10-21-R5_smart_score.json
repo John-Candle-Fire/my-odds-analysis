@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-21",
+        "race_number": 5,
+        "course": "跑馬地",
+        "distance": 1000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "佐治傳奇",
+        "draw1": "12",
+        "score_value1": 34.44,
+        "factors1": {
+            "weight": 133.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score2": 11,
+        "horse_name2": "皇金合",
+        "draw2": "6",
+        "score_value2": 28.73,
+        "factors2": {
+            "weight": 116.0,
+            "days_away": 119,
+            "fast_works": 4
+        },
+        "score3": 1,
+        "horse_name3": "鴻圖新星",
+        "draw3": "8",
+        "score_value3": 17.01,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 14,
+            "fast_works": 2
+        }
+    }
+}
