@@ -1,0 +1,159 @@
+{
+    "metadata": {
+        "date": "2026-10-25",
+        "generated_at": "2026-10-25 10:21:42"
+    },
+    "meeting_context": {
+        "volatility": "STANDARD",
+        "attacking_stables": [
+            "呂健威",
+            "大衛希斯",
+            "沈集成",
+            "伍鵬志",
+            "文家良",
+            "賀賢",
+            "甘敏斯"
+        ],
+        "attacking_jockeys": [
+            "潘頓",
+            "艾兆禮",
+            "艾道拿",
+            "霍宏聲",
+            "田泰安",
+            "周俊樂",
+            "梁家俊",
+            "楊明綸"
+        ]
+    },
+    "details": {
+        "stable_attack_stats": [
+            {
+                "trainer": "呂健威",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "大衛希斯",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "沈集成",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "伍鵬志",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "trainer": "文家良",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "trainer": "賀賢",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "trainer": "甘敏斯",
+                "strong_chances_count": 3,
+                "tier": 2
+            }
+        ],
+        "jockey_attack_stats": [
+            {
+                "jockey": "潘頓",
+                "strong_chances_count": 7,
+                "tier": 1
+            },
+            {
+                "jockey": "艾兆禮",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "jockey": "艾道拿",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "jockey": "霍宏聲",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "jockey": "田泰安",
+                "strong_chances_count": 3,
+                "tier": 2
+            },
+            {
+                "jockey": "周俊樂",
+                "strong_chances_count": 4,
+                "tier": 3
+            },
+            {
+                "jockey": "梁家俊",
+                "strong_chances_count": 4,
+                "tier": 3
+            },
+            {
+                "jockey": "楊明綸",
+                "strong_chances_count": 3,
+                "tier": 3
+            }
+        ],
+        "race_volatility": {
+            "1": "CHAOS-Multi Contender Dominant Favorite",
+            "2": "STANDARD-Strong Favorite Race",
+            "3": "STANDARD-Two Contender No Dominant Favorite",
+            "4": "STANDARD-Two Contender No Dominant Favorite",
+            "5": "CHAOS-Open Race Weak Favorite",
+            "6": "CHAOS-Strong Favorite Race",
+            "7": "STANDARD-Two Contender No Dominant Favorite",
+            "8": "CHAOS-Open Race Weak Favorite",
+            "9": "STANDARD-Weak Favorite Race",
+            "10": "CHAOS-Multi Contender Dominant Favorite",
+            "11": "STANDARD-Weak Favorite Race"
+        },
+        "traffic_risks": [],
+        "scenario_A_late_steamers": [
+            {
+                "race_number": 2,
+                "late_steamer": 7,
+                "late_steamer_name": "傲然"
+            },
+            {
+                "race_number": 3,
+                "late_steamer": 7,
+                "late_steamer_name": "君至酷"
+            }
+        ],
+        "scenario_B_early_favorites": [
+            {
+                "race_number": 1,
+                "early_favorite": 8,
+                "early_favorite_name": "星系之錶"
+            },
+            {
+                "race_number": 4,
+                "early_favorite": 1,
+                "early_favorite_name": "紫荊傳令"
+            },
+            {
+                "race_number": 9,
+                "early_favorite": 13,
+                "early_favorite_name": "飛鷹翱翔"
+            }
+        ],
+        "jockey_upgrades": [
+            {
+                "race": 3,
+                "horse": "北極之錶",
+                "switch": "周俊樂(T3) -> 艾兆禮(T1)"
+            }
+        ]
+    }
+}

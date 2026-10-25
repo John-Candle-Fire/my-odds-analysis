@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-25",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "駿馬之曲",
+        "draw1": "5",
+        "score_value1": 37.44,
+        "factors1": {
+            "weight": 125.0,
+            "days_away": 49,
+            "fast_works": 5
+        },
+        "score2": 6,
+        "horse_name2": "嘉應耀昇",
+        "draw2": "14",
+        "score_value2": 36.0,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 24,
+            "fast_works": 5
+        },
+        "score3": 14,
+        "horse_name3": "拉合爾",
+        "draw3": "11",
+        "score_value3": 34.7,
+        "factors3": {
+            "weight": 120.0,
+            "days_away": 21,
+            "fast_works": 4
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-25",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 13,
+        "horse_name1": "君達得",
+        "draw1": "1",
+        "score_value1": 32.28,
+        "factors1": {
+            "weight": 116.0,
+            "days_away": 24,
+            "fast_works": 2
+        },
+        "score2": 14,
+        "horse_name2": "天蓬貓",
+        "draw2": "7",
+        "score_value2": 24.48,
+        "factors2": {
+            "weight": 116.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score3": 3,
+        "horse_name3": "活力精神",
+        "draw3": "6",
+        "score_value3": 22.44,
+        "factors3": {
+            "weight": 129.0,
+            "days_away": 14,
+            "fast_works": 2
+        }
+    }
+}

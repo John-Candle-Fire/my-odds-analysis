@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-25",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "二級賽"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "嘉應奇兵",
+        "draw1": "8",
+        "score_value1": 39.27,
+        "factors1": {
+            "weight": 119.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score2": 2,
+        "horse_name2": "顏色之皇",
+        "draw2": "9",
+        "score_value2": 38.3,
+        "factors2": {
+            "weight": 132.0,
+            "days_away": 24,
+            "fast_works": 5
+        },
+        "score3": 3,
+        "horse_name3": "合夥奔馳",
+        "draw3": "5",
+        "score_value3": 28.94,
+        "factors3": {
+            "weight": 131.0,
+            "days_away": 28,
+            "fast_works": 4
+        }
+    }
+}

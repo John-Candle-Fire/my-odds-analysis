@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-25",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "超輕鬆",
+        "draw1": "12",
+        "score_value1": 34.32,
+        "factors1": {
+            "weight": 124.0,
+            "days_away": 24,
+            "fast_works": 4
+        },
+        "score2": 7,
+        "horse_name2": "時時精準",
+        "draw2": "4",
+        "score_value2": 29.4,
+        "factors2": {
+            "weight": 123.0,
+            "days_away": 21,
+            "fast_works": 2
+        },
+        "score3": 2,
+        "horse_name3": "韋金主",
+        "draw3": "1",
+        "score_value3": 27.97,
+        "factors3": {
+            "weight": 132.0,
+            "days_away": 49,
+            "fast_works": 3
+        }
+    }
+}
