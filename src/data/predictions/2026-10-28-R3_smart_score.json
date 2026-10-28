@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-28",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "爆熱",
+        "draw1": "12",
+        "score_value1": 26.78,
+        "factors1": {
+            "weight": 127.0,
+            "days_away": 27,
+            "fast_works": 5
+        },
+        "score2": 8,
+        "horse_name2": "銀亮濠俠",
+        "draw2": "11",
+        "score_value2": 23.04,
+        "factors2": {
+            "weight": 129.0,
+            "days_away": 42,
+            "fast_works": 4
+        },
+        "score3": 5,
+        "horse_name3": "日日獎",
+        "draw3": "10",
+        "score_value3": 21.0,
+        "factors3": {
+            "weight": 130.0,
+            "days_away": 17,
+            "fast_works": 1
+        }
+    }
+}

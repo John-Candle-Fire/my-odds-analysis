@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-28",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "日馳千里",
+        "draw1": "8",
+        "score_value1": 23.94,
+        "factors1": {
+            "weight": 129.0,
+            "days_away": 17,
+            "fast_works": 2
+        },
+        "score2": 2,
+        "horse_name2": "文明戰士",
+        "draw2": "6",
+        "score_value2": 22.3,
+        "factors2": {
+            "weight": 133.0,
+            "days_away": 17,
+            "fast_works": 3
+        },
+        "score3": 12,
+        "horse_name3": "天下寵兒",
+        "draw3": "2",
+        "score_value3": 20.37,
+        "factors3": {
+            "weight": 116.0,
+            "days_away": 21,
+            "fast_works": 2
+        }
+    }
+}

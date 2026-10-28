@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-28",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "穿甲戰鷹",
+        "draw1": "11",
+        "score_value1": 33.12,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 17,
+            "fast_works": 2
+        },
+        "score2": 9,
+        "horse_name2": "天天更好",
+        "draw2": "12",
+        "score_value2": 22.2,
+        "factors2": {
+            "weight": 122.0,
+            "days_away": 27,
+            "fast_works": 5
+        },
+        "score3": 5,
+        "horse_name3": "應龍飛影",
+        "draw3": "2",
+        "score_value3": 17.22,
+        "factors3": {
+            "weight": 129.0,
+            "days_away": 14,
+            "fast_works": 2
+        }
+    }
+}

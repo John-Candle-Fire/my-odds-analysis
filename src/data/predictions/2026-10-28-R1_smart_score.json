@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-10-28",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1650,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "添喜運",
+        "draw1": "8",
+        "score_value1": 44.1,
+        "factors1": {
+            "weight": 131.0,
+            "days_away": 24,
+            "fast_works": 3
+        },
+        "score2": 8,
+        "horse_name2": "一鹿歡騰",
+        "draw2": "1",
+        "score_value2": 21.17,
+        "factors2": {
+            "weight": 120.0,
+            "days_away": 24,
+            "fast_works": 4
+        },
+        "score3": 7,
+        "horse_name3": "巴閉佬",
+        "draw3": "4",
+        "score_value3": 16.32,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 24,
+            "fast_works": 4
+        }
+    }
+}
