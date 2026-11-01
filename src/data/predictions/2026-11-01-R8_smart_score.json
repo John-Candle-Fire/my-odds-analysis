@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-01",
+        "race_number": 8,
+        "course": "跑馬地",
+        "distance": 1000,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "福進",
+        "draw1": "2",
+        "score_value1": 52.13,
+        "factors1": {
+            "weight": 122.0,
+            "days_away": 39,
+            "fast_works": 3
+        },
+        "score2": 2,
+        "horse_name2": "鑽石星空",
+        "draw2": "4",
+        "score_value2": 35.86,
+        "factors2": {
+            "weight": 134.0,
+            "days_away": 4,
+            "fast_works": 0
+        },
+        "score3": 6,
+        "horse_name3": "盈妍威楓",
+        "draw3": "8",
+        "score_value3": 32.4,
+        "factors3": {
+            "weight": 124.0,
+            "days_away": 39,
+            "fast_works": 4
+        }
+    }
+}

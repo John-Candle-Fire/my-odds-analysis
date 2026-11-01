@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-01",
+        "race_number": 2,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "金駒永騰",
+        "draw1": "10",
+        "score_value1": 29.34,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 11,
+            "fast_works": 1
+        },
+        "score2": 5,
+        "horse_name2": "勤德天下",
+        "draw2": "8",
+        "score_value2": 29.04,
+        "factors2": {
+            "weight": 128.0,
+            "days_away": 21,
+            "fast_works": 3
+        },
+        "score3": 1,
+        "horse_name3": "星願無限",
+        "draw3": "7",
+        "score_value3": 20.9,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 18,
+            "fast_works": 3
+        }
+    }
+}

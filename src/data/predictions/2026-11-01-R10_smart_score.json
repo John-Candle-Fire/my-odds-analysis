@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-11-01",
+        "race_number": 10,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "包裝天王",
+        "draw1": "3",
+        "score_value1": 5.8,
+        "factors1": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 2.6999999999999997,
+            "volatility": 0.0
+        },
+        "score2": 4,
+        "horse_name2": "繼往開來",
+        "draw2": "10",
+        "score_value2": 4.1,
+        "factors2": {
+            "base": 2.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.5999999999999996,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        },
+        "score3": 2,
+        "horse_name3": "東來欣賞",
+        "draw3": "1",
+        "score_value3": 3.5999999999999996,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.49999999999999956,
+            "volatility": 0.0
+        }
+    }
+}

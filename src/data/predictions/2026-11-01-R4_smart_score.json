@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-01",
+        "race_number": 4,
+        "course": "跑馬地",
+        "distance": 1000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "佐治傳奇",
+        "draw1": "3",
+        "score_value1": 39.27,
+        "factors1": {
+            "weight": 134.0,
+            "days_away": 11,
+            "fast_works": 0
+        },
+        "score2": 3,
+        "horse_name2": "紅海旺",
+        "draw2": "7",
+        "score_value2": 32.46,
+        "factors2": {
+            "weight": 133.0,
+            "days_away": 13,
+            "fast_works": 2
+        },
+        "score3": 5,
+        "horse_name3": "巴閉王",
+        "draw3": "8",
+        "score_value3": 26.71,
+        "factors3": {
+            "weight": 131.0,
+            "days_away": 25,
+            "fast_works": 4
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-01",
+        "race_number": 9,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "盈好威楓",
+        "draw1": "9",
+        "score_value1": 25.58,
+        "factors1": {
+            "weight": 128.0,
+            "days_away": 25,
+            "fast_works": 6
+        },
+        "score2": 11,
+        "horse_name2": "八仟好運",
+        "draw2": "8",
+        "score_value2": 25.41,
+        "factors2": {
+            "weight": 116.0,
+            "days_away": 13,
+            "fast_works": 1
+        },
+        "score3": 9,
+        "horse_name3": "都靈冠星",
+        "draw3": "10",
+        "score_value3": 24.64,
+        "factors3": {
+            "weight": 117.0,
+            "days_away": 11,
+            "fast_works": 1
+        }
+    }
+}
