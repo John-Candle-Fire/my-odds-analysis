@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-11-04",
+        "race_number": 6,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "朗日雪峰",
+        "draw1": "6",
+        "score_value1": 6.8,
+        "factors1": {
+            "base": 2.5,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 2.5999999999999996,
+            "pace_wt": 1.2000000000000002,
+            "volatility": 0.0
+        },
+        "score2": 3,
+        "horse_name2": "輕功猛男",
+        "draw2": "8",
+        "score_value2": 5.1,
+        "factors2": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.5999999999999996,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        },
+        "score3": 11,
+        "horse_name3": "頑童",
+        "draw3": "4",
+        "score_value3": 4.0,
+        "factors3": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 0.0,
+            "pace_wt": 0.5,
+            "volatility": 0.0
+        }
+    }
+}

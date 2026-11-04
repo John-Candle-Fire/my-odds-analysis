@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-11-04",
+        "race_number": 5,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "銳不可當",
+        "draw1": "1",
+        "score_value1": 6.1,
+        "factors1": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.5999999999999996,
+            "pace_wt": 1.0,
+            "volatility": 0.0
+        },
+        "score2": 8,
+        "horse_name2": "包裝醒目",
+        "draw2": "2",
+        "score_value2": 3.6,
+        "factors2": {
+            "base": 0.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 1.5,
+            "volatility": 0.0
+        },
+        "score3": 3,
+        "horse_name3": "渡月橋",
+        "draw3": "5",
+        "score_value3": 3.1,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.0,
+            "volatility": 0.0
+        }
+    }
+}

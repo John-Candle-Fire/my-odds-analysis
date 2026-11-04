@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-11-04",
+        "race_number": 9,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 10,
+        "horse_name1": "加州本事",
+        "draw1": "3",
+        "score_value1": 7.7,
+        "factors1": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 4.2,
+            "pace_wt": 2.0,
+            "volatility": 0.0
+        },
+        "score2": 12,
+        "horse_name2": "安康萬里",
+        "draw2": "8",
+        "score_value2": 4.075,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.0,
+            "pace_wt": 1.5750000000000002,
+            "volatility": 0.0
+        },
+        "score3": 9,
+        "horse_name3": "首飾悟空",
+        "draw3": "4",
+        "score_value3": 3.475,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        }
+    }
+}
