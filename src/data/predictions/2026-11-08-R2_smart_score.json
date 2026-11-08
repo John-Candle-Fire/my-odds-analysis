@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-08",
+        "race_number": 2,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "銀亮濠俠",
+        "draw1": "3",
+        "score_value1": 30.14,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 11,
+            "fast_works": 1
+        },
+        "score2": 7,
+        "horse_name2": "大浪園田",
+        "draw2": "8",
+        "score_value2": 25.83,
+        "factors2": {
+            "weight": 131.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score3": 2,
+        "horse_name3": "摯友心得",
+        "draw3": "9",
+        "score_value3": 18.96,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 28,
+            "fast_works": 5
+        }
+    }
+}

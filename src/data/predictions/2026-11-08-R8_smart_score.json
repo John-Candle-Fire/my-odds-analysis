@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-08",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1800,
+        "class": "三級賽"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "首飾天空",
+        "draw1": "12",
+        "score_value1": 40.2,
+        "factors1": {
+            "weight": 124.0,
+            "days_away": 20,
+            "fast_works": 3
+        },
+        "score2": 9,
+        "horse_name2": "極光之子",
+        "draw2": "2",
+        "score_value2": 35.53,
+        "factors2": {
+            "weight": 115.0,
+            "days_away": 25,
+            "fast_works": 4
+        },
+        "score3": 2,
+        "horse_name3": "數字天文",
+        "draw3": "6",
+        "score_value3": 34.52,
+        "factors3": {
+            "weight": 129.0,
+            "days_away": 168,
+            "fast_works": 6
+        }
+    }
+}

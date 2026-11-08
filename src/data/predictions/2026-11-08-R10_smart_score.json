@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-08",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "超和平",
+        "draw1": "6",
+        "score_value1": 37.2,
+        "factors1": {
+            "weight": 131.0,
+            "days_away": 38,
+            "fast_works": 4
+        },
+        "score2": 4,
+        "horse_name2": "勇者為皇",
+        "draw2": "2",
+        "score_value2": 20.16,
+        "factors2": {
+            "weight": 124.0,
+            "days_away": 38,
+            "fast_works": 5
+        },
+        "score3": 3,
+        "horse_name3": "神衝萬里",
+        "draw3": "11",
+        "score_value3": 16.28,
+        "factors3": {
+            "weight": 124.0,
+            "days_away": 20,
+            "fast_works": 4
+        }
+    }
+}

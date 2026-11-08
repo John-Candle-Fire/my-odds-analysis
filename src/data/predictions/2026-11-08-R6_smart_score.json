@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-08",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "戀愛狂",
+        "draw1": "9",
+        "score_value1": 27.72,
+        "factors1": {
+            "weight": 123.0,
+            "days_away": 42,
+            "fast_works": 5
+        },
+        "score2": 12,
+        "horse_name2": "你知我寶",
+        "draw2": "1",
+        "score_value2": 25.2,
+        "factors2": {
+            "weight": 121.0,
+            "days_away": 35,
+            "fast_works": 5
+        },
+        "score3": 2,
+        "horse_name3": "龍之悅",
+        "draw3": "13",
+        "score_value3": 24.72,
+        "factors3": {
+            "weight": 131.0,
+            "days_away": 28,
+            "fast_works": 5
+        }
+    }
+}

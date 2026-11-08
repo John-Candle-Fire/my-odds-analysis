@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-08",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "葳莉非凡",
+        "draw1": "8",
+        "score_value1": 32.28,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 116,
+            "fast_works": 2
+        },
+        "score2": 3,
+        "horse_name2": "起舞奜奜",
+        "draw2": "9",
+        "score_value2": 28.08,
+        "factors2": {
+            "weight": 134.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score3": 8,
+        "horse_name3": "寶成智好",
+        "draw3": "5",
+        "score_value3": 15.36,
+        "factors3": {
+            "weight": 125.0,
+            "days_away": 11,
+            "fast_works": 0
+        }
+    }
+}

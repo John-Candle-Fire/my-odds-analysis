@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-08",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1800,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "型到爆",
+        "draw1": "6",
+        "score_value1": 33.14,
+        "factors1": {
+            "weight": 128.0,
+            "days_away": 210,
+            "fast_works": 4
+        },
+        "score2": 14,
+        "horse_name2": "幸運同行",
+        "draw2": "5",
+        "score_value2": 22.2,
+        "factors2": {
+            "weight": 117.0,
+            "days_away": 20,
+            "fast_works": 2
+        },
+        "score3": 5,
+        "horse_name3": "竣誠駒",
+        "draw3": "2",
+        "score_value3": 22.16,
+        "factors3": {
+            "weight": 133.0,
+            "days_away": 20,
+            "fast_works": 3
+        }
+    }
+}

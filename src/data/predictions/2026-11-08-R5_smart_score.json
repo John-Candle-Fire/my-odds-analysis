@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-08",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 6,
+        "horse_name1": "捷足奔馳",
+        "draw1": "3",
+        "score_value1": 44.35,
+        "factors1": {
+            "weight": 123.0,
+            "days_away": 53,
+            "fast_works": 4
+        },
+        "score2": 4,
+        "horse_name2": "金鑽精靈",
+        "draw2": "12",
+        "score_value2": 33.24,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score3": 10,
+        "horse_name3": "華麗再贏",
+        "draw3": "1",
+        "score_value3": 29.61,
+        "factors3": {
+            "weight": 121.0,
+            "days_away": 28,
+            "fast_works": 6
+        }
+    }
+}
