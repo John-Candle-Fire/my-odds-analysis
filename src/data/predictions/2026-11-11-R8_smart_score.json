@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-11",
+        "race_number": 8,
+        "course": "跑馬地",
+        "distance": 1800,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "贏玥",
+        "draw1": "8",
+        "score_value1": 45.79,
+        "factors1": {
+            "weight": 118.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score2": 3,
+        "horse_name2": "中國心",
+        "draw2": "3",
+        "score_value2": 44.93,
+        "factors2": {
+            "weight": 131.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score3": 1,
+        "horse_name3": "幸運派彩",
+        "draw3": "9",
+        "score_value3": 36.6,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 21,
+            "fast_works": 3
+        }
+    }
+}

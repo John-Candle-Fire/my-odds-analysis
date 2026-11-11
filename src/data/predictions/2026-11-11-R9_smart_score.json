@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-11",
+        "race_number": 9,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "將義",
+        "draw1": "2",
+        "score_value1": 31.75,
+        "factors1": {
+            "weight": 119.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score2": 7,
+        "horse_name2": "一生好彩",
+        "draw2": "10",
+        "score_value2": 27.8,
+        "factors2": {
+            "weight": 122.0,
+            "days_away": 14,
+            "fast_works": 0
+        },
+        "score3": 1,
+        "horse_name3": "喜蓮勇感",
+        "draw3": "9",
+        "score_value3": 26.21,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 28,
+            "fast_works": 5
+        }
+    }
+}
