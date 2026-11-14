@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-14",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班（條件限制）"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "全能勇士",
+        "draw1": "2",
+        "score_value1": 28.92,
+        "factors1": {
+            "weight": 133.0,
+            "days_away": 20,
+            "fast_works": 4
+        },
+        "score2": 3,
+        "horse_name2": "鵲橋飛昇",
+        "draw2": "5",
+        "score_value2": 16.38,
+        "factors2": {
+            "weight": 130.0,
+            "days_away": 167,
+            "fast_works": 4
+        },
+        "score3": 2,
+        "horse_name3": "丙午傳奇",
+        "draw3": "13",
+        "score_value3": 15.0,
+        "factors3": {
+            "weight": 133.0,
+            "days_away": 20,
+            "fast_works": 1
+        }
+    }
+}

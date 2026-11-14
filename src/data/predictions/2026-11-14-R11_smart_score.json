@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-14",
+        "race_number": 11,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "旌採",
+        "draw1": "8",
+        "score_value1": 53.28,
+        "factors1": {
+            "weight": 120.0,
+            "days_away": 34,
+            "fast_works": 5
+        },
+        "score2": 10,
+        "horse_name2": "喜悅歡欣",
+        "draw2": "4",
+        "score_value2": 41.9,
+        "factors2": {
+            "weight": 122.0,
+            "days_away": 26,
+            "fast_works": 5
+        },
+        "score3": 8,
+        "horse_name3": "名揚四海",
+        "draw3": "7",
+        "score_value3": 32.63,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 26,
+            "fast_works": 4
+        }
+    }
+}

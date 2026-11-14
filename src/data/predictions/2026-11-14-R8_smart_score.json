@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-14",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 14,
+        "horse_name1": "萬里雲",
+        "draw1": "9",
+        "score_value1": 30.67,
+        "factors1": {
+            "weight": 120.0,
+            "days_away": 26,
+            "fast_works": 4
+        },
+        "score2": 5,
+        "horse_name2": "閃電奇駿",
+        "draw2": "12",
+        "score_value2": 27.84,
+        "factors2": {
+            "weight": 132.0,
+            "days_away": 20,
+            "fast_works": 4
+        },
+        "score3": 8,
+        "horse_name3": "浩然",
+        "draw3": "1",
+        "score_value3": 24.0,
+        "factors3": {
+            "weight": 131.0,
+            "days_away": 34,
+            "fast_works": 5
+        }
+    }
+}

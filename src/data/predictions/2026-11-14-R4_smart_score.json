@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-14",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 2000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "捷威",
+        "draw1": "10",
+        "score_value1": 42.62,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 26,
+            "fast_works": 5
+        },
+        "score2": 1,
+        "horse_name2": "捷威",
+        "draw2": "10",
+        "score_value2": 42.62,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 26,
+            "fast_works": 5
+        },
+        "score3": 3,
+        "horse_name3": "深心星",
+        "draw3": "13",
+        "score_value3": 35.53,
+        "factors3": {
+            "weight": 133.0,
+            "days_away": 38,
+            "fast_works": 2
+        }
+    }
+}

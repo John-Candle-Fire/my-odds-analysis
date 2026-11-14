@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-14",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第二班"
+    },
+    "ranking": {
+        "score1": 5,
+        "horse_name1": "興馳千里",
+        "draw1": "10",
+        "score_value1": 47.52,
+        "factors1": {
+            "weight": 129.0,
+            "days_away": 13,
+            "fast_works": 2
+        },
+        "score2": 13,
+        "horse_name2": "實力股",
+        "draw2": "8",
+        "score_value2": 35.28,
+        "factors2": {
+            "weight": 116.0,
+            "days_away": 41,
+            "fast_works": 6
+        },
+        "score3": 8,
+        "horse_name3": "正本巨星",
+        "draw3": "7",
+        "score_value3": 31.92,
+        "factors3": {
+            "weight": 119.0,
+            "days_away": 20,
+            "fast_works": 1
+        }
+    }
+}

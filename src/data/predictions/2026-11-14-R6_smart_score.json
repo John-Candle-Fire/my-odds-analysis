@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-14",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "精明選擇",
+        "draw1": "4",
+        "score_value1": 36.12,
+        "factors1": {
+            "weight": 133.0,
+            "days_away": 17,
+            "fast_works": 3
+        },
+        "score2": 6,
+        "horse_name2": "安可",
+        "draw2": "8",
+        "score_value2": 35.57,
+        "factors2": {
+            "weight": 129.0,
+            "days_away": 140,
+            "fast_works": 5
+        },
+        "score3": 8,
+        "horse_name3": "喜駿昇星",
+        "draw3": "12",
+        "score_value3": 18.8,
+        "factors3": {
+            "weight": 124.0,
+            "days_away": 17,
+            "fast_works": 3
+        }
+    }
+}

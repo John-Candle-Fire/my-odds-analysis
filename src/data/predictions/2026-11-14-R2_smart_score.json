@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-14",
+        "race_number": 2,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "文武全能",
+        "draw1": "6",
+        "score_value1": 24.77,
+        "factors1": {
+            "weight": 128.0,
+            "days_away": 31,
+            "fast_works": 5
+        },
+        "score2": 10,
+        "horse_name2": "快樂老撾",
+        "draw2": "2",
+        "score_value2": 23.62,
+        "factors2": {
+            "weight": 127.0,
+            "days_away": 20,
+            "fast_works": 2
+        },
+        "score3": 4,
+        "horse_name3": "一路精彩",
+        "draw3": "11",
+        "score_value3": 22.05,
+        "factors3": {
+            "weight": 134.0,
+            "days_away": 48,
+            "fast_works": 6
+        }
+    }
+}
