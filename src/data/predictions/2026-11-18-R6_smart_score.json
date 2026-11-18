@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-18",
+        "race_number": 6,
+        "course": "跑馬地",
+        "distance": 1000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "佐治傳奇",
+        "draw1": "1",
+        "score_value1": 40.92,
+        "factors1": {
+            "weight": 132.0,
+            "days_away": 17,
+            "fast_works": 3
+        },
+        "score2": 1,
+        "horse_name2": "巴閉王",
+        "draw2": "12",
+        "score_value2": 30.66,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 17,
+            "fast_works": 3
+        },
+        "score3": 1,
+        "horse_name3": "巴閉王",
+        "draw3": "12",
+        "score_value3": 30.66,
+        "factors3": {
+            "weight": 135.0,
+            "days_away": 17,
+            "fast_works": 3
+        }
+    }
+}

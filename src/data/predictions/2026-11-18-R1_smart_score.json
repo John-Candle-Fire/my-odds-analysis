@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-18",
+        "race_number": 1,
+        "course": "跑馬地",
+        "distance": 2200,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "禾道威",
+        "draw1": "5",
+        "score_value1": 25.87,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 10,
+            "fast_works": 2
+        },
+        "score2": 12,
+        "horse_name2": "幸運同行",
+        "draw2": "6",
+        "score_value2": 21.45,
+        "factors2": {
+            "weight": 116.0,
+            "days_away": 10,
+            "fast_works": 1
+        },
+        "score3": 11,
+        "horse_name3": "架勢奇爸",
+        "draw3": "8",
+        "score_value3": 17.43,
+        "factors3": {
+            "weight": 120.0,
+            "days_away": 21,
+            "fast_works": 3
+        }
+    }
+}

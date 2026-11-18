@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-18",
+        "race_number": 4,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "紅磚戰士",
+        "draw1": "6",
+        "score_value1": 26.93,
+        "factors1": {
+            "weight": 117.0,
+            "days_away": 35,
+            "fast_works": 4
+        },
+        "score2": 9,
+        "horse_name2": "同心",
+        "draw2": "5",
+        "score_value2": 22.32,
+        "factors2": {
+            "weight": 119.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score3": 4,
+        "horse_name3": "龍文瑞安",
+        "draw3": "9",
+        "score_value3": 16.1,
+        "factors3": {
+            "weight": 130.0,
+            "days_away": 14,
+            "fast_works": 2
+        }
+    }
+}

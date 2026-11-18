@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-18",
+        "race_number": 2,
+        "course": "跑馬地",
+        "distance": 1000,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "果然僥倖",
+        "draw1": "8",
+        "score_value1": 25.41,
+        "factors1": {
+            "weight": 127.0,
+            "days_away": 7,
+            "fast_works": 0
+        },
+        "score2": 1,
+        "horse_name2": "友得盈",
+        "draw2": "7",
+        "score_value2": 19.56,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score3": 5,
+        "horse_name3": "喆喆友福",
+        "draw3": "2",
+        "score_value3": 16.8,
+        "factors3": {
+            "weight": 133.0,
+            "days_away": 14,
+            "fast_works": 2
+        }
+    }
+}

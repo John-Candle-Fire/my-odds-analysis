@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-11-18",
+        "race_number": 8,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 11,
+        "horse_name1": "明德輝煌",
+        "draw1": "7",
+        "score_value1": 7.1,
+        "factors1": {
+            "base": 3.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 2.5999999999999996,
+            "pace_wt": 1.0,
+            "volatility": 0.0
+        },
+        "score2": 12,
+        "horse_name2": "十二神將",
+        "draw2": "1",
+        "score_value2": 5.2,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": -0.5,
+            "jt_bonus": 1.0,
+            "pace_wt": 3.2,
+            "volatility": 0.0
+        },
+        "score3": 2,
+        "horse_name3": "志滿同行",
+        "draw3": "2",
+        "score_value3": 4.475,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 1.3749999999999996,
+            "volatility": 0.0
+        }
+    }
+}
