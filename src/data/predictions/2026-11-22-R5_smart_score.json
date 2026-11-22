@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-22",
+        "race_number": 5,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "跨境寶馬",
+        "draw1": "3",
+        "score_value1": 43.2,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 133,
+            "fast_works": 6
+        },
+        "score2": 2,
+        "horse_name2": "偵探傳奇",
+        "draw2": "4",
+        "score_value2": 32.76,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 28,
+            "fast_works": 6
+        },
+        "score3": 14,
+        "horse_name3": "金快飛飛",
+        "draw3": "7",
+        "score_value3": 27.36,
+        "factors3": {
+            "weight": 117.0,
+            "days_away": 28,
+            "fast_works": 4
+        }
+    }
+}

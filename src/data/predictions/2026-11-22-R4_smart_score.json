@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-22",
+        "race_number": 4,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "紅衣醒目",
+        "draw1": "11",
+        "score_value1": 39.89,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score2": 7,
+        "horse_name2": "騰雲絕影",
+        "draw2": "13",
+        "score_value2": 22.8,
+        "factors2": {
+            "weight": 128.0,
+            "days_away": 25,
+            "fast_works": 6
+        },
+        "score3": 11,
+        "horse_name3": "共創歡欣",
+        "draw3": "3",
+        "score_value3": 19.91,
+        "factors3": {
+            "weight": 122.0,
+            "days_away": 28,
+            "fast_works": 5
+        }
+    }
+}

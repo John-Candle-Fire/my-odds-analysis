@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-22",
+        "race_number": 1,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 2,
+        "horse_name1": "源好運",
+        "draw1": "4",
+        "score_value1": 14.83,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 42,
+            "fast_works": 4
+        },
+        "score2": 12,
+        "horse_name2": "爆熱",
+        "draw2": "5",
+        "score_value2": 14.62,
+        "factors2": {
+            "weight": 125.0,
+            "days_away": 25,
+            "fast_works": 5
+        },
+        "score3": 4,
+        "horse_name3": "悠然常勝",
+        "draw3": "14",
+        "score_value3": 14.0,
+        "factors3": {
+            "weight": 133.0,
+            "days_away": 14,
+            "fast_works": 0
+        }
+    }
+}

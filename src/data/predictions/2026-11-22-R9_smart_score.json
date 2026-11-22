@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-22",
+        "race_number": 9,
+        "course": "沙田",
+        "distance": 2000,
+        "class": "二級賽"
+    },
+    "ranking": {
+        "score1": 9,
+        "horse_name1": "大至尊",
+        "draw1": "3",
+        "score_value1": 28.68,
+        "factors1": {
+            "weight": 123.0,
+            "days_away": 14,
+            "fast_works": 2
+        },
+        "score2": 8,
+        "horse_name2": "君子傳承",
+        "draw2": "2",
+        "score_value2": 22.26,
+        "factors2": {
+            "weight": 123.0,
+            "days_away": 14,
+            "fast_works": 1
+        },
+        "score3": 2,
+        "horse_name3": "數字天文",
+        "draw3": "6",
+        "score_value3": 20.79,
+        "factors3": {
+            "weight": 123.0,
+            "days_away": 14,
+            "fast_works": 2
+        }
+    }
+}

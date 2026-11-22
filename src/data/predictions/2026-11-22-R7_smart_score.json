@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-22",
+        "race_number": 7,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "二級賽"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "嘉應高昇",
+        "draw1": "4",
+        "score_value1": 64.8,
+        "factors1": {
+            "weight": 128.0,
+            "days_away": 77,
+            "fast_works": 7
+        },
+        "score2": 3,
+        "horse_name2": "天天同樂",
+        "draw2": "6",
+        "score_value2": 50.4,
+        "factors2": {
+            "weight": 123.0,
+            "days_away": 32,
+            "fast_works": 5
+        },
+        "score3": 3,
+        "horse_name3": "天天同樂",
+        "draw3": "6",
+        "score_value3": 50.4,
+        "factors3": {
+            "weight": 123.0,
+            "days_away": 32,
+            "fast_works": 5
+        }
+    }
+}

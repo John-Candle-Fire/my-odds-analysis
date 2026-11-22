@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-22",
+        "race_number": 10,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 3,
+        "horse_name1": "嵐臣",
+        "draw1": "7",
+        "score_value1": 55.3,
+        "factors1": {
+            "weight": 128.0,
+            "days_away": 34,
+            "fast_works": 4
+        },
+        "score2": 1,
+        "horse_name2": "超寫意",
+        "draw2": "14",
+        "score_value2": 25.68,
+        "factors2": {
+            "weight": 135.0,
+            "days_away": 34,
+            "fast_works": 6
+        },
+        "score3": 6,
+        "horse_name3": "金金小子",
+        "draw3": "8",
+        "score_value3": 13.92,
+        "factors3": {
+            "weight": 123.0,
+            "days_away": 52,
+            "fast_works": 3
+        }
+    }
+}

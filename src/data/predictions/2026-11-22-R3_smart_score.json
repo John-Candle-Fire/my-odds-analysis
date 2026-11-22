@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-22",
+        "race_number": 3,
+        "course": "沙田",
+        "distance": 1200,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "滿利時",
+        "draw1": "3",
+        "score_value1": 21.42,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 42,
+            "fast_works": 5
+        },
+        "score2": 13,
+        "horse_name2": "錶之翠河",
+        "draw2": "13",
+        "score_value2": 16.44,
+        "factors2": {
+            "weight": 123.0,
+            "days_away": 28,
+            "fast_works": 5
+        },
+        "score3": 8,
+        "horse_name3": "盈俊天下",
+        "draw3": "5",
+        "score_value3": 14.62,
+        "factors3": {
+            "weight": 127.0,
+            "days_away": 28,
+            "fast_works": 5
+        }
+    }
+}

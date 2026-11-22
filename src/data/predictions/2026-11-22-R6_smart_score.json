@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-22",
+        "race_number": 6,
+        "course": "沙田",
+        "distance": 2000,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 4,
+        "horse_name1": "紫荊傳令",
+        "draw1": "3",
+        "score_value1": 39.6,
+        "factors1": {
+            "weight": 131.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score2": 12,
+        "horse_name2": "佰勝金龍",
+        "draw2": "1",
+        "score_value2": 36.48,
+        "factors2": {
+            "weight": 115.0,
+            "days_away": 28,
+            "fast_works": 4
+        },
+        "score3": 7,
+        "horse_name3": "大回報",
+        "draw3": "4",
+        "score_value3": 35.28,
+        "factors3": {
+            "weight": 125.0,
+            "days_away": 28,
+            "fast_works": 6
+        }
+    }
+}

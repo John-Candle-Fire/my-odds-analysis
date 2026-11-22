@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-22",
+        "race_number": 2,
+        "course": "沙田",
+        "distance": 1000,
+        "class": "第四班"
+    },
+    "ranking": {
+        "score1": 12,
+        "horse_name1": "杭至尊",
+        "draw1": "13",
+        "score_value1": 27.84,
+        "factors1": {
+            "weight": 123.0,
+            "days_away": 34,
+            "fast_works": 6
+        },
+        "score2": 2,
+        "horse_name2": "紅錢到",
+        "draw2": "1",
+        "score_value2": 25.2,
+        "factors2": {
+            "weight": 131.0,
+            "days_away": 21,
+            "fast_works": 4
+        },
+        "score3": 3,
+        "horse_name3": "常嚐發財",
+        "draw3": "7",
+        "score_value3": 13.2,
+        "factors3": {
+            "weight": 130.0,
+            "days_away": 25,
+            "fast_works": 4
+        }
+    }
+}

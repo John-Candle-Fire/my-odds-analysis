@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-22",
+        "race_number": 11,
+        "course": "沙田",
+        "distance": 1400,
+        "class": "第三班"
+    },
+    "ranking": {
+        "score1": 1,
+        "horse_name1": "極上紗瓏",
+        "draw1": "3",
+        "score_value1": 44.73,
+        "factors1": {
+            "weight": 135.0,
+            "days_away": 56,
+            "fast_works": 5
+        },
+        "score2": 8,
+        "horse_name2": "綫路英雄",
+        "draw2": "13",
+        "score_value2": 41.9,
+        "factors2": {
+            "weight": 126.0,
+            "days_away": 28,
+            "fast_works": 6
+        },
+        "score3": 9,
+        "horse_name3": "包裝明將",
+        "draw3": "7",
+        "score_value3": 38.64,
+        "factors3": {
+            "weight": 122.0,
+            "days_away": 28,
+            "fast_works": 4
+        }
+    }
+}

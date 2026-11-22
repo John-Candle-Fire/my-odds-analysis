@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-22",
+        "race_number": 8,
+        "course": "沙田",
+        "distance": 1600,
+        "class": "二級賽"
+    },
+    "ranking": {
+        "score1": 7,
+        "horse_name1": "光年魅力",
+        "draw1": "6",
+        "score_value1": 47.52,
+        "factors1": {
+            "weight": 123.0,
+            "days_away": 34,
+            "fast_works": 3
+        },
+        "score2": 1,
+        "horse_name2": "祝願",
+        "draw2": "5",
+        "score_value2": 46.51,
+        "factors2": {
+            "weight": 128.0,
+            "days_away": 34,
+            "fast_works": 5
+        },
+        "score3": 3,
+        "horse_name3": "錶之銀河",
+        "draw3": "3",
+        "score_value3": 31.5,
+        "factors3": {
+            "weight": 123.0,
+            "days_away": 56,
+            "fast_works": 5
+        }
+    }
+}
