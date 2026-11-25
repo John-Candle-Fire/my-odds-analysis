@@ -1,0 +1,38 @@
+{
+    "meta": {
+        "date": "2026-11-25",
+        "race_number": 1,
+        "course": "跑馬地",
+        "distance": 1650,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "快樂老撾",
+        "draw1": "12",
+        "score_value1": 34.45,
+        "factors1": {
+            "weight": 126.0,
+            "days_away": 11,
+            "fast_works": 1
+        },
+        "score2": 4,
+        "horse_name2": "頌星",
+        "draw2": "6",
+        "score_value2": 30.1,
+        "factors2": {
+            "weight": 131.0,
+            "days_away": 11,
+            "fast_works": 2
+        },
+        "score3": 9,
+        "horse_name3": "鑽得勝",
+        "draw3": "9",
+        "score_value3": 24.6,
+        "factors3": {
+            "weight": 126.0,
+            "days_away": 21,
+            "fast_works": 2
+        }
+    }
+}

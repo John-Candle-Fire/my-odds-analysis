@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "date": "2026-11-25",
+        "race_number": 2,
+        "course": "跑馬地",
+        "distance": 1200,
+        "class": "第五班"
+    },
+    "ranking": {
+        "score1": 8,
+        "horse_name1": "金風萬里",
+        "draw1": "2",
+        "score_value1": 4.1,
+        "factors1": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.9999999999999996,
+            "volatility": 0.0
+        },
+        "score2": 3,
+        "horse_name2": "領航多福",
+        "draw2": "6",
+        "score_value2": 3.475,
+        "factors2": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        },
+        "score3": 5,
+        "horse_name3": "翠湖烈風",
+        "draw3": "9",
+        "score_value3": 3.475,
+        "factors3": {
+            "base": 1.0,
+            "workout": 0.5,
+            "age_pen": 0.0,
+            "jt_bonus": 1.6,
+            "pace_wt": 0.375,
+            "volatility": 0.0
+        }
+    }
+}

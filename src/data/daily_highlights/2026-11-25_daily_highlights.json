@@ -1,0 +1,182 @@
+{
+    "metadata": {
+        "date": "2026-11-25",
+        "generated_at": "2026-11-25 17:34:39"
+    },
+    "meeting_context": {
+        "volatility": "STANDARD",
+        "attacking_stables": [
+            "蔡約翰",
+            "方嘉柏",
+            "沈集成",
+            "廖康銘",
+            "大衛希斯",
+            "賀賢",
+            "伍鵬志",
+            "蘇偉賢",
+            "巫偉傑"
+        ],
+        "attacking_jockeys": [
+            "潘頓",
+            "艾兆禮",
+            "何澤堯",
+            "艾道拿",
+            "周俊樂",
+            "袁幸堯"
+        ]
+    },
+    "details": {
+        "stable_attack_stats": [
+            {
+                "trainer": "蔡約翰",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "trainer": "方嘉柏",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "沈集成",
+                "strong_chances_count": 4,
+                "tier": 1
+            },
+            {
+                "trainer": "廖康銘",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "大衛希斯",
+                "strong_chances_count": 3,
+                "tier": 1
+            },
+            {
+                "trainer": "賀賢",
+                "strong_chances_count": 5,
+                "tier": 2
+            },
+            {
+                "trainer": "伍鵬志",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "trainer": "蘇偉賢",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "trainer": "巫偉傑",
+                "strong_chances_count": 3,
+                "tier": 2
+            }
+        ],
+        "jockey_attack_stats": [
+            {
+                "jockey": "潘頓",
+                "strong_chances_count": 8,
+                "tier": 1
+            },
+            {
+                "jockey": "艾兆禮",
+                "strong_chances_count": 5,
+                "tier": 1
+            },
+            {
+                "jockey": "何澤堯",
+                "strong_chances_count": 7,
+                "tier": 2
+            },
+            {
+                "jockey": "艾道拿",
+                "strong_chances_count": 4,
+                "tier": 2
+            },
+            {
+                "jockey": "周俊樂",
+                "strong_chances_count": 5,
+                "tier": 3
+            },
+            {
+                "jockey": "袁幸堯",
+                "strong_chances_count": 3,
+                "tier": 3
+            }
+        ],
+        "race_volatility": {
+            "1": "STANDARD-Weak Favorite Race",
+            "2": "STANDARD-Two Contender Race",
+            "3": "STANDARD-Open Race Weak Favorite",
+            "4": "STANDARD-Two Contender No Dominant Favorite",
+            "5": "STANDARD-Weak Favorite Race",
+            "6": "STANDARD-Multi Contender Dominant Favorite",
+            "7": "STANDARD-Two Contender No Dominant Favorite",
+            "8": "STANDARD-Strong Favorite Race",
+            "9": "STANDARD-Two Contender Race"
+        },
+        "traffic_risks": [],
+        "scenario_A_late_steamers": [
+            {
+                "race_number": 2,
+                "late_steamer": 9,
+                "late_steamer_name": "飈誌"
+            },
+            {
+                "race_number": 6,
+                "late_steamer": 3,
+                "late_steamer_name": "翠兒威威"
+            }
+        ],
+        "scenario_B_early_favorites": [
+            {
+                "race_number": 3,
+                "early_favorite": 8,
+                "early_favorite_name": "竣誠駒"
+            },
+            {
+                "race_number": 9,
+                "early_favorite": 6,
+                "early_favorite_name": "輝灑自如"
+            }
+        ],
+        "jockey_upgrades": [
+            {
+                "race": 1,
+                "horse": "快樂老撾",
+                "switch": "梁家俊(T3) -> 潘頓(T1)"
+            },
+            {
+                "race": 2,
+                "horse": "首駿",
+                "switch": "周俊樂(T3) -> 艾兆禮(T1)"
+            },
+            {
+                "race": 3,
+                "horse": "先到先得",
+                "switch": "奧璇璧(T3) -> 艾兆禮(T1)"
+            },
+            {
+                "race": 4,
+                "horse": "比特星",
+                "switch": "周俊樂(T3) -> 潘頓(T1)"
+            },
+            {
+                "race": 5,
+                "horse": "莊家班",
+                "switch": "梁家俊(T3) -> 潘頓(T1)"
+            },
+            {
+                "race": 8,
+                "horse": "傲聖",
+                "switch": "潘明輝(T3) -> 艾兆禮(T1)"
+            },
+            {
+                "race": 9,
+                "horse": "何方來聲",
+                "switch": "鍾易禮(T3) -> 潘頓(T1)"
+            }
+        ]
+    }
+}
